@@ -59,10 +59,13 @@ Cérebro operacional compartilhável da **Koide Autopeças do Brasil (KAB)** —
 | `areas/manutencao/` | OS, paradas, ferramentaria | Sprint 2 (seed) |
 | `areas/rh/` | Políticas, treinamentos, benefícios (sem salários nominais) | Sprint 2 (seed) |
 | `areas/financeiro/` | KPIs públicos, fluxo de caixa agregado (sem intercompany) | Sprint 2 (seed) |
-| `inbox/{nome}/` | Capturas brutas, antes de classificar | Estrutura pronta |
+| `inbox/{nome}/` | Capturas brutas individuais (1º estágio) | Sprint 1 ✅ |
+| `staging/{area}/` | Captura compartilhada provisória (2º estágio) | Sprint 3 ✅ |
 | `empresa/contexto/` | Princípios e arquitetura | Sprint 1 ✅ |
-| `empresa/skills/` | Skills da empresa (consolidar-inbox, etc) | Sprint 3 |
-| `skills/` | Skills compartilháveis | Sprint 2/3 |
+| `empresa/skills/save-kab/` | Captura no inbox individual | Sprint 3 ✅ |
+| `empresa/skills/team-sync/` | Promove inbox → staging compartilhado | Sprint 3 ✅ |
+| `empresa/skills/consolidar-inbox/` | Bruce noturno: staging → canônico | Sprint 3b |
+| `skills/` | Skills compartilháveis | Sprint 3 |
 | `onboarding/` | 1-pagers pra novos membros | Sprint 3 |
 
 Cada `areas/{x}/` tem 3 subpastas:
@@ -88,14 +91,52 @@ tags: []
 
 ---
 
-## 5. Fluxo de captura
+## 5. Fluxo de captura (3 estágios)
 
-1. **Capturar**: `inbox/{seu_nome}/2026-MM-DD-{slug}.md` — pode ter sidecar `.meta.yaml`
-2. **Consolidar**: skill `/consolidar-inbox` (futuro) lê sidecar e propõe destino
-3. **Aprovar**: humano valida; commit + push em main
-4. **Operar**: nota em `areas/{x}/contexto/` ou `rotinas/`
+Adotado em Sprint 3 (2026-05-22) seguindo Aula 03 do curso Pixel "Da teoria pra prática". Substitui o fluxo de 2 estágios original.
 
-**Sem branch staging** enquanto for 1-2 humanos (adotar quando time ≥ 3).
+```
+1º ESTÁGIO — individual               2º ESTÁGIO — compartilhado            3º ESTÁGIO — canônico
+                                       (visível ao time, ainda provisório)   (memória oficial)
+
+   inbox/{pessoa}/         ─────►       staging/{area}/         ─────►       areas/{x}/contexto/
+   2026-MM-DD-slug.md     /save-kab    2026-MM-DD-slug.md     consolidar    nota-canonica.md
+   + .meta.yaml (opt)    /team-sync    + .meta.yaml (opt)     -inbox        (sem .meta.yaml)
+```
+
+### Passo a passo
+
+1. **Capturar** (`/save-kab`):
+   - Escreve em `inbox/{seu_nome}/YYYY-MM-DD-{slug}.md` com frontmatter
+   - Captura automática (bot/script) gera sidecar `.meta.yaml` ao lado
+   - Roda heurística dos 3 gatilhos — se detectar sensível, alerta e sugere cofre pessoal
+
+2. **Promover ao staging** (`/team-sync`):
+   - Item-por-item, humano escolhe o que tá maduro pra time ver
+   - Move de `inbox/{pessoa}/` pra `staging/{area}/`
+   - Re-valida 3 gatilhos antes (defesa em camadas)
+   - Atualiza `status: staging` no frontmatter
+
+3. **Consolidar** (`/consolidar-inbox`, Sprint 3b):
+   - Rotina noturna do Bruce-HERMES lê `staging/{area}/`
+   - Propõe destino canônico em `areas/{x}/contexto/`
+   - Multi-pasta OK via wikilinks (uma nota, várias áreas linkam pra ela)
+   - Quando confiança baixa: pergunta ao humano
+
+4. **Arquivar processado** (futuro):
+   - Original em `staging/{area}/` movido pra `staging/{area}/.processed/` (audit trail)
+   - Canônico em `areas/{x}/contexto/` com `status: ativo`
+
+### Quem escreve onde
+
+| Ator | Onde escreve | Onde NUNCA escreve |
+|---|---|---|
+| **Bruce (agente da empresa)** | `areas/`, `staging/` (consolida), `agentes/` | Inbox alheio (`inbox/gabriel/` se você é Bruce-RH) |
+| **Colaborador** (Gabriel, Fernando, Carla, Mayra) | Só `inbox/{seu_nome}/` | `areas/`, `staging/`, `agentes/` (direto) |
+| **Erico (diretor)** | Qualquer lugar (gestor) — mas captura também passa por `inbox/erico/` por disciplina | — |
+| **Captura automática (bot)** | `inbox/{pessoa}/` em nome do humano + `.meta.yaml` | — |
+
+**Regra de ouro:** colaborador NUNCA edita canônico direto. Captura sempre passa por inbox → staging → consolidação. Bruce é o gestor que promove.
 
 ---
 
