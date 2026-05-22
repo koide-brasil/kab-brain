@@ -1,0 +1,55 @@
+# kab-cerebro .gitignore
+
+# ─── Secrets — nunca versionar ─────────────────────────────────
+*.env
+.env.*
+*credentials*.json
+*.pem
+*.key
+*token*.json
+.config/
+
+# ─── Pastas privadas (escape hatch) ────────────────────────────
+# Se alguém criar `privado/` em qualquer lugar, é IGNORADO.
+# Útil pra rascunhos sensíveis que não devem subir.
+**/privado/
+**/.privado/
+
+# ─── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ─── Editor / OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ─── Claude Code estado ────────────────────────────────────────
+.claude/scheduled_tasks.lock
+.claude/projects/
+.claude/cache/
+
+# ─── Obsidian (se usar pra visualizar) ─────────────────────────
+.obsidian/workspace.json
+.obsidian/cache
+.trash/
+
+# ─── Anexos pesados ────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+*.dmg
+*.iso
+
+# ─── Logs ──────────────────────────────────────────────────────
+*.log
+logs/

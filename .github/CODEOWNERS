@@ -1,0 +1,27 @@
+# CODEOWNERS — kab-cerebro
+#
+# Sintaxe: <path> <owner1> <owner2> ...
+# Owners são notificados em PRs que tocam os arquivos.
+# Quando branch protection rule exige review de CODEOWNER,
+# eles precisam aprovar o PR.
+
+# Default: tudo precisa de aprovação do Erico
+*                                @eshiroiwa
+
+# Identidade e regras fundamentais — só Erico mexe
+/CLAUDE.md                       @eshiroiwa
+/README.md                       @eshiroiwa
+/MAPA.md                         @eshiroiwa
+/agentes/                        @eshiroiwa
+/empresa/contexto/PRINCIPIOS.md  @eshiroiwa
+/.github/                        @eshiroiwa
+
+# Áreas: por enquanto Erico é dono de tudo
+# (no futuro: producao -> @fernando-macedo, vendas -> @gabriel-pedon, etc)
+/areas/                          @eshiroiwa
+
+# Inbox: cada um aprova a sua própria captura
+# (preparado pra escalar quando time entrar)
+/inbox/erico/                    @eshiroiwa
+# /inbox/gabriel/                @gabriel-pedon
+# /inbox/fernando/               @fernando-macedo
