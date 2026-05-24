@@ -60,11 +60,23 @@ Exemplos:
 
 | Pergunta | Onde olhar primeiro |
 |---|---|
-| "Como funciona o processo de produção?" | `areas/producao/contexto/` |
-| "Qual a regra de qualificação de lead?" | `areas/vendas/contexto/` |
+| "Como funciona o processo de produção?" | `areas/producao/contexto/sobre-o-departamento.md` ou `empresa/sgk/Mapas-Processo/Producao.md` |
+| "Qual a regra de qualificação de lead?" | `areas/vendas/contexto/sobre-o-departamento.md` ou `empresa/sgk/Procedimentos/PR-04 Processo Vendas.md` |
+| "Onde está o documento X no Drive?" | `empresa/contexto/integracoes/google-drive-mapeamento.md` (estrutura) ou `empresa/drive-index/{area}/` (resumos indexados) |
+| "Como acesso o Drive via agente?" | `empresa/contexto/integracoes/google-drive-mapeamento.md` (seção MCPs) |
+| "Qual a política de qualidade?" | `empresa/sgk/Politica-Qualidade.md` |
+| "Onde acho FOR-XXX ou PR-XX?" | `empresa/sgk/Procedimentos/` (10 PRs) ou Drive (FORs) via `empresa/drive-index/` |
 | "O que o Gabriel capturou ontem?" | `inbox/gabriel/` |
 | "Posso colocar essa informação aqui?" | `empresa/contexto/PRINCIPIOS.md` (3 gatilhos) |
 | "O que decidimos sobre X?" | `empresa/contexto/` ou (se cross-brain) cofre pessoal do Erico |
+
+## Conhecimento institucional disponível (seed migrada 2026-05-23)
+
+- **Visão geral KAB**: `empresa/contexto/koide-brasil-visao-geral.md` (fundação 2015, escopo ISO, capacidade)
+- **SGK completo**: `empresa/sgk/` (Política Qualidade + 7 Mapas de Processo + 10 PRs)
+- **Departamentos**: `areas/{nome}/contexto/sobre-o-departamento.md` (7 áreas)
+- **Drive da KAB**: `empresa/contexto/integracoes/google-drive-mapeamento.md` + `empresa/drive-index/` (73 arquivos indexados de pastas não-sensíveis)
+- **Integrações**: `empresa/contexto/integracoes/` (Drive hoje; RD Station, RHiD, DBCorp planejados)
 
 ---
 

@@ -9,6 +9,8 @@
 3. [[empresa/contexto/PRINCIPIOS]] — regra dos 3 gatilhos
 4. [[empresa/contexto/koide-brasil-visao-geral]] — institucional KAB (fundação, escopo ISO, capacidade)
 5. [[empresa/sgk/MAPA]] — Sistema de Gestão Koide (Política Qualidade + 7 Mapas de Processo + 10 Procedimentos PR)
+6. [[empresa/contexto/integracoes/google-drive-mapeamento]] — Drive da KAB (estrutura + workflow + acesso)
+7. `empresa/drive-index/` — 73 resumos de arquivos do Drive (subset não-sensível): SGK 55, PRODUCAO 5, + 8 pastas operacionais
 
 ## Identidade do agente
 
