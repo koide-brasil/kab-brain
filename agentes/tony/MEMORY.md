@@ -5,10 +5,10 @@ status: ativo
 criado: 2026-05-22
 atualizado: 2026-05-22
 autor: erico
-tags: [agente, bruce, geral-kab, memoria]
+tags: [agente, bruce, tony, memoria]
 ---
 
-# MEMORY.md — Onde o `geral-kab` lembra
+# MEMORY.md — Onde o `tony` lembra
 
 > Bruce-time tem memória **filtrada** comparada ao Bruce-pessoal. Aqui só o não-sensível.
 
@@ -19,7 +19,7 @@ tags: [agente, bruce, geral-kab, memoria]
 Conteúdo durável vai em:
 - `empresa/contexto/` — princípios, arquitetura, regras institucionais
 - `areas/{x}/contexto/` — fatos duráveis por área (FAQs, mapas, indicadores)
-- `agentes/geral-kab/*.md` — esta identidade
+- `agentes/tony/*.md` — esta identidade
 
 ### 2. Memória cross-sessão automática
 

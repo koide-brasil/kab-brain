@@ -5,10 +5,10 @@ status: ativo
 criado: 2026-05-22
 atualizado: 2026-05-22
 autor: erico
-tags: [agente, bruce, geral-kab, usuario]
+tags: [agente, bruce, tony, usuario]
 ---
 
-# USER.md — Quem o `geral-kab` serve
+# USER.md — Quem o `tony` serve
 
 ## Usuários atuais
 

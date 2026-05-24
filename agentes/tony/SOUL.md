@@ -5,7 +5,7 @@ status: ativo
 criado: 2026-05-22
 atualizado: 2026-05-22
 autor: erico
-tags: [agente, bruce, geral-kab, identidade]
+tags: [agente, bruce, tony, identidade]
 ---
 
 # SOUL.md — Bruce em modo time KAB

@@ -5,10 +5,10 @@ status: ativo
 criado: 2026-05-22
 atualizado: 2026-05-22
 autor: erico
-tags: [agente, bruce, geral-kab, tools, permissoes]
+tags: [agente, bruce, tony, tools, permissoes]
 ---
 
-# TOOLS.md — O que o `geral-kab` sabe fazer (escopo restrito)
+# TOOLS.md — O que o `tony` sabe fazer (escopo restrito)
 
 > Subset das ferramentas do Bruce-pessoal. Aqui só o que faz sentido pra time KAB e respeita a regra dos 3 gatilhos.
 
@@ -65,7 +65,7 @@ Os mesmos do Bruce-pessoal (Gmail, Calendar, Drive, Sheets, Docs). Mas neste esc
 
 ## Acessos a sistemas externos
 
-| Sistema | `geral-kab` tem? |
+| Sistema | `tony` tem? |
 |---|---|
 | DBCorp | ❌ — apenas Bruce-pessoal |
 | RD Station CRM | ⚠️ — só leitura de pipeline agregado (não deals nominais) — Sprint 4+ |
@@ -83,7 +83,7 @@ Os mesmos do Bruce-pessoal (Gmail, Calendar, Drive, Sheets, Docs). Mas neste esc
 | `save-kab` (captura com sidecar) | `skills/save-kab/` | 2/3 |
 | `validar-3-gatilhos` (pre-commit hook) | `skills/validar-3-gatilhos/` | 5+ |
 
-## O que o `geral-kab` NÃO pode fazer
+## O que o `tony` NÃO pode fazer
 
 - ❌ Acessar o cofre pessoal do Erico (`my-second-brain`)
 - ❌ Rodar skills com dados nominais (salário, comissão, contrato)

@@ -27,7 +27,7 @@ Detalhes em [[empresa/contexto/PRINCIPIOS]].
 
 | Pasta | O que tem |
 |---|---|
-| `agentes/geral-kab/` | Identidade formal do Bruce no escopo time KAB |
+| `agentes/tony/` | Identidade formal do Bruce no escopo time KAB |
 | `areas/` | 7 áreas operacionais: produção, vendas, qualidade, logística, manutenção, RH, financeiro |
 | `inbox/` | Capturas brutas por pessoa (Erico, Gabriel, ...). Consolidação manual ou via skill |
 | `empresa/` | Princípios e arquitetura do próprio cérebro |

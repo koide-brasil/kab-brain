@@ -30,7 +30,7 @@ tags: [arquitetura, sistema, sync, cross-brain]
 │ ESTE REPO — kab-cerebro (compartilhável, time KAB)              │
 │ git@github.com:eshiroiwa/kab-cerebro                            │
 │                                                                  │
-│ ├── agentes/geral-kab/ (escopo time)                            │
+│ ├── agentes/tony/ (escopo time)                            │
 │ ├── areas/{producao,vendas,...} (operacional NÃO-sensível)      │
 │ ├── inbox/{erico,gabriel,...}/                                  │
 │ ├── empresa/contexto/ (PRINCIPIOS, ARQUITETURA)                 │
@@ -156,4 +156,4 @@ Quando o time crescer (3+ pessoas usando ativamente):
 - [[PRINCIPIOS]] (regra dos 3 gatilhos)
 - [[../../CLAUDE]]
 - [[../../README]]
-- [[../../agentes/geral-kab/IDENTITY]]
+- [[../../agentes/tony/IDENTITY]]

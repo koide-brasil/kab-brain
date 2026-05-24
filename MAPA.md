@@ -14,12 +14,12 @@
 
 ## Identidade do agente
 
-- [[agentes/geral-kab/SOUL]] — personalidade (Bruce modo time)
-- [[agentes/geral-kab/IDENTITY]] — papel: consolidador time KAB
-- [[agentes/geral-kab/USER]] — quem o agente serve
-- [[agentes/geral-kab/MEMORY]] — onde lembra
-- [[agentes/geral-kab/HEARTBEAT]] — rotinas automáticas
-- [[agentes/geral-kab/TOOLS]] — skills + permissões
+- [[agentes/tony/SOUL]] — personalidade (Bruce modo time)
+- [[agentes/tony/IDENTITY]] — papel: consolidador time KAB
+- [[agentes/tony/USER]] — quem o agente serve
+- [[agentes/tony/MEMORY]] — onde lembra
+- [[agentes/tony/HEARTBEAT]] — rotinas automáticas
+- [[agentes/tony/TOOLS]] — skills + permissões
 
 ## Áreas (7)
 

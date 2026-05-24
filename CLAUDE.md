@@ -6,14 +6,14 @@
 
 ## 0. Identidade — quem é o agente neste repo
 
-Identidade formal: **`agentes/geral-kab/`**
+Identidade formal: **`agentes/tony/`**
 
 Leia esses arquivos antes de qualquer ação:
-1. `agentes/geral-kab/SOUL.md` — personalidade (Bruce em modo time)
-2. `agentes/geral-kab/IDENTITY.md` — papel: consolidador time KAB, escopo restrito
-3. `agentes/geral-kab/USER.md` — quem este agente serve (Erico + time)
-4. `agentes/geral-kab/MEMORY.md` — onde lembra (cross-link com vault pessoal)
-5. `agentes/geral-kab/TOOLS.md` — skills permitidas neste escopo
+1. `agentes/tony/SOUL.md` — personalidade (Bruce em modo time)
+2. `agentes/tony/IDENTITY.md` — papel: consolidador time KAB, escopo restrito
+3. `agentes/tony/USER.md` — quem este agente serve (Erico + time)
+4. `agentes/tony/MEMORY.md` — onde lembra (cross-link com vault pessoal)
+5. `agentes/tony/TOOLS.md` — skills permitidas neste escopo
 
 **Bruce é o mesmo do vault pessoal**, mas neste repo opera com **escopo limitado** — não fala de dinheiro nominal, pessoa específica, ou jurídico.
 
@@ -51,7 +51,7 @@ Cérebro operacional compartilhável da **Koide Autopeças do Brasil (KAB)** —
 
 | Pasta | Conteúdo | Status |
 |---|---|---|
-| `agentes/geral-kab/` | Identidade formal do agente neste escopo | Sprint 1 ✅ |
+| `agentes/tony/` | Identidade formal do agente neste escopo | Sprint 1 ✅ |
 | `areas/producao/` | Processos, indicadores públicos, FAQs do chão de fábrica | Sprint 2 (seed) |
 | `areas/vendas/` | Funil, qualificação de leads, ATAs de visita (sem deals nominais) | Sprint 2 (seed) |
 | `areas/qualidade/` | SGK, normas, mapas de processo, RNC fluxo | Sprint 2 (seed) |

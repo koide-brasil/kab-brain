@@ -5,10 +5,10 @@ status: ativo
 criado: 2026-05-22
 atualizado: 2026-05-22
 autor: erico
-tags: [agente, bruce, geral-kab, heartbeat, automacao]
+tags: [agente, bruce, tony, heartbeat, automacao]
 ---
 
-# HEARTBEAT.md — Rotinas do `geral-kab`
+# HEARTBEAT.md — Rotinas do `tony`
 
 > O que Bruce-time faz sem alguém pedir. Hoje: nada — repo recém-criado. Sprint 3+: consolidação.
 
