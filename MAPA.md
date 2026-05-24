@@ -5,21 +5,28 @@
 ## Entrada
 
 1. [[README]] — visão geral
-2. [[CLAUDE]] — instruções pra agentes (LER PRIMEIRO se você for Bruce)
+2. [[CLAUDE]] — instruções pra agentes (LER PRIMEIRO se você for Tony)
 3. [[empresa/contexto/PRINCIPIOS]] — regra dos 3 gatilhos
 4. [[empresa/contexto/koide-brasil-visao-geral]] — institucional KAB (fundação, escopo ISO, capacidade)
-5. [[empresa/sgk/MAPA]] — Sistema de Gestão Koide (Política Qualidade + 7 Mapas de Processo + 10 Procedimentos PR)
-6. [[empresa/contexto/integracoes/google-drive-mapeamento]] — Drive da KAB (estrutura + workflow + acesso)
-7. `empresa/drive-index/` — 73 resumos de arquivos do Drive (subset não-sensível): SGK 55, PRODUCAO 5, + 8 pastas operacionais
+5. [[empresa/glossario]] — siglas e termos KAB (PR, IT, FOR, OEE, OTD, etc)
+6. [[empresa/equipe/g5]] — Comitê Estratégico (5 pessoas + 2 fora)
+7. [[agentes/_arquitetura]] — 3 camadas (Bruce → Tony → Hermes deps)
+8. [[empresa/sgk/MAPA]] — Sistema de Gestão Koide (Política + 7 Mapas + 10 PRs)
+9. [[empresa/contexto/integracoes/_sobre]] — sistemas externos (Drive, DBCorp, RD Station, RHiD)
+10. [[empresa/automacoes-existentes]] — skills do Bruce que tocam KAB (Tony delega)
+11. `empresa/drive-index/` — 73 resumos de arquivos do Drive (subset não-sensível)
+12. [[empresa/clientes-formais]] — quem somos parceiros (sem valores)
+13. [[empresa/contexto/pitch-capacidade]] — argumentação comercial pra prospects
 
-## Identidade do agente
+## Identidade do agente (Tony)
 
-- [[agentes/tony/SOUL]] — personalidade (Bruce modo time)
-- [[agentes/tony/IDENTITY]] — papel: consolidador time KAB
-- [[agentes/tony/USER]] — quem o agente serve
-- [[agentes/tony/MEMORY]] — onde lembra
+- [[agentes/tony/IDENTITY]] — quem é o Tony (distinto do Bruce, persona própria)
+- [[agentes/tony/SOUL]] — personalidade
+- [[agentes/tony/USER]] — G5 e quem mais Tony serve
+- [[agentes/tony/MEMORY]] — onde Tony lembra (institucional + cross-sessão)
 - [[agentes/tony/HEARTBEAT]] — rotinas automáticas
 - [[agentes/tony/TOOLS]] — skills + permissões
+- [[agentes/_arquitetura]] — Tony no contexto Bruce → Tony → Hermes deps
 
 ## Áreas (7)
 
