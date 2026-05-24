@@ -38,7 +38,7 @@ tags: [mapa, logistica, expedicao]
 
 ## Status
 
-🟡 Esqueleto. Conteúdo seed virá no Sprint 2.
+🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
 
 ## Links
 

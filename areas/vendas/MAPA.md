@@ -35,7 +35,7 @@ tags: [mapa, vendas, comercial]
 
 ## Status
 
-🟡 Esqueleto. Conteúdo seed virá no Sprint 2 (cópia do Mapa de Processo Vendas público + critérios de qualificação genéricos).
+🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
 
 ## Links
 

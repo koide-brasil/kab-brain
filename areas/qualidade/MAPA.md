@@ -38,7 +38,7 @@ tags: [mapa, qualidade, sgk]
 
 ## Status
 
-🟡 Esqueleto. Conteúdo seed virá no Sprint 2 (cópia editada do que está em `my-second-brain/01-KAB/SGK/`).
+🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
 
 ## Links
 

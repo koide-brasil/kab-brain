@@ -46,7 +46,7 @@ tags: [mapa, rh]
 
 ## Status
 
-🟡 Esqueleto. Conteúdo seed virá no Sprint 2. Revisão extra: cada nota desta área passa por **dupla checagem** dos 3 gatilhos antes de commit.
+🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
 
 ## Links
 
