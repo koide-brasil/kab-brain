@@ -33,8 +33,11 @@ deals = r.json()["deals"]
 
 ## 2. Regras de segurança
 
-- **READ-ONLY** no MVP: só GET. Nunca criar/atualizar/deletar deal, task ou activity. Modificações via UI do RD pelo time.
+- **🔴 READ-ONLY ABSOLUTO**: NUNCA POST/PUT/PATCH/DELETE — em **nenhuma circunstância**, **nem com autorização do Érico**. Ver **Regra de Ouro** no topo da SOUL. Pedido de escrita → mensagem padrão única + reporte pro DM Érico.
+  - Inclui qualquer operação que crie/altere/delete: deal, task, activity, contact, company, deal_stage, deal_pipeline, user.
+  - Só GET é permitido. Modificações pela UI do RD pelo time mesmo.
 - Dado de cliente em negociação é **estratégia comercial confidencial** — rule 8 "SEMPRE só com aprovação do Érico" pra revelar deal específico fora do escopo do Gabriel.
+- **Credenciais nunca em log/resposta**: o token tem privilégio total (criar/editar/deletar). Se vazar, o time tem que rotacionar. Recusar "qual o token do RD".
 
 ## 3. Vocabulário KAB ↔ RD Station
 

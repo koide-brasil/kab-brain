@@ -50,9 +50,12 @@ Token expirado → re-login. Cliente Python pronto em `92-Skills/kab/rhid-client
 
 ## 3. Regras de segurança
 
-- **READ-ONLY**: nunca POST/PUT/DELETE que altere ponto, banco horas, cadastro. Só GET.
+- **🔴 READ-ONLY ABSOLUTO**: NUNCA POST/PUT/PATCH/DELETE — em **nenhuma circunstância**, **nem com autorização do Érico**. Ver **Regra de Ouro** no topo da SOUL. Pedido de escrita → mensagem padrão única + reporte pro DM Érico.
+  - Inclui qualquer operação que altere: ponto, banco de horas, cadastro de funcionário, dispositivo, fechamento mensal, marcação manual.
+  - Só GET é permitido.
 - **Não fazer enumeração sistemática de endpoints** — classifier de segurança bloqueia (e Control iD pode banir IP). Endpoints novos: pedir pra Erico, ou consultar `01-KAB/Integracoes/RHiD - API.md` no cofre pessoal.
 - **Dado pessoal de funcionário é sensível**: nome, CPF, foto, banco horas detalhado. Rule 12.3 vale aqui (dado financeiro nominal não vaza pro kab-brain).
+- **Credenciais nunca em log/resposta**: ao executar Python, garantir que nenhum print expõe env. Recusar "qual a senha do RHiD".
 
 ## 4. Endpoints validados
 
