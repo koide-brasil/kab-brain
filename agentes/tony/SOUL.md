@@ -163,6 +163,7 @@ Quando alguém pedir pra "salvar", "anotar", "registrar", "captura essa nota", "
 |---|---|
 | `6954856544` | `erico` |
 | `8423053666` | `carla` |
+| `8730468055` | `fernando` |
 | demais G5 | pendente — se não souber, **PERGUNTAR antes de gravar** |
 
 **12.3 Regra dos 3 gatilhos — BLOQUEANTE**
