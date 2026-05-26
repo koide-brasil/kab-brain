@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conheça o Tony — Manual do G5 KAB</title>
+<style>
+  :root {
+    --kab-green: #7CB342;
+    --kab-green-dark: #558B2F;
+    --kab-green-light: #DCEDC8;
+    --kab-green-ultralight: #F1F8E9;
+    --red: #C62828;
+    --red-light: #FFEBEE;
+    --amber: #F57F17;
+    --amber-light: #FFF8E1;
+    --blue: #1976D2;
+    --blue-light: #E3F2FD;
+    --gray-900: #212121;
+    --gray-700: #424242;
+    --gray-500: #757575;
+    --gray-300: #BDBDBD;
+    --gray-100: #F5F5F5;
+    --gray-50: #FAFAFA;
+    --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    --shadow-md: 0 4px 12px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.55;
+    color: var(--gray-900);
+    background: var(--gray-50);
+    font-size: 16px;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+  /* HEADER */
+  header.hero {
+    background: linear-gradient(135deg, #fff 0%, var(--kab-green-ultralight) 100%);
+    border-bottom: 3px solid var(--kab-green);
+    padding: 48px 0 40px;
+  }
+  .hero-inner {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .hero-logo img { height: 64px; width: auto; display: block; }
+  .hero-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--kab-green-dark);
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .hero-text .subtitle {
+    font-size: 18px;
+    color: var(--gray-700);
+    font-weight: 400;
+  }
+  .hero-meta {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: var(--gray-500);
+  }
+  .hero-meta span { display: inline-flex; align-items: center; gap: 6px; }
+
+  /* SECTIONS */
+  section { padding: 48px 0; border-bottom: 1px solid var(--gray-100); }
+  section:last-of-type { border-bottom: none; }
+  h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
+  }
+  h2 .num {
+    display: inline-block;
+    width: 32px; height: 32px;
+    line-height: 32px; text-align: center;
+    background: var(--kab-green);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 12px;
+    vertical-align: middle;
+  }
+  h3 { font-size: 18px; font-weight: 600; margin: 18px 0 8px; color: var(--gray-900); }
+  .lead { font-size: 17px; color: var(--gray-700); margin-bottom: 24px; max-width: 800px; }
+  p { margin-bottom: 12px; color: var(--gray-700); }
+
+  /* CARDS */
+  .grid { display: grid; gap: 16px; }
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-4 { grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 900px) {
+    .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: white;
+    border: 1px solid var(--gray-100);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .card:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+  .card.green { border-left: 4px solid var(--kab-green); }
+  .card.red { border-left: 4px solid var(--red); background: var(--red-light); }
+  .card.amber { border-left: 4px solid var(--amber); background: var(--amber-light); }
+  .card.blue { border-left: 4px solid var(--blue); background: var(--blue-light); }
+  .card.muted { background: var(--gray-100); border-left: 4px solid var(--gray-300); }
+
+  .card-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-role {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--kab-green-dark);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .card.red .card-role { color: var(--red); }
+  .card.muted .card-role { color: var(--gray-500); }
+  .card ul { list-style: none; padding: 0; }
+  .card ul li {
+    padding: 4px 0;
+    font-size: 14px;
+    color: var(--gray-700);
+    line-height: 1.5;
+    position: relative;
+    padding-left: 18px;
+  }
+  .card ul li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--kab-green);
+    font-weight: bold;
+  }
+  .card.red ul li::before { color: var(--red); }
+  .card.muted ul li::before { color: var(--gray-500); }
+  .card .footer-note {
+    font-size: 12px;
+    color: var(--gray-500);
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--gray-300);
+    font-style: italic;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .badge.ativo { background: var(--kab-green); color: white; }
+  .badge.piloto { background: var(--amber); color: white; }
+  .badge.heredita { background: var(--gray-500); color: white; }
+
+  /* CALLOUT (Regra de Ouro) */
+  .callout {
+    background: linear-gradient(135deg, #fff 0%, var(--red-light) 100%);
+    border: 2px solid var(--red);
+    border-radius: 16px;
+    padding: 28px;
+    margin: 20px 0;
+  }
+  .callout-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--red);
+    margin-bottom: 14px;
+  }
+  .callout .quote {
+    background: white;
+    border-left: 4px solid var(--red);
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-style: italic;
+    color: var(--gray-900);
+    border-radius: 4px;
+  }
+
+  /* TABELA SISTEMAS */
+  table { width: 100%; border-collapse: collapse; margin-top: 16px; background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); }
+  th, td { padding: 12px 14px; text-align: left; font-size: 14px; border-bottom: 1px solid var(--gray-100); }
+  th { background: var(--gray-100); font-weight: 600; color: var(--gray-700); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  tr:last-child td { border-bottom: none; }
+  td.access-read { color: var(--blue); font-weight: 600; }
+  td.access-write { color: var(--kab-green-dark); font-weight: 600; }
+  td.access-blocked { color: var(--red); font-weight: 600; }
+
+  /* FLUXOGRAMA SVG */
+  .flow-wrapper { overflow-x: auto; margin: 20px 0; padding: 10px 0; }
+  .flow { display: block; margin: 0 auto; min-width: 720px; }
+
+  /* DM vs GRUPO */
+  .vs-grid { display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; align-items: stretch; margin-top: 20px; }
+  @media (max-width: 700px) { .vs-grid { grid-template-columns: 1fr; } .vs-grid .vs-divider { display: none; } }
+  .vs-divider {
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; font-weight: 700; color: var(--gray-300);
+  }
+
+  /* COMO COMEÇAR */
+  .steps { counter-reset: step; display: grid; gap: 14px; }
+  .step {
+    counter-increment: step;
+    background: white;
+    padding: 18px 20px 18px 64px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  .step::before {
+    content: counter(step);
+    position: absolute;
+    left: 18px; top: 18px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: var(--kab-green);
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .step h4 { font-size: 16px; font-weight: 600; margin-bottom: 4px; color: var(--gray-900); }
+  .step p { font-size: 14px; color: var(--gray-700); margin: 0; }
+  .step code {
+    background: var(--gray-100);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", Menlo, Monaco, Consolas, monospace;
+    font-size: 13px;
+    color: var(--kab-green-dark);
+    font-weight: 600;
+  }
+
+  /* FAQ */
+  details {
+    background: white;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 8px;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+  }
+  details[open] { background: var(--gray-50); }
+  summary {
+    font-weight: 600;
+    color: var(--gray-900);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; font-size: 22px; color: var(--kab-green); font-weight: 300; }
+  details[open] summary::after { content: "−"; }
+  details > p, details > ul { margin-top: 12px; font-size: 14px; color: var(--gray-700); }
+  details > ul { padding-left: 20px; }
+
+  /* FOOTER */
+  footer {
+    background: var(--gray-900);
+    color: var(--gray-300);
+    padding: 32px 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+  }
+  footer a { color: var(--kab-green); text-decoration: none; }
+  footer .small { font-size: 12px; color: var(--gray-500); margin-top: 8px; }
+
+  code.inline {
+    background: var(--gray-100);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", Menlo, Monaco, Consolas, monospace;
+    font-size: 13px;
+    color: var(--kab-green-dark);
+  }
+
+  .toc {
+    background: white;
+    border: 1px solid var(--gray-100);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0 30px;
+    box-shadow: var(--shadow);
+  }
+  .toc-title { font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-500); font-weight: 600; margin-bottom: 12px; }
+  .toc ol { padding-left: 18px; }
+  .toc li { padding: 4px 0; font-size: 14px; }
+  .toc a { color: var(--gray-700); text-decoration: none; }
+  .toc a:hover { color: var(--kab-green-dark); }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-logo">
+        <img src="data:image/png;base64,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GRpk1w/+B7+7tfIT415SOA60vzjOxxAQ2gXqVcf5Pnac+gkQfAau9Ka/XAOmP0mvNrXoEdC9DVxcNzVlD7jcAfqeDNmUXSlIU8jngfcz+qYs0HsLdK56vTX2cfoApKmr5A1wcAgMFyh7zefdHa29/Xum0d8PcttypwontisAABEnaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA0LjQuMC1FeGl2MiI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczppcHRjRXh0PSJodHRwOi8vaXB0Yy5vcmcvc3RkL0lwdGM0eG1wRXh0LzIwMDgtMDItMjkvIgogICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIgogICAgeG1sbnM6cGx1cz0iaHR0cDovL25zLnVzZXBsdXMub3JnL2xkZi94bXAvMS4wLyIKICAgIHhtbG5zOkdJTVA9Imh0dHA6Ly93d3cuZ2ltcC5vcmcveG1wLyIKICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIKICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0MzY0MDE2Ny05YjAxLTQwMGUtYmM0Ni0zM2JlMTdiYjdiZTQiCiAgIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Zjk4YzJiYWUtMWI1My00NDQyLWFkMjktNDc1MzJiOWUxZGE0IgogICB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NDM2NDAxNjctOWIwMS00MDBlLWJjNDYtMzNiZTE3YmI3YmU0IgogICBHSU1QOkFQST0iMi4wIgogICBHSU1QOlBsYXRmb3JtPSJMaW51eCIKICAgR0lNUDpUaW1lU3RhbXA9IjE1OTQ5MDI5MDM3NjUwNzEiCiAgIEdJTVA6VmVyc2lvbj0iMi4xMC4yMCIKICAgZGM6Rm9ybWF0PSJpbWFnZS9wbmciCiAgIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiCiAgIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIKICAgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDUtMTRUMTQ6MDI6MTYtMDM6MDAiCiAgIHhtcDpDcmVhdG9yVG9vbD0iR0lNUCAyLjEwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA1LTE0VDE0OjAyOjQ2LTAzOjAwIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAxOC0wNS0xNFQxNDowMjo0Ni0wMzowMCI+CiAgIDxpcHRjRXh0OkxvY2F0aW9uQ3JlYXRlZD4KICAgIDxyZGY6QmFnLz4KICAgPC9pcHRjRXh0OkxvY2F0aW9uQ3JlYXRlZD4KICAgPGlwdGNFeHQ6TG9jYXRpb25TaG93bj4KICAgIDxyZGY6QmFnLz4KICAgPC9pcHRjRXh0OkxvY2F0aW9uU2hvd24+CiAgIDxpcHRjRXh0OkFydHdvcmtPck9iamVjdD4KICAgIDxyZGY6QmFnLz4KICAgPC9pcHRjRXh0OkFydHdvcmtPck9iamVjdD4KICAgPGlwdGNFeHQ6UmVnaXN0cnlJZD4KICAgIDxyZGY6QmFnLz4KICAgPC9pcHRjRXh0OlJlZ2lzdHJ5SWQ+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249ImNyZWF0ZWQiCiAgICAgIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NDM2NDAxNjctOWIwMS00MDBlLWJjNDYtMzNiZTE3YmI3YmU0IgogICAgICBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIKICAgICAgc3RFdnQ6d2hlbj0iMjAxOC0wNS0xNFQxNDowMjoxNi0wMzowMCIvPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJzYXZlZCIKICAgICAgc3RFdnQ6Y2hhbmdlZD0iLyIKICAgICAgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDphNzcyZjc0Yi1hMTI3LTQ2YWYtOTZlMy1jZWY0ZjE0NmMyZWIiCiAgICAgIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkdpbXAgMi4xMCAoTGludXgpIgogICAgICBzdEV2dDp3aGVuPSItMDM6MDAiLz4KICAgIDwvcmRmOlNlcT4KICAgPC94bXBNTTpIaXN0b3J5PgogICA8cGx1czpJbWFnZVN1cHBsaWVyPgogICAgPHJkZjpTZXEvPgogICA8L3BsdXM6SW1hZ2VTdXBwbGllcj4KICAgPHBsdXM6SW1hZ2VDcmVhdG9yPgogICAgPHJkZjpTZXEvPgogICA8L3BsdXM6SW1hZ2VDcmVhdG9yPgogICA8cGx1czpDb3B5cmlnaHRPd25lcj4KICAgIDxyZGY6U2VxLz4KICAgPC9wbHVzOkNvcHlyaWdodE93bmVyPgogICA8cGx1czpMaWNlbnNvcj4KICAgIDxyZGY6U2VxLz4KICAgPC9wbHVzOkxpY2Vuc29yPgogIDwvcmRmOkRlc2NyaXB0aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg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" alt="Koide Autopeças do Brasil">
+      </div>
+      <div class="hero-text">
+        <h1>Conheça o Tony</h1>
+        <div class="subtitle">Seu assistente de IA do G5 — manual rápido</div>
+        <div class="hero-meta">
+          <span>🤖 Bot: <strong>@tony_kab_bot</strong></span>
+          <span>📅 Versão: maio/2026</span>
+          <span>👤 Mantenedor: Érico Shiroiwa</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+<!-- ÍNDICE -->
+<div class="toc">
+  <div class="toc-title">Neste manual</div>
+  <ol>
+    <li><a href="#intro">O que é o Tony</a></li>
+    <li><a href="#comecar">Como começar</a></li>
+    <li><a href="#escopo">O que cada G5 pode pedir direto</a></li>
+    <li><a href="#aberto">O que todo G5 pode pedir</a></li>
+    <li><a href="#cross">Pediu fora do escopo? O fluxo de aprovação</a></li>
+    <li><a href="#dmgrupo">DM vs Grupo G5</a></li>
+    <li><a href="#sistemas">Sistemas que o Tony enxerga</a></li>
+    <li><a href="#regra-de-ouro">A Regra de Ouro (importante)</a></li>
+    <li><a href="#naofaz">O que o Tony NÃO faz</a></li>
+    <li><a href="#faq">Perguntas frequentes</a></li>
+  </ol>
+</div>
+
+<!-- 1. INTRO -->
+<section id="intro">
+  <h2><span class="num">1</span>O que é o Tony</h2>
+  <p class="lead">
+    Tony é um assistente operacional da KAB que vive no Telegram. Foi montado pelo Érico pra acelerar
+    o dia-a-dia do G5: responde dúvidas, busca informação dos sistemas (DBCorp, RHiD, RD Station, Google Drive)
+    e ajuda a registrar decisões que o time precisa lembrar.
+  </p>
+  <div class="grid grid-3">
+    <div class="card green">
+      <div class="card-title">🎯 Pra que serve</div>
+      <ul>
+        <li>Tirar dúvidas operacionais sem trocar 5 e-mails</li>
+        <li>Consultar dados dos sistemas (faturamento, ponto, pipeline, OPs)</li>
+        <li>Registrar decisões e notas do time</li>
+      </ul>
+    </div>
+    <div class="card green">
+      <div class="card-title">📍 Onde ele vive</div>
+      <ul>
+        <li>Telegram — bot <strong>@tony_kab_bot</strong></li>
+        <li>DM individual com cada G5</li>
+        <li>Grupo G5 (com regras de privacidade)</li>
+      </ul>
+    </div>
+    <div class="card green">
+      <div class="card-title">🧠 Modelo</div>
+      <ul>
+        <li>Codex GPT-5.5 da OpenAI</li>
+        <li>Roda em VPS própria, 24/7</li>
+        <li>Idioma: português, sempre</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 2. COMO COMEÇAR -->
+<section id="comecar">
+  <h2><span class="num">2</span>Como começar</h2>
+  <p class="lead">3 passos pra dar o primeiro &quot;oi&quot; pro Tony.</p>
+  <div class="steps">
+    <div class="step">
+      <h4>Encontra o bot no Telegram</h4>
+      <p>Abre o Telegram, busca por <code>@tony_kab_bot</code> e clica em <strong>Iniciar</strong> (ou manda <code>/start</code>).</p>
+    </div>
+    <div class="step">
+      <h4>Pergunta o que ele pode fazer por você</h4>
+      <p>Manda algo como: <em>&quot;Tony, o que você consegue me ajudar hoje?&quot;</em> — ele vai resumir o que está no <strong>seu</strong> escopo.</p>
+    </div>
+    <div class="step">
+      <h4>Faz um pedido real</h4>
+      <p>Exemplos: <em>&quot;Como tá o faturamento do mês?&quot;</em>, <em>&quot;Qual a OTD MTD?&quot;</em>, <em>&quot;Quantas OPs abertas hoje?&quot;</em>. Tony responde em segundos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3. ESCOPO POR PAPEL -->
+<section id="escopo">
+  <h2><span class="num">3</span>O que cada G5 pode pedir direto</h2>
+  <p class="lead">
+    Cada papel tem um escopo natural. Pedir algo do seu escopo = Tony responde imediatamente.
+    Pedir fora do escopo = Tony pede aprovação ao responsável daquela área (veja seção 5).
+  </p>
+
+  <h3>G5 piloto ativo (4)</h3>
+  <div class="grid grid-4">
+    <div class="card green">
+      <span class="badge ativo">Ativo</span>
+      <div class="card-title" style="margin-top:8px;">Gabriel Pedon</div>
+      <div class="card-role">Vendas</div>
+      <ul>
+        <li>Pipeline RD Station</li>
+        <li>Deals e cotações</li>
+        <li>Atividades CRM</li>
+        <li>Clientes e OTD por cliente</li>
+        <li>Custos detalhados pra propostas</li>
+        <li>Margens</li>
+      </ul>
+    </div>
+    <div class="card green">
+      <span class="badge ativo">Ativo</span>
+      <div class="card-title" style="margin-top:8px;">Mayra Santos</div>
+      <div class="card-role">RH + SGK</div>
+      <ul>
+        <li>RHiD (ponto, banco horas, faltas)</li>
+        <li>SGK (PRs, ITs, FORs, mapas)</li>
+        <li>Satisfação interna</li>
+        <li>Treinamentos FOR-030</li>
+      </ul>
+    </div>
+    <div class="card green">
+      <span class="badge ativo">Ativo</span>
+      <div class="card-title" style="margin-top:8px;">Carla Oliveira</div>
+      <div class="card-role">Financeiro</div>
+      <ul>
+        <li>AR aging completo</li>
+        <li>Contas a pagar e receber</li>
+        <li>Fluxo de caixa</li>
+        <li>Gastos por CC</li>
+        <li>NFs, CPV, margem agregada</li>
+        <li>Conciliação</li>
+      </ul>
+    </div>
+    <div class="card green">
+      <span class="badge ativo">Ativo</span>
+      <div class="card-title" style="margin-top:8px;">Fernando Macedo</div>
+      <div class="card-role">Produção + Manutenção</div>
+      <ul>
+        <li>OPs e plano de produção</li>
+        <li>OTD, refugo, hora-máquina</li>
+        <li>Manutenção e sobressalentes</li>
+        <li>Indicadores qualidade</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 style="margin-top:32px;">Fora do piloto (entram quando o Érico ativar)</h3>
+  <div class="grid grid-3">
+    <div class="card muted">
+      <span class="badge piloto">Em breve</span>
+      <div class="card-title" style="margin-top:8px;">Flávio Sales</div>
+      <div class="card-role">Qualidade</div>
+      <ul>
+        <li>NCs e RNCs</li>
+        <li>Refugo e indicadores qualidade</li>
+        <li>PPAP, FMEA, APQP, MSA, CEP</li>
+        <li>Auditorias e satisfação cliente</li>
+      </ul>
+    </div>
+    <div class="card muted">
+      <span class="badge piloto">Em breve</span>
+      <div class="card-title" style="margin-top:8px;">Suellen Silvestrini</div>
+      <div class="card-role">Logística</div>
+      <ul>
+        <li>Embarques e frete</li>
+        <li>OTD de entrega</li>
+        <li>Status de pedidos</li>
+        <li>Embalagem e FOR-114</li>
+      </ul>
+    </div>
+    <div class="card muted">
+      <span class="badge heredita">Herda escopo</span>
+      <div class="card-title" style="margin-top:8px;">Jônatas Moura</div>
+      <div class="card-role">Apoio à Produção</div>
+      <ul>
+        <li>Mesmo escopo de Fernando</li>
+        <li>(produção + manutenção)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 4. ABERTO PRA TODOS -->
+<section id="aberto">
+  <h2><span class="num">4</span>O que TODO G5 pode pedir (sem aprovação)</h2>
+  <p class="lead">Informações agregadas e públicas — independente do seu papel.</p>
+  <div class="grid grid-3">
+    <div class="card green">
+      <div class="card-title">📈 Faturamento</div>
+      <ul>
+        <li>Faturamento atual (bruto e líquido)</li>
+        <li>Faturamento projetado do mês</li>
+        <li>Plano vs realizado</li>
+      </ul>
+    </div>
+    <div class="card green">
+      <div class="card-title">🏭 Capacidade fabril</div>
+      <ul>
+        <li>Capacidade nominal e instalada</li>
+        <li>Layout e organograma</li>
+        <li>Calendário KAB</li>
+      </ul>
+    </div>
+    <div class="card green">
+      <div class="card-title">📚 Documentos públicos</div>
+      <ul>
+        <li>MQ-01 (Manual da Qualidade)</li>
+        <li>PRs, ITs, FORs públicos do SGK</li>
+        <li>Manuais técnicos (FMEA, APQP, PPAP, MSA, CEP)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 5. CROSS-ACTOR (FLUXOGRAMA) -->
+<section id="cross">
+  <h2><span class="num">5</span>Pediu fora do seu escopo? Como funciona</h2>
+  <p class="lead">
+    Tony nunca recusa fria. Se o pedido está fora do seu escopo mas tem dono natural,
+    ele pede aprovação à pessoa certa antes de te responder.
+  </p>
+
+  <div class="flow-wrapper">
+    <svg class="flow" viewBox="0 0 920 460" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#558B2F"/>
+        </marker>
+        <style>
+          .box { fill:#fff; stroke:#7CB342; stroke-width:2; rx:8; }
+          .decision { fill:#FFF8E1; stroke:#F57F17; stroke-width:2; }
+          .end-ok { fill:#DCEDC8; stroke:#558B2F; stroke-width:2; rx:8; }
+          .end-err { fill:#FFEBEE; stroke:#C62828; stroke-width:2; rx:8; }
+          .line { stroke:#558B2F; stroke-width:2; fill:none; marker-end:url(#arrow); }
+          .lbl { font:600 13px -apple-system,Segoe UI,Roboto,sans-serif; fill:#212121; text-anchor:middle; }
+          .lbl-sm { font:600 12px -apple-system,Segoe UI,Roboto,sans-serif; fill:#558B2F; text-anchor:middle; }
+          .lbl-deny { font:600 12px -apple-system,Segoe UI,Roboto,sans-serif; fill:#C62828; text-anchor:middle; }
+        </style>
+      </defs>
+
+      <!-- INÍCIO -->
+      <rect class="box" x="370" y="10" width="180" height="50"/>
+      <text class="lbl" x="460" y="40">Você manda o pedido</text>
+
+      <!-- LINHA -->
+      <line class="line" x1="460" y1="60" x2="460" y2="85"/>
+
+      <!-- DECISÃO 1 -->
+      <polygon class="decision" points="460,90 580,150 460,210 340,150"/>
+      <text class="lbl" x="460" y="145">Está no seu</text>
+      <text class="lbl" x="460" y="162">escopo?</text>
+
+      <!-- SIM (esquerda) -->
+      <line class="line" x1="340" y1="150" x2="180" y2="150"/>
+      <text class="lbl-sm" x="260" y="140">SIM</text>
+      <rect class="end-ok" x="40" y="120" width="140" height="60"/>
+      <text class="lbl" x="110" y="145">Tony responde</text>
+      <text class="lbl" x="110" y="163">direto</text>
+
+      <!-- NÃO (baixo) -->
+      <line class="line" x1="460" y1="210" x2="460" y2="240"/>
+      <text class="lbl-sm" x="475" y="230">NÃO</text>
+
+      <!-- ETAPA: identifica approver -->
+      <rect class="box" x="350" y="240" width="220" height="50"/>
+      <text class="lbl" x="460" y="263">Tony identifica</text>
+      <text class="lbl" x="460" y="280">o aprovador natural</text>
+
+      <line class="line" x1="460" y1="290" x2="460" y2="315"/>
+
+      <!-- ETAPA: pede DM -->
+      <rect class="box" x="320" y="315" width="280" height="50"/>
+      <text class="lbl" x="460" y="338">Manda DM pro aprovador:</text>
+      <text class="lbl" x="460" y="355">&quot;Posso liberar pra ele?&quot;</text>
+
+      <!-- 3 SAÍDAS -->
+      <line class="line" x1="380" y1="365" x2="180" y2="410"/>
+      <line class="line" x1="460" y1="365" x2="460" y2="395"/>
+      <line class="line" x1="540" y1="365" x2="740" y2="410"/>
+
+      <!-- APROVADO -->
+      <rect class="end-ok" x="40" y="410" width="220" height="50"/>
+      <text class="lbl" x="150" y="432">✓ APROVADO</text>
+      <text class="lbl" x="150" y="450" style="font-size:11px;">Tony entrega a info pro requester</text>
+
+      <!-- NEGADO -->
+      <rect class="end-err" x="370" y="395" width="180" height="55"/>
+      <text class="lbl" x="460" y="418">✗ NEGADO</text>
+      <text class="lbl" x="460" y="438" style="font-size:11px;">Tony avisa o requester</text>
+
+      <!-- TIMEOUT -->
+      <rect class="end-err" x="600" y="410" width="280" height="50"/>
+      <text class="lbl" x="740" y="432">⏱ Sem resposta em 24h</text>
+      <text class="lbl" x="740" y="450" style="font-size:11px;">Avisa o requester pra ir direto</text>
+    </svg>
+  </div>
+
+  <h3>Exemplos práticos</h3>
+  <div class="grid grid-2">
+    <div class="card blue">
+      <div class="card-title">✅ Caso 1: pedido no escopo</div>
+      <p style="margin-top:8px; font-size:14px;">
+        <strong>Carla pergunta:</strong> &quot;Como tá o AR aging hoje?&quot;<br>
+        <strong>Tony:</strong> responde direto (financeiro = escopo dela).
+      </p>
+    </div>
+    <div class="card amber">
+      <div class="card-title">🔄 Caso 2: cross-actor</div>
+      <p style="margin-top:8px; font-size:14px;">
+        <strong>Gabriel pergunta:</strong> &quot;Quantas faltas tem o time da produção esse mês?&quot;<br>
+        <strong>Tony:</strong> &quot;Tá fora do seu escopo. Vou pedir autorização pra Mayra.&quot;
+        Manda DM pra Mayra → se ela aprovar, Gabriel recebe; se negar, Gabriel é avisado.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 6. DM VS GRUPO -->
+<section id="dmgrupo">
+  <h2><span class="num">6</span>DM vs Grupo G5</h2>
+  <p class="lead">Onde Tony responde depende de onde você pergunta — mas conteúdo sensível SEMPRE migra pra DM.</p>
+  <div class="vs-grid">
+    <div class="card green">
+      <div class="card-title">💬 DM (chat individual com Tony)</div>
+      <ul>
+        <li>Fluxo normal, resposta no mesmo lugar</li>
+        <li>Pode pedir qualquer coisa do seu escopo</li>
+        <li>Conversa privada — ninguém mais vê</li>
+      </ul>
+    </div>
+    <div class="vs-divider">vs</div>
+    <div class="card amber">
+      <div class="card-title">👥 Grupo G5</div>
+      <ul>
+        <li>Pedido público (faturamento, capacidade) → responde no grupo</li>
+        <li>Pedido sensível (ponto de alguém, custos detalhados) → Tony diz <em>&quot;vou tratar em DM contigo&quot;</em> e continua na sua DM</li>
+        <li>Nunca vaza conteúdo do pedido pros outros</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 7. SISTEMAS -->
+<section id="sistemas">
+  <h2><span class="num">7</span>Sistemas que o Tony enxerga</h2>
+  <p class="lead">Tony tem 7 integrações ativas, divididas em 2 grupos por nível de permissão.</p>
+
+  <h3>🔒 Sistemas que Tony só LÊ (nunca escreve)</h3>
+  <table>
+    <thead><tr><th>Sistema</th><th>O que ele consegue ver</th><th>Permissão</th></tr></thead>
+    <tbody>
+      <tr><td><strong>DBCorp</strong> (ERP)</td><td>Faturamento, OPs, NFs, estoque, contas a pagar/receber, custos</td><td class="access-read">SOMENTE LEITURA</td></tr>
+      <tr><td><strong>RHiD</strong> (Ponto)</td><td>Marcações, banco de horas, faltas, cadastros, atestados</td><td class="access-read">SOMENTE LEITURA</td></tr>
+      <tr><td><strong>RD Station</strong> (CRM)</td><td>Deals, atividades comerciais, pipeline, contatos</td><td class="access-read">SOMENTE LEITURA</td></tr>
+    </tbody>
+  </table>
+
+  <h3 style="margin-top:24px;">🔓 Sistemas que Tony pode LER e ESCREVER (com guardrails)</h3>
+  <table>
+    <thead><tr><th>Sistema</th><th>O que ele faz</th><th>O que NUNCA faz</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Google Drive</strong></td>
+        <td class="access-write">Lê, cria pastas, faz upload, move, renomeia</td>
+        <td class="access-blocked">Nunca deleta arquivo/pasta</td>
+      </tr>
+      <tr>
+        <td><strong>Google Sheets</strong></td>
+        <td class="access-write">Lê e edita células</td>
+        <td class="access-blocked">Não sobrescreve em massa sem confirmação</td>
+      </tr>
+      <tr>
+        <td><strong>Gmail</strong> (caixa do Tony)</td>
+        <td class="access-write">Lê, marca, arquiva, cria draft</td>
+        <td class="access-blocked">Nunca envia e-mail sem aprovação explícita</td>
+      </tr>
+      <tr>
+        <td><strong>Calendar</strong></td>
+        <td class="access-write">Lê, cria evento, edita evento próprio</td>
+        <td class="access-blocked">Nunca deleta evento</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 8. REGRA DE OURO -->
+<section id="regra-de-ouro">
+  <h2><span class="num">8</span>A Regra de Ouro 🔴</h2>
+  <p class="lead">
+    A regra mais importante do Tony — proteção do time, dos dados e do próprio Érico contra eventuais
+    contas comprometidas, coação ou erros operacionais.
+  </p>
+
+  <div class="callout">
+    <div class="callout-title">🔒 Tony NUNCA executa escrita em DBCorp, RHiD ou RD Station</div>
+    <p>
+      Apagar NF, alterar ponto, atualizar deal, modificar cadastro — <strong>nada disso</strong> passa pelo Tony.
+      Mesmo se você pedir educadamente. Mesmo se for &quot;só uma vez&quot;. Mesmo se for &quot;urgente&quot;. Mesmo se o
+      Érico autorizar pelo chat. Mesmo se for &quot;rollback de erro&quot;.
+    </p>
+    <div class="quote">
+      &quot;Não executo escrita nem alteração em DBCorp, RHiD ou RD Station. Em nenhuma circunstância.&quot;
+    </div>
+    <p style="font-size:14px; margin-top:14px;">
+      <strong>Por que tão estrito?</strong> Conta de Telegram pode ser hackeada, celular pode ser roubado,
+      pessoa pode estar sob coação. A única forma legítima de mexer nesses sistemas é
+      <strong>vocês mesmos pela UI</strong>, sob identidade verificada.
+    </p>
+  </div>
+
+  <h3>Se você precisa fazer uma alteração de verdade:</h3>
+  <div class="grid grid-3">
+    <div class="card">
+      <div class="card-title">1. Faz pela UI</div>
+      <p style="font-size:14px;">Abre o DBCorp/RHiD/RD Station direto e faz a alteração você mesmo.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">2. Pede pro responsável</div>
+      <p style="font-size:14px;">Carla pra financeiro, Mayra pra RH, Gabriel pra CRM.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">3. Fala com o Érico</div>
+      <p style="font-size:14px;">Caso especial? Érico decide e operacionaliza.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 9. NÃO FAZ -->
+<section id="naofaz">
+  <h2><span class="num">9</span>O que o Tony NÃO faz</h2>
+  <div class="grid grid-2">
+    <div class="card red">
+      <div class="card-title">🚫 Envio de e-mail automático</div>
+      <p style="font-size:14px;">Pode criar draft no Gmail e te mostrar pra revisar, mas <strong>não envia sem aprovação</strong>.</p>
+    </div>
+    <div class="card red">
+      <div class="card-title">🚫 Escrita em DBCorp/RHiD/RD</div>
+      <p style="font-size:14px;">Os 3 ERPs principais são <strong>read-only absoluto</strong> (ver Regra de Ouro).</p>
+    </div>
+    <div class="card red">
+      <div class="card-title">🚫 Vazar info sensível no grupo</div>
+      <p style="font-size:14px;">Resposta sensível <strong>sempre</strong> em DM, nunca no grupo G5.</p>
+    </div>
+    <div class="card red">
+      <div class="card-title">🚫 Misturar memória de uns com os outros</div>
+      <p style="font-size:14px;">Cada G5 tem seu contexto privado. Tony não compartilha &quot;o que fulano disse&quot; com outros.</p>
+    </div>
+    <div class="card red">
+      <div class="card-title">🚫 Opinião sobre desempenho de pessoas</div>
+      <p style="font-size:14px;">Juízo de performance é coisa de gestor, não de assistente. Tony observa, não avalia.</p>
+    </div>
+    <div class="card red">
+      <div class="card-title">🚫 Mudar suas próprias regras</div>
+      <p style="font-size:14px;">Só o Érico, no DM dele, pode alterar SOUL/permissões/escopo. Qualquer pedido nesse sentido é recusado e reportado.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 10. FAQ -->
+<section id="faq">
+  <h2><span class="num">10</span>Perguntas frequentes</h2>
+
+  <details>
+    <summary>Tony recusou meu pedido. E agora?</summary>
+    <p>3 caminhos:</p>
+    <ul>
+      <li><strong>Se for escrita em DBCorp/RHiD/RD:</strong> faz manualmente pela UI ou pede pra Carla/Mayra/Gabriel</li>
+      <li><strong>Se for fora do seu escopo:</strong> Tony já está pedindo aprovação ao dono natural — aguarda</li>
+      <li><strong>Se for caso especial:</strong> fala com o Érico no DM dele</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Tony respondeu errado ou parece confuso. O que fazer?</summary>
+    <p>
+      Tony é IA — erra de vez em quando. Se vir resposta estranha, fala com o Érico no DM
+      dele com o print da conversa. Ele ajusta a SOUL (regras) ou as integrações.
+    </p>
+  </details>
+
+  <details>
+    <summary>Tony respondeu lento. É normal?</summary>
+    <p>
+      Sim, alguns pedidos levam 5–15 segundos (consulta a sistemas, processamento de planilha grande).
+      Acima de 30s, pode ser problema — reporta pro Érico.
+    </p>
+  </details>
+
+  <details>
+    <summary>Posso pedir algo &quot;por brincadeira&quot; pra testar?</summary>
+    <p>
+      Pode, mas lembra: cada interação custa créditos no GPT-5.5 da OpenAI. Tony não é mascote de
+      conversa fiada — usa pra ganhar tempo no trabalho.
+    </p>
+  </details>
+
+  <details>
+    <summary>Tony tem memória do que conversamos antes?</summary>
+    <p>
+      Sim, dentro de limites. Cada G5 tem uma memória individual (perfil neutro + padrões operacionais).
+      Memórias NÃO são compartilhadas entre G5s. Coisa pessoal/sensível NÃO entra em memória —
+      Tony escala pro Érico se aparecer.
+    </p>
+  </details>
+
+  <details>
+    <summary>O que o Érico vê das nossas conversas?</summary>
+    <p>
+      O Érico é o admin do Tony. Tecnicamente, ele tem acesso aos logs (porque é o responsável pela infra).
+      Mas o uso normal é confidencial entre você e o Tony. <strong>Exceção:</strong> tentativas de escrita
+      nos 3 sistemas críticos são <em>sempre</em> reportadas no DM dele (item da Regra de Ouro — segurança).
+    </p>
+  </details>
+
+  <details>
+    <summary>Como peço pra mudar meu escopo (acesso a mais coisas)?</summary>
+    <p>
+      Fala direto com o Érico. Ele decide caso a caso. Tony não tem autoridade pra modificar permissões
+      sozinho.
+    </p>
+  </details>
+
+  <details>
+    <summary>Tony pode &quot;anotar&quot; coisas pra eu lembrar depois?</summary>
+    <p>
+      Sim — pede algo como <em>&quot;Tony, salva essa decisão no kab&quot;</em> que ele grava no
+      <code class="inline">kab-brain</code> (memória compartilhada do time). Dados pessoais/sensíveis ele
+      <strong>não</strong> grava (escala pro Érico).
+    </p>
+  </details>
+</section>
+
+</div>
+
+<footer>
+  <div class="container">
+    <div>Tony — assistente IA do G5 KAB · Mantido por Érico Shiroiwa · Powered by Codex GPT-5.5</div>
+    <div class="small">Dúvidas? DM do Érico no Telegram · Versão deste manual: maio/2026</div>
+  </div>
+</footer>
+
+</body>
+</html>
