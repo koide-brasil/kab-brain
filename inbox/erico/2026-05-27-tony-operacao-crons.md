@@ -27,10 +27,12 @@ Em grupos Telegram, Tony só deve responder quando for explicitamente marcado/me
 O monitor ativo de OS do DBCorp para Fernando é o cron `aeea34b5413a`:
 
 - Nome: `Monitor OS DBCorp - Fernando`
-- Script: `/opt/data/.hermes/scripts/monitor_dbcorp_os_fernando.sh`
+- Script no cron: `monitor_dbcorp_os_fernando.sh`
+- Path resolvido pelo scheduler: `/opt/data/scripts/monitor_dbcorp_os_fernando.sh`
 - Entrega: `telegram:8730468055`
 - Frequência: a cada 15 minutos
 - Modo: script-only, read-only
+- Validação: execução forçada em 27/05/2026 às 17:34 UTC retornou `ok`.
 
 O script antigo `/opt/data/.hermes/scripts/tony_watch_dbcorp_os_abertas_fernando.sh` apresentou erro de conversão de data em SQL e não está vinculado a cron ativo.
 
