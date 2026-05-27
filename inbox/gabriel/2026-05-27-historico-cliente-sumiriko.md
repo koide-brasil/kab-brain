@@ -39,6 +39,7 @@ Segundo Gabriel, a proposta atingiu os targets solicitados em 3 itens. Em 1 item
 - Ausência de nomeação para novos projetos nos últimos anos.
 - Perda parcial de itens de linha para outro fornecedor.
 - Projeto Honda Next PF2 pode ser uma oportunidade de retomada de espaço comercial no cliente.
+- O projeto é importante para a Koide retomar novos desenvolvimentos com a Sumiriko.
 - A proposta enviada em 2026-05-27 está competitiva frente aos targets informados pelo cliente.
 - Necessidade de entender causa da perda de espaço e plano de recuperação comercial.
 
