@@ -66,12 +66,21 @@ Intenção da estratégia:
 - Aumentar a credibilidade do atendimento da Koide.
 - Passar mais confiança ao cliente, considerando que Martins tem mais experiência em tratamento direto com cliente do que Josielen.
 
+## Reforços sugeridos por Tony e aceitos por Gabriel
+
+Gabriel concordou em complementar a estratégia com três ações:
+- Levar mensagem objetiva ao cliente: "queremos entender o pacote antes de falar preço".
+- Pedir lista de itens/desenhos, volumes e prazo de decisão durante a própria visita.
+- Enviar follow-up no mesmo dia após a visita, com responsáveis e próximos passos, para não perder ritmo.
+
 ## Próximos passos
 
 - Josielen entrar em contato com Caio em 2026-06-01, conforme tarefa criada no RD Station por Gabriel.
 - Agendar nova visita diretamente com Caio.
 - Gabriel levar Josielen e Martins na nova visita.
 - Reforçar o pedido dos desenhos dos itens com usinagem mais simples.
+- Levantar lista de itens, desenhos, volumes e prazo de decisão da terceirização.
+- Enviar follow-up no mesmo dia da nova visita, com responsáveis e próximos passos.
 - Monitorar que o processo de terceirização já está em andamento, o que pode indicar janela de oportunidade curta.
 - Tratar internamente a falha de informação para evitar nova abordagem comercial sem visibilidade do estágio real da oportunidade.
 
