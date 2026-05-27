@@ -44,11 +44,20 @@ Ao término, Gabriel se colocou à disposição de Pedro.
 
 Pedro solicitou que Gabriel entre em contato novamente na semana de 2026-06-01. Pedro irá informar Caio e lembrá-lo de enviar à Koide os desenhos dos itens com usinagem mais simples.
 
+## Avaliação de Gabriel
+
+Gabriel avaliou que houve um ponto falho da Koide no acompanhamento da oportunidade: Josielen, que vinha tratando diretamente com o cliente, não possuía a informação de que a terceirização dos itens com usinagem simples já estava em andamento. Consequentemente, Gabriel também chegou à visita sem essa informação.
+
+Gabriel vê oportunidade porque o processo ainda está em aberto.
+
+Risco principal: o tempo é curto, pois provavelmente já existem outros fornecedores com cotações em estágio mais avançado.
+
 ## Próximos passos
 
 - Gabriel entrar em contato com Pedro Bellini na semana de 2026-06-01.
 - Reforçar o pedido dos desenhos dos itens com usinagem mais simples.
 - Monitorar que o processo de terceirização já está em andamento, o que pode indicar janela de oportunidade curta.
+- Tratar internamente a falha de informação para evitar nova abordagem comercial sem visibilidade do estágio real da oportunidade.
 
 ## Links
 
