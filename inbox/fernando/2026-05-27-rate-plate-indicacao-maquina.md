@@ -49,6 +49,16 @@ Alternativa para alto volume:
 
 As chanfradeiras atuais da KAB — **FA100, NPK-250 e NP-57** — podem servir como apoio para acabamento/chanfro, mas **não são suficientes para fabricar a peça completa**, pois não executam os rasgos oblongos laterais.
 
+## Restrição validada — TNG32
+
+Fernando informou que o **TNG32 CNC tem passagem de barra máxima Ø32 mm**.
+
+Implicação para peças com **Ø40 mm**:
+
+- **Não é viável produzir a partir de barra Ø40 pelo alimentador/passagem de barra do TNG32**.
+- Pode haver alternativa apenas se a peça for feita de **blank/tarugo cortado e preso em castanha/placa**, desde que a fixação, curso, interferência e ferramenta sejam validados.
+- Para cotação/indicação futura, não assumir TNG32 como solução automática para itens acima de Ø32 mm quando depender de alimentação por barra.
+
 ## Pendências para avaliação final
 
 Para cravar processo e capacidade, ainda é necessário obter desenho técnico legível com:
@@ -60,7 +70,8 @@ Para cravar processo e capacidade, ainda é necessário obter desenho técnico l
 - dimensão completa dos rasgos;
 - tolerâncias;
 - volume mensal estimado;
-- exigência de acabamento/rebarba/chanfro.
+- exigência de acabamento/rebarba/chanfro;
+- tipo de alimentação/fixação prevista: barra alimentada, blank cortado, castanha/placa ou dispositivo.
 
 ## Links
 
