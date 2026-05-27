@@ -20,12 +20,19 @@ Apesar da relevância histórica e de faturamento, a Koide está há alguns anos
 
 Além disso, algumas peças de linha foram transferidas para outro fornecedor.
 
+## Situação atual
+
+A Koide está em negociação com o projeto Honda Next PF2.
+
+Gabriel informou que o projeto está devidamente registrado no RD Station, no funil de oportunidades.
+
 ## Pontos de atenção
 
 - Cliente historicamente estratégico para a KAB.
 - Alto volume de faturamento acumulado.
 - Ausência de nomeação para novos projetos nos últimos anos.
 - Perda parcial de itens de linha para outro fornecedor.
+- Projeto Honda Next PF2 pode ser uma oportunidade de retomada de espaço comercial no cliente.
 - Necessidade de entender causa da perda de espaço e plano de recuperação comercial.
 
 ## Links
@@ -34,3 +41,5 @@ Além disso, algumas peças de linha foram transferidas para outro fornecedor.
 - [[gabriel-pedon]] — autor da nota
 - [[vendas]] — área principal
 - [[kab]] — empresa
+- [[honda-next-pf2]] — projeto em negociação
+- [[rd-station]] — sistema onde o projeto está registrado
