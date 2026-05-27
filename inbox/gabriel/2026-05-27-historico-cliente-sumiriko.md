@@ -26,6 +26,12 @@ A Koide está em negociação com o projeto Honda Next PF2.
 
 Gabriel informou que o projeto está devidamente registrado no RD Station, no funil de oportunidades.
 
+O projeto envolve 4 peças.
+
+A Koide recebeu os targets do cliente e enviou a proposta em 2026-05-27.
+
+Segundo Gabriel, a proposta atingiu os targets solicitados em 3 itens. Em 1 item, a Koide ficou um pouco abaixo do target solicitado.
+
 ## Pontos de atenção
 
 - Cliente historicamente estratégico para a KAB.
@@ -33,6 +39,7 @@ Gabriel informou que o projeto está devidamente registrado no RD Station, no fu
 - Ausência de nomeação para novos projetos nos últimos anos.
 - Perda parcial de itens de linha para outro fornecedor.
 - Projeto Honda Next PF2 pode ser uma oportunidade de retomada de espaço comercial no cliente.
+- A proposta enviada em 2026-05-27 está competitiva frente aos targets informados pelo cliente.
 - Necessidade de entender causa da perda de espaço e plano de recuperação comercial.
 
 ## Links
