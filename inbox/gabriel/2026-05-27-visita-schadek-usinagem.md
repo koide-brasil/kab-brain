@@ -52,9 +52,25 @@ Gabriel vê oportunidade porque o processo ainda está em aberto.
 
 Risco principal: o tempo é curto, pois provavelmente já existem outros fornecedores com cotações em estágio mais avançado.
 
+## Estratégia definida por Gabriel
+
+Gabriel informou que já incluiu no RD Station uma tarefa para Josielen entrar em contato com Caio em 2026-06-01 e agendar nova visita diretamente com ele.
+
+Para essa nova visita, Gabriel pretende levar Josielen e Martins.
+
+Intenção da estratégia:
+- Apresentar Martins ao Caio.
+- Colocar Martins à disposição para um atendimento mais personalizado.
+- Fazer visitas frequentes à planta da Schadek.
+- Entender melhor as necessidades do cliente quanto à terceirização em andamento.
+- Aumentar a credibilidade do atendimento da Koide.
+- Passar mais confiança ao cliente, considerando que Martins tem mais experiência em tratamento direto com cliente do que Josielen.
+
 ## Próximos passos
 
-- Gabriel entrar em contato com Pedro Bellini na semana de 2026-06-01.
+- Josielen entrar em contato com Caio em 2026-06-01, conforme tarefa criada no RD Station por Gabriel.
+- Agendar nova visita diretamente com Caio.
+- Gabriel levar Josielen e Martins na nova visita.
 - Reforçar o pedido dos desenhos dos itens com usinagem mais simples.
 - Monitorar que o processo de terceirização já está em andamento, o que pode indicar janela de oportunidade curta.
 - Tratar internamente a falha de informação para evitar nova abordagem comercial sem visibilidade do estágio real da oportunidade.
@@ -72,3 +88,5 @@ Risco principal: o tempo é curto, pois provavelmente já existem outros fornece
 - [[usinagem]] — processo citado
 - [[terceirizacao]] — tema citado
 - [[ergomat-tn32]] — máquina citada
+- [[rd-station]] — sistema onde Gabriel registrou tarefa
+- [[martins]] — pessoa a ser apresentada ao cliente
