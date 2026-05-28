@@ -1,7 +1,8 @@
 ---
 tipo: nota
 area: producao
-status: inbox
+status: staging
+staged_at: 2026-05-28T09:54:13-03:00
 criado: 2026-05-26
 autor: erico
 tags: [fornecedores, lista, mp]
@@ -27,7 +28,7 @@ tags: [fornecedores, lista, mp]
 | **JKK** | A confirmar | `2-FORNECEDORES/JKK/` |
 | **JHP** | A confirmar | `2-FORNECEDORES/JHP/` |
 | **KTI** | Grupo Koide | `2-FORNECEDORES/KTI/` |
-| **Koide Kokan** | Matriz Japão | `2-FORNECEDORES/Koide Kokan/` (detalhes intercompany no cofre privado) |
+| **Matriz Japão** | Matriz japonesa | pasta local própria · condições comerciais ficam no cofre privado |
 | **Koide Korea** | Grupo Koide Coreia | `2-FORNECEDORES/KOide Korea/` |
 
 ### Serviços / beneficiamento / equipamentos

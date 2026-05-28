@@ -1,7 +1,8 @@
 ---
 tipo: nota
 area: rh
-status: inbox
+status: staging
+staged_at: 2026-05-28T09:54:13-03:00
 criado: 2026-05-26
 autor: erico
 tags: [japones, idioma, treinamento, cultura, matriz]
@@ -9,7 +10,7 @@ tags: [japones, idioma, treinamento, cultura, matriz]
 
 # Aulas de Japonês — material didático interno
 
-> Pasta `~/Área de trabalho/KAB/1-CONTROLE/AULAS DE JAPONES/` com material didático de japonês usado por colaboradores da KAB. Faz sentido pro time porque a relação com a **Matriz Koide Kokan** (e clientes japoneses: Yamaha/YAB, INDAB, SumiRiko, Toyota Boshoku, Yorozu) exige comunicação em JP.
+> Pasta `~/Área de trabalho/KAB/1-CONTROLE/AULAS DE JAPONES/` com material didático de japonês usado por colaboradores da KAB. Faz sentido pro time porque a relação com a **Matriz japonesa** e clientes japoneses exige comunicação em JP.
 
 ## Para quem
 

@@ -1,7 +1,8 @@
 ---
 tipo: nota
 area: producao
-status: inbox
+status: staging
+staged_at: 2026-05-28T09:50:03-03:00
 criado: 2026-05-28
 atualizado: 2026-05-28
 autor: erico
