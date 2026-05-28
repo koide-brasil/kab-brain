@@ -90,9 +90,25 @@ Objetivo combinado: construir, junto com Fernando, um mapa `fonte -> planilha ->
 
 Fernando confirmou que podem ser usadas, em modo leitura, todas as informações disponíveis no DBCorp e no Drive para apoiar o estudo e as sugestões de melhoria. A direção combinada é usar o Drive para entender o processo legado/documentado e o DBCorp como fonte viva para pedidos de venda, pedidos de compra, recebimentos, estoque e produção.
 
+## Direção acordada em 2026
+
+- Os arquivos antigos de 2022/2023 serão usados como **referência de lógica**, não como base de decisão operacional.
+- O foco operacional atual será o **ano de 2026**.
+- A implantação dos monitoramentos deve começar por visão **semanal**.
+- O escopo será ampliado gradativamente conforme Fernando e Tony começarem a enxergar resultados práticos.
+- Objetivo produtivo declarado: apoiar a meta de entrega dentro do mês, com menor tempo e menor custo possível.
+- Indicadores candidatos para evolução gradual:
+  - pedidos de venda em aberto/atrasados na semana;
+  - peças e valor financeiro em atraso;
+  - matéria-prima crítica;
+  - pedidos de compra de matéria-prima atrasados;
+  - serviços externos atrasados;
+  - estoque disponível para liberar produção;
+  - cruzamento entre venda, OP, estoque, MP e compra.
+
 ## Próximo passo sugerido
 
-Próximo arquivo recomendado para estudo: `Pedidos de Venda.xlsx`, por estar diretamente ligado a plano de entrega, PCP e programação produtiva.
+Seguir estudando os arquivos do Drive apenas como referência de lógica e, em paralelo, começar a montar uma visão semanal 2026 baseada no DBCorp em modo read-only.
 
 ## Links
 
