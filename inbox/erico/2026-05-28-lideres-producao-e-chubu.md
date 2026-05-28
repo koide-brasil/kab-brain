@@ -58,6 +58,12 @@ tags: [lideres, producao, treinamento, chubu, japao, cadastro-rhid]
 
 **Fábrica produz normalmente** — só a camada de gestão está em treinamento.
 
+### Formato adotado pelo Erico
+
+- **Erico NÃO participa** do treinamento — decisão deliberada pra deixar G5/supervisores/líderes à vontade, abrindo espaço pra fala honesta sem a presença do CEO
+- **Conversa individual Erico ↔ Rodrigo na parte da tarde** — Rodrigo passa resumo executivo do dia, sinaliza pontos sensíveis observados, e os dois alinham estratégias de continuidade
+- Esse formato preserva o **candor da equipe** sem perder o ciclo de feedback pra gestão estratégica
+
 > Rodrigo Wilder é o auditor externo da KAB (confirmado em [[kab-analise-critica-2025]] — Análise Crítica 1ºS25). Conduz treinamento de liderança/gestão na qualificação Pró Líder.
 
 ## Próximas ações
