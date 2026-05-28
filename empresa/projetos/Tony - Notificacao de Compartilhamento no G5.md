@@ -183,6 +183,91 @@ origem: telegram-grupo-g5
 3. Verifica no GitHub se o arquivo apareceu
 ```
 
+## V2.5 — Áudio + incidente do gateway (2026-05-28 tarde)
+
+### Suporte a áudio
+
+Durante o teste da V2, descobrimos que:
+
+- **Privacy mode do bot** estava OFF (Erico verificou via @BotFather) — Telegram entrega tudo ao bot
+- Mas **Hermes tem flag separada `require_mention: true`** em `config.yaml` que filtra mensagens sem @mention
+- Trocamos pra `require_mention: false` esperando que Tony "ouvisse" o grupo
+- Bug: STT (faster-whisper) **não estava instalado** — voice messages chegavam com `msg=''` (texto vazio)
+- Solução: `pip install faster-whisper` dentro do container Hermes (zero custo, CPU, ~2s/áudio em modelo base)
+
+### Decisão final sobre captura de áudio
+
+Após restart do gateway com STT funcional, Tony começou a responder TODAS as mensagens do grupo (mesmo sem mention) — Rule 8 falhou na prática.
+
+**Revertemos `require_mention: true`** e descobrimos limitação real:
+
+- Hermes tem `history_backfill` pra Discord (recupera msgs perdidas quando require_mention é true) mas **NÃO pra Telegram**
+- Hermes também NÃO processa áudio em `reply_to_message` — só na mensagem atual
+- Hermes NÃO propaga metadata de forward (`forward_from`) pro contexto do agent
+
+**Fluxo prático adotado (zero código adicional)**:
+
+Pra capturar áudio do grupo:
+
+1. No grupo, **encaminhar** o áudio pra DM do Tony (`@tony_kab_bot`)
+2. Caption explícita: `salva áudio do <quem-falou> — área: <vendas/produção/...> contexto: <projeto X / discussão sobre Y>`
+3. Tony recebe áudio como `msg.voice` → transcreve via faster-whisper → aplica Rule 16 → cria nota
+
+### Incidente do gateway stop — 15:05 UTC
+
+Erico pediu ao Tony em DM: *"Vc não esta ouvindo e transcrevendo os áudios. Consegue configurar para vc ouvir"*
+
+Tony interpretou como autorização pra mexer na própria infra e executou `hermes gateway stop`. Gateway parou. **Watchdog que deveria reiniciar estava morto desde 27/05 02:54** (não tem auto-restart do watchdog).
+
+Resultado: Tony offline até intervenção manual via SSH.
+
+### Defesa em 3 camadas (resultado pós-incidente)
+
+```
+┌─ camada 1: Rule 17 da SOUL ─────────────────┐
+│  Tony NUNCA executa gateway stop/restart    │
+│  (vetada por regra, recusa pedidos)         │
+└──────────────────────────────────────────────┘
+                  ↓ se Rule 17 falhar
+┌─ camada 2: gateway_watchdog.py ─────────────┐
+│  Check 15s: gateway absent → restart        │
+└──────────────────────────────────────────────┘
+                  ↓ se watchdog morrer
+┌─ camada 3: tony_watchdog_supervisor ────────┐
+│  Check 2min: watchdog absent → ressuscita   │
+│  + alerta no DM Erico                       │
+└──────────────────────────────────────────────┘
+                  ↓ se supervisor morrer
+                  Erico via SSH/laptop (humano)
+```
+
+### Componentes adicionados na VPS do Tony
+
+| Item | Caminho/ID |
+|---|---|
+| **Rule 17 da SOUL** | `/opt/data/SOUL.md` linhas 614-673 (backup: `SOUL.md.bak-pre-rule17`) |
+| **Watchdog ativo** | `/opt/data/scripts/gateway_watchdog.py` (PID 11529) |
+| **Supervisor script** | `/opt/data/scripts/tony_watchdog_supervisor.py` + `.sh` |
+| **Cron supervisor** | `ae6b6adf14e3` · `*/2 * * * *` · deliver `telegram:6954856544` |
+
+### Espelho no Bruce-HERMES (sem Rule 17)
+
+Bruce-HERMES também tinha watchdog morto. Aplicado mesmo padrão mas SEM Rule 17 (Bruce pode operar infra sob pedido do Erico):
+
+| Item | Caminho/ID |
+|---|---|
+| **Watchdog ativo** | `/opt/data/scripts/gateway-watchdog.sh` (PID 15559) |
+| **Supervisor script** | `/opt/data/scripts/bruce_watchdog_supervisor.py` + `.sh` |
+| **Cron supervisor** | `7645d69c2726` · `*/2 * * * *` · deliver `telegram:6954856544` |
+
+### Lições aprendidas (pra futuras configurações)
+
+1. **Watchdog não-supervisionado é frágil**: se ele morrer, ninguém percebe. Cron Hermes pode supervisar processo arbitrário, baixo custo.
+2. **`require_mention: true` é trade-off real** no Telegram: time não vê msgs passivas no contexto, mas evita spam. Hermes não tem `history_backfill` pro Telegram (só Discord).
+3. **STT local (faster-whisper) é viável** em CPU: ~2s/áudio, zero custo, modelo "base" excelente em português.
+4. **Forward + caption** é o fluxo natural pra captura de discussão por áudio enquanto reply_to_message.voice não é suportado pelo Hermes.
+5. **LLM com permissão de shell precisa de allow/deny list de comandos**, não só regra textual: Rule 8 não impediu Tony de responder no grupo nem Rule sem trava impediu o `gateway stop`.
+
 ## Critério de sucesso
 
 - Time recebe notificação em ≤10min de cada `/sync` que toca staging
