@@ -1,7 +1,8 @@
 ---
 tipo: nota
 area: vendas
-status: inbox
+status: staging
+staged_at: 2026-05-28T08:13:59-03:00
 criado: 2026-05-26
 autor: erico
 tags: [atas, comercial, visitas, clientes]

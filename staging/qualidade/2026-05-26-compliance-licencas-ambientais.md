@@ -1,7 +1,8 @@
 ---
 tipo: nota
 area: qualidade
-status: inbox
+status: staging
+staged_at: 2026-05-28T08:13:59-03:00
 criado: 2026-05-26
 autor: erico
 tags: [compliance, ambiental, cetesb, ibama, iso14001, avcb]
