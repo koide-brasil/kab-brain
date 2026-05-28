@@ -88,6 +88,8 @@ A primeira frente clara de melhoria é mapear e, quando possível, automatizar o
 
 Objetivo combinado: construir, junto com Fernando, um mapa `fonte -> planilha -> BI/relatório -> decisão produtiva`, identificando riscos manuais e oportunidades de melhoria.
 
+Fernando confirmou que podem ser usadas, em modo leitura, todas as informações disponíveis no DBCorp e no Drive para apoiar o estudo e as sugestões de melhoria. A direção combinada é usar o Drive para entender o processo legado/documentado e o DBCorp como fonte viva para pedidos de venda, pedidos de compra, recebimentos, estoque e produção.
+
 ## Próximo passo sugerido
 
 Próximo arquivo recomendado para estudo: `Pedidos de Venda.xlsx`, por estar diretamente ligado a plano de entrega, PCP e programação produtiva.
