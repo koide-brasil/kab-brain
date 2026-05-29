@@ -23,6 +23,17 @@ Em dúvida → não entra. Vai pro cofre pessoal do Erico.
 
 Detalhes em [[empresa/contexto/PRINCIPIOS]].
 
+## Maturidade das informações
+
+Nem toda nota deste repo tem o mesmo peso. Convenção oficial em [[empresa/contexto/MATURIDADE-E-FONTES]]:
+
+- `status: canonico` — fonte oficial interna do kab-brain para regras, arquitetura e contexto consolidado.
+- `status: revisado` — confiável para operação, validado contra fonte ou responsável.
+- `status: ativo` — útil, mas confirmar antes de decisão relevante.
+- `status: staging` / `status: inbox` — captura provisória, não verdade final.
+
+Para números atuais, a fonte canônica continua sendo o sistema original: DBCorp, RD Station, RHiD ou Google Drive/SGK.
+
 ## Como navegar
 
 | Pasta | O que tem |

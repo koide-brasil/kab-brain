@@ -3,9 +3,14 @@ tipo: principio
 area:
 status: canonico
 criado: 2026-05-22
-atualizado: 2026-05-23
+atualizado: 2026-05-29
 autor: erico
-tags: [principios, segregacao, audiencia]
+fonte_original: Erico + cultura operacional KAB
+validado_por: Erico
+validado_em: 2026-05-23
+sensibilidade: gestao
+recencia: estatica
+tags: [principios, segregacao, audiencia, canonico]
 ---
 
 # Princípios do kab-brain

@@ -3,9 +3,14 @@ tipo: arquitetura
 area:
 status: canonico
 criado: 2026-05-22
-atualizado: 2026-05-22
+atualizado: 2026-05-29
 autor: erico
-tags: [arquitetura, sistema, sync, cross-brain]
+fonte_original: Erico + metodologia OpenClaw + arquitetura Hermes KAB
+validado_por: Erico
+validado_em: 2026-05-22
+sensibilidade: gestao
+recencia: estatica
+tags: [arquitetura, sistema, sync, cross-brain, canonico]
 ---
 
 # ARQUITETURA — Sistema de cérebros KAB

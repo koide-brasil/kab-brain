@@ -7,21 +7,22 @@
 1. [[README]] — visão geral
 2. [[CLAUDE]] — instruções pra agentes (LER PRIMEIRO se você for Tony)
 3. **[[empresa/contexto/PRINCIPIOS]]** — regra atualizada (4 níveis audiência + 2 categorias bloqueadoras)
-4. [[empresa/contexto/koide-brasil-visao-geral]] — institucional KAB
-5. [[empresa/glossario]] — siglas e termos KAB
-6. [[empresa/equipe/g5]] — Comitê Estratégico (5 + 2 fora)
-7. [[agentes/_arquitetura]] — 3 camadas (Bruce → Tony → Hermes deps)
-8. [[empresa/sgk/MAPA]] — Sistema de Gestão Koide
-9. [[empresa/contexto/integracoes/_sobre]] — sistemas externos (Drive, DBCorp, RD Station, RHiD)
-10. [[empresa/automacoes-existentes]] — skills do Bruce que tocam KAB
-11. `empresa/drive-index/` — resumos de arquivos do Drive
-12. [[empresa/clientes-formais]] — quem somos parceiros
-13. [[empresa/contexto/pitch-capacidade]] — argumentação comercial
-14. `empresa/projetos/` — projetos institucionais (BCP, BI, Daily Roadmap, 1Password)
-15. `empresa/reunioes/` — atas (comerciais, cliente, fornecedor — atas G5 em `_g5/reunioes/`)
-16. `empresa/cotacoes/` — pipeline comercial (pasta nova)
-17. `empresa/indicadores/` — KPIs operacionais não-sensíveis
-18. **🔒 [[_g5/_PRINCIPIOS]] — Zona G5-only** (atas G5, decisões estratégicas — invisível pros Hermes deps futuros)
+4. **[[empresa/contexto/MATURIDADE-E-FONTES]]** — hierarquia de confiança, status e fontes canônicas
+5. [[empresa/contexto/koide-brasil-visao-geral]] — institucional KAB
+6. [[empresa/glossario]] — siglas e termos KAB
+7. [[empresa/equipe/g5]] — Comitê Estratégico (5 + 2 fora)
+8. [[agentes/_arquitetura]] — 3 camadas (Bruce → Tony → Hermes deps)
+9. [[empresa/sgk/MAPA]] — Sistema de Gestão Koide
+10. [[empresa/contexto/integracoes/_sobre]] — sistemas externos (Drive, DBCorp, RD Station, RHiD)
+11. [[empresa/automacoes-existentes]] — skills do Bruce que tocam KAB
+12. `empresa/drive-index/` — resumos de arquivos do Drive
+13. [[empresa/clientes-formais]] — quem somos parceiros
+14. [[empresa/contexto/pitch-capacidade]] — argumentação comercial
+15. `empresa/projetos/` — projetos institucionais (BCP, BI, Daily Roadmap, 1Password)
+16. `empresa/reunioes/` — atas (comerciais, cliente, fornecedor — atas G5 em `_g5/reunioes/`)
+17. `empresa/cotacoes/` — pipeline comercial (pasta nova)
+18. `empresa/indicadores/` — KPIs operacionais não-sensíveis
+19. **🔒 [[_g5/_PRINCIPIOS]] — Zona G5-only** (atas G5, decisões estratégicas — invisível pros Hermes deps futuros)
 
 ## Identidade do agente (Tony)
 
