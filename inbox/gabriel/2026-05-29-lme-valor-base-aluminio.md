@@ -45,6 +45,7 @@ Rotina diária solicitada por Gabriel:
 - Enviar diariamente o comparativo da média do mês atual contra o mês anterior.
 - Usar no site da Shockmetais a própria evolução mensal do Alumínio em US$/t quando disponível.
 - Para o valor base em R$/t, comparar o resultado calculado como `Alumínio U$/t × Dólar R$/US$` do mês atual versus o mês anterior.
+- Este índice impacta mensalmente os valores da matéria-prima comprada dos fornecedores de alumínio extrudado.
 
 ## Links
 
