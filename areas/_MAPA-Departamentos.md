@@ -1,9 +1,14 @@
 ---
 tipo: nota
 area: kab
-status: ativo
+status: revisado
 criado: 2026-05-19
-atualizado: 2026-05-19
+atualizado: 2026-05-29
+fonte_original: estrutura KAB + SGK
+validado_por: Bruce
+validado_em: 2026-05-29
+sensibilidade: gestao
+recencia: sob-demanda
 tags: [mapa]
 ---
 

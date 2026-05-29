@@ -8,6 +8,8 @@ autor: bruce
 fonte_original: Erico + auditoria kab-brain 2026-05-29
 validado_por: Erico
 validado_em: 2026-05-29
+sensibilidade: gestao
+recencia: estatica
 tags: [canonico, maturidade, fontes, governanca]
 ---
 

@@ -1,9 +1,14 @@
 ---
 tipo: departamento
-area: kab
-status: ativo
+area: vendas
+status: revisado
 criado: 2026-05-14
-atualizado: 2026-05-17
+atualizado: 2026-05-29
+fonte_original: site institucional KAB + contexto operacional + SGK
+validado_por: Bruce
+validado_em: 2026-05-29
+sensibilidade: gestao
+recencia: sob-demanda
 tags: [departamento, kab, comercial]
 gestor: Gabriel (gerente)
 no_g5: true

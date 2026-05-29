@@ -1,9 +1,14 @@
 ---
 tipo: nota
 area: institucional
-status: ativo
+status: revisado
 criado: 2026-05-23
-atualizado: 2026-05-23
+atualizado: 2026-05-29
+fonte_original: Google Drive KAB + SGK
+validado_por: Bruce
+validado_em: 2026-05-29
+sensibilidade: gestao
+recencia: sob-demanda
 tags: [drive, google, integracao, sgk]
 ---
 

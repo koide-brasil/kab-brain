@@ -1,9 +1,14 @@
 ---
 tipo: nota
 area: kab
-status: ativo
+status: revisado
 criado: 2026-05-19
-atualizado: 2026-05-19
+atualizado: 2026-05-29
+fonte_original: SGK + DBCorp + relatórios KAB
+validado_por: Bruce
+validado_em: 2026-05-29
+sensibilidade: gestao
+recencia: mensal
 tags: [mapa]
 ---
 
