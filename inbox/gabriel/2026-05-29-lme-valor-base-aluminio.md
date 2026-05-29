@@ -31,6 +31,15 @@ Teste validado para abril de 2026:
 
 Gabriel confirmou que esse é o valor base do mês de abril.
 
+Complemento informado por Gabriel: para obter o valor médio do mês de maio, usar o mesmo processo, selecionando maio no filtro.
+
+Teste para maio de 2026:
+
+- Alumínio média mensal: US$ 3.664,67/t.
+- Dólar média mensal: R$ 4,9765/US$.
+- Cálculo: 3.664,67 × 4,9765.
+- Resultado: R$ 18.237,23/t.
+
 ## Links
 
 - [[LME]]
