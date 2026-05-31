@@ -129,6 +129,56 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
 - #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
 
+## [[empresa/drive-index/academia-agentes/operacional/40304100-PPAP-AMOSTRA-1-002-mm_1.is_ccyclic--1OoPQLB3.md|40304100   PPAP AMOSTRA 1  0,02 mm_1.is_ccyclic.pdf]]
+- Drive ID: `1OoPQLB3ZauPHKD8e8_Ftdmv8pGwWVUDU`
+- Modificado: `2026-01-21`
+- Sinais extraídos:
+- 21/01/2026
+- Instron Applications Laboratory
+- Compressão Histerese 3430410
+- OP / lote Força
+- [kN]
+
+## [[empresa/drive-index/academia-agentes/operacional/40304100-PPAP-AMOSTRA-2-001-mm.is_ccyclic--15oXwxsU.md|40304100   PPAP AMOSTRA 2  0,01 mm.is_ccyclic.pdf]]
+- Drive ID: `15oXwxsUV_Qe0w7VIY52daNisYVj2Yg4s`
+- Modificado: `2026-01-21`
+- Sinais extraídos:
+- 21/01/2026
+- Instron Applications Laboratory
+- Compressão Histerese 3430410
+- OP / lote Força
+- [kN]
+
+## [[empresa/drive-index/academia-agentes/operacional/40304100-PPAP-AMOSTRA-3-001-mm_1.is_ccyclic--1Ak3UxAr.md|40304100   PPAP AMOSTRA 3  0,01 mm_1.is_ccyclic.pdf]]
+- Drive ID: `1Ak3UxArn674WD0DesZ2TeUaFlx6c5j4q`
+- Modificado: `2026-01-21`
+- Sinais extraídos:
+- 21/01/2026
+- Instron Applications Laboratory
+- Compressão Histerese 3430410
+- OP / lote Força
+- [kN]
+
+## [[empresa/drive-index/academia-agentes/operacional/40304100-PPAP-AMOSTRA-4-004-mm.is_ccyclic--1CEL3Q57.md|40304100   PPAP AMOSTRA 4  0,04 mm.is_ccyclic.pdf]]
+- Drive ID: `1CEL3Q572xn8OeWGoBglTHBnSTRlwWKQ_`
+- Modificado: `2026-01-21`
+- Sinais extraídos:
+- 21/01/2026
+- Instron Applications Laboratory
+- Compressão Histerese 3430410
+- OP / lote Força
+- [kN]
+
+## [[empresa/drive-index/academia-agentes/operacional/40304100-PPAP-AMOSTRA-5-004-mm.is_ccyclic--1fjHo3Pb.md|40304100  PPAP AMOSTRA 5  0,04 mm.is_ccyclic.pdf]]
+- Drive ID: `1fjHo3PbNzFPBeQjOQjrv-6Wg4mIFTcor`
+- Modificado: `2026-01-21`
+- Sinais extraídos:
+- 21/01/2026
+- Instron Applications Laboratory
+- Compressão Histerese 3430410
+- OP / lote Força
+- [kN]
+
 ## [[empresa/drive-index/academia-agentes/operacional/5---RELATÓRIO-PPAP-3436760--15GeekqA.md|5 - RELATÓRIO PPAP 3436760.pdf]]
 - Drive ID: `15GeekqALP9QGBLvSxbZXhfgzk4a2oz9Q`
 - Modificado: `2026-04-08`
@@ -330,55 +380,5 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
 - PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
 - PEÇA | BJ-031-3 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-035-1-Parâmetros-e-ferramental--1-fH6Q5m.md|BJ-035-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1-fH6Q5m7bQWKjU9HkU2CKrDsuRd_847_`
-- Modificado: `2022-09-22`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-035-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-036-1-Parâmetros-e-ferramental--17yZlzzi.md|BJ-036-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `17yZlzziAuWiFde7pKsulPZvrs7elJhVl`
-- Modificado: `2022-09-22`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-036-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-037-1-Parâmetros-e-ferramental--1wPuay6d.md|BJ-037-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1wPuay6d4G3IDaXgMFF-3Ybc3in1rN5A2`
-- Modificado: `2022-09-22`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-037-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-040-2-Parâmetros-e-ferramental--13om3WxJ.md|BJ-040-2 Parâmetros e ferramental.xlsx]]
-- Drive ID: `13om3WxJLhoq2KW9-64eJWMmhf8bkHrIA`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-040-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-041-2-Parâmetros-e-ferramental--1nrEs9r-.md|BJ-041-2 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1nrEs9r-30ZBzxIxHFm2Ipp9iaWE64Tsb`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-041-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
 - ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
 - #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |

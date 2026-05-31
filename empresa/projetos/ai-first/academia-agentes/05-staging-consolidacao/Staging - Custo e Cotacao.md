@@ -11,6 +11,16 @@ tags: [kab, academia-agentes, staging]
 
 Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra oficial.
 
+## [[empresa/drive-index/academia-agentes/operacional/Cálculo-hora-máquina--2025--1CNE2LAA.md|Cálculo hora máquina- 2025.xlsx]]
+- Drive ID: `1CNE2LAASrmLl9KPNrvdh_danlZC16JoO`
+- Modificado: `2025-11-18`
+- Sinais extraídos:
+- |  |  |  | TOTAL |  |  |  | JANEIRO |  |  |  | FEVEREIRO |  |  |  | MARÇO |  |  |  | ABRIL |  |  |  | MAIO
+- | GERAL |  | CUSTO TOTAL | 3556719.74 |  |  |  | 311177.91 |  |  |  | 355089.87 |  |  |  | 359941.63 |  |  |  | 347964.36 |  |  |  | 349022.98
+- |  |  | GGF | 1904321.15 |  |  |  | 178462.87 |  |  |  | 186287.98 |  |  |  | 190033.33 |  |  |  | 171290.36 |  |  |  | 171963.39
+- |  |  | MÃO DE OBRA | 1652398.59 |  |  |  | 132715.04 |  |  |  | 168801.89 |  |  |  | 169908.3 |  |  |  | 176674 |  |  |  | 177059.59
+- |  |  | HORAS CONSUMIDAS | 73126.74 |  |  |  | 5198 |  |  |  | 6350.09 |  |  |  | 6445.6 |  |  |  | 5841.77 |  |  |  | 9419.07
+
 ## [[empresa/drive-index/academia-agentes/operacional/Cópia-de-FOR-013---REV-03---Liberação-de-Setup--1-lKaApm.md|Cópia de FOR-013 - REV-03 - Liberação de Setup.xlsx]]
 - Drive ID: `1-lKaApmj6e_sjTaL1lZSjPaxR0u3fFaX`
 - Modificado: `2025-01-27`
