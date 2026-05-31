@@ -49,6 +49,26 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - Sinais extraídos:
 - Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
 
+## [[empresa/drive-index/academia-agentes/operacional/2---Fluxograma---FMEA---Plano-de-Controle--40367600---3436760-A2---FLUXO--1_cInsv4.md|2 - Fluxograma - FMEA - Plano de Controle -40367600 - 3436760 A2 - FLUXO.pdf]]
+- Drive ID: `1_cInsv4QDQ-0wDHFjRg9NHslwdvDSJfe`
+- Modificado: `2026-04-08`
+- Sinais extraídos:
+- FLUXO Nº: 12/26
+- Nº Operação O I T SC Descrição
+- Operação 10 X Recebimento
+- Operação 20 X Estoque M.P
+- Operação 30 X X X Setup Corte
+
+## [[empresa/drive-index/academia-agentes/operacional/2---Fluxograma---FMEA---Plano-de-Controle--40367600---3436760-A2---TABELA--1fUItCh9.md|2 - Fluxograma - FMEA - Plano de Controle -40367600 - 3436760 A2 - TABELA.pdf]]
+- Drive ID: `1fUItCh9YizliGI8BXbeds6vjiLGD2Xwn`
+- Modificado: `2026-04-08`
+- Sinais extraídos:
+- Efeito Classificação Nota Indicar a avaliação dada à gravidade do efeito potencial da falha tendo
+- em vista o Cliente/Consumidor
+- Nota Indicar a avaliação dada à gravidade do efeito potencial na falha tendo
+- em vista próxima etapa e/ou montagem
+- 10 10 Falha que afeta a operação segura e/ou atendimentoa legislação que ocorrer
+
 ## [[empresa/drive-index/academia-agentes/operacional/208.05.93-BL-021-1-Parâmetros-e-ferramental--1BL0SovA.md|208.05.93 (BL-021-1) Parâmetros e ferramental.xlsx]]
 - Drive ID: `1BL0SovAYvtJ-T-tlkasSvyeDrTNpSdbt`
 - Modificado: `2022-09-23`
@@ -108,6 +128,12 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - PEÇA | 208.06.02 (BL-050-2) |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
 - ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
 - #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/5---RELATÓRIO-PPAP-3436760--15GeekqA.md|5 - RELATÓRIO PPAP 3436760.pdf]]
+- Drive ID: `15GeekqALP9QGBLvSxbZXhfgzk4a2oz9Q`
+- Modificado: `2026-04-08`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
 
 ## [[empresa/drive-index/academia-agentes/operacional/51351-T5R-A000-30Y-Parâmetros-e-ferramental--1RTLJdOH.md|51351 T5R-A000-30Y Parâmetros e ferramental.xlsx]]
 - Drive ID: `1RTLJdOHNHa5AaI1Z0ZLKC1m4D-HVkGyi`
@@ -354,35 +380,5 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
 - PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
 - PEÇA | BJ-041-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-047-1-2-Parâmetros-e-ferramental--1WBsp0X4.md|BJ-047-1-2 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1WBsp0X4PNinQrFoQ1HgYvRV7RtiXKnZB`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-047-1-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-048-2-Parâmetros-e-ferramental--1ssezs2c.md|BJ-048-2 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1ssezs2c13AEzFTa5sf1jvn8G7qTB0z9n`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-048-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-051-1-1-Parâmetros-e-ferramental--1v-92wlg.md|BJ-051-1-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1v-92wlgfrAxw1_cMWT5AUMfBj6vaKV_6`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-051-1-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
 - ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
 - #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
