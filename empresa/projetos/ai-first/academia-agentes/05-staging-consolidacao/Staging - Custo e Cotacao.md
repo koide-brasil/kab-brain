@@ -60,3 +60,13 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ;;;;;;;;;;;;;;;;;;;03/04/2026 15:11:56;;
 - Fornecedor: 162 - A�OS VIC;;;;;;;;;;;;;;;;;;;;;
 - ;Pedido;Data;;Entrega;;Item;Descri��o;UN;Quant.;Pre�o Unit.;Valor Frete;;Valor IPI;;Valor ICMS;"Valor
+
+## [[empresa/drive-index/academia-agentes/operacional/RptPedidoCompraColocadoItemAnalitico--1vqwXjsx.md|RptPedidoCompraColocadoItemAnalitico.csv]]
+- Drive ID: `1vqwXjsxgWwcodORnZ_MZinB5n3aopKLz`
+- Modificado: `2026-04-02`
+- Sinais extraídos:
+- ;;;;;"KOIDE - Relat�rio de Pedidos de Compra Colocados - Quebra por Fornecedor. Itens. Anal�tico.
+- Per�odo de Pedido Compra: 01/03/2026 a 31/03/2026. Per�odo de Entrega: ... a ...";;;;;;;;;;;;;;;;
+- ;;;;;;;;;;;;;;;;;;;02/04/2026 15:47:00;;
+- Fornecedor: 162 - A�OS VIC;;;;;;;;;;;;;;;;;;;;;
+- ;Pedido;Data;;Entrega;;Item;Descri��o;UN;Quant.;Pre�o Unit.;Valor Frete;;Valor IPI;;Valor ICMS;"Valor
