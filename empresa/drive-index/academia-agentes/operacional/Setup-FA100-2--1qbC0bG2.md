@@ -1,0 +1,48 @@
+---
+tipo: "drive-index"
+area: "kab"
+fonte: "google-drive"
+drive_id: "1qbC0bG2M5tbfxPn2KQ6nIGjW_IqzMQJG"
+drive_path: "setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup"
+nome_arquivo: "Setup FA100 (2).pdf"
+mime: "application/pdf"
+modificado: "2024-11-07"
+indexado: "2026-05-31"
+sensibilidade: "baixa"
+destino: "kab-brain"
+risk_flags: []
+needs_human_review: false
+hash_sha: "612525663c403e88"
+extrator: "pdf"
+tags: ["kab", "drive-index", "academia-agentes", "processo"]
+---
+
+# Setup FA100 (2).pdf
+
+## Classificação
+- Destino: `kab-brain`
+- Sensibilidade: `baixa`
+- Flags: `nenhuma`
+- Revisão humana necessária: não
+
+## Resumo extraído automaticamente
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## Utilidade para Academia de Agentes
+- Fonte candidata para enriquecer catálogos/playbooks de RFQ, viabilidade, máquinas, ferramental, tolerâncias, processos ou requisitos de cliente.
+- Validar com responsável humano antes de transformar em regra operacional definitiva.
+
+## Fonte
+- Nome: `Setup FA100 (2).pdf`
+- Drive ID: `1qbC0bG2M5tbfxPn2KQ6nIGjW_IqzMQJG`
+- Link: https://drive.google.com/file/d/1qbC0bG2M5tbfxPn2KQ6nIGjW_IqzMQJG/view?usp=drivesdk
+- Modificado: `2024-11-07`
+- Query/path hit: `setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup;setup`
+
+## Conteúdo bruto extraído
+<details>
+<summary>Texto extraído</summary>
+
+=== Página 1 ===
+
+</details>
