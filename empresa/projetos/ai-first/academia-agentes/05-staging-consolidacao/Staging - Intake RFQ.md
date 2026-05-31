@@ -51,6 +51,16 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - Nº Oper.
 - 1
 
+## [[empresa/drive-index/academia-agentes/operacional/02-BJ-112-1-Peça-amassada-e-sem-chanfro--1iHQgQB5.md|02-BJ-112-1 Peça amassada e sem chanfro.xlsx]]
+- Drive ID: `1iHQgQB5hjSCFYy_QySqrAO4kwU7Lh_es`
+- Modificado: `2023-01-05`
+- Sinais extraídos:
+- |  |  |  | QUALITY ALERT |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- | Código do Produto |  |  | BJ-112-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- | Descrição da anomalia |  |  | PEÇAS  AMASSADA E FALTA DE CHANFRO |  |  |  |  |  |  |  | Fornecedor |  KOIDE BRASI |  |  |  |  |  |  |  |  |  |  |
+- | Quantidade |  |  | 2 |  |  |  |  |  |  |  | Data: |  | 05/01/2023 |  |  |  |  |  |  |  |  |  |
+- |  | APPROVED PART |  |  |  |  |  |  |  |  | FAILED PART |  |  |  |  |  |  |  |  |  |  |  |  |
+
 ## [[empresa/drive-index/academia-agentes/operacional/03---Certificado-de-Curso-de-programação-de-maquina-CNC-básico--13WNsKDJ.md|03 - Certificado de Curso de programação de maquina CNC básico.pdf]]
 - Drive ID: `13WNsKDJtp4OPyOSbtOhL_M5XMB5LDqvs`
 - Modificado: `2021-05-18`
@@ -70,6 +80,54 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - (õ (§
 - ,:H,E Ppãc6)G_ONTlo(Jo
 - g 3E E
+
+## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--11deiJsL.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `11deiJsLDmBPJhfgLtF11DFidkp8bvm3A`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--15qaOqu1.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `15qaOqu1l2XIabxwF4zhQ0mWw9Clllu88`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--17-Hevrl.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `17-HevrlLi77Ldg0tpu2HG8WDBGAdvz-y`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--1AUIyxsg.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `1AUIyxsgK-jy17vOrVCftygj36DN3EAHT`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--1hWH6Gyf.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `1hWH6GyfUqWZsOhL0KKf4t4kQyzZxnkzv`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--1oDNKr5A.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `1oDNKr5APZCBvTQDoCmm9dN3lwDJ3FAoD`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--1wR6Z3HP.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `1wR6Z3HPuYR5NhAuXEVF3s8zd9zKVtVLS`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/07---Comunicação-PFMEA-e-Plano-de-Controle--1rZBc43n.md|07 - Comunicação PFMEA e Plano de Controle.pdf]]
+- Drive ID: `1rZBc43nF-pjx0fHeCahkDTSBsUupTxT0`
+- Modificado: `2022-12-28`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
 
 ## [[empresa/drive-index/academia-agentes/operacional/10---Treinamento---plano-de-controle-de-produção---05-02-2018--1GFRnM2I.md|10 - Treinamento - plano de controle de produção - 05-02-2018.pdf]]
 - Drive ID: `1GFRnM2IBYcQwrrc5Mh4JupMIDX1zH55A`
@@ -308,93 +366,3 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - Compressão Histerese 3443720
 - OP / lote Força
 - [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443720-PPAP-4-002-mm_1.is_ccyclic--1-kYVUL6.md|3443720  PPAP 4  0,02 mm_1.is_ccyclic.pdf]]
-- Drive ID: `1-kYVUL6jDqjlIj11ZTJhbegnHMl7wNwS`
-- Modificado: `2025-09-18`
-- Sinais extraídos:
-- 03/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443720
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443720-PPAP-5-002-mm.is_ccyclic--18s_-W9E.md|3443720  PPAP 5  0,02 mm.is_ccyclic.pdf]]
-- Drive ID: `18s_-W9EftzkJ7XWgflvDwLivMur5CRZ6`
-- Modificado: `2025-09-18`
-- Sinais extraídos:
-- 03/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443720
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443740-PPAP-PÇ-1-007mm.is_ccyclic--1ofJ9-_B.md|3443740 PPAP PÇ 1   0,07mm.is_ccyclic.pdf]]
-- Drive ID: `1ofJ9-_BiSfdI8kJmQsr7eWG5oIAGClTl`
-- Modificado: `2025-09-29`
-- Sinais extraídos:
-- 29/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443740
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443740-PPAP-PÇ-2-006mm_1.is_ccyclic--1wdTVSHX.md|3443740 PPAP PÇ 2   0,06mm_1.is_ccyclic.pdf]]
-- Drive ID: `1wdTVSHXIwyy1hVnaPalQ2WPN9ZpHawst`
-- Modificado: `2025-09-29`
-- Sinais extraídos:
-- 29/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443740
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443740-PPAP-PÇ-3-006mm.is_ccyclic--1FwoFYKF.md|3443740 PPAP PÇ 3   0,06mm.is_ccyclic.pdf]]
-- Drive ID: `1FwoFYKFxU9YyeOEoc15j_rT_YStsvTAG`
-- Modificado: `2025-09-29`
-- Sinais extraídos:
-- 29/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443740
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443740-PPAP-PÇ-4-008mm_1.is_ccyclic--1CWvkTd5.md|3443740 PPAP PÇ 4   0,08mm_1.is_ccyclic.pdf]]
-- Drive ID: `1CWvkTd5Q89w3DlPZTZEVxG-Fme0gq7wU`
-- Modificado: `2025-09-29`
-- Sinais extraídos:
-- 29/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443740
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443740-PPAP-PÇ-5-001mm.is_ccyclic--1BsuhV33.md|3443740 PPAP PÇ 5   0,01mm.is_ccyclic.pdf]]
-- Drive ID: `1BsuhV336jb7CJc6sLCflxAB-aRAMkfNF`
-- Modificado: `2025-09-29`
-- Sinais extraídos:
-- 29/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443740
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/4---Fluxograma---FMEA---Plano-de-Controle---3434680--1gbZ35bT.md|4 - Fluxograma - FMEA - Plano de Controle - 3434680 .xlsx]]
-- Drive ID: `1gbZ35bTdF0o2DSpBJtVhVW8aNvVvvrfJ`
-- Modificado: `2025-08-29`
-- Sinais extraídos:
-- FMEA de Projeto - DFMEA |  |  |  |  | FMEA de Processo - PFMEA |  |  |  |
-- SEVERIDADE (S) |  |  |  |  | TABELA PARA SEVERIDADE |  |  |  |
-- Efeito | Critérios:
-- Severidade do Efeito no Produto
-- (Efeito no Cliente) |  | Classificação |  | Nota | Indicar a avaliação dada à gravidade do efeito potencial da falha tendo em vista o Cliente/Consumidor |  | Nota | Indicar a av...
-
-## [[empresa/drive-index/academia-agentes/operacional/4---Fluxograma---FMEA---Plano-de-Controle---3434680--1uGL9moJ.md|4 - Fluxograma - FMEA - Plano de Controle - 3434680 .xlsx]]
-- Drive ID: `1uGL9moJj9xoXvIDY7xgE1MEXzNC2IaTT`
-- Modificado: `2025-08-29`
-- Sinais extraídos:
-- FMEA de Projeto - DFMEA |  |  |  |  | FMEA de Processo - PFMEA |  |  |  |
-- SEVERIDADE (S) |  |  |  |  | TABELA PARA SEVERIDADE |  |  |  |
-- Efeito | Critérios:
-- Severidade do Efeito no Produto
-- (Efeito no Cliente) |  | Classificação |  | Nota | Indicar a avaliação dada à gravidade do efeito potencial da falha tendo em vista o Cliente/Consumidor |  | Nota | Indicar a av...

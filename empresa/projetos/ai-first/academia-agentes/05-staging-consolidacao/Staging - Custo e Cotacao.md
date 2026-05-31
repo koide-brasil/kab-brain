@@ -80,3 +80,13 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ;;;;;;;;;;;;;;;;;;;02/04/2026 15:47:00;;
 - Fornecedor: 162 - A�OS VIC;;;;;;;;;;;;;;;;;;;;;
 - ;Pedido;Data;;Entrega;;Item;Descri��o;UN;Quant.;Pre�o Unit.;Valor Frete;;Valor IPI;;Valor ICMS;"Valor
+
+## [[empresa/drive-index/academia-agentes/operacional/SOLICITAÇÃO-DE-COMPRA---Massa-verif.-Chanfro-18-07-22--1hYmLqyE.md|SOLICITAÇÃO DE  COMPRA  - Massa verif. Chanfro 18-07-22.xlsx]]
+- Drive ID: `1hYmLqyEFcPbu0jOVM7bOqUgG1QMV-ySC`
+- Modificado: `2022-07-18`
+- Sinais extraídos:
+- FORMULARIO DE SOLICITAÇÃO DE COMPRA  |  |  |  |  |  |
+- DATA: | 2022-07-18 00:00:00 |  |  |  |  |
+- VALOR NECESSÁRIO: |  | 1065 |  |  |  |
+- DETALHAMENTO DA NECESSIDADE DE COMPRA  |  |  |  |  |  |
+- Seguindo as açõe com o Comitê de Set-Up, iremos disponibilar um kit de massa para verificação do chanfro na Produção, além do que jpa existe na sala da qualidade para ganharmos ...
