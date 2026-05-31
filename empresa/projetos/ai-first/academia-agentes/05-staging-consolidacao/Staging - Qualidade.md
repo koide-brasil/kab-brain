@@ -99,6 +99,12 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ,:H,E Ppãc6)G_ONTlo(Jo
 - g 3E E
 
+## [[empresa/drive-index/academia-agentes/operacional/05---Leitura-e-interpretação-do-plano-de-controle-REF.---23-01-2017--1LiLfXJJ.md|05 - Leitura e interpretação do plano de controle REF. - 23-01-2017.pdf]]
+- Drive ID: `1LiLfXJJ-bTij7ssS5VcTi-fBCXa6LMYj`
+- Modificado: `2018-10-29`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
 ## [[empresa/drive-index/academia-agentes/operacional/06---Comunicação-PFMEA-e-Plano-de-Controle--11deiJsL.md|06 - Comunicação PFMEA e Plano de Controle.pdf]]
 - Drive ID: `11deiJsLDmBPJhfgLtF11DFidkp8bvm3A`
 - Modificado: `2022-12-28`
@@ -337,16 +343,6 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 
 ## [[empresa/drive-index/academia-agentes/operacional/3443480-PPAP-PÇ-4-011mm_1.is_ccyclic--1cIAD1H0.md|3443480   PPAP PÇ 4  0,11mm_1.is_ccyclic.pdf]]
 - Drive ID: `1cIAD1H0lWB7O33aP8N_wVhyBGjzgFwEL`
-- Modificado: `2025-09-29`
-- Sinais extraídos:
-- 29/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443480
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443480-PPAP-PÇ-5-012mm.is_ccyclic--169TH6Lc.md|3443480   PPAP PÇ 5  0,12mm.is_ccyclic.pdf]]
-- Drive ID: `169TH6Lc4wX6eoz_xLgTDHHiDF4VpN0sP`
 - Modificado: `2025-09-29`
 - Sinais extraídos:
 - 29/09/2025
