@@ -177,6 +177,36 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
 - #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
 
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-Qualidade---Polistampo--BL-020--2-1-chanfro-dos-dois-lados--1vLhyMdA.md|Alerta de Qualidade - Polistampo -BL-020- 2-1 chanfro dos dois lados.xlsx]]
+- Drive ID: `1vLhyMdAKwffKZOctjfueAW7vrUo8uHSo`
+- Modificado: `2023-02-01`
+- Sinais extraídos:
+- |  | ALERTA DA QUALIDADE |  |  |  |  |
+- CLIENTE:  | Polistampo |  |  | CÓDIGO PRODUTO:  |  | BL-020-2-1 |
+- DATA OCORRÊNCIA: |  | 2023-02-01 00:00:00 |  | DATA ELABORAÇÃO: |  | 2023-02-01 00:00:00 |
+- OCORRÊNCIA: |  | Chanfro dos dois lados |  |  |  |  |
+- Descrição do problema: |  |  |  |  |  |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-Qualidade---Sumiriko---BJ-052-1---Chanfro-irregular--1ckjLcQc.md|Alerta de Qualidade - Sumiriko - BJ-052-1 - Chanfro irregular.xlsx]]
+- Drive ID: `1ckjLcQcI01FWioHQ-I4vp3AweX1OtkYd`
+- Modificado: `2023-04-12`
+- Sinais extraídos:
+- |  | ALERTA DA QUALIDADE |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- CLIENTE:  | Sumiriko |  |  | CÓDIGO PRODUTO:  |  | BJ-052-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- DATA OCORRÊNCIA: |  | 2020-10-14 00:00:00 |  | DATA ELABORAÇÃO: |  | 2020-10-14 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- OCORRÊNCIA: |  | Peça com chanfro irregular |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- Descrição do problema: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-Qualidade-Interno---BJ-056-1---Marca-de-faceamento-gerando-chanfro-irregular--1eHfUF7_.md|Alerta de Qualidade  Interno - BJ-056-1 - Marca de faceamento gerando chanfro irregular.xlsx]]
+- Drive ID: `1eHfUF7_rFBn-KWWZMHlPi9oQuWhLk3Aw`
+- Modificado: `2023-03-23`
+- Sinais extraídos:
+- |  | ALERTA DA QUALIDADE |  |  |  |  |
+- CLIENTE:  | Indab |  |  | CÓDIGO PRODUTO:  |  | BJ-056-1 |
+- DATA OCORRÊNCIA: |  | 2023-03-23 00:00:00 |  | DATA ELABORAÇÃO: |  | 2023-03-23 00:00:00 |
+- OCORRÊNCIA: |  | MARCA DE FACEAMENTO GERANDO CHANFRO IRREGULAR |  |  |  |  |
+- Descrição do problema: |  |  |  |  |  |  |
+
 ## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-Qualidade-Interno---BJ-066-1---Comprimento-do-chanfro-acima-do-especificado--1xYpv7d2.md|Alerta de Qualidade  Interno - BJ-066-1 - Comprimento do chanfro acima do especificado.xlsx]]
 - Drive ID: `1xYpv7d2Ml9t92O-tdDT4kNfnRK-VS7FQ`
 - Modificado: `2025-08-07`
@@ -197,6 +227,22 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - OCORRÊNCIA: |  | CHANFRO MAIOR QUE O ESPECIFICADO E VARIAÇÃO O COMPRIMENTO DA PEÇA |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 - Descrição do problema: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-Qualidade-Interno---BJ-112-1-Peça-amassada-e-sem-chanfro--1GOF_0UX.md|Alerta de Qualidade  Interno  - BJ-112-1 Peça amassada e sem chanfro.xlsx]]
+- Drive ID: `1GOF_0UXiVrjzFMNksJGYwFP5lWYDmEKU`
+- Modificado: `2023-01-05`
+- Sinais extraídos:
+- |  | ALERTA DA QUALIDADE |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- CLIENTE:  | Sumiriko |  |  | CÓDIGO PRODUTO:  |  | BJ-112-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- DATA OCORRÊNCIA: |  | 2023-01-05 00:00:00 |  | DATA ELABORAÇÃO: |  | 2023-01-05 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- OCORRÊNCIA: |  | Peça amassada e sem chafro  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- Descrição do problema: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-Qualidade-Interno-assinado---BJ-056-1---Marca-faceamento-gerando-chanfro-irregul--1tGsSphK.md|Alerta de Qualidade  Interno assinado  - BJ-056-1 - Marca faceamento gerando chanfro irregular.pdf]]
+- Drive ID: `1tGsSphKgpFXAhz2AW2ayvFlsU0XuezHi`
+- Modificado: `2023-04-05`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
 ## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-qualidade---34304300---chanfro-irregular--1jUxCvS-.md|Alerta de qualidade - 34304300 - chanfro irregular.xlsx]]
 - Drive ID: `1jUxCvS-6Ul2NYRck5umWsrEmMSBS7dKq`
 - Modificado: `2025-03-06`
@@ -206,6 +252,38 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - DATA OCORRÊNCIA: |  | 2025-03-06 00:00:00 |  | DATA ELABORAÇÃO: |  | 2025-03-06 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 - OCORRÊNCIA: |  | CHANFRO IRREGULAR |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 - Descrição do problema: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-qualidade---BJ-103-1-chanfro-int.-irregular--1N1p-2Mq.md|Alerta de qualidade - BJ-103-1 chanfro int. irregular.xlsx]]
+- Drive ID: `1N1p-2MqX03ELWZXCdBHX52_ciAUr_j02`
+- Modificado: `2024-06-11`
+- Sinais extraídos:
+- |  | ALERTA DA QUALIDADE |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- CLIENTE:  | Sumiriko |  |  | CÓDIGO PRODUTO:  |  | BJ-103-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- DATA OCORRÊNCIA: |  | 2024-06-11 00:00:00 |  | DATA ELABORAÇÃO: |  | 2024-06-11 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- OCORRÊNCIA: |  | Chanfro Irregular |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- Descrição do problema: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-qualidade-BJ-087-1-Chanfro-interno-irregular--1n61CV-x.md|Alerta de qualidade-BJ-087-1-Chanfro interno irregular.xlsx]]
+- Drive ID: `1n61CV-xWgZuTP7UrrfWbQLyXeNej1flW`
+- Modificado: `2024-05-16`
+- Sinais extraídos:
+- |  | ALERTA DA QUALIDADE |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- CLIENTE:  | Sumiriko |  |  | CÓDIGO PRODUTO:  |  | BJ-087-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- DATA OCORRÊNCIA: |  | 2024-04-23 00:00:00 |  | DATA ELABORAÇÃO: |  | 2024-04-23 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- OCORRÊNCIA: |  | Chanfro interno irregular |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+- Descrição do problema: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-qualidade-assinado--BJ-111-2-Ausencia-de-chanfro--1P7_cQLI.md|Alerta de qualidade assinado -BJ-111-2 Ausencia de chanfro.pdf]]
+- Drive ID: `1P7_cQLIErWXRwlu1ZH1hMrQTDrGOc-7i`
+- Modificado: `2022-08-11`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/Alerta-de-qualidade-assinado-BJ-047-1-2-Rebarba-no-chanfro-externo--1lxlDzWA.md|Alerta de qualidade assinado BJ-047-1-2 Rebarba no chanfro externo .pdf]]
+- Drive ID: `1lxlDzWAUS23BxHmmpqVYuU6M0ga7I4q5`
+- Modificado: `2022-07-15`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
 
 ## [[empresa/drive-index/academia-agentes/operacional/BJ-031-3-Parâmetros-e-ferramental--1tl1W-2u.md|BJ-031-3 Parâmetros e ferramental.xlsx]]
 - Drive ID: `1tl1W-2uljFr5TfUWGmnYqLtuiorgvDrz`
@@ -314,95 +392,5 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
 - PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
 - PEÇA | BJ-052-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-053-1-Parâmetros-e-ferramental--1t2rBRg5.md|BJ-053-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1t2rBRg5tmxhuo3CRw9fIAHW4bZuxep_p`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-053-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-053-2-Parâmetros-e-ferramental--1CP2fbFD.md|BJ-053-2 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1CP2fbFD3ycKy_JPTKdM2Xvu9hroRntw9`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-053-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-056-1-1-Parâmetros-e-ferramental--1CVzqu-5.md|BJ-056-1-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1CVzqu-5De8rdKl1lShPBc-YzOLOG2RVP`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-056-1-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-059-1-Parâmetros-e-ferramental--1j3o23mG.md|BJ-059-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1j3o23mGysViavLBD6xY9erYVTfd0aid5`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-059-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-059-2-Parâmetros-e-ferramental--1pZ0aUSa.md|BJ-059-2 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1pZ0aUSaLN6Gkempksci1OnI1f_dZjHV0`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-059-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-066-1-1-Parâmetros-e-ferramental--1Bi-wZbR.md|BJ-066-1-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1Bi-wZbRfRbjrseZMq8Pu3E7kcuCPTZl0`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-066-1-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-072-1-Parâmetros-e-ferramental--12dEvIfY.md|BJ-072-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `12dEvIfYhMuni2ts-FfVg-PMsibQ5FkwS`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-072-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-074-2-Parâmetros-e-ferramental--14Hw35uG.md|BJ-074-2 Parâmetros e ferramental.xlsx]]
-- Drive ID: `14Hw35uG4aVC5Pd9qrwqmU_DQkUYDQvoj`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PEÇA | BJ-074-2 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |  |  |  |  |  |  |  |  |  |  |
-- ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |  |  |  |  |  |  |  |  |  |  |
-- #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  |  |  |  |  |  |  |  |  |  |
-
-## [[empresa/drive-index/academia-agentes/operacional/BJ-075-1-Parâmetros-e-ferramental--1WVdvymX.md|BJ-075-1 Parâmetros e ferramental.xlsx]]
-- Drive ID: `1WVdvymXlylvhN2Gj2K_ge0ws2tf7cYed`
-- Modificado: `2022-09-23`
-- Sinais extraídos:
-- ÚLTIMA PRODUÇÃO |  |  |  |  |  |  |  |  |  |  |  |  |  |
-- PROCESSO |  | CORTE |  |  |  | REALIZADO SETUP CORTE POR |  |  |  | #N/A |  |  |  |
-- PEÇA | BJ-075-1 |  |  |  | DATA |  | 00:00:00 |  | TURNO | #N/A |  | LINHA | #N/A |
 - ROTAÇÃO CORTE |  |  | AVANÇO CORTE |  |  | PRESSÃO DOS MORDENTES |  |  | SALA LÂMINA |  |  | SERRA / DISCO |  |
 - #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |  | #N/A |  |

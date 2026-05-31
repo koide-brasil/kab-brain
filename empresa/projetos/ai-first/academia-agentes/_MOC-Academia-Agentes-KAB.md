@@ -11,16 +11,16 @@ tags: [kab, ai-first, academia-agentes]
 Base operacional para treinar agentes KAB com fontes, catálogos, playbooks, casos de teste e avaliação. Não é fine-tuning precoce; é chão de fábrica estruturado. Milagre fica para outro departamento.
 
 ## Status da ingestão
-- Documentos operacionais consolidados no `kab-brain`: 291
-- Processados `kab-brain`: 291
-- Processados restritos `my-second-brain`: 193
-- Pendentes `kab-brain`: 1810
+- Documentos operacionais consolidados no `kab-brain`: 385
+- Processados `kab-brain`: 385
+- Processados restritos `my-second-brain`: 219
+- Pendentes `kab-brain`: 1690
 - Pendentes restritos `my-second-brain`: 770
 
 ## Módulos
-- [[01-playbooks/Playbook - Agente Intake RFQ KAB.md|Intake RFQ]] — fontes candidatas: 291
-- [[01-playbooks/Playbook - Agente Viabilidade RFQ KAB.md|Viabilidade e Produção]] — fontes candidatas: 291
-- [[01-playbooks/Playbook - Agente Qualidade KAB.md|Qualidade]] — fontes candidatas: 291
+- [[01-playbooks/Playbook - Agente Intake RFQ KAB.md|Intake RFQ]] — fontes candidatas: 385
+- [[01-playbooks/Playbook - Agente Viabilidade RFQ KAB.md|Viabilidade e Produção]] — fontes candidatas: 385
+- [[01-playbooks/Playbook - Agente Qualidade KAB.md|Qualidade]] — fontes candidatas: 385
 - [[01-playbooks/Playbook - Agente Custo e Cotacao RFQ KAB.md|Custo e Cotação]] — fontes candidatas: 2
 
 ## Catálogos
