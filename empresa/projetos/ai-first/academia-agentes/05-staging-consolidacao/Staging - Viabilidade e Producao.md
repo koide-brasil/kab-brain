@@ -51,6 +51,18 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - Nº Oper.
 - 1
 
+## [[empresa/drive-index/academia-agentes/operacional/02---5S-limpeza-de-maquina-e-area---17-11-20--1OHepSKc.md|02 - 5S limpeza de maquina e area - 17-11-20.pdf]]
+- Drive ID: `1OHepSKcz4RsmCBcTnzcts1A5od80a_tl`
+- Modificado: `2021-03-30`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
+## [[empresa/drive-index/academia-agentes/operacional/02---5S-limpeza-de-maquina-e-area---17-11-20--1k6LeoLP.md|02 - 5S limpeza de maquina e area - 17-11-20.pdf]]
+- Drive ID: `1k6LeoLP4eg0Q4E1yFJVLjB1dEwhOIWJe`
+- Modificado: `2021-03-30`
+- Sinais extraídos:
+- Texto extraído com pouco conteúdo estruturado; consultar conteúdo bruto.
+
 ## [[empresa/drive-index/academia-agentes/operacional/02-BJ-112-1-Peça-amassada-e-sem-chanfro--1iHQgQB5.md|02-BJ-112-1 Peça amassada e sem chanfro.xlsx]]
 - Drive ID: `1iHQgQB5hjSCFYy_QySqrAO4kwU7Lh_es`
 - Modificado: `2023-01-05`
@@ -339,26 +351,6 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 
 ## [[empresa/drive-index/academia-agentes/operacional/3443720-PPAP-1-002-mm.is_ccyclic--1VwnnQdr.md|3443720  PPAP 1  0,02 mm.is_ccyclic.pdf]]
 - Drive ID: `1VwnnQdrzmvU1kmYNsvjp9xlsT18dZGei`
-- Modificado: `2025-09-18`
-- Sinais extraídos:
-- 03/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443720
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443720-PPAP-2-001-mm_1.is_ccyclic--1HVOqNvR.md|3443720  PPAP 2  0,01 mm_1.is_ccyclic.pdf]]
-- Drive ID: `1HVOqNvRprr5EIcllajF5ezBO1EwAPMtO`
-- Modificado: `2025-09-18`
-- Sinais extraídos:
-- 03/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443720
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443720-PPAP-3-002-mm.is_ccyclic--19b9zQ1R.md|3443720  PPAP 3  0,02 mm.is_ccyclic.pdf]]
-- Drive ID: `19b9zQ1RB13bZvopyGlk_XWwn5tgmA3Ws`
 - Modificado: `2025-09-18`
 - Sinais extraídos:
 - 03/09/2025
