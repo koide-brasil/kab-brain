@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KAB AI First — Fluxo RFQ</title>
+  <style>
+    :root{
+      --bg:#090d12;
+      --bg2:#0d131b;
+      --panel:#121a24;
+      --panel2:#172231;
+      --ink:#eef5fb;
+      --muted:#9db0c4;
+      --subtle:#6d8196;
+      --line:#28384a;
+      --accent:#4cc9f0;
+      --accent2:#80ed99;
+      --warn:#ffd166;
+      --risk:#ef476f;
+      --blue:#4895ef;
+      --violet:#b5179e;
+      --white:#fff;
+      --shadow:0 28px 90px rgba(0,0,0,.36);
+      --radius:24px;
+      --radius-sm:16px;
+      --max:1240px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 18% -5%, rgba(76,201,240,.18), transparent 28%),
+        radial-gradient(circle at 86% 10%, rgba(128,237,153,.09), transparent 30%),
+        linear-gradient(180deg,var(--bg),var(--bg2) 45%,#070a0f);
+      color:var(--ink);
+      line-height:1.45;
+    }
+    a{color:var(--accent); text-decoration:none}
+    .nav{position:sticky; top:0; z-index:30; background:rgba(9,13,18,.78); backdrop-filter:blur(18px); border-bottom:1px solid rgba(255,255,255,.07)}
+    .nav .inner{max-width:var(--max); margin:auto; padding:12px 22px; display:flex; align-items:center; justify-content:space-between; gap:16px}
+    .brand{display:flex; align-items:center; gap:10px; font-weight:850; letter-spacing:.01em}
+    .mark{width:34px; height:34px; border-radius:12px; background:linear-gradient(135deg,var(--accent),var(--accent2)); box-shadow:0 12px 36px rgba(76,201,240,.24)}
+    .links{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end}
+    .links a{font-size:13px; color:var(--muted); padding:8px 10px; border:1px solid transparent; border-radius:999px}
+    .links a:hover{color:var(--ink); border-color:var(--line); background:rgba(255,255,255,.04)}
+    .wrap{max-width:var(--max); margin:0 auto; padding:38px 22px 72px}
+    .hero{display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:stretch; padding:34px 0 20px}
+    .eyebrow{display:inline-flex; align-items:center; gap:8px; color:var(--accent2); font-size:13px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; margin-bottom:16px}
+    .dot{width:8px; height:8px; border-radius:50%; background:var(--accent2); box-shadow:0 0 22px var(--accent2)}
+    h1{font-size:clamp(42px,7vw,82px); line-height:.92; letter-spacing:-.07em; margin:0 0 20px}
+    .lead{font-size:clamp(18px,2vw,23px); color:#c8d7e6; max-width:790px; margin:0 0 24px}
+    .hero-actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:22px}
+    .btn{display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:42px; padding:10px 14px; border-radius:999px; border:1px solid rgba(255,255,255,.12); color:var(--ink); background:rgba(255,255,255,.055); font-weight:760; font-size:14px}
+    .btn.primary{background:linear-gradient(135deg,rgba(76,201,240,.24),rgba(128,237,153,.14)); border-color:rgba(76,201,240,.34)}
+    .hero-card,.card{background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.035)); border:1px solid rgba(255,255,255,.10); border-radius:var(--radius); box-shadow:var(--shadow)}
+    .hero-card{padding:24px; display:grid; gap:14px}
+    .hero-card h2,.card h3{margin:0; letter-spacing:-.025em}
+    .north{display:grid; gap:12px}
+    .north .item{padding:15px; border:1px solid rgba(255,255,255,.08); background:rgba(0,0,0,.16); border-radius:17px}
+    .north b{display:block; color:#fff; margin-bottom:4px}
+    .north span{font-size:14px; color:var(--muted)}
+    .kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:20px}
+    .kpi{padding:16px; border-radius:18px; border:1px solid rgba(255,255,255,.09); background:rgba(255,255,255,.045)}
+    .kpi strong{display:block; font-size:28px; line-height:1; color:#fff; letter-spacing:-.04em}
+    .kpi small{display:block; margin-top:8px; color:var(--muted)}
+    section{margin-top:38px}
+    .section-head{display:flex; align-items:end; justify-content:space-between; gap:20px; margin-bottom:16px}
+    .section-head h2{font-size:34px; line-height:1; letter-spacing:-.045em; margin:0}
+    .section-head p{margin:0; max-width:640px; color:var(--muted)}
+    .grid{display:grid; gap:16px}
+    .cols-2{grid-template-columns:repeat(2,1fr)}
+    .cols-3{grid-template-columns:repeat(3,1fr)}
+    .card{padding:22px}
+    .card p{color:var(--muted); margin:10px 0 0}
+    .pill{display:inline-flex; align-items:center; gap:6px; width:max-content; padding:6px 10px; border-radius:999px; font-size:12px; font-weight:850; letter-spacing:.045em; text-transform:uppercase; border:1px solid rgba(255,255,255,.12); color:#dce9f7; background:rgba(255,255,255,.05); margin-bottom:12px}
+    .pill.green{color:#c7ffd4; border-color:rgba(128,237,153,.28); background:rgba(128,237,153,.08)}
+    .pill.blue{color:#d8ecff; border-color:rgba(72,149,239,.30); background:rgba(72,149,239,.10)}
+    .pill.yellow{color:#fff0b8; border-color:rgba(255,209,102,.32); background:rgba(255,209,102,.10)}
+    .pill.red{color:#ffd6df; border-color:rgba(239,71,111,.34); background:rgba(239,71,111,.10)}
+    .flow{position:relative; display:grid; gap:14px}
+    .stage{display:grid; grid-template-columns:72px 1.25fr 1.15fr .85fr; gap:14px; align-items:stretch; padding:16px; border:1px solid rgba(255,255,255,.09); border-radius:22px; background:linear-gradient(180deg,rgba(18,26,36,.92),rgba(18,26,36,.72))}
+    .num{width:58px; height:58px; border-radius:18px; display:flex; align-items:center; justify-content:center; font-size:24px; font-weight:900; color:#061016; background:linear-gradient(135deg,var(--accent),var(--accent2)); box-shadow:0 14px 38px rgba(76,201,240,.16)}
+    .stage h3{margin:0 0 7px; font-size:21px; letter-spacing:-.025em}
+    .stage p{margin:0; color:var(--muted); font-size:14px}
+    .boxlet{padding:13px; border-radius:16px; background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.07)}
+    .boxlet .label{font-size:11px; color:var(--subtle); text-transform:uppercase; letter-spacing:.08em; font-weight:850; margin-bottom:6px}
+    ul.clean{list-style:none; padding:0; margin:0; display:grid; gap:7px}
+    ul.clean li{position:relative; padding-left:17px; color:var(--muted); font-size:14px}
+    ul.clean li:before{content:""; position:absolute; left:0; top:.67em; width:7px; height:7px; border-radius:50%; background:var(--accent)}
+    .decision{display:grid; grid-template-columns:repeat(4,1fr); gap:14px}
+    .level{border-radius:22px; padding:18px; border:1px solid rgba(255,255,255,.09); background:rgba(255,255,255,.045)}
+    .level .big{font-size:34px; font-weight:950; letter-spacing:-.05em; color:#fff}
+    .level h3{margin:8px 0 8px; font-size:18px}
+    .level p{margin:0; color:var(--muted); font-size:14px}
+    .level.agent{border-color:rgba(76,201,240,.28); background:rgba(76,201,240,.08)}
+    .level.seller{border-color:rgba(128,237,153,.24); background:rgba(128,237,153,.06)}
+    .level.gabriel{border-color:rgba(255,209,102,.30); background:rgba(255,209,102,.075)}
+    .level.erico{border-color:rgba(239,71,111,.30); background:rgba(239,71,111,.075)}
+    .matrix{overflow:hidden; border:1px solid rgba(255,255,255,.10); border-radius:var(--radius); background:rgba(255,255,255,.035)}
+    .matrix-row{display:grid; grid-template-columns:1.05fr 1.25fr 1.15fr 1fr; border-bottom:1px solid rgba(255,255,255,.08)}
+    .matrix-row:last-child{border-bottom:0}
+    .matrix-row.header{background:rgba(255,255,255,.07); color:#fff; font-weight:900; font-size:12px; text-transform:uppercase; letter-spacing:.07em}
+    .cell{padding:14px; color:var(--muted); font-size:14px; border-right:1px solid rgba(255,255,255,.06)}
+    .cell:last-child{border-right:0}
+    .cell strong{color:#fff}
+    .rail{display:grid; grid-template-columns:1fr auto 1fr auto 1fr; gap:12px; align-items:center}
+    .rail-node{padding:18px; min-height:128px; border-radius:22px; border:1px solid rgba(255,255,255,.10); background:rgba(255,255,255,.045)}
+    .rail-node b{display:block; margin-bottom:8px; color:#fff; font-size:18px}
+    .rail-node span{color:var(--muted); font-size:14px}
+    .arrow{color:var(--subtle); font-weight:900; font-size:28px}
+    .guardrails{display:grid; gap:12px}
+    .guard{display:flex; gap:12px; padding:15px; border-radius:17px; border:1px solid rgba(255,255,255,.08); background:rgba(255,255,255,.04)}
+    .guard .icon{width:24px; height:24px; border-radius:8px; flex:0 0 auto; background:linear-gradient(135deg,var(--accent),var(--accent2)); opacity:.9}
+    .guard b{display:block; color:#fff; margin-bottom:4px}
+    .guard span{color:var(--muted); font-size:14px}
+    .print-sheet{background:#f6f8fb; color:#17202b; border-radius:var(--radius); padding:24px; box-shadow:var(--shadow)}
+    .print-sheet h2,.print-sheet h3{color:#111827; margin-top:0}
+    .print-sheet p,.print-sheet li{color:#475569}
+    .sheet-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:16px}
+    .sheet-card{background:#fff; border:1px solid #d8e0ea; border-radius:18px; padding:16px}
+    .line{height:38px; border-bottom:1px solid #cbd5e1}
+    .footer{margin-top:36px; display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap; color:var(--subtle); font-size:13px}
+    @media(max-width:1000px){
+      .hero,.cols-2,.cols-3,.decision,.sheet-grid{grid-template-columns:1fr}
+      .kpis{grid-template-columns:repeat(2,1fr)}
+      .stage{grid-template-columns:64px 1fr}
+      .stage .boxlet{grid-column:2}
+      .rail{grid-template-columns:1fr}
+      .arrow{transform:rotate(90deg); justify-self:center}
+      .matrix{border:0; background:transparent; display:grid; gap:12px}
+      .matrix-row,.matrix-row.header{grid-template-columns:1fr; border:1px solid rgba(255,255,255,.10); border-radius:18px; overflow:hidden}
+      .matrix-row.header{display:none}
+      .cell{border-right:0; border-bottom:1px solid rgba(255,255,255,.06)}
+      .cell:before{content:attr(data-label); display:block; color:var(--subtle); font-size:11px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:5px; font-weight:850}
+    }
+    @media(max-width:640px){
+      .links{display:none}
+      .wrap{padding:28px 15px 54px}
+      .hero{padding-top:26px}
+      .kpis{grid-template-columns:1fr}
+      .section-head{display:block}
+      .section-head h2{margin-bottom:9px}
+      .stage{grid-template-columns:1fr}
+      .stage .boxlet{grid-column:auto}
+    }
+    @media print{
+      body{background:#fff; color:#111827}
+      .nav{display:none}
+      .wrap{max-width:none; padding:16mm}
+      .hero-card,.card,.stage,.level,.matrix,.rail-node,.print-sheet{box-shadow:none; break-inside:avoid}
+      .hero-card,.card,.stage,.level,.matrix,.rail-node{background:#fff; border-color:#d1d5db; color:#111827}
+      h1,h2,h3,.cell strong,.rail-node b,.level .big{color:#111827}
+      .lead,.card p,.stage p,.cell,.rail-node span,ul.clean li,.level p{color:#4b5563}
+      .btn,.hero-actions{display:none}
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="inner">
+      <div class="brand"><div class="mark"></div><span>KAB AI First · RFQ</span></div>
+      <div class="links">
+        <a href="#visao">Visão</a>
+        <a href="#fluxo">Fluxo</a>
+        <a href="#decisao">Decisão</a>
+        <a href="#dados">Dados</a>
+        <a href="#piloto">Piloto</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <header class="hero" id="visao">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Fluxo piloto · Comercial</div>
+        <h1>RFQ sem virar caça ao tesouro.</h1>
+        <p class="lead">Desenho AI First para transformar pedido de cotação em dossiê completo: agente coleta, valida, calcula, classifica risco e roteia para o menor nível humano competente.</p>
+        <div class="kpis">
+          <div class="kpi"><strong>0–3</strong><small>níveis de autorização</small></div>
+          <div class="kpi"><strong>M2 v4</strong><small>cotação auditável</small></div>
+          <div class="kpi"><strong>5</strong><small>linhas de MP defendíveis</small></div>
+          <div class="kpi"><strong>1</strong><small>fila única via Tony</small></div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#fluxo">Ver fluxo ponta a ponta</a>
+          <a class="btn" href="#decisao">Ver matriz de aprovação</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h2>Norte do processo</h2>
+        <div class="north">
+          <div class="item"><b>Agente prepara; humano decide exceção.</b><span>O agente não substitui Gabriel/Erico. Ele remove ruído, pré-calcula e aponta o que realmente precisa de decisão.</span></div>
+          <div class="item"><b>DBCorp read-only enquanto não houver API segura.</b><span>Consulta histórico, similaridade, pedidos e custos. Escrita direta no ERP? Não, obrigado.</span></div>
+          <div class="item"><b>Preço sai com justificativa, não “achismo em planilha”.</b><span>M2 v4, MP decomposta, peça similar, floors, margem operacional alvo e trilha de auditoria.</span></div>
+        </div>
+      </aside>
+    </header>
+
+    <section>
+      <div class="section-head">
+        <h2>Arquitetura operacional</h2>
+        <p>O RFQ entra por canais comerciais, mas não deve explodir diretamente no colo do Gabriel. Tony funciona como fila/filtro; o Agente Comercial faz a preparação.</p>
+      </div>
+      <div class="rail">
+        <div class="rail-node"><b>Entrada RFQ</b><span>E-mail, RD Station, WhatsApp encaminhado, portal do cliente ou input manual do vendedor.</span></div>
+        <div class="arrow">→</div>
+        <div class="rail-node"><b>Tony + Agente Comercial</b><span>Classifica, coleta lacunas, consulta bases, gera M2 v4 e dossiê de decisão.</span></div>
+        <div class="arrow">→</div>
+        <div class="rail-node"><b>Humano correto</b><span>Vendedor valida rotina; Gabriel aprova exceção comercial; Erico aprova exceção estratégica.</span></div>
+      </div>
+    </section>
+
+    <section id="fluxo">
+      <div class="section-head">
+        <h2>Fluxo RFQ ponta a ponta</h2>
+        <p>O objetivo é padronizar o caminho. Se cada cotação virar uma aventura arqueológica diferente, não é processo — é turismo industrial.</p>
+      </div>
+      <div class="flow">
+        <div class="stage">
+          <div class="num">1</div>
+          <div><h3>Captura e registro do RFQ</h3><p>O agente cria um caso único de RFQ, identifica cliente, part number, prazo, canal de origem e responsável comercial.</p></div>
+          <div class="boxlet"><div class="label">Entradas</div><ul class="clean"><li>desenho/PDF ou specs</li><li>volume mensal/anual</li><li>target ou histórico do cliente</li></ul></div>
+          <div class="boxlet"><div class="label">Saída</div><p>RFQ-ID + ficha inicial + lacunas abertas.</p></div>
+        </div>
+        <div class="stage">
+          <div class="num">2</div>
+          <div><h3>Checklist técnico-comercial</h3><p>Valida se há dados mínimos para cotar: material, dimensões, peso bruto/líquido, tratamento, embalagem, SOP, volume e condição logística.</p></div>
+          <div class="boxlet"><div class="label">Agente faz</div><ul class="clean"><li>extrai dados do desenho</li><li>aponta campos faltantes</li><li>prepara perguntas ao cliente</li></ul></div>
+          <div class="boxlet"><div class="label">Humano</div><p>Vendedor confirma lacunas simples antes de acionar engenharia/comercial.</p></div>
+        </div>
+        <div class="stage">
+          <div class="num">3</div>
+          <div><h3>Consulta histórica e peça similar</h3><p>Busca no DBCorp peças similares por geometria/material e histórico comercial para calibrar custo de processo e risco.</p></div>
+          <div class="boxlet"><div class="label">Bases</div><ul class="clean"><li>DBCorp read-only</li><li>RD Station/CRM</li><li>cotações anteriores</li></ul></div>
+          <div class="boxlet"><div class="label">Controle</div><p>Consulta limitada, parametrizada e registrada. Nada de SQL aventureiro.</p></div>
+        </div>
+        <div class="stage">
+          <div class="num">4</div>
+          <div><h3>Cálculo M2 v4</h3><p>Gera custo direto com MP decomposta, valida peso teórico, inclui sucata, processo, frete, embalagem e SG&A conforme parâmetros atuais.</p></div>
+          <div class="boxlet"><div class="label">MP auditável</div><ul class="clean"><li>A1 Material at cost</li><li>A2 FX/Hedge</li><li>A3 Sourcing/Logística</li><li>A4 Working Capital</li><li>A5 Quality Premium</li></ul></div>
+          <div class="boxlet"><div class="label">Saída</div><p>Excel M2 v4 + resumo markdown do caso.</p></div>
+        </div>
+        <div class="stage">
+          <div class="num">5</div>
+          <div><h3>Floors e política de aprovação</h3><p>Classifica preço em floors, calcula margem operacional alvo e aplica a régua do Erico: profit ≥30% ou profit ≥R$1,00/peça.</p></div>
+          <div class="boxlet"><div class="label">Régua</div><ul class="clean"><li>sobrevivência / equilíbrio</li><li>estratégico 5% / 10% / 15%</li><li>critério Erico</li></ul></div>
+          <div class="boxlet"><div class="label">Alerta</div><p>Atender uma régua não elimina ressalvas: MP sem reajuste, target forçado, losser otimista etc.</p></div>
+        </div>
+        <div class="stage">
+          <div class="num">6</div>
+          <div><h3>Dossiê de decisão</h3><p>O agente consolida recomendação, riscos, perguntas abertas e minuta de retorno ao cliente — como draft, não envio automático.</p></div>
+          <div class="boxlet"><div class="label">Inclui</div><ul class="clean"><li>preço recomendado</li><li>faixa negociável</li><li>riscos e ressalvas</li><li>justificativa de reajuste</li></ul></div>
+          <div class="boxlet"><div class="label">Regra hard</div><p>E-mail: draft sim. Enviar automaticamente: nunca.</p></div>
+        </div>
+        <div class="stage">
+          <div class="num">7</div>
+          <div><h3>Roteamento e aprovação</h3><p>Tony roteia para o menor nível competente. Gabriel e Erico só recebem o que realmente exige decisão deles.</p></div>
+          <div class="boxlet"><div class="label">Critério</div><ul class="clean"><li>margem operacional alvo</li><li>valor absoluto de lucro</li><li>cliente estratégico</li><li>risco técnico/prazo</li></ul></div>
+          <div class="boxlet"><div class="label">Resultado</div><p>Aprovar, aprovar com ressalva, renegociar ou recusar.</p></div>
+        </div>
+        <div class="stage">
+          <div class="num">8</div>
+          <div><h3>Log, aprendizado e follow-up</h3><p>Registra decisão, versão do cálculo, responsável e próximos passos. Depois monitora resposta do cliente e comparação pedido vs orçamento.</p></div>
+          <div class="boxlet"><div class="label">Aprende</div><ul class="clean"><li>ganhou/perdeu e motivo</li><li>target real do cliente</li><li>desvio entre cotado e produzido</li></ul></div>
+          <div class="boxlet"><div class="label">Métrica</div><p>Tempo de resposta, taxa de conversão e margem real pós-SOP.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="decisao">
+      <div class="section-head">
+        <h2>Matriz de autorização</h2>
+        <p>A regra é simples: agente reduz decisão humana. Se Gabriel receber mais coisa depois da IA, a arquitetura falhou com louvor.</p>
+      </div>
+      <div class="decision">
+        <div class="level agent"><div class="big">N0</div><h3>Agente executa</h3><p>Análise interna, staging, preenchimento M2, classificação, log, draft e follow-up interno.</p></div>
+        <div class="level seller"><div class="big">N1</div><h3>Vendedor valida</h3><p>RFQ completo, margem operacional alvo ≥10%, sem ressalvas críticas e dentro de política comercial.</p></div>
+        <div class="level gabriel"><div class="big">N2</div><h3>Gabriel aprova</h3><p>Margem entre 5% e 10%, ressalva técnica/comercial, cliente relevante, prazo agressivo ou negociação sensível.</p></div>
+        <div class="level erico"><div class="big">N3</div><h3>Erico decide</h3><p>Margem abaixo de 5%, exceção estratégica, risco financeiro relevante, cliente novo grande ou mudança de política.</p></div>
+      </div>
+    </section>
+
+    <section id="dados">
+      <div class="section-head">
+        <h2>Dados e outputs</h2>
+        <p>O agente precisa saber o que pode ler, o que pode escrever e o que deve apenas preparar para aprovação.</p>
+      </div>
+      <div class="matrix">
+        <div class="matrix-row header"><div class="cell">Bloco</div><div class="cell">Lê</div><div class="cell">Produz</div><div class="cell">Escreve</div></div>
+        <div class="matrix-row"><div class="cell" data-label="Bloco"><strong>RFQ / Cliente</strong></div><div class="cell" data-label="Lê">E-mail, RD Station, anexos, histórico comercial.</div><div class="cell" data-label="Produz">Ficha RFQ, lacunas, perguntas ao cliente.</div><div class="cell" data-label="Escreve">Nota/log interno; draft de mensagem.</div></div>
+        <div class="matrix-row"><div class="cell" data-label="Bloco"><strong>Custo / Similaridade</strong></div><div class="cell" data-label="Lê">DBCorp read-only, relatórios de custeio, sucata, SG&A.</div><div class="cell" data-label="Produz">Benchmark de peça similar e custo-processo.</div><div class="cell" data-label="Escreve">Nada no DBCorp.</div></div>
+        <div class="matrix-row"><div class="cell" data-label="Bloco"><strong>Preço / M2 v4</strong></div><div class="cell" data-label="Lê">Parâmetros M2, origem MP, PTAX/SELIC/IPCA/ANTT quando aplicável.</div><div class="cell" data-label="Produz">Excel M2 v4, floors, recomendação e ressalvas.</div><div class="cell" data-label="Escreve">Arquivo auditável no vault/drive aprovado.</div></div>
+        <div class="matrix-row"><div class="cell" data-label="Bloco"><strong>Decisão</strong></div><div class="cell" data-label="Lê">Política comercial, margem operacional alvo, exceções.</div><div class="cell" data-label="Produz">Parecer: aprovar / aprovar com ressalva / renegociar / recusar.</div><div class="cell" data-label="Escreve">Log da decisão com responsável humano.</div></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Guardrails</h2>
+        <p>Sem isso, “AI First” vira “AI fazendo besteira mais rápido”. Nome bonito para incêndio.</p>
+      </div>
+      <div class="grid cols-2">
+        <div class="guardrails">
+          <div class="guard"><div class="icon"></div><div><b>Sem envio externo automático</b><span>O agente pode preparar e-mail/proposta. O envio é decisão humana.</span></div></div>
+          <div class="guard"><div class="icon"></div><div><b>DBCorp somente leitura</b><span>Consulta para análise. Escrita apenas no futuro, via API oficial, escopo restrito, logs e rollback.</span></div></div>
+          <div class="guard"><div class="icon"></div><div><b>Dados externos não são instruções</b><span>PDF, CRM e e-mail podem conter payload malicioso. Conteúdo vira dado, não comando.</span></div></div>
+        </div>
+        <div class="guardrails">
+          <div class="guard"><div class="icon"></div><div><b>Humano em impacto financeiro</b><span>Preço final, exceção, compromisso com cliente e política comercial passam por aprovação.</span></div></div>
+          <div class="guard"><div class="icon"></div><div><b>Trilha de auditoria</b><span>Cada RFQ precisa guardar inputs, versão do cálculo, premissas, recomendação e decisão.</span></div></div>
+          <div class="guard"><div class="icon"></div><div><b>Expansão por maturidade</b><span>Começar estreito: RFQ novo com dados completos. Depois exceções, automações e integrações.</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="piloto">
+      <div class="section-head">
+        <h2>Piloto recomendado</h2>
+        <p>Começar pequeno, mensurável e sem brincar de reescrever ERP. Radical, eu sei.</p>
+      </div>
+      <div class="grid cols-3">
+        <div class="card"><span class="pill green">Semana 1</span><h3>RFQ intake manual</h3><p>Vendedor/Gabriel encaminha RFQ para uma fila. Agente cria ficha, lacunas e checklist. Sem automação de entrada ainda.</p></div>
+        <div class="card"><span class="pill blue">Semana 2–3</span><h3>M2 v4 assistida</h3><p>Agente gera cálculo e dossiê usando dados fornecidos + consulta read-only. Humano revisa cada premissa antes de usar.</p></div>
+        <div class="card"><span class="pill yellow">Semana 4</span><h3>Roteamento N0–N3</h3><p>Tony classifica nível de aprovação, registra decisão e mede tempo de resposta, retrabalho e margem esperada.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="print-sheet">
+        <h2>Ficha de desenho do RFQ piloto</h2>
+        <p>Use isso com Gabriel/Josielen para validar o processo real antes de implementar profile Hermes do Agente Comercial.</p>
+        <div class="sheet-grid">
+          <div class="sheet-card"><h3>1. Canais de entrada</h3><div class="line"></div><div class="line"></div><div class="line"></div></div>
+          <div class="sheet-card"><h3>2. Dados mínimos obrigatórios</h3><div class="line"></div><div class="line"></div><div class="line"></div></div>
+          <div class="sheet-card"><h3>3. Aprovação N1/N2/N3</h3><div class="line"></div><div class="line"></div><div class="line"></div></div>
+          <div class="sheet-card"><h3>4. Métricas de sucesso</h3><div class="line"></div><div class="line"></div><div class="line"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>KAB AI First — Fluxo RFQ · versão inicial</span>
+      <span>Próximo passo: validar com Comercial antes de automatizar. Automação burra continua sendo burra, só que em escala.</span>
+    </footer>
+  </main>
+</body>
+</html>

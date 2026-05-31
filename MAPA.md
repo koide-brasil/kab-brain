@@ -19,6 +19,7 @@
 13. [[empresa/clientes-formais]] — quem somos parceiros
 14. [[empresa/contexto/pitch-capacidade]] — argumentação comercial
 15. `empresa/projetos/` — projetos institucionais (BCP, BI, Daily Roadmap, 1Password)
+    - `empresa/projetos/ai-first/` — KAB AI First, fluxo RFQ e Academia de Agentes
 16. `empresa/reunioes/` — atas (comerciais, cliente, fornecedor — atas G5 em `_g5/reunioes/`)
 17. `empresa/cotacoes/` — pipeline comercial (pasta nova)
 18. `empresa/indicadores/` — KPIs operacionais não-sensíveis
