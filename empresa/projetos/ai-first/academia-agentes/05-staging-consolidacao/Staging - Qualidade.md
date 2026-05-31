@@ -11,6 +11,12 @@ tags: [kab, academia-agentes, staging]
 
 Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra oficial.
 
+## [[empresa/drive-index/academia-agentes/operacional/00---DECLARAÇÃO-DE-INTEGRAÇÃO-ADMISSIONAL---operador-de-maquina--1mo8vpgd.md|00 - DECLARAÇÃO DE INTEGRAÇÃO ADMISSIONAL - operador de maquina.doc]]
+- Drive ID: `1mo8vpgdg4DzypHhkAeZyz_zBsXFuoUfG`
+- Modificado: `2020-02-19`
+- Sinais extraídos:
+- [tipo não suportado para extração: application/msword; 59904 bytes]
+
 ## [[empresa/drive-index/academia-agentes/operacional/002-FLUXO-DE-PROCESSO-TP-8258--1KpJr6dX.md|002-FLUXO DE PROCESSO TP-8258.pdf]]
 - Drive ID: `1KpJr6dXjtWzsrTT1DHAVF6IYZfi6dNQw`
 - Modificado: `2025-09-23`
@@ -346,15 +352,5 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - 29/09/2025
 - Instron Applications Laboratory
 - Compressão Histerese 3443480
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443720-PPAP-1-002-mm.is_ccyclic--1VwnnQdr.md|3443720  PPAP 1  0,02 mm.is_ccyclic.pdf]]
-- Drive ID: `1VwnnQdrzmvU1kmYNsvjp9xlsT18dZGei`
-- Modificado: `2025-09-18`
-- Sinais extraídos:
-- 03/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443720
 - OP / lote Força
 - [kN]
