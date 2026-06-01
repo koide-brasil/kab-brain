@@ -16,7 +16,7 @@ tags: [kab, tolerancias, qualidade, rfq, coleta]
 | Operação | Máquina | Precisão típica | Quando degrada |
 |---|---|---|---|
 | **Corte (comprimento)** | TR-80 / CMB-75 (serra circular) | **± 0,1 mm** | — |
-| **Corte (comprimento)** | SA-90 (disco/faca) | _não especificado_ | parede > 3 mm (não é a máquina certa) |
+| **Corte (comprimento)** | SA-90 (3 discos/facas) | **± 0,1 mm** | facas sem afiação → elevações maiores; parede > 3 mm (não é a máquina certa) |
 | **Chanfro / faceamento** | NPK-250 / FA-100 / NP-57 | **± 0,05 mm** | **tubo ovalizado** ou tolerância muito apertada |
 
 **Regra de bolso para o agente:**

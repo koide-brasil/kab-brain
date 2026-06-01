@@ -77,12 +77,13 @@ Fonte: `TbCentroTrabalho` (centros ativos). Capacidade em horas/semana cadastrad
 
 | Máquina | Ø ext. máx | Tipo de corte | Precisão | Uso típico |
 |---|---|---|---|---|
-| **SA-90** | **Ø92** | disco/faca (cisalha) | _n/e_ | **parede fina ≤ 3 mm** (disco corta como faca) |
+| **SA-90** | **Ø92** | 3 discos/facas circulam e avançam | **± 0,1 mm** | **parede fina ≤ 3 mm** |
 | **TR-80** | **Ø80** | serra circular | **± 0,1 mm** | **parede mais grossa** |
 | **CMB-75** | **Ø75** | serra circular | **± 0,1 mm** | **parede mais grossa** |
 
 - **Alumínio:** TR-80 e CMB-75 **não são ideais** p/ alumínio (rotação máx ~280 RPM), mas a KAB **consegue cortar alguns itens de alumínio** nelas. SA-90 é a de maior Ø (até Ø92).
-- **Precisão de corte (comprimento): ± 0,1 mm** (TR-80/CMB-75). RFQ com tolerância de comprimento **mais apertada que ± 0,1 mm** → ressalva (no limite ou além da capacidade de corte).
+- **Precisão de corte (comprimento): ± 0,1 mm** (as três). RFQ com tolerância de comprimento **mais apertada que ± 0,1 mm** → ressalva (mas a tolerância fina é dada no chanfro, não no corte).
+- **Particularidade da SA-90:** os 3 discos **circulam ao redor da peça e avançam** → o corte **não sai reto** e gera **elevações nas extremidades**. Por isso a peça cortada na SA-90 sai com **~1,5 mm de sobremetal** (vs ~1 mm das serras) pra essas elevações serem totalmente removidas no chanfro. **Conforme as facas perdem afiação, as elevações aumentam** → mais sobremetal/refugo. Implicação: peça de parede fina (SA-90) tem **rendimento de material um pouco pior** e é sensível à manutenção das facas.
 
 ### Chanfro (chanfradeiras) — frota real = **5 máquinas** (2 FA-100, 1 NPK-250, 2 NP-57)
 
@@ -100,7 +101,7 @@ Fonte: `TbCentroTrabalho` (centros ativos). Capacidade em horas/semana cadastrad
 
 ### Como a chanfradeira trabalha (e onde refuga)
 
-1. O tubo chega cortado com **~1 mm de sobremetal**.
+1. O tubo chega cortado com sobremetal (**~1 mm** vindo das serras TR-80/CMB-75; **~1,5 mm** vindo da SA-90, por causa das elevações de extremidade dos discos).
 2. Entra na chanfradeira **fixo no meio**; **2 motores (um de cada lado)** com cabeçotes montados pra aquela peça, **3 pastilhas cada** (faceamento + chanfro interno + chanfro externo).
 3. Os cabeçotes **rotacionam (rotação controlada)** e **avançam (avanço controlado)**, usinando **os dois lados simultaneamente**.
 - **Maior dificuldade = chanfro irregular por OVALIZAÇÃO do tubo** (e/ou tolerância de chanfro muito apertada): tubo ovalizado ou tol. estreita → difícil manter as tolerâncias. **Isto explica o refugo:** *chanfro irregular* e *ovalização* são top motivos no DBCorp, e a **NPK-250 é a de maior refugo (1,22%) justamente por trabalhar os tubos maiores (Ø92), mais sujeitos a ovalização.** → Em RFQ com **tolerância de chanfro apertada** ou **tubo grande/parede fina** (propenso a ovalizar) = **ressalva técnica**.
