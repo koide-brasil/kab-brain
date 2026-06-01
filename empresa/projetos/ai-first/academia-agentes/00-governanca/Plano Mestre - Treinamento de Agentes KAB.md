@@ -2,7 +2,7 @@
 tipo: plano
 area: kab
 status: ativo
-atualizado: 2026-05-31
+atualizado: 2026-06-01
 tags: [kab, ai-first, academia-agentes, governanca]
 ---
 

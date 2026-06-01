@@ -2,7 +2,7 @@
 tipo: staging-consolidacao
 area: kab
 status: gerado-automaticamente
-atualizado: 2026-05-31
+atualizado: 2026-06-01
 modulo: viabilidade-producao
 tags: [kab, academia-agentes, staging]
 ---
@@ -78,6 +78,16 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 - | Descrição da anomalia |  |  | PEÇAS  AMASSADA E FALTA DE CHANFRO |  |  |  |  |  |  |  | Fornecedor |  KOIDE BRASI |  |  |  |  |  |  |  |  |  |  |
 - | Quantidade |  |  | 2 |  |  |  |  |  |  |  | Data: |  | 05/01/2023 |  |  |  |  |  |  |  |  |  |
 - |  | APPROVED PART |  |  |  |  |  |  |  |  | FAILED PART |  |  |  |  |  |  |  |  |  |  |  |  |
+
+## [[empresa/drive-index/academia-agentes/operacional/02115-CMB75CNCEU_EXP--1G4KmZ7k.md|02115 CMB75CNC(EU_EXP).pdf]]
+- Drive ID: `1G4KmZ7kN1lsxr9x1sRo3icpHDf5v2Wsg`
+- Modificado: `2015-10-06`
+- Sinais extraídos:
+- PARTS LIST
+- Ver.
+- 02115 CMB75CNC(EU_EXP)
+- From Serial No. 22602001 and after
+- SEP.2015
 
 ## [[empresa/drive-index/academia-agentes/operacional/03---Certificado-de-Curso-de-programação-de-maquina-CNC-básico--13WNsKDJ.md|03 - Certificado de Curso de programação de maquina CNC básico.pdf]]
 - Drive ID: `13WNsKDJtp4OPyOSbtOhL_M5XMB5LDqvs`
@@ -333,16 +343,6 @@ Uso: fila de curadoria. O conteúdo abaixo é índice/sinalização, não regra 
 
 ## [[empresa/drive-index/academia-agentes/operacional/3443480-PPAP-PÇ-3-005mm.is_ccyclic--1YHCpjAA.md|3443480   PPAP PÇ 3  0,05mm.is_ccyclic.pdf]]
 - Drive ID: `1YHCpjAA7z2bnAg6-r-VhCYfp3mCpiw5z`
-- Modificado: `2025-09-29`
-- Sinais extraídos:
-- 29/09/2025
-- Instron Applications Laboratory
-- Compressão Histerese 3443480
-- OP / lote Força
-- [kN]
-
-## [[empresa/drive-index/academia-agentes/operacional/3443480-PPAP-PÇ-4-011mm_1.is_ccyclic--1cIAD1H0.md|3443480   PPAP PÇ 4  0,11mm_1.is_ccyclic.pdf]]
-- Drive ID: `1cIAD1H0lWB7O33aP8N_wVhyBGjzgFwEL`
 - Modificado: `2025-09-29`
 - Sinais extraídos:
 - 29/09/2025

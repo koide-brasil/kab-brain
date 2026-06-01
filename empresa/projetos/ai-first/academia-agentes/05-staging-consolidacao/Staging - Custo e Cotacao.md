@@ -2,7 +2,7 @@
 tipo: staging-consolidacao
 area: kab
 status: gerado-automaticamente
-atualizado: 2026-05-31
+atualizado: 2026-06-01
 modulo: custo-cotacao
 tags: [kab, academia-agentes, staging]
 ---

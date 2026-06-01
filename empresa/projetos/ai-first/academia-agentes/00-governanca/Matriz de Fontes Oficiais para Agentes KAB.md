@@ -2,7 +2,7 @@
 tipo: matriz-fontes
 area: kab
 status: rascunho-operacional
-atualizado: 2026-05-31
+atualizado: 2026-06-01
 tags: [kab, fontes, academia-agentes]
 ---
 
