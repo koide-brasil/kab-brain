@@ -69,21 +69,56 @@ Fonte: `TbCentroTrabalho` (centros ativos). Capacidade em horas/semana cadastrad
 | LINHA-05 | 1 | 1 | 0 | 100% |
 | LINHA-06 | 1 | 1 | 0 | 100% |
 
-## Capacidades conhecidas além do ERP (validação humana — NÃO sobrescrever)
+## Capacidades reais e envelope dimensional (validação humana — NÃO sobrescrever)
 
-> O DBCorp só registra a operação genérica "USINAGEM". O que o **Ergomat** realmente faz vai além disso e **não está no ERP** — não confundir "não está no ERP" com "a fábrica não consegue". Bloco mantido à mão a partir de FOR-018 reais; expandir com Jônatas/Fernando.
+> O DBCorp dá volume/refugo, mas **não guarda o envelope dimensional** (Ø máx, parede, comp.) nem o que cada máquina faz de fato. Bloco mantido à mão (fonte: Erico, 2026-06-01). **É a fonte principal pro agente julgar se a geometria de um RFQ cabe na fábrica.**
 
-- **Ergomat TNG-32 (usinagem):** **tornea, rosqueia e fura barra maciça** (ex.: adaptador de filtro 12L14, rosca M18×1,5 — FOR-018 RFQ 40001331). **Limitação conhecida:** garante precisão do **chanfro interno de apenas um dos lados**. Rosca nova pode exigir **investimento em ferramental** e a **metrologia de rosca** (De/Dp) não existe hoje — exige investir em tridimensional/perfilômetro/rugosímetro.
-- **Maciço:** a KAB **estoca barra maciça 12L14** (ex.: Ø18,15) — material de peça torneada não é gargalo; o gargalo costuma ser ferramental/metrologia, não a capacidade-máquina.
-- **Path LW Usinagem (parceiro, FornecId 38):** **perfil de alumínio não-tubular** e **usinagem mais complexa** (furo/feature/torneamento) vão pra **LW Usinagem** — é o caminho padrão da KAB pra usinagem fora do core. O custo entra na **linha LW da cotação** (modelo M1 tem bloco de terceirização: LW, CASTEL, WINOA, ECOPLATING, ITARAÌ, LIMMAR). Exemplos reais: Zhongding TA60-1001300AC R$ 1,35/pç, TA60-1001400BC R$ 3,70/pç. → Peça desse tipo = **"Atende via LW"**, NÃO "Não atende". Quando a FOR-018 traz Fernando "não temos equipamento", é a visão só-in-house — checar o path LW antes de concluir. Ver `LW Usinagem` em Fornecedores.
-- **Processos que NEM a KAB NEM a rede de parceiros faz** (→ "Não atende" legítimo): fundição, forjaria, embutimento profundo, extrusão (a KAB compra perfil extrudado, não extruda).
+### Corte (serras) — Ø externo máximo, tipo de corte e precisão
+
+| Máquina | Ø ext. máx | Tipo de corte | Precisão | Uso típico |
+|---|---|---|---|---|
+| **SA-90** | **Ø92** | disco/faca (cisalha) | _n/e_ | **parede fina ≤ 3 mm** (disco corta como faca) |
+| **TR-80** | **Ø80** | serra circular | **± 0,1 mm** | **parede mais grossa** |
+| **CMB-75** | **Ø75** | serra circular | **± 0,1 mm** | **parede mais grossa** |
+
+- **Alumínio:** TR-80 e CMB-75 **não são ideais** p/ alumínio (rotação máx ~280 RPM), mas a KAB **consegue cortar alguns itens de alumínio** nelas. SA-90 é a de maior Ø (até Ø92).
+- **Precisão de corte (comprimento): ± 0,1 mm** (TR-80/CMB-75). RFQ com tolerância de comprimento **mais apertada que ± 0,1 mm** → ressalva (no limite ou além da capacidade de corte).
+
+### Chanfro (chanfradeiras) — frota real = **5 máquinas** (2 FA-100, 1 NPK-250, 2 NP-57)
+
+> O ERP lista um 6º centro "CHANFRO-06" **sem modelo e sem apontamento** — é fantasma/inativo. A frota real são **5 chanfradeiras**.
+
+| Máquina | Ø ext. máx | Comp. máx | Precisão | Produtividade-alvo | Observação |
+|---|---|---|---|---|---|
+| **NPK-250** (×1) | **Ø92** | 120 mm | ± 0,05 mm | ~300 pç/h (mais se bem ajustada) | tubos **maiores → mais lenta** |
+| **FA-100** (×2) | **Ø80** | 120 mm | ± 0,05 mm | até **600 pç/h** | |
+| **NP-57** (×2) | **Ø47** (talvez Ø50) | 120 mm | ± 0,05 mm | até **600 pç/h** | tubos menores |
+
+- **Precisão de chanfro/faceamento: ± 0,05 mm** — **mas depende da condição da peça**: tubo **ovalizado** ou tolerância muito apertada derrubam essa capacidade. RFQ com tolerância de chanfro/comprimento usinado **mais apertada que ± 0,05 mm** → ressalva (try-out obrigatório).
+
+> ⚠️ **Produtividade real está ABAIXO dos alvos nominais** (verificado no DBCorp, 2026-06-01): FA-100/NP-57 rodam ~350–470 pç/h (vs alvo 600); NPK-250 ~250–310 (bate o alvo ~300). A **velocidade quando rodando é estável** ao longo dos anos — o que caiu foi **volume/utilização**: pico 8,4 mi pç (2021) → fundo 5,0 mi (2024, −40%), horas-máq 18,6k→13,4k, recup. parcial 2025. "Produzimos mais devagar" = menos volume/horas por demanda baixa, não ciclo mais lento.
+
+### Como a chanfradeira trabalha (e onde refuga)
+
+1. O tubo chega cortado com **~1 mm de sobremetal**.
+2. Entra na chanfradeira **fixo no meio**; **2 motores (um de cada lado)** com cabeçotes montados pra aquela peça, **3 pastilhas cada** (faceamento + chanfro interno + chanfro externo).
+3. Os cabeçotes **rotacionam (rotação controlada)** e **avançam (avanço controlado)**, usinando **os dois lados simultaneamente**.
+- **Maior dificuldade = chanfro irregular por OVALIZAÇÃO do tubo** (e/ou tolerância de chanfro muito apertada): tubo ovalizado ou tol. estreita → difícil manter as tolerâncias. **Isto explica o refugo:** *chanfro irregular* e *ovalização* são top motivos no DBCorp, e a **NPK-250 é a de maior refugo (1,22%) justamente por trabalhar os tubos maiores (Ø92), mais sujeitos a ovalização.** → Em RFQ com **tolerância de chanfro apertada** ou **tubo grande/parede fina** (propenso a ovalizar) = **ressalva técnica**.
+
+### Usinagem e terceirização
+
+- **Ergomat TNG-32 (usinagem):** **tornea, rosqueia e fura barra maciça** (ex.: adaptador filtro 12L14, rosca M18×1,5 — FOR-018 RFQ 40001331). **Limitação:** garante chanfro interno de **um lado só**. Rosca nova → investir em ferramental; **metrologia de rosca** (De/Dp) não existe hoje (precisa tridimensional/perfilômetro/rugosímetro).
+- **Path LW Usinagem (parceiro, FornecId 38):** **perfil de alumínio não-tubular** e usinagem complexa → **LW Usinagem**. Custo entra na **linha LW da cotação** (modelo M1: LW, CASTEL, WINOA, ECOPLATING, ITARAÌ, LIMMAR). Ex. reais: Zhongding TA60-1001300AC R$ 1,35/pç, TA60-1001400BC R$ 3,70/pç. → Peça desse tipo = **"Atende via LW"**, NÃO "Não atende". FOR-018 com Fernando "não temos equipamento" = visão só-in-house → checar path LW antes.
+- **Maciço:** a KAB **estoca barra maciça 12L14** (Ø18,15) — material de peça torneada não é gargalo.
+- **Processos que NEM a KAB NEM a rede de parceiros faz** (→ "Não atende" legítimo): fundição, forjaria, embutimento profundo, extrusão (compra perfil extrudado, não extruda).
 
 ## Resumo da frota (para pitch de capacidade)
 
-- **Corte (serras):** 6 máquina(s)
-- **Chanfro (chanfradeiras):** 6 máquina(s)
+- **Corte (serras) — Ø máx Ø92 (SA-90) / Ø80 (TR-80) / Ø75 (CMB-75):** 6 máquina(s)
+- **Chanfro (chanfradeiras) — Ø máx Ø92 (NPK-250) / Ø80 (FA-100) / Ø47 (NP-57):** 5 máquina(s)
 - **Estamparia (prensas verticais):** 2 máquina(s)
 - **Usinagem (células Ergomat):** 2 máquina(s)
+- **Ø externo máximo da fábrica: Ø92** (corte SA-90 + chanfro NPK-250). Peça com tubo acima de Ø92 → fora do envelope atual.
 
 > ⚠️ Usar em pitch comercial só como capacidade **nominal expansível** (turnos), nunca como dado auditável (Run@Rate/PPAP exigem medição real). Ver [[kab-pitch-capacidade-comercial]].
 
