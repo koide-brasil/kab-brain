@@ -2,8 +2,8 @@
 tipo: indice
 area: kab
 status: ativo
-criado: 2026-05-31
-atualizado: 2026-05-31
+criado: 2026-06-01
+atualizado: 2026-06-01
 tags: [drive-index, academia-agentes, ai-first, rfq]
 ---
 
