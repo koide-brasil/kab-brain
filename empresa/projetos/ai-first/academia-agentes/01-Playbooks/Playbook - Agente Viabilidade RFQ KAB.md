@@ -102,6 +102,22 @@ Usar obrigatoriamente uma das 4 classes:
   externo** para parte do processo, isso é "Atende com ressalva" — explicitar o investimento, não
   rebaixar para "Não atende".
 
+#### Gatilho de usinagem/beneficiamento (lição do Caso 004, 2026-06-01)
+
+Para **não cair no erro oposto** (otimismo): se a peça exige **qualquer operação além de CORTE +
+CHANFRO/FACEAMENTO** — usinagem de furo/feature, rosca, **tratamento térmico (têmpera/cementação)**,
+recartilho, estampagem complexa, beneficiamento externo —:
+
+- O agente **NÃO classifica "Atende" por conta própria**.
+- **Escala obrigatoriamente a Produção (Fernando):** "temos equipamento E mão de obra para esta
+  operação?" — porque o envelope de usinagem (Ergomat) é estreito e não está todo no ERP.
+- Classe máxima nesse caso: **"Provavelmente atende, exige validação"**, com a **pergunta de
+  equipamento em destaque** no topo. Reservar "Atende com ressalva" para quando a ressalva é só de
+  **ferramental / sourcing / metrologia** — nunca quando é de **capacidade-de-processo**.
+- Sintoma clássico (Caso 004): peça aparenta "só perfil de alumínio cortado", mas o desenho pede
+  "usinagem após o corte" + têmpera → Fernando: "não temos equipamento". Geometria simples no corte
+  **não** garante que o resto do processo caiba na fábrica.
+
 ## Formato obrigatório de resposta
 
 ```markdown
