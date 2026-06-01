@@ -8,8 +8,8 @@ tags: [kab, rfq, viabilidade, caso-teste, sombra]
 rfq_id: "TA80-1001300AB-01"
 cliente: Anhui Zhongding (大内芯 / inner core)
 classe_agente: Atende com ressalva
-classe_humano: Não atende (sem equipamento - usinagem+tempera+parceiro)
-veredito_teste: MISS otimista
+classe_humano: Atende via LW Usinagem (parceiro) — KAB cotou peças-irmãs
+veredito_teste: ACERTO na classe (reasoning incompleto - não nomeou LW)
 modo: sombra
 ---
 
@@ -75,3 +75,26 @@ Volume 40.000/ano.
   agente NÃO pode dar "atende com ressalva" (lê como sinal verde). Deve **escalar a capacidade de
   usinagem pro Fernando** e classificar no máximo "Provavelmente atende, exige validação" — ou
   "Dados insuficientes" — destacando a pergunta de equipamento.
+
+---
+## REVISÃO (2026-06-01) — conhecimento do Erico + evidência do Drive
+
+**O veredito "Não atende" da leitura literal da FOR-018 estava incompleto.** Conhecimento do Erico:
+*perfil de alumínio **não-tubular** vai pra **LW Usinagem** (parceiro) cortar + usinar; o "não temos
+equipamento" do Fernando é resposta reflexa do in-house — a LW já está no fluxo e nas cotações.*
+
+**Evidência no Drive (cotações irmãs Zhongding, mesmo projeto BYD SA5H, 6061-T6):**
+- `Quote TA60-1001300AC-01 KAB-COM-041-2026`: linha **LW = R$ 1,35/pç** (preenchida).
+- `Quote TA60-1001400BC KAB-COM-043-2026`: linha **LW = R$ 3,70/pç** (preenchida).
+- O modelo de cotação (aba M1) tem **bloco formal de terceirização**: LW, CASTEL, WINOA, ECOPLATING,
+  ITARAÌ, LIMMAR — cada um com Freight + Adm. Cost. **A KAB cotou essas peças** → são viáveis via LW.
+- Para o **TA80-1001300AB-01/-02 exato** só existe a **FOR-018** no Drive (sem Quote KAB-COM final).
+
+**Veredito revisado: ACERTO na classe.** O certo era **"Atende via LW Usinagem (parceiro)"**, e meu
+parecer disse **"Atende com ressalva"** com parceiro externo — classe certa. O que faltou foi o
+**reasoning**: eu achei que era só corte+chanfro+sourcing; na verdade o mecanismo é **usinagem
+terceirizada na LW** (custo entra na linha LW da cotação). Não foi otimismo indevido — foi
+reasoning incompleto por **desconhecer o path LW**.
+
+**Correção real (vale p/ 002 e 004):** ensinar o agente o **path LW Usinagem** — ver
+[[LW Usinagem]] e a regra nova no playbook. Isso conserta os dois erros de uma vez.

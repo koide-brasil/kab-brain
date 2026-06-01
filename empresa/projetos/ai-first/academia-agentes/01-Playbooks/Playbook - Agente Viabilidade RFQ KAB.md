@@ -102,21 +102,28 @@ Usar obrigatoriamente uma das 4 classes:
   externo** para parte do processo, isso é "Atende com ressalva" — explicitar o investimento, não
   rebaixar para "Não atende".
 
-#### Gatilho de usinagem/beneficiamento (lição do Caso 004, 2026-06-01)
+#### Gatilho de usinagem/beneficiamento e o path LW Usinagem (lição dos Casos 002 e 004, revisado 2026-06-01)
 
-Para **não cair no erro oposto** (otimismo): se a peça exige **qualquer operação além de CORTE +
-CHANFRO/FACEAMENTO** — usinagem de furo/feature, rosca, **tratamento térmico (têmpera/cementação)**,
-recartilho, estampagem complexa, beneficiamento externo —:
+A KAB **não se limita ao que faz in-house**. Tem uma **rede de parceiros de beneficiamento
+formalizada na cotação** (modelo M1 tem linhas dedicadas: **LW** [usinagem], CASTEL, WINOA,
+ECOPLATING, ITARAÌ, LIMMAR — cada uma com frete + custo adm.). Logo:
 
-- O agente **NÃO classifica "Atende" por conta própria**.
-- **Escala obrigatoriamente a Produção (Fernando):** "temos equipamento E mão de obra para esta
-  operação?" — porque o envelope de usinagem (Ergomat) é estreito e não está todo no ERP.
-- Classe máxima nesse caso: **"Provavelmente atende, exige validação"**, com a **pergunta de
-  equipamento em destaque** no topo. Reservar "Atende com ressalva" para quando a ressalva é só de
-  **ferramental / sourcing / metrologia** — nunca quando é de **capacidade-de-processo**.
-- Sintoma clássico (Caso 004): peça aparenta "só perfil de alumínio cortado", mas o desenho pede
-  "usinagem após o corte" + têmpera → Fernando: "não temos equipamento". Geometria simples no corte
-  **não** garante que o resto do processo caiba na fábrica.
+- **Operação fora do core (CORTE+CHANFRO) ≠ "Não atende".** Usinagem de furo/feature, rosca,
+  torneamento de maciço, usinagem de perfil não-tubular, tratamento térmico, plating → quase sempre
+  há **path via parceiro**. O custo entra na linha do parceiro na cotação.
+- **Regra do path LW:** **perfil de alumínio NÃO-tubular** ou peça que exige **usinagem mais
+  complexa** → vai para a **LW Usinagem** (parceiro de usinagem; FornecId 38). Veja [[LW Usinagem]].
+  Classe correta = **"Atende via LW Usinagem (parceiro)"**, não "Não atende". (Confirmado: cotações
+  Zhongding TA60-1001300AC e TA60-1001400BC têm a linha LW preenchida — R$ 1,35 e R$ 3,70/pç — a KAB
+  cotou e essas peças são viáveis via LW.)
+- **Cuidado com a FOR-018:** quando o Fernando responde *"não temos equipamento"*, isso é a visão
+  **in-house**. **Não** é o veredito final — checar se há path de parceiro (LW/beneficiamento) antes
+  de concluir. Muitas peças de usinagem viram "Atende via LW" mesmo com Fernando dizendo "não temos".
+- **Quando escalar (não auto-decidir):** se a operação não se encaixa claramente no perfil da LW
+  (usinagem de tubo/perfil/maciço) nem nos parceiros de beneficiamento conhecidos → "Provavelmente
+  atende, exige validação" + escalar pro Gabriel/Jônatas confirmarem o parceiro e o custo.
+- **"Não atende" de verdade** = processo que **nem a KAB nem a rede de parceiros faz**: fundição,
+  forjaria, embutimento profundo, extrusão (a KAB compra perfil extrudado, não extruda).
 
 ## Formato obrigatório de resposta
 
