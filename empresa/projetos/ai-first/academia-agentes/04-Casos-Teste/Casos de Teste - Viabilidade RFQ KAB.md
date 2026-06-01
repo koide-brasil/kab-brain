@@ -23,11 +23,19 @@ Banco de RFQs antigos para testar agente antes de operação real.
 - RFQ com requisito de cliente especial.
 - RFQ simples, representativo do que a KAB faz bem.
 
-## Lista de casos
+## Lista de casos (7/20)
 
-| Caso | Cliente | PN | Tipo | Decisão humana | Resultado esperado do agente | Status |
+| Caso | Cliente | PN | Tipo | Classe humana | Classe agente | Veredito |
 |---|---|---|---|---|---|---|
-| 001 | a preencher | a preencher | a preencher | a preencher | a preencher | pendente |
+| 001 | BOGE | 67040 / 171.000.015.992 | bush sem desenho | Não atende (capac.) | Dados insuficientes | ⚠️ direção certa, sem desenho |
+| 002 | SCHADEK | 40001331 | adaptador maciço c/ rosca | Atende c/ ressalva | Não atende | ❌ não-crítico (subrepresentou Ergomat) |
+| 003 | MAN | CC.02.02.102-A | tubo usinado | ver nota | — | sombra |
+| 004 | Zhongding | TA80-1001300AB-01 | perfil alumínio | ver nota | — | sombra |
+| 005 | Siemens | A-pillar Inner | tubo liga | ver nota | — | sombra |
+| 006 | Sumitomo Riko | 3G-BM509-1 / AV-C4939 | inner Al, flambagem 80 kN | (FOR-018 pend.) | Atende c/ ressalva | ✅ flagou flambagem Al marginal |
+| 007 | SumiRiko Brasil | BJ-092-2 | inner aço forjado/cementado | (FOR-018 pend.) | Atende c/ ressalva | ✅ c/ 2 calibrações (leitura Ø20,6; gate MP×usinado) |
+
+> Meta: 20 casos, 0 erro crítico (rubrica). Calibrações 006/007 em [[Testes e Propriedades de Material KAB]].
 
 ## Links relacionados
 - [[Template - Caso de Teste RFQ]]

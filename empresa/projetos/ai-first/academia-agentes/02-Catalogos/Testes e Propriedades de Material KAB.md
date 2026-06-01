@@ -25,6 +25,16 @@ tags: [academia-agentes, viabilidade-rfq, testes, material, tolerancia, processo
 ressalva (negociar com fornecedor ou inspeção 100%). Chanfro/faceamento **< ± 0,05** → try-out.
 Comprimento **< ± 0,10** → apertado no corte. ≥ ± 0,10 → folgado.
 
+> ⚠️ **Aplicar a folga ±0,08 SÓ a cotas que vêm da matéria-prima** (OD/ID/parede do tubo).
+> Cota **usinada in-house** (furo após piercing, faceamento, bore por calibrador) usa a
+> **capacidade de usinagem** (não a folga de MP) — senão superalarma. Ex. real (BJ-092-2):
+> furo Ø16,2 +0,2/−0,05 controlado por calibrador-tampão Ø16,15 → é usinado, não MP → OK.
+> (Calibração 2026-06-01 com Erico.)
+>
+> ⚠️ **Verificar a cota no desenho antes de gerar flag de "apertado".** Leitura por OCR/visão
+> erra valor (ex. Ø20,6 lido como ±0,05 era ±0,2). Tolerância apertada = confirmar com o
+> humano (skill é Nível-0). Idem raios: confirmar (R2,8 ≠ R22,8).
+
 ## 2. Regime de testes KAB (FOR-060 — Teste de Liberação de Setup)
 
 A KAB valida cada setup/lote do componente metálico com (registro em FOR-060, lab Instron):
