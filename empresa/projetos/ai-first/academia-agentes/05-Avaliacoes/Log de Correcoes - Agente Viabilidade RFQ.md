@@ -15,6 +15,27 @@ tags: [kab, agentes, correcoes, rfq]
 |---|---|---|---|---|---|---|
 | 2026-05-31 | inicial | estrutura criada | - | aguardando testes | - | Bruce |
 | 2026-06-01 | 001 (RFQ 67040 BOGE) | nenhum erro crítico | OK | — | — | Bruce (sombra) |
+| 2026-06-01 | 002 (RFQ 40001331 SCHADEK) | classe pessimista ("Não atende" vs real "Atende c/ ressalva") | não-crítico | 2 correções abaixo | Catálogo de Máquinas + Playbook | Bruce (sombra) |
+
+## Caso 002 — correções (2026-06-01)
+
+Peça testada **com desenho real** (adaptador de filtro maciço 12L14, rosca M18×1,5, cliente
+SCHADEK). Agente classificou **"Não atende"**; a FOR-018 oficial da KAB classifica de fato
+**"Atende com ressalva"** (faz no Ergomat TNG-32, mas exige investir em ferramental de rosca +
+metrologia, e há parceiro externo p/ parte do processo). Raciocínio, evidências e pergunta de
+escalonamento estavam **certos** — só a classe-título ficou pessimista. Detalhe no Caso 002.
+
+**Correção 1 — Catálogo de Máquinas (gap de fonte).** O bootstrap do DBCorp só traz "USINAGEM"
+genérico; não codifica que o **Ergomat TNG-32 tornea / rosqueia / fura maciço** (com limitação:
+garante chanfro interno de **um lado só**). Ação: enriquecer o Catálogo de Máquinas com a
+**capacidade real do Ergomat** (operações que faz, faixa, limitações) — entra na entrevista do
+Jônatas e, enquanto isso, anotar manualmente no catálogo. Sem isso o agente subestima a fábrica.
+
+**Correção 2 — Regra no Playbook (lógica de classificação).** "Ausência de operação no DBCorp"
+**não** é igual a "Não atende". Regra nova: *se existe uma máquina que plausivelmente cobre a
+operação faltante (ex.: Ergomat p/ usinagem/rosca/furo), a classe é "Atende com ressalva +
+escalar p/ Jônatas/Fernando", NÃO "Não atende".* "Não atende" reserva-se a processos que a KAB
+comprovadamente não tem (ex.: fundição, forjaria, embutimento profundo, extrusão).
 
 ## Caso 001 — comparação vs ground truth (2026-06-01)
 

@@ -87,6 +87,21 @@ Usar obrigatoriamente uma das 4 classes:
 3. Não atende capacidade atual.
 4. Dados insuficientes.
 
+#### Regra de calibragem da classe (lição do Caso 002, 2026-06-01)
+
+- **"Ausência de operação no catálogo DBCorp" ≠ "Não atende".** O catálogo do ERP traz só
+  "USINAGEM" genérico e não detalha o que o **Ergomat (TNG-32)** faz (tornea, rosqueia, fura
+  maciço — com limitações). Não confundir "não está no ERP" com "a fábrica não consegue".
+- **Se existe uma máquina que plausivelmente cobre a operação faltante** (tipicamente o Ergomat
+  para usinagem/rosca/furo de maciço), a classe é **"Atende com ressalva" + escalar p/
+  Jônatas/Fernando** — nunca "Não atende".
+- **"Não atende capacidade atual" reserva-se a processos que a KAB comprovadamente NÃO tem:**
+  fundição, forjaria, embutimento profundo, extrusão, dobra de chapa larga, tratamento térmico
+  interno. Aí sim é "Não atende" (ou "atende via terceiro", se aplicável).
+- Quando a ressalva for **investimento** (ferramental novo, instrumento de medição) ou **parceiro
+  externo** para parte do processo, isso é "Atende com ressalva" — explicitar o investimento, não
+  rebaixar para "Não atende".
+
 ## Formato obrigatório de resposta
 
 ```markdown

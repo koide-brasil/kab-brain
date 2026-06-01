@@ -69,6 +69,14 @@ Fonte: `TbCentroTrabalho` (centros ativos). Capacidade em horas/semana cadastrad
 | LINHA-05 | 1 | 1 | 0 | 100% |
 | LINHA-06 | 1 | 1 | 0 | 100% |
 
+## Capacidades conhecidas além do ERP (validação humana — NÃO sobrescrever)
+
+> O DBCorp só registra a operação genérica "USINAGEM". O que o **Ergomat** realmente faz vai além disso e **não está no ERP** — não confundir "não está no ERP" com "a fábrica não consegue". Bloco mantido à mão a partir de FOR-018 reais; expandir com Jônatas/Fernando.
+
+- **Ergomat TNG-32 (usinagem):** **tornea, rosqueia e fura barra maciça** (ex.: adaptador de filtro 12L14, rosca M18×1,5 — FOR-018 RFQ 40001331). **Limitação conhecida:** garante precisão do **chanfro interno de apenas um dos lados**. Rosca nova pode exigir **investimento em ferramental** e a **metrologia de rosca** (De/Dp) não existe hoje — exige investir em tridimensional/perfilômetro/rugosímetro.
+- **Maciço:** a KAB **estoca barra maciça 12L14** (ex.: Ø18,15) — material de peça torneada não é gargalo; o gargalo costuma ser ferramental/metrologia, não a capacidade-máquina.
+- **Processos que a KAB NÃO tem** (→ "Não atende" legítimo): fundição, forjaria, embutimento profundo, extrusão, dobra de chapa larga, tratamento térmico interno.
+
 ## Resumo da frota (para pitch de capacidade)
 
 - **Corte (serras):** 6 máquina(s)
