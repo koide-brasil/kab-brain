@@ -1,76 +1,91 @@
 ---
 tipo: nota
 area: kab
-status: em-andamento
+status: ativo
 criado: 2026-05-31
-atualizado: 2026-05-31
-tags: [kab, maquinas, capacidade, rfq, coleta]
+atualizado: 2026-06-01
+tags: [kab, maquinas, capacidade, rfq, dbcorp]
+fonte: DBCorp (bootstrap automático)
+gerado_por: 92-Skills/kab/viabilidade-rfq/scripts/bootstrap_catalogos.py
 ---
 
 # Catálogo de Máquinas KAB
 
-> Preencher com Jônatas/Fernando. Este catálogo é fonte crítica para o Agente de Viabilidade RFQ.
+> 🤖 **Bootstrap automático do DBCorp em 2026-06-01.** Frota física de produção (recursos do ERP), capacidade nominal e desempenho real (volume produzido + % refugo) por máquina.
+> Janela de histórico: últimos **24 meses**. Re-rode o script pra atualizar.
+> O factual vem do ERP; o tácito (limitações finas, gargalos, try-out) é validado por
+> Jônatas/Fernando/Flávio nas entrevistas — ver bloco "Coleta humana" no fim.
 
-## Como preencher
+## Frota física — recursos de produção
 
-Uma linha por máquina ou célula produtiva. Não inventar dado. Se não souber, marcar `a validar`.
+Uma linha por máquina real cadastrada no DBCorp (`TbRecursoProducao`), com a operação que mais roda nela, volume e refugo dos últimos 24 meses (`TbApontamentoOrdemProducao`). O modelo do equipamento está no próprio nome do recurso.
 
-## Leitura operacional inicial
+| Máquina (recurso) | Operação principal | Volume 24m | Refugo % | OPs | Modelo |
+|---|---|---:|---:|---:|---|
+| CHANFRO - 01 - FA-100 | CHANFRO | 2,035,812 | 0.59 | 635 | FA-100 |
+| CHANFRO - 02 - NPK-250 | CHANFRO | 1,472,461 | 1.22 | 453 | NPK-250 |
+| CHANFRO - 03 - NP-57 | CHANFRO | 2,639,058 | 0.40 | 580 | NP-57 |
+| CHANFRO - 04 - FA-100 | CHANFRO | 2,619,759 | 0.33 | 780 | FA-100 |
+| CHANFRO - 05 - NP-57 | CHANFRO | 2,753,941 | 0.46 | 611 | NP-57 |
+| CHANFRO - 06 | _sem apontamento no período_ | — | — | — | — |
+| CORTE - 01 - SA-90 | CORTE | 1,444,598 | 0.01 | 443 | SA-90 |
+| CORTE - 02 - SA-90 | CORTE | 1,757,109 | 0.01 | 525 | SA-90 |
+| CORTE - 03 - TR80 | CORTE | 2,377,760 | 0.02 | 624 | TR80 |
+| CORTE - 04 - TR-80 | CORTE | 2,793,929 | 0.02 | 815 | TR-80 |
+| CORTE - 05 - CMB 75 | CORTE | 1,687,437 | 0.00 | 411 | CMB 75 |
+| CORTE - 06 - CMB-75 | CORTE | 1,966,477 | 0.03 | 360 | CMB-75 |
+| ERGOMAT - 01 | USINAGEM | 725,870 | 0.90 | 268 | — |
+| ERGOMAT - 02 | USINAGEM | 113,446 | 0.91 | 44 | — |
+| ESTAMPARIA - 01 - VERTICAL | ESTAMPARIA | 2,579,819 | 0.35 | 829 | VERTICAL |
+| ESTAMPARIA - 02 - VERTICAL | ESTAMPARIA | 2,024,552 | 0.46 | 618 | VERTICAL |
 
-Com base nas notas já ingeridas, o que aparece com força é isso aqui:
+## Capacidade nominal por centro de trabalho
 
-- **Corte** é o processo mais recorrente nas fichas de parâmetros e ferramental.
-- Os campos observados mais vezes foram: rotação de corte, avanço de corte, pressão dos mordentes, sala lâmina e serra/disco.
-- Há documentação de **setup/liberação** e de **treinamento de manutenção** ligada a chanfro e corte.
-- Existem evidências de **alertas de qualidade** associados a chanfro acima do especificado, chanfro irregular e variação de comprimento da peça.
-- Conclusão prática: o módulo precisa tratar corte/chanfro como rota padrão, mas com validação humana quando houver requisito crítico de chanfro, comprimento ou tolerância apertada.
+Fonte: `TbCentroTrabalho` (centros ativos). Capacidade em horas/semana cadastrada no ERP.
 
-## Estrutura mínima sugerida
+| Centro | Máquinas | Pessoas | Cap. h/sem | Eficiência |
+|---|---:|---:|---:|---:|
+| CORTE 01 | 0 | 1 | 500 | 100% |
+| CORTE 02 | 1 | 1 | 400 | 100% |
+| CORTE 03 | 1 | 1 | 400 | 100% |
+| CORTE 04 | 1 | 1 | 400 | 100% |
+| CORTE 05 | 1 | 1 | 400 | 100% |
+| CORTE 06 | 1 | 1 | 400 | 100% |
+| CHANFRO 01 | 1 | 1 | 400 | 100% |
+| CHANFRO 02 | 1 | 1 | 400 | 100% |
+| CHANFRO 03 | 1 | 1 | 400 | 100% |
+| CHANFRO 04 | 1 | 1 | 400 | 100% |
+| CHANFRO 05 | 1 | 1 | 400 | 100% |
+| CHANFRO 06 | 1 | 1 | 400 | 100% |
+| ESTAMPARIA 01 | 1 | 1 | 400 | 100% |
+| ESTAMPARIA 02 | 1 | 1 | 400 | 100% |
+| ESTAMPARIA 03 | 1 | 1 | 400 | 100% |
+| ERGOMAT - 01 | 1 | 1 | 144 | 100% |
+| ERGOMAT - 02 | 1 | 1 | 144 | 100% |
+| LINHA-01 | 1 | 1 | 400 | 100% |
+| LINHA-02 | 1 | 1 | 350 | 100% |
+| LINHA-03 | 1 | 1 | 0 | 100% |
+| LINHA-04 | 1 | 1 | 0 | 100% |
+| LINHA-05 | 1 | 1 | 0 | 100% |
+| LINHA-06 | 1 | 1 | 0 | 100% |
 
-| Máquina / célula | Operações possíveis | Materiais | Faixa dimensional | Tolerância típica | Limitações conhecidas | Setup típico | Responsável | Status |
-|---|---|---|---|---|---|---|---|---|
-| A preencher | corte / chanfro / faceamento / usinagem | aço / alumínio | a validar | a validar | a validar | a validar | a validar | pendente |
+## Resumo da frota (para pitch de capacidade)
 
-## Campos obrigatórios
+- **Corte (serras):** 6 máquina(s)
+- **Chanfro (chanfradeiras):** 6 máquina(s)
+- **Estamparia (prensas verticais):** 2 máquina(s)
+- **Usinagem (células Ergomat):** 2 máquina(s)
 
-- Nome interno da máquina/célula.
-- Operações possíveis.
-- Material atendido.
-- Faixa de diâmetro/perfil/comprimento.
-- Tolerâncias normais.
-- Tolerâncias que exigem validação.
-- Limitações conhecidas.
-- Ferramentas/dispositivos associados.
-- Setup e gargalos.
-- Evidência documental de liberação/setup.
+> ⚠️ Usar em pitch comercial só como capacidade **nominal expansível** (turnos), nunca como dado auditável (Run@Rate/PPAP exigem medição real). Ver [[kab-pitch-capacidade-comercial]].
 
-## Limitações que já devem aparecer como alerta
+## Coleta humana (validar com Jônatas/Fernando)
 
-- Chanfro fora do especificado ou irregular.
-- Variação de comprimento da peça.
-- Dependência de setup correto e de ferramental ajustado.
-- Parâmetros de corte sem preenchimento confiável não podem virar regra automática.
+O DBCorp dá o **factual** (que máquina existe, quanto roda, quanto refuga). Falta o **tácito**:
 
-## Perguntas para coleta
+- Faixa dimensional real de cada máquina (Ø min/max, comprimento min/max) — ERP não guarda.
+- Tolerâncias tranquilas vs. as que exigem try-out.
+- Que peça cada máquina faz bem, faz com dor de cabeça, ou não deve fazer.
+- Qual é o gargalo hoje e em que condição o setup precisa de liberação formal.
+- Por que a **CHANFRO-02 (NPK-250)** refuga mais que as demais chanfradeiras (ver doc de defeitos).
 
-- Que peças essa máquina faz bem?
-- Que peças ela faz, mas dá dor de cabeça?
-- Que peças ela não deve fazer?
-- Quais tolerâncias são tranquilas?
-- Quais tolerâncias exigem try-out?
-- Qual máquina é gargalo?
-- Em quais casos o setup precisa de liberação formal?
-
-## Perguntas para coleta
-
-- Que peças essa máquina faz bem?
-- Que peças ela faz, mas dá dor de cabeça?
-- Que peças ela não deve fazer?
-- Quais tolerâncias são tranquilas?
-- Quais tolerâncias exigem try-out?
-- Qual máquina é gargalo?
-
-## Links relacionados
-- [[Roteiro Entrevista - Jonatas - Maquinas e Ferramental]]
-- [[Roteiro Entrevista - Fernando - Producao e Capacidade]]
-- [[Matriz Peca Processo KAB]]
+Links: [[Roteiro Entrevista - Jonatas - Maquinas e Ferramental]] · [[Roteiro Entrevista - Fernando - Producao e Capacidade]] · [[Matriz Peca Processo KAB]] · [[Historico Defeitos por Maquina KAB]]

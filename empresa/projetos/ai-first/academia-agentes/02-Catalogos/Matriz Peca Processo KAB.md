@@ -1,52 +1,285 @@
 ---
 tipo: nota
 area: kab
-status: em-andamento
+status: ativo
 criado: 2026-05-31
-atualizado: 2026-05-31
-tags: [kab, processo, peca, rfq, coleta]
+atualizado: 2026-06-01
+tags: [kab, pecas, processo, roteiro, rfq, dbcorp]
+fonte: DBCorp (bootstrap automático)
+gerado_por: 92-Skills/kab/viabilidade-rfq/scripts/bootstrap_catalogos.py
 ---
 
 # Matriz Peça × Processo KAB
 
-| Família de peça | Material | Operações típicas | Máquinas candidatas | Ferramental | Risco técnico | Validação humana |
-|---|---|---|---|---|---|---|
-| Tubo aço simples | aço | corte / chanfro / faceamento | a validar | a validar | baixo/médio a validar | Fernando/Jônatas |
-| Perfil alumínio | alumínio | corte / usinagem / inspeção | a validar | a validar | a validar | Fernando/Jônatas/Qualidade |
-| Maciço | aço | usinagem | a validar | a validar | a validar | Fernando/Jônatas |
-| Peça com beneficiamento externo | aço/alumínio | produção + fornecedor externo | a validar | a validar | médio/alto | Gabriel/Qualidade/Compras |
+> 🤖 **Bootstrap automático do DBCorp em 2026-06-01.** Roteiro real de cada peça já fabricada (sequência de operações + máquina + ciclo). É a base de **similaridade** para julgar um RFQ novo: peça parecida já rodou aqui?
+> Janela de histórico: últimos **24 meses**. Re-rode o script pra atualizar.
+> O factual vem do ERP; o tácito (limitações finas, gargalos, try-out) é validado por
+> Jônatas/Fernando/Flávio nas entrevistas — ver bloco "Coleta humana" no fim.
 
-## Como usar
+Fonte: `TbRoteiroProducao` (roteiro padrão) + `TbOperacaoRoteiroProducao`. Volume e última produção de `TbOrdemProducao`. **Peças fabricadas (tipo F) com roteiro.**
 
-O Agente de Viabilidade cruza a peça nova contra esta matriz para propor rota preliminar e riscos.
+Como usar num RFQ: ache a peça mais parecida (material + geometria + rota) e veja se a KAB já fez. Se sim e o volume é relevante → forte evidência de viabilidade. Se não há similar → risco / validação humana.
 
-## Leitura operacional inicial
 
-Com base nas notas já ingeridas, a matriz deve começar simples e centrada em rota de corte/chanfro, porque é onde aparecem as evidências mais repetidas:
+## ALUMINIO — 41 peças
 
-- **Família de peça com maior sinal operacional:** tubo e perfil com operação de corte/chanfro.
-- **Ponto crítico recorrente:** controle de chanfro e comprimento final.
-- **Risco técnico recorrente:** desvio de chanfro, irregularidade e necessidade de ajuste fino de setup.
-- **Validação humana obrigatória** quando a peça tiver requisito de chanfro crítico, comprimento sensível ou histórico de alerta de qualidade.
+| Peça (descrição DBCorp) | Peso líq (kg) | Rota de produção | Vol 24m | Última prod |
+|---|---:|---|---:|---|
+| 3434390 - ANEL EXT. ALUM. - PT2_3_6_7 | — | CORTE (CMB 75) → CHANFRO (FA-100) | 807,927 | 2026-05-29 |
+| 40437400 - TUBO INTERNO - SMALL BUSH TR N3 | 0.091 | CORTE (CMB-75) → CHANFRO (NP-57) | 36,684 | 2026-05-26 |
+| 40434600 - ANEL EXTERNO - MP1 TR N4 | 0.042 | CORTE (SA-90) → CHANFRO (NPK-250) | 62,946 | 2026-05-20 |
+| 3442190 - TUBO INTERNO ALUMINIO - PT2 | — | CORTE (CMB 75) | 595,119 | 2026-05-18 |
+| 3441360 - ANEL EXTERNO ALUMINIO - TR 291 | 0.071 | CORTE (SA-90) → CHANFRO (NPK-250) | 263,535 | 2026-05-11 |
+| 07.050.0149 - BJ-074-2 | 0.104 | CORTE (CMB 75) → CHANFRO (NP-57) | 129,178 | 2026-05-04 |
+| 3434460 - ANEL EXTERNO ALUM. - RDM ANT | 0.060 | CORTE (CMB 75) → CHANFRO (FA-100) | 8,118 | 2026-01-22 |
+| 40434800 - TUBO INTERNO - MP1 SMALL BUSH TR N4 | 0.122 | CORTE (CMB-75) → CHANFRO (NP-57) | 46,242 | 2025-10-28 |
+| 3440230 - TUBO INT ALUMINIO CVT T4 AT6/9 | 0.041 | CORTE (CMB 75) → CHANFRO (NP-57) | 63 | 2025-10-23 |
+| 3438310 - TUBO INT. ALUMINIO PT2 363 | 0.051 | CORTE (CMB 75) → CHANFRO (NP-57) | 81 | 2025-10-23 |
+| 3434470 - ANEL EXTERNO ALUM. - RDM | 0.095 | CORTE (CMB 75) → CHANFRO (FA-100) | 188 | 2025-08-05 |
+| 07.050.0286 - BJ-107-1 | — | CORTE (SA-90) → CHANFRO (NPK-250) | 122,048 | 2025-07-30 |
+| 07.050.0268 - BJ-087-1 | 0.020 | CORTE (SA-90) → CHANFRO (NPK-250) | 128,800 | 2025-07-24 |
+| 07.050.0289 - BJ-109-1 | 0.064 | CORTE (CMB 75) → CHANFRO (NP-57) | 135,520 | 2025-07-07 |
+| BJ-087-1 - CORTE | — | CORTE (SA-90) | — | 2023-06-30 |
+| 07.050.0289 - BJ-109-1-CT -  CORTE | 0.064 | CORTE (TR80) | — | 2023-06-30 |
+| 07.050.0149 - BJ-074-2-CT - CORTE | 0.104 | CORTE (CMB 75) | — | 2023-04-20 |
+| 07.050.0286 - BJ-107-1-CT - CORTE | — | CORTE (SA-90) | — | 2023-04-17 |
+| 3434400M. | 0.085 | INSPEÇÃO | — | 2021-06-08 |
+| 3434470H-CC | 0.102 | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2021-05-27 |
+| 3434400H-CC | 0.085 | CORTE (CMB 75) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-05-25 |
+| 3431510H-CC | 0.136 | CORTE (CMB 75) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-05-06 |
+| 3434420H-CC | 0.040 | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2021-04-27 |
+| 3434390H-CC | 0.050 | CORTE (TR-80) → CHANFRO (FA-100) → INSPEÇÃO | — | 2021-04-23 |
+| 3434690H-CC | 0.062 | CORTE (CMB 75) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-02-10 |
+| 3434460H-CC | 0.071 | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2021-01-08 |
+| 3434470-CT- CORTE | — | CORTE (TR-80) | — | 2020-10-05 |
+| RZ31368901 | — | CORTE (CMB 75) → CHANFRO (NP-57) → INSPEÇÃO | — | 2020-03-17 |
+| 3434470-CC | — | CHANFRO (FA-100) → INSPEÇÃO | — | 2019-09-25 |
+| 3431510-CC | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2019-09-23 |
+| 3434690-CC | — | CORTE (CMB 75) → CHANFRO (NP-57) → INSPEÇÃO | — | 2019-08-30 |
+| 3434390-CC | — | CHANFRO (FA-100) → INSPEÇÃO | — | 2019-08-28 |
+| 3434420-CC | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2019-08-28 |
+| 3434400-CC | — | CORTE (CMB 75) → CHANFRO (NP-57) → INSPEÇÃO | — | 2019-08-28 |
+| R033B00061A | — | CORTE (CMB 75) → INSPEÇÃO | — | 2019-08-22 |
+| EE0013VT605B | — | CORTE (TR80) | — | 2019-07-19 |
+| EE0013VT607B | — | CORTE (TR80) | — | 2019-07-19 |
+| EE0013VT613B | — | CORTE (TR80) | — | 2019-07-19 |
+| 3434460-CC | — | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2019-05-07 |
+| 3434390-CT - CORTE | — | CORTE (TR-80) | — | — |
+| 3431510H-CT - CORTE | 0.136 | CORTE (CMB 75) | — | — |
 
-## Estrutura mínima sugerida
+## AÇO — 184 peças
 
-| Família de peça | Material | Operações típicas | Máquinas candidatas | Ferramental | Risco técnico | Validação humana |
-|---|---|---|---|---|---|---|---|---|
-| Tubo aço simples | aço | corte / chanfro / faceamento | a validar | a validar | baixo/médio a validar | Fernando/Jônatas |
-| Perfil alumínio | alumínio | corte / usinagem / inspeção | a validar | a validar | a validar | Fernando/Jônatas/Qualidade |
-| Maciço | aço | usinagem | a validar | a validar | a validar | Fernando/Jônatas |
-| Peça com beneficiamento externo | aço/alumínio | produção + fornecedor externo | a validar | a validar | médio/alto | Gabriel/Qualidade/Compras |
+| Peça (descrição DBCorp) | Peso líq (kg) | Rota de produção | Vol 24m | Última prod |
+|---|---:|---|---:|---|
+| 07.050.0278 - BJ-095-1-CC | — | CORTE (TR-80) → CHANFRO (NP-57) | 361,339 | 2026-06-01 |
+| 07.050.0332 - BJ-037-2 | 0.254 | INSPEÇÃO | 750,288 | 2026-05-28 |
+| 07.050.0327 - BJ-036-1 | 0.119 | ESTAMPARIA (VERTICAL) | 734,960 | 2026-05-28 |
+| 3430410 - TUBO INTERNO ACO - PT1 | 0.208 | CORTE (CMB 75) → CHANFRO (NP-57) | 634,508 | 2026-05-28 |
+| 3411130 - TUBO INTERNO AÇO - CARAMELLA | 0.160 | CORTE (TR-80) → CHANFRO (FA-100) | 207,442 | 2026-05-28 |
+| 40304300-CC | 0.153 | CORTE (SA-90) → CHANFRO (NPK-250) | 630,316 | 2026-05-27 |
+| BR22202756 - TUBO INTERNO | 0.063 | CORTE (CMB 75) → CHANFRO (NP-57) | 54 | 2026-05-26 |
+| 07.050.0331 - BJ-037-1 | 0.204 | ESTAMPARIA (VERTICAL) | 782,188 | 2026-05-26 |
+| 07.050.0328 - BJ-036-2 | 0.208 | INSPEÇÃO | 712,832 | 2026-05-26 |
+| 07.050.0336 - BK-015A-1 | 0.069 | ESTAMPARIA (VERTICAL) | 435,612 | 2026-05-22 |
+| 07.050.0111 - BL-012-2 | 0.240 | CORTE (TR-80) → CHANFRO (NP-57) | 243,165 | 2026-05-21 |
+| 07.050.0325 - BJ-035-1 | 0.107 | ESTAMPARIA (VERTICAL) | 1,489,140 | 2026-05-19 |
+| 07.050.0067 - BJ-041-2 | 0.303 | CORTE (TR80) → CHANFRO (NP-57) | 126,540 | 2026-05-18 |
+| TUBO DE AÇO 47,8MM X 44,2MM  - BJ-035-1-CC | 0.107 | CORTE (CMB-75) → CHANFRO (FA-100) | 1,423,993 | 2026-05-15 |
+| TUBO DE AÇO 39,20X36,00MM  - BK-015A-1-CC | 0.069 | CORTE (TR80) → CHANFRO (NP-57) | 465,606 | 2026-05-15 |
+| 07.050.0334 - BK-014A-1 | 0.095 | CORTE (SA-90) → CHANFRO (NPK-250) | 139,532 | 2026-05-12 |
+| 07.050.0290 | 0.088 | ESTAMPARIA (VERTICAL) | 190,080 | 2026-05-05 |
+| TUBO DE AÇO 49,5MM X 45,9MM - BJ-036-1-CC | 0.119 | CORTE (CMB 75) → CHANFRO (FA-100) | 677,982 | 2026-05-04 |
+| TUBO DE AÇO 58,0MM X 54,4MM - BJ-037-1-CC | 0.204 | CORTE (TR-80) → CHANFRO (NPK-250) | 727,542 | 2026-05-04 |
+| 40383200-CC | 0.085 | CORTE (SA-90) → CHANFRO (NPK-250) | 339,815 | 2026-05-04 |
+| 07.050.0276 - BJ-094-1 | 0.048 | ESTAMPARIA (VERTICAL) | 372,420 | 2026-04-24 |
+| 07.050.0290 - BJ-097-1-CC | 0.088 | CORTE (TR-80) → CHANFRO (FA-100) | 179,085 | 2026-04-23 |
+| 07.050.0278 - BJ-095-1 | 0.069 | ESTAMPARIA (VERTICAL) | 381,150 | 2026-04-22 |
+| BJ-093-1/094-1-CC | — | CORTE (CMB-75) → CHANFRO (NP-57) | 336,590 | 2026-04-15 |
+| 212.0000046 - BUCHA 19,5 X 32 X 41 - VW (MAN) | 0.163 | CORTE (CMB 75) → CHANFRO (FA-100) | 308 | 2026-04-08 |
+| SUPORTE PINO AMORTECEDOR | 0.234 | USINAGEM (01) | 80 | 2026-03-31 |
+| 07.050.0282 - BJ-098-1 | 0.177 | CORTE (SA-90) → CHANFRO (FA-100) | 173,600 | 2026-03-31 |
+| 54438 5RA0A-2-D15-0302 | 0.103 | CORTE (TR80) → CHANFRO (NP-57) | 201,200 | 2026-03-27 |
+| 54438-5RA0B-3-D15-0302 | 0.060 | CORTE (TR80) → CHANFRO (NP-57) | 184,800 | 2026-03-27 |
+| 07.050.0003 - BJ-031-3 | 0.041 | INSPEÇÃO | 289,800 | 2026-03-24 |
+| 51351-T5R-A000-30Y | 0.213 | CORTE (CMB-75) → CHANFRO (FA-100) | 402,525 | 2026-03-17 |
+| 472.60419-CC | 0.020 | CORTE (TR80) → CHANFRO (NP-57) | 38,410 | 2026-03-13 |
+| 472.60535-CC | 0.042 | CORTE (TR-80) → CHANFRO (NP-57) | 16,090 | 2026-03-13 |
+| 07.050.0274 - BJ-103-1 | — | CORTE (SA-90) → CHANFRO (NP-57) | 177,900 | 2026-03-12 |
+| 07.050.0314 - BJ-112-2 | — | CORTE (TR80) → CHANFRO (NP-57) | 364,650 | 2026-03-09 |
+| 07.050.0270 - BJ-092-1 | 0.051 | ESTAMPARIA (VERTICAL) | 197,712 | 2026-03-05 |
+| BJ-031-3-CC | 0.041 | CORTE (TR80) → CHANFRO (NP-57) | 282,250 | 2026-02-26 |
+| 54438 7LR0AY | 0.025 | CORTE (TR-80) → CHANFRO (NP-57) | 93,000 | 2026-02-20 |
+| 02.0036.00041 - BJ-047-1-2 | 0.177 | CORTE (SA-90) → CHANFRO (NPK-250) | 5,262 | 2026-02-06 |
+| 07.050.0270 - BJ-092-1-CC | — | CORTE (TR-80) → CHANFRO (NP-57) | 170,267 | 2026-01-30 |
+| 544F8 5726R | 0.110 | CORTE (TR80) → CHANFRO (NP-57) | 142,100 | 2026-01-19 |
+| 3431510 - TUBO INTERNO - PT51_52 | 0.120 | CORTE (CMB-75) → CHANFRO (NP-57) | 251,443 | 2026-01-13 |
+| 55124-5JL0A | 0.645 | INSPEÇÃO | 35,357 | 2026-01-08 |
+| 07.050.0079 - BJ-052-1 | 0.110 | CORTE (SA-90) → CHANFRO (FA-100) | 77,327 | 2025-09-25 |
+| TUBE 48723-0A070 TB8200729A | 0.247 | CORTE (TR-80) → CHANFRO (FA-100) | 732 | 2025-08-20 |
+| 48711-150DL (48717-0A070)-CC | 0.288 | CORTE (CMB 75) | 943 | 2025-08-20 |
+| BRKT TRANSAXLE BUSHING | 0.327 | CORTE (SA-90) → CHANFRO (NPK-250) | 449 | 2025-08-01 |
+| 07.050.0077 - BJ-048-2 | 0.215 | CORTE (TR80) → CHANFRO (NP-57) | 74,130 | 2025-07-17 |
+| 55132-5JL0A-CC | 1.423 | CORTE (CMB 75) | 10,441 | 2025-07-09 |
+| 02.0036.00044 - BJ-066-1-1 | — | CORTE (TR-80) → CHANFRO (FA-100) | 61,560 | 2025-06-17 |
+| 07.050.0080 - BJ-052-2 | 0.216 | CORTE (TR80) → CHANFRO (NP-57) | 62,930 | 2025-04-24 |
+| 55124-5JL0A-CC | 0.645 | CORTE (CMB 75) | 24,966 | 2025-04-23 |
+| 07.050.0078 - BJ-053-2 | 0.154 | CORTE (TR80) → CHANFRO (NP-57) | 99,800 | 2025-04-07 |
+| BJ-045B-2-CC | 0.068 | CORTE (TR-80) → CHANFRO (FA-100) | 136 | 2025-03-27 |
+| 208.0000072 - BL-020-2-1 | 0.085 | CORTE (TR-80) → CHANFRO (NP-57) | 36,792 | 2025-03-25 |
+| 07.050.0230 - BL-040-2 | 0.218 | CORTE (TR80) → CHANFRO (NP-57) | 98,865 | 2025-02-21 |
+| 02.0036.00038 - BJ-051-1-1 | 0.167 | CORTE (TR-80) → CHANFRO (FA-100) | 12,636 | 2025-02-17 |
+| 55116-5JL0A | 0.372 | CORTE (TR-80) → CHANFRO (FA-100) | 59,952 | 2024-12-20 |
+| 54534-5JL0A | 0.168 | CORTE (TR-80) → CHANFRO (FA-100) | 15,900 | 2024-12-10 |
+| 55133-5JL0A | 0.261 | CORTE (TR-80) → CHANFRO (FA-100) | 16,445 | 2024-12-09 |
+| 54519-5JL0A | 0.296 | CORTE (TR-80) → CHANFRO (FA-100) | 35,900 | 2024-11-21 |
+| 30009-383-13 | 0.019 | USINAGEM (01) | 15 | 2024-09-27 |
+| 07.050.0237 - BL-046-1 | 0.123 | CORTE (TR80) → CHANFRO (NP-57) | 9,200 | 2024-08-28 |
+| 07.050.0228 - BL-039-2 | 0.129 | CORTE (TR80) → CHANFRO (NP-57) | 39,490 | 2024-08-28 |
+| 02.0036.00026 | 0.150 | CORTE (TR-80) → CHANFRO (FA-100) | 4,500 | 2024-08-20 |
+| 36009-383-00 | 0.034 | _só setup_ | 15 | 2024-08-12 |
+| 208.0000070 - BL-015-1-2 | 0.333 | CORTE (CMB 75) → CHANFRO (NPK-250) | — | 2024-05-10 |
+| 33102-435-01 | 0.045 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2024-05-07 |
+| 52237-BZ040-H | 0.045 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2024-04-03 |
+| 54456 2670 A | 0.152 | CORTE (TR80) → CHANFRO (NP-57) | — | 2024-03-25 |
+| 208.0000073 - BL-016-2-2 | 0.090 | CORTE (TR80) → CHANFRO (NP-57) | — | 2024-03-20 |
+| 07.050.0238 - BL-047-1 | 0.265 | CORTE (CMB 75) → CHANFRO (FA-100) | — | 2024-03-14 |
+| HGCC1-311-51-BR | 0.059 | USINAGEM (01) | — | 2023-11-21 |
+| 30009-316-01 | 0.075 | CORTE (TR-80) → CHANFRO (NP-57) | — | 2023-10-02 |
+| 54519-5JL0A-CT - CORTE | 0.296 | CORTE (CMB-75) | — | 2023-08-22 |
+| TUBO DE AÇO 47,8MM X 44,2MM  - BJ-035-1-CT | 0.107 | CORTE (SA-90) | — | 2023-08-15 |
+| 05602-480-00-BR | 0.015 | INSPEÇÃO | — | 2023-08-03 |
+| 07.050.0230 - BL-040-2-CT - CORTE | 0.218 | CORTE (TR80) | — | 2023-07-28 |
+| TUBO DE AÇO 49,5MM X 45,9MM - BJ-036-1-CT | 0.119 | CORTE (SA-90) | — | 2023-07-25 |
+| 30009-316-21 | 0.055 | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2023-07-24 |
+| TUBO DE AÇO 58,0MM X 54,4MM - BJ-037-1-CT | 0.204 | CORTE (SA-90) | — | 2023-07-19 |
+| 05602-480-00-BR-CC | 0.015 | CORTE (TR-80) → CHANFRO (NP-57) | — | 2023-07-12 |
+| 07.050.0237 - BL-046-1-CT - CORTE | 0.123 | CORTE (TR80) | — | 2023-07-06 |
+| BJ-066-1-1-CT - CORTE | — | CORTE (TR-80) | — | 2023-07-04 |
+| 55133-5JL0A-CT - CORTE | 0.235 | CORTE (CMB-75) | — | 2023-07-03 |
+| 07.050.0290 - BJ-097-1-CT - CORTE | — | CORTE (CMB 75) | — | 2023-07-03 |
+| 51351-T5R-A000-30Y-CT - CORTE | 0.213 | CORTE (CMB-75) | — | 2023-07-03 |
+| BJ-048-2 - CORTE | 0.215 | CORTE (SA-90) | — | 2023-06-30 |
+| 55116-5JL0A-CT - CORTE | 0.372 | CORTE (CMB 75) | — | 2023-06-01 |
+| 54534-5JL0A-CT - CORTE | 0.168 | CORTE (CMB-75) | — | 2023-05-23 |
+| 07.050.0079 - BJ-052-1-CT - CORTE | 0.110 | CORTE (SA-90) | — | 2023-04-24 |
+| BJ-095-1-CT - CORTE | — | CORTE (CMB 75) | — | 2023-04-24 |
+| 07.050.0314 - BJ-112-2-CT - CORTE | — | CORTE (TR80) | — | 2023-04-18 |
+| BJ-093-1/094-1-CT - CORTE | — | CORTE (CMB 75) | — | 2023-04-17 |
+| BL-039-2-CT - CORTE | — | CORTE (TR80) | — | 2023-04-17 |
+| BL-012-2-CT - CORTE | — | CORTE (TR80) | — | 2023-04-13 |
+| 07.050.0282 - BJ-098-1-CT - CORTE | 0.177 | CORTE (SA-90) | — | 2023-04-12 |
+| 07.050.0270 - BJ-092-1-CT - CORTE | — | CORTE (TR-80) | — | 2023-04-12 |
+| 208.0000072 - BL-020-2-1-CT - CORTE | 0.085 | CORTE (TR80) | — | 2023-04-10 |
+| 07.050.0238 - BL-047-1-CT - CORTE | 0.260 | CORTE (CMB 75) | — | 2023-04-03 |
+| TUBO DE AÇO 39,20X36,00MM  - BK-015A-1-CT - CORTE | 0.069 | CORTE (SA-90) | — | 2023-03-30 |
+| 07.050.0274 - BJ-103-1-CT - CORTE | — | CORTE (CMB-75) | — | 2023-03-29 |
+| 208.0000070 - BL-015-1-2-CT - CORTE | 0.333 | CORTE (CMB 75) | — | 2023-03-29 |
+| 07.050.0067 - BJ-041-2-CT - CORTE | 0.303 | CORTE (TR80) | — | 2023-03-24 |
+| BJ-031-3-CC - CORTE | 0.041 | CORTE (TR80) | — | 2023-03-22 |
+| 07.050.0334 - BK-014A-1-CT - CORTE | 0.095 | CORTE (SA-90) | — | 2023-03-17 |
+| 50194063310 | 0.153 | CORTE (TR-80) → INSPEÇÃO | — | 2023-01-04 |
+| 50194073310 | 0.444 | CORTE (TR-80) → INSPEÇÃO | — | 2023-01-04 |
+| 07.050.0082 - BJ-053-1 | 0.068 | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2023-01-04 |
+| 07.050.0261 - BJ-084-1 | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2023-01-03 |
+| BJ-075A-1-CC | 0.053 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2023-01-02 |
+| 07.050.0096 - BJ-059-1 | 0.081 | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2022-12-02 |
+| 07.050.0130 - BJ-072-1 | 0.150 | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2022-11-30 |
+| 07.050.0313 - BJ-112-1 | 0.050 | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2022-11-28 |
+| 07.050.0240 - BL-048-2 | 0.218 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2022-11-22 |
+| 07.050.0239 - BL-048-1 | 0.098 | CORTE (TR-80) → CHANFRO (FA-100) → INSPEÇÃO | — | 2022-11-11 |
+| 07.050.0068 - BJ-040-2 | 0.246 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2022-11-04 |
+| BJ-059-2-CC | 0.152 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2022-10-31 |
+| 02.0036.00039 - BJ-056-1-1 | 0.187 | CORTE (TR-80) → CHANFRO (FA-100) | — | 2022-10-31 |
+| 208.05.93 - BL-021-1-1 | 0.089 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2022-10-05 |
+| BJ-120A-1-CC | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2022-09-28 |
+| 07.050.0029 - BK-017A-1 | 0.132 | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2022-09-28 |
+| BJ-113-1-CC | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2022-09-12 |
+| 07.050.0305 - BQ-004-1 | 0.243 | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2022-09-07 |
+| 48656-0D070-CC | — | CHANFRO (FA-100) | — | 2022-02-23 |
+| 48656-D03BL-CC | — | CHANFRO (FA-100) | — | 2022-02-23 |
+| BJ-042A-2-CC | — | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2022-01-06 |
+| BR22101034 | 0.300 | ESTAMPARIA (VERTICAL) → INSPEÇÃO | — | 2021-12-16 |
+| BR22101034-CC | — | CORTE (SA-90) → CHANFRO (FA-100) | — | 2021-08-30 |
+| BR22202767 | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-07-02 |
+| BR22202801 | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-06-02 |
+| BR22202600-CC | — | CORTE (TR-80) → CHANFRO (FA-100) → INSPEÇÃO | — | 2021-05-17 |
+| BR22201262 | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-04-23 |
+| BJ-037-2-CC | 0.254 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-04-20 |
+| 3430430-CC | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2021-04-14 |
+| BR22202778 | — | CORTE (TR80) → CHANFRO (NP-57) | — | 2021-04-14 |
+| BR22202357 | — | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2021-04-12 |
+| BR22101247 | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2021-04-05 |
+| BR22101526 | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2021-04-05 |
+| BR22202802 | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2021-03-25 |
+| BR22101712 | — | INSPEÇÃO | — | 2021-03-25 |
+| BJ-073-1-CC | — | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2021-03-11 |
+| BR22201713-CC | — | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | 2021-03-08 |
+| BR22102600 | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2021-01-05 |
+| BR22101713-CC | 0.207 | CORTE (SA-90) → CHANFRO (FA-100) | — | 2020-12-29 |
+| 54438-5RB0BY- BUCHA METÁLICA PARA SUSPENÇÃO AUTOMOTIVA | 0.060 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2020-12-09 |
+| 48398-5NA1AY - BUCHA METÁLICA PARA SUSPENÇÃO AUTOMOTIVA | 0.103 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2020-12-01 |
+| 54438 5RB0AY- BUCHA METÁLICA PARA SUSPENÇÃO AUTOMOTIVA | 0.103 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2020-11-27 |
+| BR22202048 | — | ESTAMPARIA (VERTICAL) → INSPEÇÃO | — | 2020-11-24 |
+| 55425-5NA0AY - BUCHA METÁLICA PARA SUSPENÇÃO AUTOMOTIVA | 0.103 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2020-10-30 |
+| BR22202048-CC | — | CORTE (SA-90) → CHANFRO (FA-100) | — | 2020-10-29 |
+| BR22101713-00 | 0.207 | ESTAMPARIA (VERTICAL) → INSPEÇÃO | — | 2020-10-14 |
+| BL-048-2-CT - CORTE | — | CORTE (SA-90) | — | 2020-10-09 |
+| BR22102600-CC - CORTE E CHANFRO | — | CORTE (SA-90) | — | 2020-10-09 |
+| BJ-052-2-CT - CORTE | 0.216 | CORTE (TR80) | — | 2020-10-08 |
+| BJ-036-2-CC | 0.208 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2020-07-31 |
+| BR22102658 | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | 2020-04-09 |
+| BQ-002-1 | — | INSPEÇÃO | — | 2020-02-10 |
+| 07.050.0272 - BJ-093-1 | — | ESTAMPARIA (VERTICAL) → INSPEÇÃO | — | 2020-01-27 |
+| BQ-002-1-CC | — | CORTE (SA-90) | — | 2020-01-15 |
+| 208.05.95 - BL-030-2-1 | 0.072 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2019-10-11 |
+| 07.050.0228 - BL-039-2-CC | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | 2019-05-10 |
+| 07.050.0071 - BJ-024-1 | — | CHANFRO (NP-57) → INSPEÇÃO | — | 2018-11-30 |
+| 3430410-CC | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | — |
+| BQ-003-1 | — | CORTE (SA-90) → INSPEÇÃO | — | — |
+| BQ-001-1 | — | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | — |
+| 208.06.02 - BL-050-2-1 | 0.102 | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | — |
+| 2-6-012-020-20 | — | CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | — | — |
+| 3411130-CC | — | CORTE (TR-80) → CHANFRO (FA-100) → INSPEÇÃO | — | — |
+| BL-048-1-CT - CORTE | 1.000 | CORTE (SA-90) | — | — |
+| BJ-059-1-CT - CORTE | — | CORTE (SA-90) | — | — |
+| 48723-D03BL-BR-00 | 0.375 | CORTE (TR-80) → CHANFRO (FA-100) | — | — |
+| 48723-D03BL-BR-CC | — | CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | — | — |
+| 48656-D03BL | 0.211 | CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | — | — |
+| 07.050.0078 - BJ-053-2-CT - CORTE | 0.154 | CORTE (TR80) | — | — |
+| 02.0036.00026-CT - CORTE | 0.150 | CORTE (CMB 75) | — | — |
+| 48656-D03BL-CT - CORTE | 0.211 | CORTE (CMB 75) | — | — |
+| 48656-0D070-CT - CORTE | — | CORTE (CMB 75) | — | — |
+| 02.0036.00041 - BJ-047-1-2-CT - CORTE | 0.177 | CORTE (SA-90) | — | — |
+| 02.0036.00038 - BJ-051-1-1-CT - CORTE | 0.167 | CORTE (CMB 75) | — | — |
+| 02.0036.00039 - BJ-056-1-1-CT - CORTE | 0.187 | CORTE (CMB-75) | — | — |
+| 54438 5RA0A-CT - CORTE | 0.103 | CORTE (CMB 75) | — | — |
+| 54438-5RA0B-CT - CORTE | 0.060 | CORTE (TR80) | — | — |
+| 208.05.97 - BL-016-2-2-CT - CORTE | 0.090 | CORTE (TR80) | — | — |
 
-## Regras mínimas
+## Rotas mais comuns
 
-- Não inferir máquina candidata sem fonte de máquina/célula.
-- Não tratar alerta de qualidade como regra universal sem validação humana.
-- Quando houver histórico de chanfro fora do especificado, a rota deve ser marcada como sensível.
-- Quando faltar dado de tolerância ou operação, retornar `dados insuficientes`.
+| Rota | Nº de peças |
+|---|---:|
+| CORTE (TR80) → CHANFRO (NP-57) → INSPEÇÃO | 25 |
+| CORTE (TR80) → CHANFRO (NP-57) | 17 |
+| CORTE (CMB 75) | 17 |
+| CORTE (SA-90) | 16 |
+| CORTE (TR80) | 16 |
+| CORTE (TR-80) → CHANFRO (FA-100) | 13 |
+| CORTE (SA-90) → CHANFRO (FA-100) → INSPEÇÃO | 13 |
+| CORTE (SA-90) → CHANFRO (NPK-250) → INSPEÇÃO | 12 |
+| CORTE (SA-90) → CHANFRO (NPK-250) | 9 |
+| CORTE (TR-80) → CHANFRO (NP-57) | 8 |
+| INSPEÇÃO | 8 |
+| ESTAMPARIA (VERTICAL) | 8 |
+| CORTE (CMB 75) → CHANFRO (NP-57) | 6 |
+| CORTE (CMB 75) → CHANFRO (FA-100) | 6 |
+| CORTE (CMB-75) | 6 |
 
-## Links relacionados
-- [[Catalogo de Maquinas KAB]]
-- [[Catalogo de Ferramentas KAB]]
-- [[Biblioteca de Tolerancias KAB]]
-- [[Playbook - Agente Viabilidade RFQ KAB]]
+## Coleta humana (validar com Fernando/Gabriel)
+
+- Dimensões finas (Ø externo/interno, parede, comprimento) não estão estruturadas no ERP — estão no desenho. Para similaridade geométrica fina, puxar do desenho/PPAP.
+- Confirmar quais peças estão **fora de linha** (não produzir mais) vs. ativas.
+- Mapear cada peça ao **cliente** e ao **projeto** (alguns descritivos já trazem VW/MAN/Toyota).
+
+Links: [[Catálogo de Máquinas KAB]] · [[Biblioteca de Tolerancias KAB]] · [[Historico Defeitos por Maquina KAB]]
