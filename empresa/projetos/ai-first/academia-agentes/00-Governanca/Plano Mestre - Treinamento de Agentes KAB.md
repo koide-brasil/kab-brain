@@ -53,13 +53,15 @@ Cada agente precisa ter:
 - não-objetivos.
 
 ### 4. Casos reais resolvidos
-Criar base com RFQs antigos:
+Criar base com RFQs **atuais e representativos** como fonte principal de treinamento operacional:
 - aprovados;
 - recusados;
 - problemáticos;
 - com RNC;
 - com margem ruim;
 - com dificuldade técnica.
+
+RFQs antigas podem ser usadas apenas como **casos de teste ou contexto histórico**, nunca como regra operacional automática. Critérios de viabilidade, tolerância, processo, custo, cliente e política comercial podem ter mudado com o tempo.
 
 ### 5. Avaliação contínua
 Antes de operar:

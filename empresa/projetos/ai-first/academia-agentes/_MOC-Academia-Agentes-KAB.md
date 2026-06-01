@@ -39,4 +39,6 @@ Base operacional para treinar agentes KAB com fontes, catálogos, playbooks, cas
 ## Regra de ouro
 - Fonte antes de conclusão.
 - Conteúdo sensível fica no `my-second-brain` e não é promovido sem saneamento.
+- RFQs antigas não viram regra operacional automática; o `kab-brain` deve priorizar RFQs atuais, porque critérios técnicos/comerciais podem ter mudado.
+- Inputs novos e validados alimentam a Academia progressivamente.
 - Em dúvida, agente responde `dados insuficientes` ou `exige validação humana`.
