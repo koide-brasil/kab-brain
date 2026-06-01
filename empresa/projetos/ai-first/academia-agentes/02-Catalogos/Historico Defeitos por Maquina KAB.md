@@ -26,7 +26,7 @@ Fonte: `TbApontamentoOrdemProducao` (exclui SETUP). Ordenado por % refugo.
 | ERGOMAT - 02 | USINAGEM | 113,446 | 1,037 | 0.91 |
 | ERGOMAT - 01 | USINAGEM | 725,870 | 6,605 | 0.90 |
 | ERGOMAT - 01 | INSPEÇÃO USINAGEM | 167,968 | 1,137 | 0.67 |
-| CHANFRO - 01 - FA-100 | CHANFRO | 2,035,812 | 12,066 | 0.59 |
+| CHANFRO - 01 - FA-100 | CHANFRO | 2,037,242 | 12,066 | 0.59 |
 | ESTAMPARIA - 02 - VERTICAL | ESTAMPARIA | 2,024,552 | 9,273 | 0.46 |
 | CHANFRO - 05 - NP-57 | CHANFRO | 2,753,941 | 12,681 | 0.46 |
 | CHANFRO - 03 - NP-57 | CHANFRO | 2,639,058 | 10,598 | 0.40 |
@@ -38,7 +38,7 @@ Fonte: `TbApontamentoOrdemProducao` (exclui SETUP). Ordenado por % refugo.
 | CORTE - 06 - CMB-75 | CORTE | 1,966,477 | 569 | 0.03 |
 | CORTE - 03 - TR80 | CORTE | 2,377,760 | 516 | 0.02 |
 | CORTE - 04 - TR-80 | CORTE | 2,793,929 | 569 | 0.02 |
-| CORTE - 01 - SA-90 | CORTE | 1,444,598 | 117 | 0.01 |
+| CORTE - 01 - SA-90 | CORTE | 1,445,395 | 117 | 0.01 |
 | CORTE - 02 - SA-90 | CORTE | 1,757,109 | 114 | 0.01 |
 | CHANFRO - 04 - FA-100 | CORTE | 13,532 | 0 | 0.00 |
 | CHANFRO - 05 - NP-57 | CORTE | 4,852 | 0 | 0.00 |

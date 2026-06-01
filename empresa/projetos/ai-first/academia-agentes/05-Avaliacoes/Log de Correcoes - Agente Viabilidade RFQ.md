@@ -43,6 +43,38 @@ estampagem complexa) → o agente **NÃO classifica "Atende" sozinho**. Escala a
 com a pergunta de equipamento em destaque. "Atende com ressalva" só quando a ressalva é de
 **ferramental/sourcing/metrologia** — não quando é de **capacidade-processo**.
 
+## REVISÃO da Correção 3 e do placar (2026-06-01, conhecimento do Erico + Drive)
+
+A Correção 3 acima foi **sobre-correção** (baseada em leitura literal da FOR-018). O Erico corrigiu:
+**a KAB tem uma rede de parceiros de beneficiamento no fluxo de cotação** — em especial a **LW
+Usinagem** (FornecId 38), path padrão para **perfil de alumínio não-tubular** e **usinagem complexa**.
+O *"não temos equipamento"* do Fernando é visão só-in-house, não veredito final.
+
+**Evidência (Drive):** cotações Zhongding TA60-1001300AC e TA60-1001400BC (mesmo projeto BYD SA5H,
+6061-T6) têm a **linha LW preenchida** (R$ 1,35 e R$ 3,70/pç). O modelo M1 tem bloco formal de
+terceirização (LW/CASTEL/WINOA/ECOPLATING/ITARAÌ/LIMMAR). A KAB cotou → peças viáveis via LW.
+
+**Correção 3-REV (substitui a Correção 3):** operação fora do core **não** é "Não atende" — checar
+**path de parceiro** primeiro. Perfil AL não-tubular / usinagem complexa → **"Atende via LW
+Usinagem"**. "Não atende" só pra processo que **nem KAB nem a rede de parceiros faz** (fundição,
+forjaria, embutimento profundo, extrusão). Regra detalhada no playbook + ficha [[LW Usinagem]] +
+bloco no Catálogo de Máquinas.
+
+### Placar REVISADO (5 casos)
+
+| Caso | Agente | KAB (real, c/ path parceiro) | Resultado |
+|---|---|---|---|
+| 001 BOGE bush (s/ desenho) | Dados insuf. + flag capacidade | Não atende (capacidade) | ✅ direção certa |
+| 002 SCHADEK maciço rosca | Não atende | Atende c/ ressalva (Ergomat/LW + investim.) | ❌ pessimista |
+| 003 MAN tubo Ø45 E355 | Atende base documentada | Atende | ✅ |
+| 004 Zhongding perfil AL | Atende c/ ressalva (parceiro) | **Atende via LW** | ✅ classe certa* |
+| 005 A-pillar 41Cr4 | Atende c/ ressalva | Atende | ✅ |
+
+\* 004: classe certa, reasoning incompleto (não nomeou LW). **Placar: 4 ✅ / 1 ❌ (002) / 0 crítico.**
+Os erros 002 e 004 tinham a **mesma raiz: desconhecimento do path de parceiro (LW) + envelope Ergomat**.
+Agora documentado nos 3 lugares (playbook, catálogo, ficha LW). **Re-testar 002 e 004 com o
+conhecimento novo deve dar acerto pleno.**
+
 ## Caso 002 — correções (2026-06-01)
 
 Peça testada **com desenho real** (adaptador de filtro maciço 12L14, rosca M18×1,5, cliente

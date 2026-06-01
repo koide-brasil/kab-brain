@@ -22,13 +22,13 @@ Uma linha por máquina real cadastrada no DBCorp (`TbRecursoProducao`), com a op
 
 | Máquina (recurso) | Operação principal | Volume 24m | Refugo % | OPs | Modelo |
 |---|---|---:|---:|---:|---|
-| CHANFRO - 01 - FA-100 | CHANFRO | 2,035,812 | 0.59 | 635 | FA-100 |
+| CHANFRO - 01 - FA-100 | CHANFRO | 2,037,242 | 0.59 | 636 | FA-100 |
 | CHANFRO - 02 - NPK-250 | CHANFRO | 1,472,461 | 1.22 | 453 | NPK-250 |
 | CHANFRO - 03 - NP-57 | CHANFRO | 2,639,058 | 0.40 | 580 | NP-57 |
 | CHANFRO - 04 - FA-100 | CHANFRO | 2,619,759 | 0.33 | 780 | FA-100 |
 | CHANFRO - 05 - NP-57 | CHANFRO | 2,753,941 | 0.46 | 611 | NP-57 |
 | CHANFRO - 06 | _sem apontamento no período_ | — | — | — | — |
-| CORTE - 01 - SA-90 | CORTE | 1,444,598 | 0.01 | 443 | SA-90 |
+| CORTE - 01 - SA-90 | CORTE | 1,445,395 | 0.01 | 443 | SA-90 |
 | CORTE - 02 - SA-90 | CORTE | 1,757,109 | 0.01 | 525 | SA-90 |
 | CORTE - 03 - TR80 | CORTE | 2,377,760 | 0.02 | 624 | TR80 |
 | CORTE - 04 - TR-80 | CORTE | 2,793,929 | 0.02 | 815 | TR-80 |
@@ -75,7 +75,8 @@ Fonte: `TbCentroTrabalho` (centros ativos). Capacidade em horas/semana cadastrad
 
 - **Ergomat TNG-32 (usinagem):** **tornea, rosqueia e fura barra maciça** (ex.: adaptador de filtro 12L14, rosca M18×1,5 — FOR-018 RFQ 40001331). **Limitação conhecida:** garante precisão do **chanfro interno de apenas um dos lados**. Rosca nova pode exigir **investimento em ferramental** e a **metrologia de rosca** (De/Dp) não existe hoje — exige investir em tridimensional/perfilômetro/rugosímetro.
 - **Maciço:** a KAB **estoca barra maciça 12L14** (ex.: Ø18,15) — material de peça torneada não é gargalo; o gargalo costuma ser ferramental/metrologia, não a capacidade-máquina.
-- **Processos que a KAB NÃO tem** (→ "Não atende" legítimo): fundição, forjaria, embutimento profundo, extrusão, dobra de chapa larga, tratamento térmico interno.
+- **Path LW Usinagem (parceiro, FornecId 38):** **perfil de alumínio não-tubular** e **usinagem mais complexa** (furo/feature/torneamento) vão pra **LW Usinagem** — é o caminho padrão da KAB pra usinagem fora do core. O custo entra na **linha LW da cotação** (modelo M1 tem bloco de terceirização: LW, CASTEL, WINOA, ECOPLATING, ITARAÌ, LIMMAR). Exemplos reais: Zhongding TA60-1001300AC R$ 1,35/pç, TA60-1001400BC R$ 3,70/pç. → Peça desse tipo = **"Atende via LW"**, NÃO "Não atende". Quando a FOR-018 traz Fernando "não temos equipamento", é a visão só-in-house — checar o path LW antes de concluir. Ver `LW Usinagem` em Fornecedores.
+- **Processos que NEM a KAB NEM a rede de parceiros faz** (→ "Não atende" legítimo): fundição, forjaria, embutimento profundo, extrusão (a KAB compra perfil extrudado, não extruda).
 
 ## Resumo da frota (para pitch de capacidade)
 
