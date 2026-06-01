@@ -13,9 +13,9 @@ Base operacional para treinar agentes KAB com fontes, catálogos, playbooks, cas
 ## Status da ingestão
 - Documentos operacionais consolidados no `kab-brain`: 1321
 - Processados `kab-brain`: 1321
-- Processados restritos `my-second-brain`: 987
+- Processados restritos `my-second-brain`: 1035
 - Pendentes `kab-brain`: 0
-- Pendentes restritos `my-second-brain`: 756
+- Pendentes restritos `my-second-brain`: 708
 
 ## Módulos
 - [[01-playbooks/Playbook - Agente Intake RFQ KAB.md|Intake RFQ]] — fontes candidatas: 1321
