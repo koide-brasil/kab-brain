@@ -36,6 +36,9 @@ Base operacional para treinar agentes KAB com fontes, catálogos, playbooks, cas
 - [[00-Governanca/Matriz de Maturidade dos Agentes KAB]]
 - [[00-Governanca/Regras de Escalonamento - Agentes RFQ KAB]]
 
+## Coleta humana
+- [[03-Coleta-Humanos/Roteiro - Reuniao Flavio Fernando Jonatas - Treinamento Agente Viabilidade RFQ]]
+
 ## Regra de ouro
 - Fonte antes de conclusão.
 - Conteúdo sensível fica no `my-second-brain` e não é promovido sem saneamento.
