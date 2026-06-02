@@ -41,7 +41,7 @@ Quando G5 pedir algo coberto por uma destas skills → Tony **aponta pro Bruce e
 | Skill | O que faz | Quando |
 |---|---|---|
 | **treinar-sgk** | Lê arquivos do SGK no Drive (PDF/DOCX/XLSX) → extrai texto → gera notas resumidas no vault. Mantém SQLite local pra idempotência | Periodicamente quando há mudanças no SGK Drive |
-| **arquivar-nfe-drive** | Arquiva NFes da KAB em estrutura `NFe/ano/mes/` no Drive (pacote mensal pra Dorna) | Cron 3x/dia |
+| **arquivar-nfe-drive** | Arquiva NFes da KAB em `SAIDA/<ano>/<N-MES>/` no Drive (pacote mensal Carla/Dorna). **Operado pelo Bruce-pessoal, não pelo Tony** | Cron 3x/dia no Bruce |
 
 ## Skills de vault (sync)
 
@@ -59,7 +59,7 @@ Quando G5 pedir algo coberto por uma destas skills → Tony **aponta pro Bruce e
 | **briefing-diario** | Consolidação eventos do dia (calendar + emails urgentes) | Sub-agente |
 | **captura-email-vault** | Email → nota no vault com template apropriado | Sub-agente |
 | **hunting-leiloes-imobiliarias** | Vasculha emails de imobiliárias e cria fichas pré-análise em `02-Investimentos/Garimpo/` | Sub-agente (escopo Erico — não toca KAB) |
-| **arquivar-nfe-drive** | Idem skill correspondente, mas pode ser invocado como agente | Sub-agente |
+| **arquivar-nfe-drive** | Fluxo sensível de NFe — fica no Bruce-pessoal; Tony só sabe que existe e deve escalar | Sub-agente fora do Tony |
 | **hunting-leiloes-sites** | Caçador de oportunidades em sites de leilão imobiliário (escopo Erico) | Sub-agente |
 
 ## Cron / agendamentos automáticos
