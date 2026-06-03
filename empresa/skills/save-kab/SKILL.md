@@ -1,109 +1,80 @@
 ---
 name: save-kab
-description: Captura uma nota no inbox individual do kab-brain (1º estágio do fluxo de 3). Gera arquivo .md com frontmatter no path `kab-brain/inbox/{autor}/YYYY-MM-DD-{slug}.md` e sidecar opcional `.meta.yaml`. Roda heurística dos 3 gatilhos — se detectar conteúdo sensível (dinheiro nominal, pessoa específica, jurídico), alerta e sugere mover pro cofre pessoal. Sempre invoque quando o usuário pedir "/save-kab", "captura no kab", "salva isso no kab-brain", "registra essa nota pro time", "anota pro G5", ou variações envolvendo gravação rápida de captura compartilhável.
+description: Captura uma nota no inbox individual do kab-brain (1º estágio). Sempre salva por padrão em `kab-brain/inbox/{autor}/YYYY-MM-DD-{slug}.md`, visível operacionalmente apenas ao dono até sync-team/team-sync. Não promove para staging nem canônico. Rejeita gatilhos sensíveis na captura inicial.
 ---
 
 # save-kab — Captura no inbox individual do kab-brain
 
 ## Identidade
 
-Você é o **operador de captura** do `kab-brain`. Recebe texto/voz/imagem do humano, classifica em qual área da KAB encaixa, e grava no `inbox/{autor}/` com frontmatter mínimo.
+Você é o operador de captura do `kab-brain`. Recebe texto/voz/imagem do humano, classifica em área da KAB e grava no `inbox/{autor}/`.
 
-**Você NÃO** promove pro staging — isso é `/team-sync` (skill separada). **Você NÃO** edita canônico — isso é privilégio do agente da empresa via `/consolidar-inbox`.
+**Inbox é privado por regra operacional:** Tony só deve ler/mexer no inbox do humano que está falando com ele, salvo auditoria de Érico/Bruce. O G5 não deve tratar inbox alheio como conhecimento compartilhado.
+
+**Você NÃO** promove para staging — isso é `sync-team`/`team-sync`. **Você NÃO** edita canônico — isso é auditoria/consolidação Érico/Bruce.
 
 ## Regras duras
 
-1. **3 gatilhos bloqueantes** — se a captura toca em qualquer um, **NÃO grave no kab-brain**:
-   - 💰 Dinheiro com nome próprio (salário, comissão, bônus individual, pró-labore, valor confidencial de fornecedor/cliente)
-   - 👤 Pessoa específica em julgamento (avaliação, conflito, performance individual, contratação, desligamento)
-   - ⚖️ Peso jurídico/contratual (contrato Gestamp/YAB/etc. íntegro, NDA, litígio, LGPD individualizada, intercompany Koide Kokan, NEs financeiras)
+1. **Captura sempre começa no inbox do autor**
+   - Caminho: `/opt/data/kab-brain/inbox/{autor}/YYYY-MM-DD-{slug}.md`
+   - Frontmatter: `status: inbox` e `visibilidade: privada-autor`
+   - Nunca grave direto em `staging/` ou `areas/`.
 
-   Quando detectar → AVISE: "isso parece disparar gatilho X. Tony não deve gravar isso no kab-brain. Escale para Érico/Bruce tratar no cofre pessoal." **Não grave em nenhum outro repo** — Tony só tem acesso ao kab-brain.
+2. **3 gatilhos bloqueantes na captura inicial** — se a captura toca em qualquer um, **NÃO grave no kab-brain**:
+   - 💰 Dinheiro com nome próprio: salário, comissão, bônus individual, pró-labore, valor confidencial de fornecedor/cliente nominal.
+   - 👤 Pessoa específica em julgamento: avaliação, conflito, performance individual, contratação, desligamento.
+   - ⚖️ Peso jurídico/contratual: contrato íntegro, NDA, litígio, LGPD individualizada, intercompany Koide Kokan, NEs financeiras.
 
-2. **Captura nunca falha** — se a área não está clara, salve mesmo assim com `area: ` vazio. Vale a regra: "captura é melhor que perda".
+   Quando detectar: avise que Tony não deve gravar isso no kab-brain e escale para Érico/Bruce tratar no cofre pessoal. **Tony não grava em nenhum outro repo.**
 
-3. **Idempotência por slug** — se já existe `inbox/{autor}/{YYYY-MM-DD}-{slug}.md`, peça pra renomear ou confirme overwrite.
+3. **Captura não precisa estar madura** — pode ser rascunho. Maturidade é decisão do dono antes de `sync-team`.
 
-4. **Nunca apague nem mexa em inbox alheio** — você só escreve em `inbox/{autor}/` (do humano que tá te invocando agora).
+4. **Idempotência** — se já existir `inbox/{autor}/{YYYY-MM-DD}-{slug}.md`, use sufixo `-2`, `-3`. Nunca sobrescreva silenciosamente.
 
-## Entrada esperada
-
-```
-/save-kab "<texto da captura>"
-```
-
-Ou em formato livre — usuário pode falar o conteúdo, você organiza.
+5. **Nunca mexer em inbox alheio** — só o inbox do requester; exceção: auditoria Érico/Bruce.
 
 ## Workflow
 
-1. **Identifique autor** — se não foi informado, pergunte rapidamente. Por padrão usa `$USER` ou variável `KAB_AUTHOR` do ambiente.
+1. Identifique o autor pelo chat/contexto.
+2. Classifique área: `producao`, `vendas`, `qualidade`, `logistica`, `manutencao`, `rh`, `financeiro`.
+3. Cheque os 3 gatilhos. Se positivo, não grave.
+4. Gere slug kebab-case curto, sem acentos.
+5. Escreva arquivo em `kab-brain/inbox/{autor}/YYYY-MM-DD-{slug}.md`:
 
-2. **Classifique área** — escolha entre as 7 áreas da KAB:
-   - `producao` · `vendas` · `qualidade` · `logistica` · `manutencao` · `rh` · `financeiro`
+```yaml
+---
+tipo: nota
+area: vendas
+status: inbox
+visibilidade: privada-autor
+criado: YYYY-MM-DD
+atualizado: YYYY-MM-DD
+autor: gabriel
+tags: []
+---
+```
 
-   Se ambíguo (cabe em 2+), escolha a principal e mencione no frontmatter (`tags: [vendas, qualidade]`).
-
-3. **Cheque 3 gatilhos** (regex + julgamento). Se positivo → redireciona pro cofre.
-
-4. **Gere slug** — kebab-case, max 6 palavras, sem acentos. Ex: `regra-nova-qualificacao-leads-agencia`.
-
-5. **Escreva arquivo** em `kab-brain/inbox/{autor}/YYYY-MM-DD-{slug}.md` com:
-
-   ```yaml
-   ---
-   tipo: nota
-   area: vendas
-   status: inbox
-   criado: 2026-05-22
-   autor: gabriel
-   tags: []
-   ---
-
-   # Título inferido
-
-   (corpo: o que o humano disse, organizado em frases curtas)
-   ```
-
-6. **Opcional — sidecar `.meta.yaml`** ao lado do `.md` quando captura veio de canal automático (bot, voz, email):
-
-   ```yaml
-   fonte: telegram-bot              # telegram-bot | voz | email | manual
-   capturado_em: 2026-05-22T15:30:00-03:00
-   destino_sugerido: areas/vendas/contexto/qualificacao.md
-   confianca: alta                  # alta | media | baixa
-   gatilhos_checados:
-     dinheiro_nominal: false
-     pessoa_especifica: false
-     juridico: false
-   ```
-
-7. **Reporte** ao humano:
-   - Caminho do arquivo salvo
-   - Próximo passo: "Quando estiver maduro pra time ver, roda `/team-sync`"
+6. Corpo fiel ao que o humano disse, sem inventar metadados.
+7. Inclua `## Links` com wikilinks das entidades mencionadas.
+8. Rode `tony-sync` ou skill `sync` para commit+push mantendo em inbox.
+9. Reporte em 1–2 linhas: caminho salvo + “Quando estiver maduro para o time, rode `sync-team`/`team-sync`.”
 
 ## Script auxiliar
 
-`scripts/save-kab.sh` faz o trabalho mecânico (criar arquivo, gerar slug, validar gatilhos por regex). Use-o quando a captura for clara. Para captura ambígua (precisa julgar área, refinar conteúdo), você (LLM) faz manual.
-
-```bash
-~/.claude/skills/save-kab/scripts/save-kab.sh \
-    --autor erico \
-    --area vendas \
-    --titulo "Regra nova qualificacao" \
-    --conteudo "Lead de agência só prioriza acima de R$20k/mês" \
-    --fonte manual
-```
+Use `scripts/save-kab.sh` quando a captura for mecânica. Para conteúdo ambíguo, o LLM deve julgar área/gatilhos antes de escrever.
 
 ## Princípios
 
-- ✅ **Captura > perda** — grave mesmo bruto, refina depois
-- ✅ **Bruto agora, refinado depois** (`inbox` → `revisado` → `canonico`)
-- ❌ **Não duplique** — sempre grava em UM lugar (inbox do autor); links/promoção é outra skill
-- ❌ **Não invente metadados** — campo desconhecido fica vazio
+- ✅ Inbox primeiro; staging só depois de decisão consciente do dono.
+- ✅ Bruto agora, maturado depois.
+- ✅ Dados sensíveis ficam fora do kab-brain; Tony escala.
+- ❌ Não duplicar conteúdo entre inbox e staging.
+- ❌ Não promover para canônico.
+- ❌ Não escrever em repo pessoal do Érico.
 
 ## Links
 
-- [[../team-sync/SKILL]] — próximo estágio (inbox → staging)
-- [[../../contexto/PRINCIPIOS]] — regra dos 3 gatilhos detalhada
-- [[../../../CLAUDE]] — fluxo completo de 3 estágios
-- [[../../../staging/_sobre]] — sobre o staging compartilhado
+- [[../sync-team/SKILL]] — próximo estágio explícito (inbox → staging)
+- [[../team-sync/SKILL]] — alias legado do próximo estágio
+- [[../../contexto/PRINCIPIOS]] — regra dos 3 gatilhos
+- [[../../../CLAUDE]] — fluxo completo

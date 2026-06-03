@@ -15,7 +15,7 @@
 
 set -euo pipefail
 
-VAULT_KAB="${VAULT_KAB:-/home/eps/Área de trabalho/Erico/brains/kab-brain}"
+VAULT_KAB="${VAULT_KAB:-/opt/data/kab-brain}"
 AUTOR="${KAB_AUTHOR:-${USER:-erico}}"
 ITEM=""
 AREA_OVERRIDE=""

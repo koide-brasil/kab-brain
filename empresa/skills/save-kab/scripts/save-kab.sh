@@ -15,7 +15,7 @@
 #   --fonte      manual | telegram-bot | voz | email (default: manual)
 #   --tags       Lista separada por vírgula (opcional)
 #   --sidecar    Gera .meta.yaml ao lado (default: só se fonte != manual)
-#   --vault      Path do kab-brain (default: ~/Área de trabalho/Erico/brains/kab-brain)
+#   --vault      Path do kab-brain (default: /opt/data/kab-brain)
 #   --dry-run    Mostra o que faria, não grava
 #
 # Saída:
@@ -24,8 +24,7 @@
 
 set -euo pipefail
 
-VAULT_KAB="${VAULT_KAB:-/home/eps/Área de trabalho/Erico/brains/kab-brain}"
-VAULT_PESSOAL="${VAULT_PESSOAL:-/home/eps/Área de trabalho/Erico/brains/erico-brain}"
+VAULT_KAB="${VAULT_KAB:-/opt/data/kab-brain}"
 
 AUTOR=""
 AREA=""
@@ -86,25 +85,16 @@ fi
 GATILHO_REGEX='(salário|comissão|comissao|bônus individual|bonus individual|pró-labore|pro-labore|holerite|R\$[ ]?[0-9]+[\.,][0-9]+ (do|para|de o) [A-Z][a-z]+|intercompany|Koide Kokan|empréstimo intercompany|emprestimo intercompany|NE [0-9]|notas explicativas|DRE detalhad|conflito.*[A-Z][a-z]+|avaliação.*[A-Z][a-z]+|avaliacao.*[A-Z][a-z]+|desligamento|contrato (Gestamp|Yamaha|Indab|Sumiriko|YAB|Tuopu|DN Automotivos|Polistampo))'
 
 if grep -qiE "$GATILHO_REGEX" <<< "$CONTEUDO $TITULO"; then
-    echo "⚠️  ALERTA: captura tem padrão dos 3 gatilhos (dinheiro nominal / pessoa específica / jurídico)."
-    echo "    Vou salvar no cofre pessoal (erico-brain/00-Inbox/) em vez do kab-brain."
-    echo "    Cancele com Ctrl-C nos próximos 5s se quiser sobrescrever a decisão."
-    for i in 5 4 3 2 1; do
-        printf "    %d... " $i
-        sleep 1
-    done
-    echo ""
-
-    # Redirecionar pro cofre
-    DESTINO_DIR="$VAULT_PESSOAL/00-Inbox"
-    mkdir -p "$DESTINO_DIR"
-    SENSIVEL="yes"
-else
-    SENSIVEL="no"
-    # Garantir inbox/{autor}/ existe no kab-brain
-    DESTINO_DIR="$VAULT_KAB/inbox/$AUTOR"
-    mkdir -p "$DESTINO_DIR"
+    echo "⚠️  ALERTA: captura tem padrão dos 3 gatilhos (dinheiro nominal / pessoa específica / jurídico)." >&2
+    echo "    Tony NÃO deve gravar isso no kab-brain nem em outro repo." >&2
+    echo "    Escale para Érico/Bruce tratar fora do Tony." >&2
+    exit 2
 fi
+
+SENSIVEL="no"
+# Garantir inbox/{autor}/ existe no kab-brain
+DESTINO_DIR="$VAULT_KAB/inbox/$AUTOR"
+mkdir -p "$DESTINO_DIR"
 
 # ─── Gerar slug e path ───────────────────────────────────────────────
 
@@ -143,7 +133,9 @@ MD_CONTENT=$(cat <<EOF
 tipo: nota
 area: ${AREA:-}
 status: inbox
+visibilidade: privada-autor
 criado: $DATA
+atualizado: $DATA
 autor: $AUTOR
 fonte: $FONTE
 tags: $TAGS_YAML
@@ -188,13 +180,8 @@ fi
 
 # ─── Saída ───────────────────────────────────────────────────────────
 
-if [[ "$SENSIVEL" == "yes" ]]; then
-    echo "🔒 Salvo no COFRE PESSOAL (gatilho dos 3): $ARQUIVO"
-    exit 2
-else
-    echo "✅ Capturado em: $ARQUIVO"
-    [[ "$SIDECAR" == "yes" ]] && echo "   + sidecar: ${ARQUIVO%.md}.meta.yaml"
-    echo ""
-    echo "   Quando estiver maduro pra time ver, roda /team-sync"
-    exit 0
-fi
+echo "✅ Capturado em: $ARQUIVO"
+[[ "$SIDECAR" == "yes" ]] && echo "   + sidecar: ${ARQUIVO%.md}.meta.yaml"
+echo ""
+echo "   Quando estiver maduro pra time ver, rode sync-team/team-sync"
+exit 0
