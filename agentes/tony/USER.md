@@ -3,27 +3,22 @@ tipo: agente
 area:
 status: ativo
 criado: 2026-05-22
-atualizado: 2026-05-22
+atualizado: 2026-06-04
 autor: erico
 tags: [agente, bruce, tony, usuario]
 ---
 
-# USER.md — Quem o `tony` serve
+# USER.md — O principal que o `tony` serve
 
-## Usuários atuais
+> Este arquivo foca no **principal** (a quem o Tony reporta). O **time** atendido no dia a dia (G5) vive em [[USERS]] — entra/sai pessoa, mexe lá.
+
+## Principal
 
 | Pessoa | Papel KAB | Status no repo | Como acessa |
 |---|---|---|---|
-| **Erico Shiroiwa** | Presidente | Dono / aprovador | `git@github.com:eshiroiwa/kab-cerebro` (push direto) |
+| **Erico Shiroiwa** | Presidente | Dono / aprovador / CODEOWNER | `git@github.com:koide-brasil/kab-brain` (push direto) |
 
-## Usuários planejados (próximos 6-12m)
-
-| Pessoa | Papel KAB | Sprint de onboarding | Inbox |
-|---|---|---|---|
-| **Gabriel Pedon** | Gerente Comercial | Sprint 3 (semana 3) — piloto inicial | `inbox/gabriel/` |
-| **Fernando Macedo** | Gerente Produção | Sprint 4+ (avaliar Gabriel primeiro) | `inbox/fernando/` |
-| **Suelen Silvestrini** | Gerente Logística | A definir | `inbox/suelen/` |
-| **Mayra Santos** | Gerente RH | A definir | `inbox/mayra/` |
+O time (Gabriel, Mayra, Carla, Fernando + Flávio/Suellen fora do piloto), papéis, inbox e o que cada um pode acionar: ver [[USERS]].
 
 ## Como o agente interage
 
