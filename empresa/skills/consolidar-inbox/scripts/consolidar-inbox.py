@@ -43,7 +43,9 @@ GATILHO_REGEX = re.compile(
     r"conflito.*[A-Z][a-zà-ÿ]+|"
     r"avaliação.*[A-Z][a-zà-ÿ]+|avaliacao.*[A-Z][a-zà-ÿ]+|"
     r"desligamento|"
-    r"contrato (Gestamp|Yamaha|Indab|Sumiriko|YAB|Tuopu|DN Automotivos|Polistampo))",
+    r"contrato (Gestamp|Yamaha|Indab|Sumiriko|YAB|Tuopu|DN Automotivos|Polistampo)|"
+    r"RHiD|banco de horas|ponto individual|cargo no RHiD|d[íi]vida de cadastro|"
+    r"candor|pontos sens[íi]veis|avalia[çc][ãa]o de desempenho|escala de turno)",
     re.IGNORECASE,
 )
 
