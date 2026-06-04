@@ -99,4 +99,5 @@ Os mesmos do Bruce-pessoal (Gmail, Calendar, Drive, Sheets, Docs). Mas neste esc
 
 - [[SOUL]] · [[IDENTITY]] · [[USER]] · [[MEMORY]] · [[HEARTBEAT]]
 - [[../../empresa/contexto/PRINCIPIOS]] (regra dos 3 gatilhos)
+- [[../../empresa/contexto/gestao]] (coaching de gestores: problema + opções + recomendação)
 - [[../../CLAUDE]]
