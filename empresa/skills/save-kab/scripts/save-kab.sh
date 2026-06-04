@@ -82,7 +82,7 @@ fi
 # ─── Heurística dos 3 gatilhos ───────────────────────────────────────
 
 # Regex bem conservadora — captura padrões claros, não tudo.
-GATILHO_REGEX='(salário|comissão|comissao|bônus individual|bonus individual|pró-labore|pro-labore|holerite|R\$[ ]?[0-9]+[\.,][0-9]+ (do|para|de o) [A-Z][a-z]+|intercompany|Koide Kokan|empréstimo intercompany|emprestimo intercompany|NE [0-9]|notas explicativas|DRE detalhad|conflito.*[A-Z][a-z]+|avaliação.*[A-Z][a-z]+|avaliacao.*[A-Z][a-z]+|desligamento|contrato (Gestamp|Yamaha|Indab|Sumiriko|YAB|Tuopu|DN Automotivos|Polistampo))'
+GATILHO_REGEX='(salário|comissão|comissao|bônus individual|bonus individual|pró-labore|pro-labore|holerite|R\$[ ]?[0-9]+[\.,][0-9]+ (do|para|de o) [A-Z][a-z]+|intercompany|Koide Kokan|empréstimo intercompany|emprestimo intercompany|NE [0-9]|notas explicativas|DRE detalhad|conflito.*[A-Z][a-z]+|avaliação.*[A-Z][a-z]+|avaliacao.*[A-Z][a-z]+|desligamento|contrato (Gestamp|Yamaha|Indab|Sumiriko|YAB|Tuopu|DN Automotivos|Polistampo)|RHiD|banco de horas|ponto individual|cargo no RHiD|d[íi]vida de cadastro|candor|pontos sens[íi]veis|avalia[çc][ãa]o de desempenho|escala de turno)'
 
 if grep -qiE "$GATILHO_REGEX" <<< "$CONTEUDO $TITULO"; then
     echo "⚠️  ALERTA: captura tem padrão dos 3 gatilhos (dinheiro nominal / pessoa específica / jurídico)." >&2

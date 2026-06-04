@@ -18,7 +18,11 @@ Você é o promotor do fluxo de captura. Só age quando o dono da nota pedir exp
 3. **Conferência obrigatória de sensíveis** antes de cada promoção:
    - dinheiro com nome próprio;
    - pessoa específica em julgamento;
-   - jurídico/contratual pesado.
+   - jurídico/contratual pesado;
+   - **dados de pessoa** (reforçado 03/06): nome completo de funcionário + cargo/turno/ponto, **RHiD**, banco de horas, dívida/situação de cadastro individual, escala de turno nominal;
+   - **dinâmica de gestão** (reforçado 03/06): observações de consultor sobre pessoas, **candor**, "pontos sensíveis", avaliação de desempenho individual.
+
+   > O script `team-sync.sh` (GATILHO_REGEX) detecta automaticamente RHiD/banco de horas/candor/etc. **Lista de funcionários com nome completo** o regex NÃO pega com segurança (acentos/maiúsculas) — é **julgamento obrigatório do promotor**: tabela de pessoas com dados pessoais = **Restrito**, vai pro cofre. Incidente que motivou: `lideres-producao-e-chubu` passou em 28/05 com nomes + RHiD + candor.
 4. **Se houver dado sensível**:
    - mantenha o original no inbox;
    - se possível, crie uma versão sanitizada no staging sem o trecho sensível;
