@@ -3,8 +3,8 @@ tipo: nota
 area: kab
 status: ativo
 criado: 2026-05-31
-atualizado: 2026-06-01
-tags: [kab, tolerancias, qualidade, rfq, coleta]
+atualizado: 2026-06-03
+tags: [kab, tolerancias, qualidade, rfq, coleta, metrologia]
 ---
 
 # Biblioteca de Tolerâncias KAB
@@ -36,6 +36,31 @@ tags: [kab, tolerancias, qualidade, rfq, coleta]
 | Retilineidade | a validar | a validar | a validar | a validar | Qualidade |
 | Chanfro / faceamento | **± 0,05 mm** | < ± 0,05 mm ou peça ovalizada | a validar | projetor de perfil | Produção/Qualidade |
 | Rosca (De/Dp) | — | sempre (terceiro/Ergomat) | sem metrologia de rosca hoje | _investir (tridim./perfilômetro)_ | Qualidade |
+
+## Capacidade de MEDIÇÃO (metrologia) — o que a KAB consegue *verificar* (fonte: reunião de produção IRBAS, 2026-06-03)
+
+> **Gate novo e crítico:** produzir ≠ verificar. Uma peça pode estar dentro da capacidade
+> de processo e ainda assim ser **inviável hoje** porque a KAB não tem como **medir** a
+> característica com confiança. Este gate é tão decisivo quanto o de processo.
+
+| Meio de medição | Status | Serve para | NÃO serve para |
+|---|---|---|---|
+| Paquímetro / micrômetro | ✅ interno | cotas externas/internas grosseiras, comprimento | cota fina, forma, concentricidade |
+| **Projetor de perfil (2D)** | ✅ interno, mas **não confiável p/ cota dimensional fina** | conferência visual rápida de contorno | **cota dimensional precisa** — caso IRBAS: projetor deu peça boa, tridimensional deu ~2 centésimos fora |
+| Durômetro | ✅ interno | dureza | dimensional |
+| **Tridimensional / CMM** | ⚠️ **terceirizado hoje** (Taubaté/SJC) | cota fina, forma, concentricidade, estria, validação de amostra | — (mas é **gargalo**: custo por medição + prazo; indisponível em feriado/fim de semana) |
+| **CMM Mitutoyo (resolução 0,0001 mm)** | 🔜 **em aquisição (~60 dias)** — ver CAPEX | tudo acima, **internamente** | — |
+
+**Regras-gate de metrologia para o agente:**
+- Característica crítica que **só fecha em tridimensional/CMM** (concentricidade, estria,
+  cota apertada de forma) → **hoje "Atende com ressalva (metrologia terceirizada — gargalo de
+  prazo e custo)"**. Vira **"Atende"** quando a CMM Mitutoyo entrar em operação.
+- **Projetor de perfil NÃO substitui CMM** para cota dimensional precisa (lição empírica
+  IRBAS). Não classificar como "atende" só porque "tem projetor".
+- Se a peça exige **controle 100%** de característica que só o tridimensional mede → hoje é
+  **inviável em escala** (medição externa não escala). Cabe amostragem controlada + alerta.
+- Sem meio de medição interno para a característica crítica → no mínimo **ressalva** +
+  escalonar a **Flávio/Madora** (qualidade).
 
 ## Regras
 
