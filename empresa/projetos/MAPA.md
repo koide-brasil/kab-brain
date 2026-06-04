@@ -7,13 +7,18 @@ atualizado: 2026-05-19
 tags: [mapa]
 ---
 
-# 🗺️ MAPA — 01-KAB / Projetos
+# 🗺️ MAPA — empresa / Projetos
 
-> Projetos em andamento da empresa (não confundir com ações pontuais nem com projetos pessoais em `03-IA-Tech/`).
+> Projetos não-sensíveis da KAB. Painel de status consolidado em [[projetos]] e pendências em [[pendencias]].
 
-## Atuais
+## Painel
 
-- [[Integracao BI RD Station CRM - BigQuery]] — em curso, GCP + Looker Studio
+- **[[projetos]]** — status de todos os projetos (em andamento / em análise / concluídos)
+- **[[pendencias]]** — pendências curtas e acionáveis
+
+## Notas de projeto
+
+- [[ai-first/MAPA]] · [[Tony - Notificacao de Compartilhamento no G5]] · [[Integracao BI RD Station CRM - BigQuery]] · [[BCP - Plano de Continuidade Formal]] · [[Migracao para 1Password]] · [[Daily Meeting - Roadmap de Melhorias]]
 
 ## Convenções
 

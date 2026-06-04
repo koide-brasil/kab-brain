@@ -14,9 +14,10 @@ tags: [mapa, producao]
 
 ## O que vive aqui
 
-- **`contexto/`** — Mapa de Processo (versão pública), FAQs operacionais, indicadores agregados, fluxos de OP
-- **`rotinas/`** — Automações relacionadas (futuro: alertas de refugo, painéis públicos)
-- **`skills/`** — Skills compartilháveis (futuro)
+- **`contexto/`** — [[contexto/geral|geral]] (função, capacidade, parque de máquinas, KPIs, SIPOC), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: alerta de refugo, painel de volume)
+- **`skills/`** — [[skills/_index|índice]] (skills de custo rodam no cofre pessoal)
+- **`projetos/`** — [[projetos/README|projetos da área]]
 
 ## Donos / interlocutores
 
@@ -31,7 +32,7 @@ tags: [mapa, producao]
 
 ## Status
 
-🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
+🟢 Ativo — **mobiliado no padrão canônico em 2026-06-03** (área-piloto do kab-brain). Entrada principal: [[contexto/geral]].
 
 ## Links
 
