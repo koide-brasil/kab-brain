@@ -32,4 +32,9 @@ tags: [rh, contexto, decisions]
 - **Decisão:** estruturar um critério de avaliação; ações ainda não definidas no mapa.
 - **Status:** Em análise. _(Tratativa nominal de desempenho não entra neste repo.)_
 
+### Em avaliação — aulas de japonês como treinamento formal
+- **Contexto:** há material didático de japonês na pasta local; a relação com a Matriz e clientes japoneses exige comunicação em JP (houkokusho mensal, conselheiro).
+- **Decisão:** validar com a gestora se faz sentido oferecer japonês como benefício/treinamento formal pro G5 ampliado.
+- **Status:** Em análise.
+
 *Atualizado: 2026-06-03*

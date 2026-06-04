@@ -14,7 +14,7 @@ tags: [mapa, qualidade, sgk]
 
 ## O que vive aqui
 
-- **`contexto/`** — [[contexto/geral|geral]] (função, escopo SGK, KPIs, SIPOC, PR-07, riscos), [[contexto/people|people]] (papéis + estrutura de decisão; Qualidade ≠ SGQ), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`contexto/`** — [[contexto/geral|geral]] (função, escopo SGK, KPIs, SIPOC, PR-07, riscos), [[contexto/licencas-e-emergencia|licenças-e-emergência]] (CETESB/IBAMA/AVCB/LP-LI-LO), [[contexto/people|people]] (papéis + estrutura de decisão; Qualidade ≠ SGQ), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
 - **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: alerta de refugo, lembrete de calibração, prazos PR-07)
 - **`skills/`** — [[skills/_index|índice]] (skills de custo/cliente rodam no cofre pessoal)
 - **`projetos/`** — [[projetos/README|projetos da área]]

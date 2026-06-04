@@ -20,7 +20,9 @@ Produzir as peças usinadas — em **tubos de aço** e **perfis de alumínio ext
 ## Capacidade
 
 - **Volume declarado:** ~1.200.000 peças/mês.
+- **Capacidade nominal:** ~18 t/mês de aço usinado; pico ~22 t/mês com 3º turno.
 - **Área produtiva:** 1.660 m² (de 4.600 m² totais).
+- Fornecedores de MP e beneficiamento: ver [[fornecedores]].
 
 ## Parque de máquinas
 

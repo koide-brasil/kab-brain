@@ -14,7 +14,7 @@ tags: [mapa, vendas, comercial]
 
 ## O que vive aqui
 
-- **`contexto/`** — [[contexto/geral|geral]] (função, carteira, KPIs, funil/SIPOC, riscos e oportunidades), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`contexto/`** — [[contexto/geral|geral]] (função, KPIs, funil/SIPOC, riscos e oportunidades), [[contexto/clientes|clientes]] (carteira de nomes + ATAs), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
 - **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: painel de funil agregado, alerta de pipeline parado)
 - **`skills/`** — [[skills/_index|índice]] (skills com valor/cliente nominal rodam no cofre pessoal)
 - **`projetos/`** — [[projetos/README|projetos da área]]

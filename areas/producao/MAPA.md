@@ -14,7 +14,7 @@ tags: [mapa, producao]
 
 ## O que vive aqui
 
-- **`contexto/`** — [[contexto/geral|geral]] (função, capacidade, parque de máquinas, KPIs, SIPOC), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`contexto/`** — [[contexto/geral|geral]] (função, capacidade, parque de máquinas, KPIs, SIPOC), [[contexto/fornecedores|fornecedores]] (nomes), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
 - **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: alerta de refugo, painel de volume)
 - **`skills/`** — [[skills/_index|índice]] (skills de custo rodam no cofre pessoal)
 - **`projetos/`** — [[projetos/README|projetos da área]]
