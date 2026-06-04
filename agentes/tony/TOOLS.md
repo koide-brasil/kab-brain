@@ -60,18 +60,20 @@ Os mesmos do Bruce-pessoal (Gmail, Calendar, Drive, Sheets, Docs). Mas neste esc
 |---|---|
 | Gmail | Read/draft só de emails operacionais não-sensíveis. ⚠️ Triagem completa fica no cofre |
 | Calendar | Read events públicos do time (G5, treinamentos). Sem leitura de eventos pessoais |
-| Drive | Read mapas de processo públicos do SGK. Sem leitura de pastas RH ou Financeiro |
-| Sheets/Docs | Edição de docs compartilháveis (treinamentos, FAQs) |
+| Drive | Read mapas de processo públicos do SGK. Sem leitura de pastas RH ou Financeiro. **Escrita só via broker, escopada a pastas de departamento permitidas, nunca delete** |
+| Sheets/Docs | Edição de docs compartilháveis (treinamentos, FAQs) — escopada, via broker |
 
 ## Acessos a sistemas externos
 
+> **Tudo passa pelo broker read-only** (`tony-broker`, user `proxy`). O Tony (user `hermes`) **nunca segura credencial crua** de DBCorp/RHiD/RD Station — nem com terminal. Cada sistema só expõe operações limitadas. Ver [[../../../erico-brain/91-Memoria/_bruce-cross-sessao/tony-credential-broker|broker read-only]].
+
 | Sistema | `tony` tem? |
 |---|---|
-| DBCorp | ❌ — apenas Bruce-pessoal |
-| RD Station CRM | ⚠️ — só leitura de pipeline agregado (não deals nominais) — Sprint 4+ |
-| RHiD | ❌ — dados individuais |
-| Google Workspace KAB | ⚠️ — escopo limitado (ver MCPs acima) |
-| GitHub | ✅ — só este repo (`kab-cerebro`) |
+| DBCorp | ✅ **read-only** (SELECT-only via broker) — **NUNCA** escreve/deleta. Correto e definitivo. |
+| RD Station CRM | ✅ **read-only** (GET whitelist via broker) — **NUNCA** escreve/deleta |
+| RHiD | ✅ **read-only** (GET whitelist via broker) — **NUNCA** escreve/deleta; dados individuais conforme papel |
+| Google Workspace KAB | ✅ via broker — leitura + **escrita ESCOPADA no Drive** (só pastas de departamento permitidas, **nunca delete**, nunca fora da árvore). Token nunca na mão do Tony |
+| GitHub | ✅ — só este repo (`kab-brain`) |
 
 ## Skills compartilháveis específicas deste repo
 
