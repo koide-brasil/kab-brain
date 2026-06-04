@@ -1,62 +1,18 @@
 ---
-tipo: departamento
+tipo: nota
 area: rh
-status: revisado
+status: arquivado
 criado: 2026-05-14
-atualizado: 2026-05-29
-fonte_original: site institucional KAB + contexto operacional + SGK
-validado_por: Bruce
-validado_em: 2026-05-29
-sensibilidade: gestao
-recencia: sob-demanda
-tags: [departamento, kab, rh]
-gestor: Mayra (gerente)
-no_g5: true
+atualizado: 2026-06-03
+autor: bruce
+tags: [rh, contexto, redirect]
 ---
 
-# Departamento — RH
+# RH — sobre o departamento (consolidado)
 
-## Função no negócio
+> Este arquivo era a seed inicial. Em 03/06/2026 o conteúdo foi consolidado e limpo no
+> padrão canônico. **Use [[geral]] como fonte de verdade.**
 
-_(A preencher: recrutamento e seleção, folha, treinamento, clima, conformidade trabalhista, benefícios, segurança do trabalho.)_
-
-## Gestor e time
-
-- **Gerente**: [[Mayra (gerente RH e SGK)]] — membro do [[G5 - Comite Estrategico]]. A mesma gerência cuida também do [[SGK]].
-- **Time**: _(a preencher.)_
-
-> RH e [[SGK]] são departamentos distintos, mas com gerência compartilhada (Mayra).
-
-## Indicadores que importam (KPIs)
-
-| Indicador | Meta | Frequência | Onde acompanho |
-|---|---|---|---|
-| Turnover |  |  |  |
-| Absenteísmo |  |  |  |
-| Tempo de preenchimento de vaga |  |  |  |
-| Treinamentos realizados |  |  |  |
-| Acidentes (segurança do trabalho) |  |  |  |
-
-## Processos críticos
-
-- 
-
-## Riscos atuais
-
-- 
-
-## Iniciativas em andamento
-
-- 
-
-## Histórico de decisões
-
-_(Append-only.)_
-
-## Links relacionados
-
-- [[_MOC-KAB]]
-- [[contexto-kab]]
-- [[Mayra (gerente RH e SGK)]]
-- [[SGK]]
-- [[G5 - Comite Estrategico]]
+- Função, KPI de satisfação, benefícios, SIPOC, PR-02 + IT-029 a IT-035 → [[geral]]
+- Papéis e estrutura de decisão → [[people]]
+- Decisões → [[decisions]] · Lições → [[lessons]]

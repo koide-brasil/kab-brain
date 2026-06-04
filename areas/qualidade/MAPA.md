@@ -3,42 +3,37 @@ tipo: mapa
 area: qualidade
 status: ativo
 criado: 2026-05-22
-atualizado: 2026-05-22
-autor: erico
+atualizado: 2026-06-03
+autor: bruce
 tags: [mapa, qualidade, sgk]
 ---
 
 # ⚠️ Área Qualidade — MAPA
 
-> Sistema de Gestão da Qualidade (SGK) e processos relacionados. Esta área é **a mais natural pra abrir ao time** — SGK já é compartilhado via Google Drive interno.
+> Sistema de Gestão da Qualidade (SGK) e processos relacionados: APQP, PPAP, FMEA, MSA, CEP, RNC. **Sem custo de refugo em R$, cliente nominal nem avaliação de auditor.**
 
 ## O que vive aqui
 
-- **`contexto/`** — Mapas de Processo SGK, Política da Qualidade, fluxo RNC, normas técnicas (ISO 9001, IATF 16949 quando aplicável)
-- **`rotinas/`** — Auditorias, treinamentos, calibrações
-- **`skills/`** — Compartilháveis (futuro)
+- **`contexto/`** — [[contexto/geral|geral]] (função, escopo SGK, KPIs, SIPOC, PR-07, riscos), [[contexto/people|people]] (papéis + estrutura de decisão; Qualidade ≠ SGQ), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: alerta de refugo, lembrete de calibração, prazos PR-07)
+- **`skills/`** — [[skills/_index|índice]] (skills de custo/cliente rodam no cofre pessoal)
+- **`projetos/`** — [[projetos/README|projetos da área]]
 
 ## Donos / interlocutores
 
-- **Gerente Qualidade**: Flávio Sales
-- **SGK responsável**: Madora Pereira
+- **Supervisor Qualidade**: Flávio Sales (não-acesso ainda; planejado Sprint 4+)
+- **SGQ/SGK**: papel separado da Qualidade operacional
 - **Aprovador final**: Erico
 
 ## O que NÃO entra aqui
 
-- Avaliação de auditor nominal
-- Não-conformidade com cliente nominal e valor de impacto financeiro
-
-## O que entra
-
-- Mapas de Processo (público)
-- Procedimentos PR-01 a PR-10 (versão liberada, sem rev notes confidenciais)
-- Fluxo RNC, IT-XXX, FOR-XXX
-- Política da Qualidade (oficial)
+- Custo de refugo em R$ (→ cofre pessoal; aqui só "acima/dentro da meta do SGK")
+- Não-conformidade com cliente **nominal** e valor de impacto financeiro (→ cofre pessoal)
+- Avaliação individual de auditor / time (→ cofre pessoal)
 
 ## Status
 
-🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
+🟢 Ativo — **mobiliado no padrão canônico em 2026-06-03** (espelhando a área Produção). Entrada principal: [[contexto/geral]].
 
 ## Links
 

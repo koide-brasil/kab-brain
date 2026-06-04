@@ -3,42 +3,36 @@ tipo: mapa
 area: manutencao
 status: ativo
 criado: 2026-05-22
-atualizado: 2026-05-22
-autor: erico
+atualizado: 2026-06-03
+autor: bruce
 tags: [mapa, manutencao, ferramentaria, apoio]
 ---
 
-# 🔧 Área Manutenção / Apoio à Produção — MAPA
+# 🔧 Área Apoio à Produção (Manutenção + Ferramentaria) — MAPA
 
-> Ferramentaria + Manutenção (mapa de processo formal cobre os dois). **Sem dados nominais de fornecedor de peças com valor confidencial.**
+> Ferramentaria + Manutenção consolidados (um mapa de processo formal cobre os dois). **Sem custos nominais de sobressalentes nem avaliação individual.**
 
 ## O que vive aqui
 
-- **`contexto/`** — Mapa de Processo Apoio à Produção, fluxo de OS, procedimentos de manutenção preventiva/corretiva, ferramentaria (lista de moldes/dispositivos)
-- **`rotinas/`** — Painéis de OS abertas, manutenção preventiva agendada
-- **`skills/`** — Compartilháveis (futuro)
+- **`contexto/`** — [[contexto/geral|geral]] (função, TPM, KPIs, SIPOC, inputs/outputs, riscos), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: alerta de corretivas, painel de OS, alerta de sobressalente)
+- **`skills/`** — [[skills/_index|índice]] (skills de custo rodam no cofre pessoal)
+- **`projetos/`** — [[projetos/README|projetos da área]]
 
 ## Donos / interlocutores
 
-- **Gerente Apoio à Produção**: Jônatas Moura
+- **Gestor Apoio à Produção**: Jônatas Moura (não-acesso ainda; planejado Sprint 4+)
 - **Aprovador final**: Erico
 
 ## O que NÃO entra aqui
 
-- Custo de sobressalente nominal (→ cofre pessoal, em `01-KAB/Relatorios/Custeio/`)
-- Negociação com fornecedor de máquina
+- Custo nominal de sobressalentes (→ cofre pessoal, em `01-KAB/Relatorios/Custeio/`)
+- Negociação com fornecedor de máquina/peça
 - Diagnóstico crítico com impacto financeiro detalhado
-
-## O que entra
-
-- Mapa de Processo Apoio (público)
-- IT-XXX manutenção
-- Lista de moldes ativos (nome, máquina compatível, status)
-- Indicadores agregados (corretiva/mês, ajuste médio)
 
 ## Status
 
-🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
+🟢 Ativo — **mobiliado no padrão canônico em 2026-06-03**. Entrada principal: [[contexto/geral]].
 
 ## Links
 

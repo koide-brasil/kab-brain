@@ -1,65 +1,19 @@
 ---
-tipo: departamento
+tipo: nota
 area: financeiro
-status: revisado
+status: arquivado
 criado: 2026-05-14
-atualizado: 2026-05-29
-fonte_original: site institucional KAB + contexto operacional + SGK
-validado_por: Bruce
-validado_em: 2026-05-29
-sensibilidade: gestao
-recencia: sob-demanda
-tags: [departamento, kab, fiscal, financeiro]
-gestor: Carla (coordenadora)
-no_g5: true
+atualizado: 2026-06-03
+autor: bruce
+tags: [financeiro, contexto, redirect]
 ---
 
-# Departamento — Fiscal e Financeiro
+# Financeiro — sobre o departamento (consolidado)
 
-> Departamento integrado: a mesma coordenação cuida do **fiscal** (impostos, obrigações acessórias, escrituração) e do **financeiro** (contas a pagar/receber, fluxo de caixa, conciliações, relação bancária).
+> Este arquivo era a seed inicial. Em 03/06/2026 o conteúdo foi consolidado e limpo no
+> padrão canônico, **só com processo** (área mais sensível do repo). **Use [[geral]] como
+> fonte de verdade.**
 
-## Função no negócio
-
-_(A preencher: o que entrega à empresa. Saúde financeira, conformidade tributária, planejamento de caixa, relatórios gerenciais para o G5.)_
-
-## Gestor e time
-
-- **Coordenadora**: [[Carla (coordenadora fiscal e financeiro)]] — membro do [[G5 - Comite Estrategico]].
-- **Time**: _(a preencher.)_
-
-## Indicadores que importam (KPIs)
-
-| Indicador | Meta | Frequência | Onde acompanho |
-|---|---|---|---|
-| Fluxo de caixa (saldo, projeção) |  |  |  |
-| Inadimplência / DSO |  |  |  |
-| Prazo médio de pagamento |  |  |  |
-| Margem operacional |  |  |  |
-| Impostos a recolher / recuperações |  |  |  |
-
-## Processos críticos
-
-- Fechamento mensal (fiscal e contábil).
-- Conciliação bancária.
-- Conferência e pagamento de fornecedores.
-- Apuração de impostos.
-- _(Refinar com a Carla.)_
-
-## Riscos atuais
-
-- 
-
-## Iniciativas em andamento
-
-- 
-
-## Histórico de decisões
-
-_(Append-only.)_
-
-## Links relacionados
-
-- [[_MOC-KAB]]
-- [[contexto-kab]]
-- [[Carla (coordenadora fiscal e financeiro)]]
-- [[G5 - Comite Estrategico]]
+- Função, escopo do processo, KPIs (como %), SIPOC, procedimentos → [[geral]]
+- Papéis e estrutura de decisão → [[people]]
+- Decisões → [[decisions]] · Lições → [[lessons]]

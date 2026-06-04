@@ -3,20 +3,21 @@ tipo: mapa
 area: vendas
 status: ativo
 criado: 2026-05-22
-atualizado: 2026-05-22
+atualizado: 2026-06-03
 autor: erico
 tags: [mapa, vendas, comercial]
 ---
 
 # 💼 Área Vendas / Comercial — MAPA
 
-> Operação comercial KAB: funil, qualificação, ATAs de visita técnica. **Sem deals nominais com valor confidencial.**
+> Operação comercial da KAB: funil, prospecção, cotação, carteira de clientes. **Sem deals nominais com valor, preço ou margem confidencial.**
 
 ## O que vive aqui
 
-- **`contexto/`** — Mapa de Processo Vendas (público), critérios de qualificação, ICP, materiais comerciais
-- **`rotinas/`** — Automações (futuro: alertas de pipeline, follow-ups)
-- **`skills/`** — Compartilháveis (futuro: ex. integração RD Station read-only)
+- **`contexto/`** — [[contexto/geral|geral]] (função, carteira, KPIs, funil/SIPOC, riscos e oportunidades), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: painel de funil agregado, alerta de pipeline parado)
+- **`skills/`** — [[skills/_index|índice]] (skills com valor/cliente nominal rodam no cofre pessoal)
+- **`projetos/`** — [[projetos/README|projetos da área]]
 
 ## Donos / interlocutores
 
@@ -26,8 +27,9 @@ tags: [mapa, vendas, comercial]
 ## O que NÃO entra aqui
 
 - Deal nominal com valor confidencial (→ cofre pessoal)
-- Preço acordado com cliente específico (→ cofre pessoal)
+- Preço acordado com cliente específico / margem por cliente (→ cofre pessoal)
 - Histórico de negociação de cliente nominal (→ cofre pessoal)
+- Avaliação individual de vendedores (→ cofre pessoal)
 
 ## O que entra com cuidado
 
@@ -35,7 +37,7 @@ tags: [mapa, vendas, comercial]
 
 ## Status
 
-🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
+🟢 Ativo — **mobiliado no padrão canônico em 2026-06-03**. Entrada principal: [[contexto/geral]].
 
 ## Links
 

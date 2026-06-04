@@ -1,65 +1,18 @@
 ---
-tipo: departamento
+tipo: nota
 area: manutencao
-status: revisado
+status: arquivado
 criado: 2026-05-14
-atualizado: 2026-05-29
-fonte_original: site institucional KAB + contexto operacional + SGK
-validado_por: Bruce
-validado_em: 2026-05-29
-sensibilidade: gestao
-recencia: sob-demanda
-tags: [departamento, kab, manutencao]
-gestor: Jonatas (supervisor)
-no_g5: false
+atualizado: 2026-06-03
+autor: bruce
+tags: [manutencao, ferramentaria, contexto, redirect]
 ---
 
-# Departamento — Manutenção
+# Apoio à Produção — sobre o departamento (consolidado)
 
-## Função no negócio
+> Este arquivo era a seed inicial. Em 03/06/2026 o conteúdo foi consolidado e limpo no
+> padrão canônico. **Use [[geral]] como fonte de verdade.**
 
-Manter o parque produtivo disponível e confiável: máquinas de corte, chanfro, prensa e instalações industriais (ver [[Producao]] para a lista detalhada de equipamentos). Interface forte com [[Producao]].
-
-_(A preencher: foco em preventiva / preditiva / corretiva? Software de gestão? Ferramentaria interna ou tudo externo?)_
-
-## Gestor e time
-
-- **Supervisor**: [[Jonatas (supervisor manutencao)]].
-- **Reporta a**: _(a confirmar.)_
-- **Time**: _(a preencher.)_
-
-## Indicadores que importam (KPIs)
-
-| Indicador | Meta | Frequência | Onde acompanho |
-|---|---|---|---|
-| MTBF (tempo médio entre falhas) |  |  |  |
-| MTTR (tempo médio de reparo) |  |  |  |
-| Disponibilidade de equipamentos |  |  |  |
-| % preventivas no prazo |  |  |  |
-| Custo de manutenção / receita |  |  |  |
-
-## Processos críticos
-
-- Plano de manutenção preventiva.
-- Atendimento a paradas (corretiva).
-- Gestão de peças de reposição.
-- _(Refinar com o Jonatas.)_
-
-## Riscos atuais
-
-- 
-
-## Iniciativas em andamento
-
-- 
-
-## Histórico de decisões
-
-_(Append-only.)_
-
-## Links relacionados
-
-- [[_MOC-KAB]]
-- [[contexto-kab]]
-- [[Jonatas (supervisor manutencao)]]
-- [[Producao]]
+- Função, TPM, KPIs, SIPOC, inputs/outputs, riscos → [[geral]]
+- Papéis e estrutura de decisão → [[people]]
+- Decisões → [[decisions]] · Lições → [[lessons]]

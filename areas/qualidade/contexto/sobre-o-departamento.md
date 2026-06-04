@@ -1,67 +1,18 @@
 ---
-tipo: departamento
+tipo: nota
 area: qualidade
-status: revisado
+status: arquivado
 criado: 2026-05-14
-atualizado: 2026-05-29
-fonte_original: site institucional KAB + contexto operacional + SGK
-validado_por: Bruce
-validado_em: 2026-05-29
-sensibilidade: gestao
-recencia: sob-demanda
-tags: [departamento, kab, qualidade]
-gestor: Flavio (supervisor)
-no_g5: false
+atualizado: 2026-06-03
+autor: bruce
+tags: [qualidade, contexto, redirect]
 ---
 
-# Departamento — Qualidade
+# Qualidade — sobre o departamento (consolidado)
 
-## Função no negócio
+> Este arquivo era a seed inicial (migrada 2026-05-23 do cofre pessoal). Em 03/06/2026 o
+> conteúdo foi consolidado e limpo no padrão canônico. **Use [[geral]] como fonte de verdade.**
 
-Garantir que os produtos saiam dentro de especificação. Inclui controle dimensional, metrológico e de processos (durômetro, shadowgraph, teste de compressão — ver [[Producao]] para os equipamentos). Interface forte com [[Producao]] e [[SGK]].
-
-_(A preencher: escopo exato. PPAP, FMEA, análise crítica de produto, tratamento de reclamações de cliente.)_
-
-## Gestor e time
-
-- **Supervisor**: [[Flavio (supervisor qualidade)]].
-- **Reporta a**: _(a confirmar — provavelmente Presidente ou alinhamento com o SGK.)_
-- **Time**: _(a preencher.)_
-
-## Indicadores que importam (KPIs)
-
-| Indicador | Meta | Frequência | Onde acompanho |
-|---|---|---|---|
-| PPM de não-conformidade |  |  |  |
-| Reclamações de cliente |  |  |  |
-| Custo da não-qualidade |  |  |  |
-| % aprovação em inspeção |  |  |  |
-| 8D abertos / fechados |  |  |  |
-
-## Processos críticos
-
-- Inspeção de recebimento, processo e final.
-- Controle dimensional.
-- Calibração de instrumentos.
-- Tratamento de não-conformidades (RNC) e reclamações.
-- _(Refinar com o Flavio.)_
-
-## Riscos atuais
-
-- 
-
-## Iniciativas em andamento
-
-- 
-
-## Histórico de decisões
-
-_(Append-only.)_
-
-## Links relacionados
-
-- [[_MOC-KAB]]
-- [[contexto-kab]]
-- [[Flavio (supervisor qualidade)]]
-- [[Producao]]
-- [[SGK]]
+- Função, escopo SGK (APQP/PPAP/FMEA/MSA/CEP), KPIs, SIPOC, PR-07 → [[geral]]
+- Papéis e estrutura de decisão (Qualidade ≠ SGQ) → [[people]]
+- Decisões → [[decisions]] · Lições → [[lessons]]

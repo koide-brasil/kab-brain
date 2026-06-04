@@ -3,50 +3,52 @@ tipo: mapa
 area: rh
 status: ativo
 criado: 2026-05-22
-autor: erico
-atualizado: 2026-05-22
+atualizado: 2026-06-03
+autor: bruce
 tags: [mapa, rh]
 ---
 
 # 👥 Área RH — MAPA
 
-> Políticas, treinamentos, benefícios institucionais. **A área mais sensível neste repo** — qualquer coisa com nome próprio precisa cuidado especial.
+> Processo de RH da KAB: recrutamento, treinamento, benefícios, clima/satisfação, onboarding.
+> **A área mais sensível deste repo** — qualquer coisa com nome próprio, salário, ponto ou
+> avaliação individual exige cuidado redobrado e fica fora daqui.
 
 ## O que vive aqui
 
-- **`contexto/`** — Mapa de Processo RH (público), políticas (férias, benefícios, treinamento), matriz de competência (FOR-030 versão sem nomes), descrições de cargo (sem salário)
-- **`rotinas/`** — Calendário de treinamentos público, política de banco de horas
-- **`skills/`** — Compartilháveis (futuro)
+- **`contexto/`** — [[contexto/geral|geral]] (função, KPI de satisfação, benefícios genéricos, SIPOC, PR-02 + IT-029 a IT-035), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: painel de satisfação agregada, lembrete de treinamentos)
+- **`skills/`** — [[skills/_index|índice]] (skills de ponto/folha rodam no cofre pessoal)
+- **`projetos/`** — [[projetos/README|projetos da área]]
 
 ## Donos / interlocutores
 
-- **Gerente RH**: Mayra Santos
-- **DP (treinamentos)**: Maria Cecília Caldas
+- **Gerente RH**: Mayra Santos (também responde pelo SGK; não-acesso ainda; planejado Sprint 4+)
 - **Aprovador final**: Erico
 
 ## O que NÃO entra aqui (lista expandida — RH é sensível)
 
-- ❌ Salário individual ou faixa salarial nominal
-- ❌ Banco de horas individual com nome
-- ❌ Avaliação 360 / desempenho individual
-- ❌ Plano de carreira individual
-- ❌ Histórico médico/psicológico
-- ❌ Discussões de contratação/desligamento de pessoa específica
-- ❌ Conflito interno com nome (ex.: "o Gabriel/Fernando/etc...")
-- ❌ Política de comissão com valor específico (% acordada individualmente)
+- ❌ Salário individual ou faixa salarial nominal (→ cofre pessoal)
+- ❌ Folha de pagamento / pró-labore / comissão (→ cofre pessoal)
+- ❌ Banco de horas ou ponto individual com nome (→ cofre pessoal)
+- ❌ Avaliação 360 / desempenho individual (→ cofre pessoal)
+- ❌ Plano de carreira individual (→ cofre pessoal)
+- ❌ Histórico médico/psicológico (→ cofre pessoal)
+- ❌ Contratação/desligamento de pessoa específica (→ cofre pessoal)
+- ❌ Conflito interno com nome (→ cofre pessoal)
+- ❌ Qualquer valor em R$ absoluto
 
 ## O que entra
 
-- ✅ Política de férias (regra geral)
-- ✅ Política de benefícios (lista do que oferece — sem valor)
-- ✅ Treinamentos disponíveis (catálogo)
-- ✅ Mapa de Processo RH (público)
-- ✅ Matriz de competência por cargo (sem nomes)
-- ✅ Indicadores agregados (turnover %, satisfação % do SURVIO)
+- ✅ Mapa de Processo RH (público) — PR-02 + IT-029 a IT-035
+- ✅ Política de benefícios (lista do que oferece — sem valor): Sanitas, Sodexo VA/VC
+- ✅ Catálogo de treinamentos por cargo (sem nomes)
+- ✅ Fluxo de recrutamento, admissão, integração, desligamento (processo, não pessoa)
+- ✅ Indicador agregado: satisfação ≥ 95% (% do clima)
 
 ## Status
 
-🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
+🟢 Ativo — **mobiliado no padrão canônico em 2026-06-03**. Entrada principal: [[contexto/geral]].
 
 ## Links
 

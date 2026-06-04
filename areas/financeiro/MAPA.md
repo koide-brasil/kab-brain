@@ -3,29 +3,27 @@ tipo: mapa
 area: financeiro
 status: ativo
 criado: 2026-05-22
-atualizado: 2026-05-22
-autor: erico
+atualizado: 2026-06-03
+autor: bruce
 tags: [mapa, financeiro]
 ---
 
 # 💵 Área Financeiro — MAPA
 
-> KPIs públicos, fluxo de caixa agregado, política financeira. **NÃO entra:** dívida intercompany, NEs, salários, valores confidenciais de fornecedor/cliente.
+> Área **mais sensível** do repositório. Aqui só entra **PROCESSO** (o que a área faz, rotinas,
+> procedimentos, indicador como %). **NÃO entra:** qualquer valor em R$, situação financeira,
+> dívida intercompany, NEs, salários, valores confidenciais de fornecedor/cliente.
 
 ## O que vive aqui
 
-- **`contexto/`** — Mapa de Processo Financeiro (público), políticas (prazo pagamento, cobrança, conciliação), KPIs agregados sem detalhe nominal
-- **`rotinas/`** — Painéis públicos de KPIs (faturamento agregado, % gastos / receita)
-- **`skills/`** — Compartilháveis (futuro)
-
-## Donos / interlocutores
-
-- **Gerente Financeiro**: Carla Oliveira
-- **Aprovador final**: Erico
+- **`contexto/`** — [[contexto/geral|geral]] (função, escopo do processo, KPIs como %, SIPOC, procedimentos), [[contexto/people|people]] (papéis + estrutura de decisão), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`rotinas/`** — [[rotinas/_index|índice]] (planejadas: alerta do KPI Gastos/Faturamento só em %; painel público do indicador)
+- **`skills/`** — [[skills/_index|índice]] (skills financeiras rodam no cofre pessoal — tocam em valores)
+- **`projetos/`** — [[projetos/README|projetos da área]]
 
 ## O que NÃO entra aqui (lista crítica — área mais sensível)
 
-- ❌ Empréstimo intercompany Koide Kokan (USD 3,9mi)
+- ❌ Empréstimo/dívida intercompany com a Matriz (valores e termos → cofre pessoal)
 - ❌ Notas Explicativas (NEs) detalhadas
 - ❌ DRE detalhado com linhas confidenciais
 - ❌ Salários, comissões, pró-labore (nominal)
@@ -36,15 +34,20 @@ tags: [mapa, financeiro]
 ## O que entra
 
 - ✅ Mapa de Processo Financeiro (público)
-- ✅ Política de prazo de pagamento (regra geral, não acordo nominal)
-- ✅ Política de cobrança (procedimento, não cliente específico)
-- ✅ KPIs agregados (faturamento total, % gastos / receita) — sem detalhe por CC
-- ✅ Procedimento de fechamento contábil
+- ✅ Escopo do processo: contas a pagar, contas a receber/cobrança, conciliação, fluxo de caixa (o processo), apoio à contabilidade externa
+- ✅ Política de cobrança (procedimento — aciona ~3 dias de atraso, não cliente específico)
+- ✅ Indicador de processo Gastos/Faturamento — **só como % e meta (≤ 2,5%)**, sem números absolutos
+- ✅ Procedimento de fechamento / movimentações fiscais (CFOP, Classificação Fiscal, Natureza de Operação)
 - ✅ Calendário fiscal (datas de obrigações)
+
+## Donos / interlocutores
+
+- **Gerente Financeiro**: Carla Oliveira (gestora do Mapa de Processo; membro do G5)
+- **Aprovador final**: Erico
 
 ## Status
 
-🟢 Ativo (seed migrada 2026-05-23 do cofre pessoal). Veja `contexto/sobre-o-departamento.md`.
+🟢 Ativo — **mobiliado no padrão canônico em 2026-06-03**. Entrada principal: [[contexto/geral]].
 
 ## Links
 

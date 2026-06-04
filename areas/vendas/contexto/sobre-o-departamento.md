@@ -1,68 +1,18 @@
 ---
-tipo: departamento
+tipo: nota
 area: vendas
-status: revisado
+status: arquivado
 criado: 2026-05-14
-atualizado: 2026-05-29
-fonte_original: site institucional KAB + contexto operacional + SGK
-validado_por: Bruce
-validado_em: 2026-05-29
-sensibilidade: gestao
-recencia: sob-demanda
-tags: [departamento, kab, comercial]
-gestor: Gabriel (gerente)
-no_g5: true
+atualizado: 2026-06-03
+autor: bruce
+tags: [vendas, comercial, contexto, redirect]
 ---
 
-# Departamento — Comercial
+# Vendas / Comercial — sobre o departamento (consolidado)
 
-## Função no negócio
+> Este arquivo era a seed inicial (2026-05-23). Em 03/06/2026 o conteúdo foi consolidado
+> e limpo no padrão canônico. **Use [[geral]] como fonte de verdade.**
 
-_(A preencher: o que esse departamento entrega à empresa. Provavelmente: prospecção, atendimento a clientes, orçamentos, fechamento de contratos, relação pós-venda.)_
-
-## Gestor e time
-
-- **Gerente**: [[Gabriel (gerente comercial)]] — membro do [[G5 - Comite Estrategico]].
-- **Vendas — Hunting (prospecção de clientes novos)**: [[Martins (representante vendas)]] — representante de vendas, contratado em fev/2026.
-- **Vendas — Farming (carteira existente)**: [[Josielen (supervisora vendas)]] — supervisora; foco em feedback de clientes da carteira e aumento de pedidos da base existente.
-- **Compras — Responsável** (modelo atual, antes do futuro Supply Chain): Larissa.
-- **Time complementar**: _(a preencher.)_
-
-## Estrutura — separação hunting × farming
-
-Reestruturada em fev/2026 com apoio do consultor [[Rodrigo Wilder (consultor Pro Lider)|Rodrigo Wilder]] (programa Pro Líder). Ver [[2026-02 - Reestruturacao Comercial Pro Lider]].
-
-## Indicadores que importam (KPIs)
-
-| Indicador | Meta | Frequência | Onde acompanho |
-|---|---|---|---|
-| Receita / faturamento |  |  |  |
-| Pedidos novos |  |  |  |
-| Carteira ativa |  |  |  |
-| Pipeline / forecast |  |  |  |
-
-_(Substituir pelas métricas reais do Gabriel.)_
-
-## Processos críticos
-
-- _(A preencher: cotação, follow-up, OTD comercial, etc.)_
-
-## Riscos atuais
-
-- 
-
-## Iniciativas em andamento
-
-- [[Integracao BI RD Station CRM - BigQuery]] — disponibilizar dados do CRM no BigQuery + dashboard Looker Studio (iniciado 2026-05-17).
-- **Captura mensal de ATAs comerciais** — ATAs de visitas do CRM viram notas no vault (`01-KAB/Reunioes/`) com campo `resumo_matriz` curto pra alimentar o relatório mensal pra Matriz. Piloto rodado em 2026-05-17 pra maio/2026 (8 visitas). Script em `/home/eps/projetos/erp-agentes-kab/scripts/captura_atas_comerciais_rdstation.py`.
-
-## Histórico de decisões
-
-_(Append-only — linkar para `01-KAB/Decisoes/`.)_
-
-## Links relacionados
-
-- [[_MOC-KAB]]
-- [[contexto-kab]]
-- [[Gabriel (gerente comercial)]]
-- [[G5 - Comite Estrategico]]
+- Função, carteira, KPIs, funil/SIPOC, riscos e oportunidades → [[geral]]
+- Papéis e estrutura de decisão → [[people]]
+- Decisões → [[decisions]] · Lições → [[lessons]]
