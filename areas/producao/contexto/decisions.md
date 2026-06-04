@@ -18,9 +18,9 @@ tags: [producao, contexto, decisions]
 ### 02/06 — Aquisição de CMM (máquina de medição tridimensional)
 - **Contexto:** demanda de medição de alta precisão (projetos com tolerância apertada) e diferenciação no mercado BR.
 - **Decisão:** compra de CMM aprovada pela Matriz; eleva a capacidade de metrologia da fábrica.
-- **Decidido por:** Direção + Matriz (Koide Kokan).
+- **Decidido por:** Direção + Matriz.
 - **Status:** ✅ Aprovado — máquina entra em revisão antes do faturamento.
-- _Detalhes financeiros (CAPEX, payback) no cofre pessoal._
+- _Detalhes financeiros no cofre pessoal._
 
 ## Fevereiro 2026
 

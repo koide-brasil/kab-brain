@@ -69,9 +69,13 @@ Cérebro operacional compartilhável da **Koide Autopeças do Brasil (KAB)** —
 | `onboarding/` | 1-pagers pra novos membros | Sprint 3 |
 
 Cada `areas/{x}/` tem 3 subpastas:
-- `contexto/` — fatos duráveis, FAQs, mapas
-- `rotinas/` — automações, scripts agendados
-- `skills/` — skills específicas da área (`_index.md` aponta pra elas)
+- `contexto/` — fatos duráveis: `geral.md` (função/KPIs), `people.md` (papéis + decisão), `decisions.md`, `lessons.md`
+- `rotinas/` — automações + `_index.md` (catálogo)
+- `skills/` — skills da área + `_index.md` (catálogo)
+
+> **Área-piloto mobiliada:** `areas/producao/` segue o padrão canônico completo (03/06/2026). Use como modelo ao mobiliar as demais.
+
+**Painel de status (ler no início):** `empresa/projetos/projetos.md` (projetos) + `empresa/projetos/pendencias.md` (pendências).
 
 ---
 
