@@ -3,7 +3,7 @@ tipo: nota
 area: kab
 status: ativo
 criado: 2026-05-31
-atualizado: 2026-06-03
+atualizado: 2026-06-09
 tags: [kab, tolerancias, qualidade, rfq, coleta, metrologia]
 ---
 
@@ -29,13 +29,26 @@ tags: [kab, tolerancias, qualidade, rfq, coleta, metrologia]
 
 | Característica | Faixa tranquila | Exige validação | Fora da capacidade atual | Método de medição | Fonte / responsável |
 |---|---|---|---|---|---|
-| Diâmetro externo | a validar | a validar | > Ø92 (fora do envelope) | paquímetro / micrômetro | Jônatas/Fernando/Qualidade |
+| Diâmetro externo (MP aço/tubo) | **± 0,08 mm** (restringir no fornecedor) | < ± 0,08 mm | > Ø92 (fora do envelope) | micrômetro / tridimensional | Qualidade (Flávio, 08/06) |
+| Diâmetro externo (MP alumínio) | **conforme desenho** (não se restringe) | — | fornecedor já pede folga 0,25→0,30/0,35 | micrômetro | Qualidade (Flávio, 08/06) |
 | Diâmetro interno | a validar | a validar | a validar | paquímetro / projetor | Jônatas/Fernando/Qualidade |
-| Comprimento | **± 0,1 mm (corte)** | < ± 0,1 mm | a validar | paquímetro | Produção |
-| Concentricidade | a validar | a validar | a validar | a validar | Qualidade |
+| Comprimento | **± 0,1 mm (corte)** · chanfradeira ideal **≥ 0,15 mm** (décimo e meio) | < ± 0,1 mm | **< 0,05 mm (5 centésimos)** → acende alerta de risco | paquímetro | Produção / Qualidade (Flávio, 08/06) |
+| Concentricidade | **0,2 mm** (obtida restringindo Ø em ± 0,08) | < 0,2 mm | depende de medição (tridimensional) | tridimensional / CMM | Qualidade (Flávio, 08/06) |
 | Retilineidade | a validar | a validar | a validar | a validar | Qualidade |
 | Chanfro / faceamento | **± 0,05 mm** | < ± 0,05 mm ou peça ovalizada | a validar | projetor de perfil | Produção/Qualidade |
 | Rosca (De/Dp) | — | sempre (terceiro/Ergomat) | sem metrologia de rosca hoje | _investir (tridim./perfilômetro)_ | Qualidade |
+
+## Tolerância de MP e sobremetal por material (fonte: Qualidade/Flávio, entrevista 08/06/2026)
+
+| Material / contexto | Regra de tolerância / sobremetal | Observação |
+|---|---|---|
+| **Aço / tubo** (Ø externo da MP) | restringir a **± 0,08 mm** no fornecedor | melhora chanfro e concentricidade (cai p/ ~0,20) |
+| **Alumínio** | **não se restringe** — conforme desenho | fornecedor já entrega com folga (0,25 → 0,30/0,35); não adianta apertar |
+| **Maciço p/ Ergomat** | cotar **~0,5 a 1,0 mm de sobremetal** acima da tabela do fornecedor (tabela em polegada) | sobremetal em **mm, não em décimos** (lição aprendida) — evita vibração/marca na usinagem |
+| **Comprimento na chanfradeira** | ideal **≥ 0,15 mm**; **< 0,05 mm = alerta** | abaixo de 5 centésimos a chanfradeira não segura |
+| **Concentricidade** | alvo **0,2 mm** (desenho costuma pedir 0,3) | obtida via restrição de Ø ± 0,08 |
+
+**Regra de material (Qualidade):** material **abaixo de SAE 1010** dá problema para a família "alta" → **trabalhar de 1010 pra cima**. Atenção também ao **estado de fornecimento** (material **normalizado** oculto): caso real na peça **BL-048-1 (SumiRiko)** — estava normalizada sem o desenho pedir, foi removida ao descobrir. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**.
 
 ## Capacidade de MEDIÇÃO (metrologia) — o que a KAB consegue *verificar* (fonte: reunião de produção IRBAS, 2026-06-03)
 
@@ -69,6 +82,7 @@ tags: [kab, tolerancias, qualidade, rfq, coleta, metrologia]
 - Requisitos de cliente prevalecem sobre regra genérica.
 
 ## Links relacionados
+- [[Coleta - Flavio (Qualidade) - Analise de Viabilidade]] (fonte da atualização 08/06)
 - [[Roteiro Entrevista - Flavio e Madora - Qualidade e Requisitos]]
 - [[Requisitos-DN-Automotivos]]
 - [[Requisitos-SRK-SumiRiko]]

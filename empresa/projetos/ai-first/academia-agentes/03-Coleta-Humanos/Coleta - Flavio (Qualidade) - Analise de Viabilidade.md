@@ -56,8 +56,8 @@ fonte: "Entrevista 1:1 Érico × Flávio (Qualidade), 08/06/2026 — áudio tran
 
 ## Regras / lições aprendidas
 
-- **Material < SAE 1010 dá problema** para a família "alta" (refs CBB / CA90 ⚠ confirmar) → trabalhar **de 1010 pra cima**.
-- **Material normalizado oculto** já causou problema (peça BL481 ⚠ — normalizada sem o desenho pedir; foi removida ao descobrir). Checar estado de fornecimento.
+- **Material < SAE 1010 dá problema** para a família "alta" → trabalhar **de 1010 pra cima**. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**.
+- **Material normalizado oculto** já causou problema na peça **BL-048-1 (SumiRiko)** — estava normalizada sem o desenho pedir; foi removida ao descobrir. Checar estado de fornecimento.
 - **Prensa / flangeamento = risco de trinca.** Material maleável + recozimento pra dobrar, atendendo dureza E flangeamento; processo estável ao longo do projeto.
 - **Fronteira de papéis:** a Qualidade valida material, cotas críticas, tolerâncias, testes e monta a especificação. **Tolerância de chanfro/ferramental é com a Ferramentaria (Jônatas).**
 
@@ -67,4 +67,4 @@ fonte: "Entrevista 1:1 Érico × Flávio (Qualidade), 08/06/2026 — áudio tran
 - → [[Matriz Peca Processo KAB]]: regra "< SAE 1010 não serve p/ alta"; alumínio não restringe.
 - → [[Playbook - Agente Viabilidade RFQ KAB]]: ordem do método (material → restrição → cotas críticas → testes → especificação).
 
-> ⚠️ Itens marcados (?) (BL481, CBB, CA90, "alta"×"inner") vieram de transcrição de áudio e precisam de confirmação com a Qualidade antes de virar regra dura.
+> ✅ Códigos confirmados pelo Erico (09/06): **BL-048-1** = peça da SumiRiko · **CBV** = cliente novo · **SA-90** = máquina de corte da KAB. ⚠️ Ainda a confirmar com a Qualidade: a distinção de famílias **"alta" × "inner"** (veio de áudio).
