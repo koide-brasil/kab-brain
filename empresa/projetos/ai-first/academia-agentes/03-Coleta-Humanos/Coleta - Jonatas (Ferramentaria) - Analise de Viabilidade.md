@@ -40,6 +40,8 @@ Considerar limite do corredor, **Poka-Yoke** e vistoria. Peça curta → compens
 | **Chanfro** (dimensão) | **0,5 a 1,0 mm** (0,4–0,5 ok) | muito apertado → concentricidade/ovalização; **raio = nunca feito** |
 | **Ângulo do chanfro** | **30° padrão** (prensa 25–35°) | 45° tende ao erro (lados desiguais 0,2×0,1); sem amarração no desenho → **range aberto ±10°** |
 
+> **Glossário — bits:** na KAB, "bits" é o **suporte da pastilha** na chanfradeira (≠ pastilha, que é o inserto de corte). A KAB **fabrica o bit em ângulo** pra acoplar a pastilha e obter a angulação do chanfro → **o ângulo do chanfro é definido pelo bit**. Trocar o bit muda o ângulo; por isso o range aberto e o histórico de parâmetros.
+
 ## Regra de ouro — não adicionar o que o desenho não pede
 Caso **SumiRiko**: desenho "livre de rebarba", **sem pedir chanfro**; a KAB pôs chanfro por conta própria. Em série ficou inconsistente e o cliente passou a exigir o extra que o desenho não amarrava → KAB virou refém. **"Livre de rebarba" = não amarra; não criar característica que não se sustenta em série.** Se for adicionar por estética, amarrar com **range aberto** e registrar.
 
