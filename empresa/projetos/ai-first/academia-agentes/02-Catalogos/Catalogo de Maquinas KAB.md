@@ -3,7 +3,7 @@ tipo: nota
 area: kab
 status: ativo
 criado: 2026-05-31
-atualizado: 2026-06-01
+atualizado: 2026-06-09
 tags: [kab, maquinas, capacidade, rfq, dbcorp]
 fonte: DBCorp (bootstrap automático)
 gerado_por: 92-Skills/kab/viabilidade-rfq/scripts/bootstrap_catalogos.py
@@ -105,6 +105,21 @@ Fonte: `TbCentroTrabalho` (centros ativos). Capacidade em horas/semana cadastrad
 2. Entra na chanfradeira **fixo no meio**; **2 motores (um de cada lado)** com cabeçotes montados pra aquela peça, **3 pastilhas cada** (faceamento + chanfro interno + chanfro externo).
 3. Os cabeçotes **rotacionam (rotação controlada)** e **avançam (avanço controlado)**, usinando **os dois lados simultaneamente**.
 - **Maior dificuldade = chanfro irregular por OVALIZAÇÃO do tubo** (e/ou tolerância de chanfro muito apertada): tubo ovalizado ou tol. estreita → difícil manter as tolerâncias. **Isto explica o refugo:** *chanfro irregular* e *ovalização* são top motivos no DBCorp, e a **NPK-250 é a de maior refugo (1,22%) justamente por trabalhar os tubos maiores (Ø92), mais sujeitos a ovalização.** → Em RFQ com **tolerância de chanfro apertada** ou **tubo grande/parede fina** (propenso a ovalizar) = **ressalva técnica**.
+
+### Seleção de chanfradeira por família de peça (fonte: Jônatas/Ferramentaria, 08/06/2026)
+
+A KAB trabalha duas famílias de peça: **Inner** e **Outer**. Regra prática de alocação:
+
+| Tipo de peça | Chanfradeira preferencial | Motivo |
+|---|---|---|
+| **Inner** (maioria) | **NP-57** | vai bem nos inners (tubos menores, Ø≤47) |
+| **Outer** | **FA-100** | família "alta" |
+| **Diâmetro bem maior** | **NPK-250** | Ø grande (até Ø92) — mais lenta e maior refugo por ovalização |
+| **Serrilhado / recartilho** | **FA-100 linha 1** | **única com lubrificação** → dedicada ao serrilhado |
+
+- Seleção segue o **manual da máquina**. A mesma tolerância de comprimento é garantida na NP-57 e na FA-100.
+- **Peça curta** → compensar com **anel extensivo** (geometria do cabeçote).
+- **Cabeçote dedicado é o ideal** (menos setup, mais conformidade); decisão de dedicar/comprar = **pelo volume** (comercial). Ver [[Coleta - Jonatas (Ferramentaria) - Analise de Viabilidade]].
 
 ### Usinagem e terceirização
 

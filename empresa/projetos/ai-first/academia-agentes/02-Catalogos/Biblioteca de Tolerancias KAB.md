@@ -50,6 +50,19 @@ tags: [kab, tolerancias, qualidade, rfq, coleta, metrologia]
 
 **Regra de material (Qualidade):** material **abaixo de SAE 1010** dá problema para a família **Outer** (KAB trabalha duas famílias: **Outer** e **Inner**) → **trabalhar de 1010 pra cima**. Atenção também ao **estado de fornecimento** (material **normalizado** oculto): caso real na peça **BL-048-1 (SumiRiko)** — estava normalizada sem o desenho pedir, foi removida ao descobrir. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**.
 
+## Chanfro e comprimento por família (fonte: Jônatas/Ferramentaria, 08/06/2026)
+
+A KAB trabalha duas famílias: **Inner** e **Outer**. Tolerâncias confortáveis na ótica da usinagem/chanfro:
+
+| Característica | Confortável | Difícil / alerta |
+|---|---|---|
+| Comprimento **Inner** | **± 0,2 mm** (até ± 0,1 ok) | — |
+| Comprimento **Outer** | **± 0,2 mm** | **± 0,1 = complicado** (corte preciso + risco de "sorrisinho"/marca no chanfro por ovalização) |
+| **Dimensão do chanfro** | **0,5 a 1,0 mm** (0,4–0,5 dentro do padrão c/ qualidade) | muito apertado → concentricidade/ovalização; **raio no chanfro = nunca feito** (alto risco) |
+| **Ângulo do chanfro** | **30° (padrão)** quando desenho não amarra (prensa 25–35°) | **45° tende ao erro** (lados desiguais 0,2×0,1 → parece fora); sem amarração → usar **range aberto ±10°** e registrar |
+
+**Regra (Ferramentaria):** "livre de rebarba" no desenho = **não amarra chanfro** — **não adicionar chanfro/feature que não se sustenta em série** (caso SumiRiko: KAB pôs por conta própria e virou refém). Se adicionar por estética, amarrar com **range aberto** e anotar no histórico.
+
 ## Capacidade de MEDIÇÃO (metrologia) — o que a KAB consegue *verificar* (fonte: reunião de produção IRBAS, 2026-06-03)
 
 > **Gate novo e crítico:** produzir ≠ verificar. Uma peça pode estar dentro da capacidade
@@ -83,6 +96,7 @@ tags: [kab, tolerancias, qualidade, rfq, coleta, metrologia]
 
 ## Links relacionados
 - [[Coleta - Flavio (Qualidade) - Analise de Viabilidade]] (fonte da atualização 08/06)
+- [[Coleta - Jonatas (Ferramentaria) - Analise de Viabilidade]] (chanfro/ângulo/comprimento por família)
 - [[Roteiro Entrevista - Flavio e Madora - Qualidade e Requisitos]]
 - [[Requisitos-DN-Automotivos]]
 - [[Requisitos-SRK-SumiRiko]]
