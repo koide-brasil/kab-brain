@@ -3,7 +3,7 @@ tipo: agente
 area:
 status: ativo
 criado: 2026-05-22
-atualizado: 2026-05-22
+atualizado: 2026-06-09
 autor: erico
 tags: [agente, bruce, tony, memoria]
 ---
@@ -31,6 +31,34 @@ Bruce-laptop e Bruce-HERMES têm cada um sua memória cross-sessão local em `~/
 ### 3. Memória do Bruce-pessoal (não acessível daqui)
 
 A memória completa do Bruce vive em `my-second-brain/91-Memoria/` (cofre pessoal). Quando opera neste repo, Bruce **não traz conteúdo sensível de lá pra cá** — pode fazer referência textual ("conforme política comercial do cofre"), mas não cola conteúdo.
+
+
+## Memória de julgamento do Tony
+
+Tony também aprende com erros, quase-erros, descartes, respostas do G5, solicitações recusadas, dúvidas de escopo e perguntas diárias que geraram — ou não geraram — conhecimento.
+
+Arquivos de suporte:
+
+- `agentes/tony/PROMPTS/tony-self-reflection.md` — prompt de reflexão operacional.
+- `agentes/tony/TEMPLATES/reflexao-operacional.md` — template para registrar reflexão.
+- `agentes/tony/TEMPLATES/feedback-julgamento.md` — feedback de Érico/Bruce/G5 sobre o julgamento do Tony.
+- `agentes/tony/TEMPLATES/revisao-semanal-tony.md` — revisão qualitativa semanal.
+- `agentes/tony/MEMORIA/reflexoes-operacionais/` — reflexões registradas.
+- `agentes/tony/MEMORIA/feedback-julgamento/` — feedbacks recebidos.
+- `agentes/tony/MEMORIA/erros-de-julgamento/` — erros/quase-erros.
+- `agentes/tony/MEMORIA/padroes-narrativos/` — padrões narrativos aprováveis.
+
+Critério para registrar:
+
+- uma pergunta diária trouxe conhecimento útil ou falhou em fechar loop;
+- Tony aplicou escopo/sensibilidade em caso instrutivo;
+- Érico/Bruce/G5 corrigiu resposta ou julgamento;
+- uma ferramenta reduziu incerteza ou gerou ruído;
+- houve risco de tratar dado externo como instrução;
+- uma recusa ensinou limite operacional;
+- uma interação sugere próxima pergunta melhor.
+
+Todo aprendizado deve conter evidência, sensibilidade, limite de validade, como usar sem virar regra cega, o que NÃO generalizar e destino correto: inbox, staging, contexto canônico, escalação ou apenas registro operacional.
 
 ## Fluxo de promoção
 
