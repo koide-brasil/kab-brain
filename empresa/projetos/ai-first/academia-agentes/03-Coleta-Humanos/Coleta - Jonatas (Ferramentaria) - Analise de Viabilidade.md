@@ -44,16 +44,16 @@ Considerar limite do corredor, **Poka-Yoke** e vistoria. Peça curta → compens
 Caso **SumiRiko**: desenho "livre de rebarba", **sem pedir chanfro**; a KAB pôs chanfro por conta própria. Em série ficou inconsistente e o cliente passou a exigir o extra que o desenho não amarrava → KAB virou refém. **"Livre de rebarba" = não amarra; não criar característica que não se sustenta em série.** Se for adicionar por estética, amarrar com **range aberto** e registrar.
 
 ## Gatilhos de alerta no desenho
-- **Recartilho/serrilhado**; **rebaixo** (faceamento + ângulo externo, balancear cabeçote, pastilha específica); **recartilho ABJ45 (?)** → cabeçote **tipo gaveta** (não aberto), senão o externo sai da cápsula; **inner muito pequeno** (espaço pra ferramenta entrar).
+- **Recartilho/serrilhado** (ex.: peça **BJ-045** da SumiRiko) → cabeçote **tipo gaveta** (não aberto), senão o externo sai da cápsula; **rebaixo** (ex.: peça **510** da DN, alumínio — faceamento + ângulo externo, balancear cabeçote, pastilha específica); **inner muito pequeno** (espaço pra ferramenta entrar).
 
 ## Migração Ergomat / maciço
 - Validar **dimensão da máquina**. **Amostra ≠ série** → exige tempo de estudo na prática (a máquina aguenta?). **Maciço é mais barato** mas a dinâmica/tempo pode complicar (papel × prática).
 
 ## Decisão de ferramenta/cabeçote = VOLUME
-- **Ideal: cabeçote dedicado** (menos setup, mais assertivo). Volume alto → dedicado; volume baixo / entrega única → **não compra cabeçote** (caro), compartilha (poucos) com **histórico de parâmetros amarrado** (risco de mistura: peça X 20° × peça Y 45°). Dedicado pleno = PNP + matriz de vistoria + **castanha dedicada**.
+- **Ideal: cabeçote dedicado** (menos setup, mais assertivo). Volume alto → dedicado; volume baixo / entrega única → **não compra cabeçote** (caro), compartilha (poucos) com **histórico de parâmetros amarrado** (risco de mistura: peça X 20° × peça Y 45°). Dedicado pleno = **calibre PNP (Passa/Não-Passa, Go/No-Go)** + matriz de vistoria + **castanha dedicada**.
 - Decisão de comprar ferramenta é do **comercial pelo volume** (Fernando/Marcelo/Gabriel). Liga a [[Regras de Escalonamento - Agentes RFQ KAB]] (ferramental = Jônatas; volume/compra = comercial).
 
 ## Normas
 Tabela na legenda = **tabelas ISO**; hoje Jônatas + Fernando + Flávio resolvem juntos. Cliente pode exigir norma específica (ex.: **FIAT**) → buscar norma → tabela → tolerância.
 
-> ⚠️ Vindo de áudio (Jônatas divaga): confirmar códigos **A510**, **ABJ45** e a sigla **PNP** com a Ferramentaria antes de virar regra dura.
+> ✅ Confirmado pelo Erico (09/06): **510** = peça da DN (com rebaixo, alumínio; código exato a confirmar) · **BJ-045** = peça da SumiRiko com recartilho/serrilhado · **PNP** = calibre **Passa/Não-Passa (Go/No-Go)**, ferramenta de medição rápida.
