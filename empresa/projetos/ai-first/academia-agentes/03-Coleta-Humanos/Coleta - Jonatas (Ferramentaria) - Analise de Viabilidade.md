@@ -29,7 +29,7 @@ fonte: "Entrevista 1:1 Érico × Jônatas (Ferramentaria), 08/06/2026 — áudio
 | **Diâmetro bem maior** | **NPK-250** | peças de Ø grande |
 | **Serrilhado / recartilho** | **FA-100 linha 1** | única com lubrificação → dedicada a isso |
 
-Considerar limite do corredor, **Poka-Yoke** e vistoria. Peça curta → compensar com **anel extensivo** (geometria do cabeçote). Mesma tolerância de comprimento vale NP-57 e FA-100.
+**Poka-Yoke = máquina de vistoria:** ao sair do chanfro, a peça cai em esteira → elevador → **corredor** que enfileira as peças uma a uma na mesma posição pro **PNP automático** passar e a **matriz de vistoria** medir o comprimento. O **corredor tem largura limitada por máquina** (ex.: NP-57 mais estreito → não pega peça muito grande). **Peça curta → anel extensivo** (anel atrás do cabeçote que o alonga pra o motor alcançar a peça). Mesma tolerância de comprimento vale NP-57 e FA-100.
 
 ## Tolerâncias (ferramentaria) (→ enriquece [[Biblioteca de Tolerancias KAB]])
 
@@ -37,7 +37,9 @@ Considerar limite do corredor, **Poka-Yoke** e vistoria. Peça curta → compens
 |---|---|---|
 | Comprimento **Inner** | **±0,2** (tranquilo até ±0,1) | — |
 | Comprimento **Outer** | **±0,2** | **±0,1 = complicado** (corte preciso + risco de "sorrisinho" no chanfro por ovalização) |
-| **Chanfro** (dimensão) | **0,5 a 1,0 mm** (0,4–0,5 ok) | muito apertado → concentricidade/ovalização; **raio = nunca feito** |
+| **Chanfro** (dimensão) | **0,5 a 1,0 mm** (0,4–0,5 ok) | muito apertado → concentricidade/ovalização. **Raio (R) é viável** (pastilha especial); preferem chanfro (C) quando o desenho dá opção |
+| **Comprimento Inner** | **±0,1 (até ±0,07/0,08)** | — |
+| **Comprimento Outer** | **±0,2** (adotado) | tecnicamente ±0,1 dá, mas peça grande **ovaliza** → adota folga |
 | **Ângulo do chanfro** | **30° padrão** (prensa 25–35°) | 45° tende ao erro (lados desiguais 0,2×0,1); sem amarração no desenho → **range aberto ±10°** |
 
 > **Glossário — bits:** na KAB, "bits" é o **suporte da pastilha** na chanfradeira (≠ pastilha, que é o inserto de corte). A KAB **fabrica o bit em ângulo** pra acoplar a pastilha e obter a angulação do chanfro → **o ângulo do chanfro é definido pelo bit**. Trocar o bit muda o ângulo; por isso o range aberto e o histórico de parâmetros.

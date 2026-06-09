@@ -32,7 +32,7 @@ fonte: "Entrevista 1:1 Érico × Flávio (Qualidade), 08/06/2026 — áudio tran
    - **Alumínio: NÃO se restringe** — o fornecedor já pede folga (0,25 → 0,30/0,35). Vai **conforme o desenho**.
 
 5. **Testes solicitados em desenho.**
-   - Filtrar compressão, expansão, **flambagem** (caso novo — calculável). Todo teste pedido em desenho tem que ser especificado; a Qualidade orienta na análise se a KAB consegue fazer.
+   - Filtrar **compressão, histerese, expansão** (e outros ensaios na **Instron**); **flambagem** é caso novo (calculável). Todo teste pedido em desenho tem que ser especificado; a Qualidade orienta na análise se a KAB consegue fazer.
    - **Equipados com Instron** → praticamente todos os testes mecânicos são feitos internamente.
 
 6. **Dureza.**
@@ -58,7 +58,7 @@ fonte: "Entrevista 1:1 Érico × Flávio (Qualidade), 08/06/2026 — áudio tran
 
 - **Material < SAE 1010 dá problema** para a família **Outer** → trabalhar **de 1010 pra cima**. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**. *(A KAB trabalha duas famílias: **Outer** e **Inner**.)*
 - **Material normalizado oculto** já causou problema na peça **BL-048-1 (SumiRiko)** — estava normalizada sem o desenho pedir; foi removida ao descobrir. Checar estado de fornecimento.
-- **Prensa / flangeamento = risco de trinca.** Material maleável + recozimento pra dobrar, atendendo dureza E flangeamento; processo estável ao longo do projeto.
+- **Prensa / flangeamento = risco de trinca.** Material maleável + **normalização do tubo trefilado** (forno do aço que tira a tensão da trefilação; alguns chamam recozimento) pra dobrar, atendendo dureza E flangeamento; processo estável ao longo do projeto.
 - **Fronteira de papéis:** a Qualidade valida material, cotas críticas, tolerâncias, testes e monta a especificação. **Tolerância de chanfro/ferramental é com a Ferramentaria (Jônatas).**
 
 ## Implicações para os catálogos/agentes (a folar nas próximas rodadas)

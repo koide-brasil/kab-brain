@@ -118,7 +118,8 @@ A KAB trabalha duas famílias de peça: **Inner** e **Outer**. Regra prática de
 | **Serrilhado / recartilho** | **FA-100 linha 1** | **única com lubrificação** → dedicada ao serrilhado |
 
 - Seleção segue o **manual da máquina**. A mesma tolerância de comprimento é garantida na NP-57 e na FA-100.
-- **Peça curta** → compensar com **anel extensivo** (geometria do cabeçote).
+- **Peça curta** → **anel extensivo**: anel que vai atrás do cabeçote (antes de prender na máquina) pra **alongar o cabeçote** — em peça curta o motor não avança o suficiente pra alcançar a peça.
+- **Limite do corredor da vistoria (Poka-Yoke):** após o chanfro, a peça é enfileirada num **corredor** pro PNP automático + matriz de vistoria medirem o comprimento. **A largura do corredor limita o tamanho da peça por máquina** — a **NP-57 tem corredor mais estreito** (reforça seu uso pra inners menores).
 - **Cabeçote dedicado é o ideal** (menos setup, mais conformidade); decisão de dedicar/comprar = **pelo volume** (comercial). Ver [[Coleta - Jonatas (Ferramentaria) - Analise de Viabilidade]].
 
 ### Usinagem e terceirização

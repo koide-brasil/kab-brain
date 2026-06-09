@@ -58,7 +58,7 @@ A KAB trabalha duas famílias: **Inner** e **Outer**. Tolerâncias confortáveis
 |---|---|---|
 | Comprimento **Inner** | **± 0,2 mm** (até ± 0,1 ok) | — |
 | Comprimento **Outer** | **± 0,2 mm** | **± 0,1 = complicado** (corte preciso + risco de "sorrisinho"/marca no chanfro por ovalização) |
-| **Dimensão do chanfro** | **0,5 a 1,0 mm** (0,4–0,5 dentro do padrão c/ qualidade) | muito apertado → concentricidade/ovalização; **raio no chanfro = nunca feito** (alto risco) |
+| **Dimensão do chanfro** | **0,5 a 1,0 mm** (0,4–0,5 dentro do padrão c/ qualidade) | muito apertado → concentricidade/ovalização. **Raio (R) é viável** (pastilha especial); preferem chanfro (C) quando o desenho dá opção — não é impeditivo |
 | **Ângulo do chanfro** | **30° (padrão)** quando desenho não amarra (prensa 25–35°) | **45° tende ao erro** (lados desiguais 0,2×0,1 → parece fora); sem amarração → usar **range aberto ±10°** e registrar |
 
 *O **ângulo do chanfro é definido pelo bit** (suporte da pastilha na chanfradeira, fabricado em ângulo pra acoplar a pastilha). Trocar o bit muda o ângulo → daí o range aberto + histórico.*
