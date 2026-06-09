@@ -56,7 +56,7 @@ fonte: "Entrevista 1:1 Érico × Flávio (Qualidade), 08/06/2026 — áudio tran
 
 ## Regras / lições aprendidas
 
-- **Material < SAE 1010 dá problema** para a família "alta" → trabalhar **de 1010 pra cima**. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**.
+- **Material < SAE 1010 dá problema** para a família **Outer** → trabalhar **de 1010 pra cima**. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**. *(A KAB trabalha duas famílias: **Outer** e **Inner**.)*
 - **Material normalizado oculto** já causou problema na peça **BL-048-1 (SumiRiko)** — estava normalizada sem o desenho pedir; foi removida ao descobrir. Checar estado de fornecimento.
 - **Prensa / flangeamento = risco de trinca.** Material maleável + recozimento pra dobrar, atendendo dureza E flangeamento; processo estável ao longo do projeto.
 - **Fronteira de papéis:** a Qualidade valida material, cotas críticas, tolerâncias, testes e monta a especificação. **Tolerância de chanfro/ferramental é com a Ferramentaria (Jônatas).**
@@ -64,7 +64,7 @@ fonte: "Entrevista 1:1 Érico × Flávio (Qualidade), 08/06/2026 — áudio tran
 ## Implicações para os catálogos/agentes (a folar nas próximas rodadas)
 - → [[Biblioteca de Tolerancias KAB]]: incorporar a tabela acima.
 - → [[Testes e Propriedades de Material KAB]]: Instron interno; flambagem/compressão/expansão; estado normalizado.
-- → [[Matriz Peca Processo KAB]]: regra "< SAE 1010 não serve p/ alta"; alumínio não restringe.
+- → [[Matriz Peca Processo KAB]]: regra "< SAE 1010 não serve p/ Outer"; alumínio não restringe.
 - → [[Playbook - Agente Viabilidade RFQ KAB]]: ordem do método (material → restrição → cotas críticas → testes → especificação).
 
-> ✅ Códigos confirmados pelo Erico (09/06): **BL-048-1** = peça da SumiRiko · **CBV** = cliente novo · **SA-90** = máquina de corte da KAB. ⚠️ Ainda a confirmar com a Qualidade: a distinção de famílias **"alta" × "inner"** (veio de áudio).
+> ✅ Confirmado pelo Erico (09/06): **BL-048-1** = peça da SumiRiko · **CBV** = cliente novo · **SA-90** = máquina de corte da KAB · o "alta" do áudio = família **Outer**. A KAB trabalha **duas famílias de peça: Outer e Inner**.

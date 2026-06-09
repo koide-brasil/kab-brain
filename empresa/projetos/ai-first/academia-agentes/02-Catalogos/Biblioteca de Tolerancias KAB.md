@@ -48,7 +48,7 @@ tags: [kab, tolerancias, qualidade, rfq, coleta, metrologia]
 | **Comprimento na chanfradeira** | ideal **≥ 0,15 mm**; **< 0,05 mm = alerta** | abaixo de 5 centésimos a chanfradeira não segura |
 | **Concentricidade** | alvo **0,2 mm** (desenho costuma pedir 0,3) | obtida via restrição de Ø ± 0,08 |
 
-**Regra de material (Qualidade):** material **abaixo de SAE 1010** dá problema para a família "alta" → **trabalhar de 1010 pra cima**. Atenção também ao **estado de fornecimento** (material **normalizado** oculto): caso real na peça **BL-048-1 (SumiRiko)** — estava normalizada sem o desenho pedir, foi removida ao descobrir. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**.
+**Regra de material (Qualidade):** material **abaixo de SAE 1010** dá problema para a família **Outer** (KAB trabalha duas famílias: **Outer** e **Inner**) → **trabalhar de 1010 pra cima**. Atenção também ao **estado de fornecimento** (material **normalizado** oculto): caso real na peça **BL-048-1 (SumiRiko)** — estava normalizada sem o desenho pedir, foi removida ao descobrir. Referências do relato: cliente novo **CBV** e máquina de corte **SA-90**.
 
 ## Capacidade de MEDIÇÃO (metrologia) — o que a KAB consegue *verificar* (fonte: reunião de produção IRBAS, 2026-06-03)
 
