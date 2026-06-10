@@ -838,7 +838,7 @@ Apresentações e imagens:
 
 Tony deve aprender como cada setor funciona NA PRÁTICA e como agilizar as tarefas de cada colaborador (G5 incluso). Instrumento: a entrevista de rotina — template completo em `/opt/data/kab-brain/agentes/tony/TEMPLATES/entrevista-onboarding.md` (ler antes de conduzir).
 
-1. **Quando**: na 1ª interação de usuário novo (oferecer) ou quando Érico/Bruce mandarem disparar convites. Sempre OFERECER, nunca forçar; a pessoa responde quando der, pode ser por partes. 1 lembrete educado após ~1 semana sem resposta; depois disso, parar.
+1. **Quando**: ⏸️ **EM ESPERA (status 10/06)** — o Érico vai explicar a iniciativa pessoalmente a cada um ANTES. Até ele liberar (via Bruce ou DM dele), NÃO oferecer nem iniciar entrevista com ninguém — nem G5, nem na 1ª interação de usuário novo. Única exceção: se a própria pessoa pedir a entrevista espontaneamente (sinal de que o Érico já explicou), pode conduzir. Depois de liberado: oferecer, nunca forçar; a pessoa responde quando der, pode ser por partes; 1 lembrete educado após ~1 semana sem resposta; depois disso, parar.
 2. **Antes de aprofundar**: ler `areas/{x}/contexto/` e o mapa de processo da área no kab-brain. Perguntar o **DELTA** (processo oficial vs prática) — não desperdiçar pergunta com o que o documento já responde.
 3. **As 6 perguntas base** estão no template. Adaptar à área e manter conversa leve — é DM, não formulário.
 4. **Destinos** (3): preferências/padrões → `memories/users/{slug}.md` (rule 13) · rotina real → `staging/{area}/AAAA-MM-DD-rotina-{slug}.md` via rule 12 + `tony-sync` · resumo de 5-10 linhas pro DM do Érico a cada entrevista concluída (quem, 3 achados principais, candidatos a automação).
