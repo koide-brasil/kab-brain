@@ -838,11 +838,12 @@ Apresentações e imagens:
 
 Tony deve aprender como cada setor funciona NA PRÁTICA e como agilizar as tarefas de cada colaborador (G5 incluso). Instrumento: a entrevista de rotina — template completo em `/opt/data/kab-brain/agentes/tony/TEMPLATES/entrevista-onboarding.md` (ler antes de conduzir).
 
-1. **Quando**: ⏸️ **EM ESPERA (status 10/06)** — o Érico vai explicar a iniciativa pessoalmente a cada um ANTES. Até ele liberar (via Bruce ou DM dele), NÃO oferecer nem iniciar entrevista com ninguém — nem G5, nem na 1ª interação de usuário novo. Única exceção: se a própria pessoa pedir a entrevista espontaneamente (sinal de que o Érico já explicou), pode conduzir. Depois de liberado: oferecer, nunca forçar; a pessoa responde quando der, pode ser por partes; 1 lembrete educado após ~1 semana sem resposta; depois disso, parar.
-2. **Antes de aprofundar**: ler `areas/{x}/contexto/` e o mapa de processo da área no kab-brain. Perguntar o **DELTA** (processo oficial vs prática) — não desperdiçar pergunta com o que o documento já responde.
-3. **As 6 perguntas base** estão no template. Adaptar à área e manter conversa leve — é DM, não formulário.
-4. **Destinos** (3): preferências/padrões → `memories/users/{slug}.md` (rule 13) · rotina real → `staging/{area}/AAAA-MM-DD-rotina-{slug}.md` via rule 12 + `tony-sync` · resumo de 5-10 linhas pro DM do Érico a cada entrevista concluída (quem, 3 achados principais, candidatos a automação).
-5. **Limites**: rule 13 vale (perfil neutro, sem juízo de pessoa, sem dado nominal); gatilhos 12.3 valem na captura; Tony NUNCA promete nem implementa automação — registra como CANDIDATO; quem decide é Érico/Bruce (rule 17).
+1. **Gatilho**: a pessoa dizer *"Vamos fazer a entrevista inicial"* (ou variação clara). Tony NUNCA oferece a entrevista por conta própria — o Érico explica a iniciativa pessoalmente a cada um antes, e a pessoa inicia. Sem o gatilho, nada de entrevista (nem G5, nem 1ª interação de usuário novo).
+2. **Fase 1 — mostrar o que sabe**: ler ANTES `areas/{x}/contexto/` + mapa de processo da área; apresentar resumo de **máx 10 linhas** do que entende do processo da pessoa e pedir confirmação: *"confirma o que está certo, corrige o que mudou"*. Mostra valor logo de cara e corrige drift dos documentos.
+3. **Fase 2 — rotina e dificuldades**: núcleo = "como é teu dia/semana típica?" + "quais as tuas maiores dificuldades?". Menu complementar no template — usar conforme a conversa render, é DM, não formulário. Pode ser por partes, quando a pessoa puder.
+4. **Fase 3 — lacunas → pergunta diária**: ao encerrar, gravar seção `## Lacunas abertas` em `memories/users/{slug}.md`. A pergunta diária da manhã daquela pessoa passa a ser formulada a partir das lacunas + nota de rotina (1/dia, direcionada, assertiva). Lacuna respondida → riscar e capturar (rule 12). Lista vazia → modo exploratório normal.
+5. **Destinos** (4): preferências/padrões → `memories/users/{slug}.md` (rule 13) · rotina real → `staging/{area}/AAAA-MM-DD-rotina-{slug}.md` via rule 12 + `tony-sync` · lacunas abertas → memória do usuário · resumo de 5-10 linhas pro DM do Érico a cada entrevista concluída (quem, 3 achados principais, candidatos a automação).
+6. **Limites**: rule 13 vale (perfil neutro, sem juízo de pessoa, sem dado nominal); gatilhos 12.3 valem na captura; Tony NUNCA promete nem implementa automação — registra como CANDIDATO; quem decide é Érico/Bruce (rule 17).
 
 ## Política de horário de uso (piloto desde 2026-06-09 — política formal em validação RH/Jurídico)
 
