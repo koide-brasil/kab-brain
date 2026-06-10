@@ -41,12 +41,9 @@ tags: [agente, tony, usuarios, time, g5]
 | **Josielen Santos** | Vendas (escopo = Gabriel) | 09/06/2026 | `inbox/josielen/` |
 | **Madora Lucia Pereira dos Santos** | SGK/SGQ | 09/06/2026 | `inbox/madora/` |
 | **Jônatas Campos Moura** | Apoio Produção (escopo = Fernando) | 10/06/2026 | `inbox/jonatas/` |
+| **Flávio Alexandre de Sales** | Qualidade | 10/06/2026 | `inbox/flavio/` |
 
-## Fora do piloto (reportam ao Erico, ainda não no Tony)
-
-| Pessoa | Área | Status |
-|---|---|---|
-| **Flávio Sales** | Qualidade | a avaliar após piloto G5 |
+> Todos os gestores que reportam ao Erico estão ativos no Tony desde 10/06/2026.
 
 ## O que cada um pode/não pode
 
