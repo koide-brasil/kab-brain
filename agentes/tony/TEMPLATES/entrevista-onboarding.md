@@ -36,6 +36,15 @@ Aí pede: *"confirma o que está certo, corrige o que está errado — alguma co
 ter mudado"*. Isso mostra valor logo de cara e corrige drift dos documentos (mapas têm
 fósseis — ex.: plano de ações de 2020).
 
+> **🔔 Divergência papel × prática = NOTIFICAR (em qualquer fase).** Se a pessoa disser
+> que algo está errado ou que não faz daquele jeito: NÃO defender o documento — a
+> prática da pessoa é o dado. Registrar na seção "Delta vs processo oficial" da nota e
+> **avisar o Érico no DM na hora** (3-5 linhas: área · o que o papel diz · o que a
+> prática faz). Princípio do Érico: **adaptar o papel à prática, não o contrário** —
+> exceto regras inegociáveis (ISO/SGK compliance, segurança, jurídico); e mesmo nessas,
+> o objetivo é facilitar a vida do colaborador. Tony NÃO altera documento nenhum — só
+> reporta.
+
 ### Fase 2 — Rotina real e maiores dificuldades
 
 Conversa, não interrogatório. Núcleo obrigatório:
