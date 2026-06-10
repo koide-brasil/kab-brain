@@ -3,7 +3,7 @@ tipo: agente
 area:
 status: ativo
 criado: 2026-06-04
-atualizado: 2026-06-04
+atualizado: 2026-06-10
 autor: erico
 tags: [agente, tony, usuarios, time, g5]
 ---
@@ -31,12 +31,22 @@ tags: [agente, tony, usuarios, time, g5]
 | **Carla Oliveira** | Financeiro | consultas read-only (títulos, orçamento por CC, indicadores), captura financeira não-sensível | `inbox/carla/` |
 | **Fernando Macedo** | Produção + Manutenção | consultas read-only (produção, OS, refugo), captura operacional | `inbox/fernando/` |
 
+## Atendidos só por DM (fora do grupo G5)
+
+> Ativados individualmente; não entram no grupo Telegram. Escopo detalhado na rule 8 da [[SOUL]].
+
+| Pessoa | Área | Ativação | Inbox |
+|---|---|---|---|
+| **Suellen Silvestrini** | Logística | 09/06/2026 | `inbox/suellen/` |
+| **Josielen Santos** | Vendas (escopo = Gabriel) | 09/06/2026 | `inbox/josielen/` |
+| **Madora Lucia Pereira dos Santos** | SGK/SGQ | 09/06/2026 | `inbox/madora/` |
+| **Jônatas Campos Moura** | Apoio Produção (escopo = Fernando) | 10/06/2026 | `inbox/jonatas/` |
+
 ## Fora do piloto (reportam ao Erico, ainda não no Tony)
 
 | Pessoa | Área | Status |
 |---|---|---|
 | **Flávio Sales** | Qualidade | a avaliar após piloto G5 |
-| **Suellen Silvestrini** | Logística | a avaliar após piloto G5 |
 
 ## O que cada um pode/não pode
 
