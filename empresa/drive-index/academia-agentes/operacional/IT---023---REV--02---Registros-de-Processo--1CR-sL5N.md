@@ -50,4 +50,4 @@ tags: ["kab", "drive-index", "academia-agentes", "processo"]
 
 ## Links relacionados
 
-- [[_MOC-Academia-Agentes-KAB]]
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

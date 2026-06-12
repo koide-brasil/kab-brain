@@ -50,4 +50,4 @@ tags: ["kab", "drive-index", "academia-agentes", "ferramental"]
 
 ## Links relacionados
 
-- [[_MOC-Academia-Agentes-KAB]]
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]
