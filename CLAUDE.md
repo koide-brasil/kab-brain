@@ -82,6 +82,12 @@ atualize o `MAPA.md`/`_MOC-*`/`_index.md` da pasta afetada **na mesma sessão** 
 campo `atualizado:`). MAPA é GPS: padrões e estrutura, não lista de arquivo datado. Rede de
 segurança: cron semanal no HERMES audita o frescor nos 2 cérebros.
 
+**Wikilinks (padrão unificado dos agentes, 2026-06-12):** toda nota tem ≥1 `[[wikilink]]` +
+seção "Links relacionados". O alvo é o **nome EXATO do arquivo** (acento quebra link; caixa
+não). Não linkar pasta. **NUNCA linkar nota que só existe no vault pessoal/cofre** — aqui
+o link não resolve e vaza estrutura de fora do repo; cite como texto puro. Link pra nota
+futura DESTE repo é permitido (marca nota a criar). Auditoria semanal confere.
+
 ---
 
 ## 4. Frontmatter padrão
