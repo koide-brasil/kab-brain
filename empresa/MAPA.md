@@ -14,10 +14,18 @@ tags: [mapa, empresa]
 
 ## O que vive aqui
 
-- **`contexto/`** — [[contexto/geral|geral]] (identidade), [[contexto/people|people]] (G5 + organograma), [[contexto/metricas|metricas]] (scorecard de processo), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]]
+- **`contexto/`** — [[contexto/geral|geral]] (identidade), [[contexto/people|people]] (G5 + organograma), [[contexto/metricas|metricas]] (scorecard de processo), [[contexto/decisions|decisions]], [[contexto/lessons|lessons]], [[contexto/gestao|gestao]]
   - Complementos: [[contexto/koide-brasil-visao-geral|visão geral pública]] · [[contexto/ARQUITETURA|arquitetura do cérebro]] · [[contexto/PRINCIPIOS|princípios/3 gatilhos]] · [[contexto/MATURIDADE-E-FONTES|maturidade e fontes]] · [[contexto/pitch-capacidade|pitch de capacidade]]
-- **`projetos/`** — [[projetos/projetos|projetos]] · [[projetos/pendencias|pendências]] (painel)
-- **`skills/`** — skills compartilháveis (save-kab, team-sync, consolidar-inbox, criar-skill)
+  - `contexto/integracoes/` — sistemas externos: DBCorp, Google Drive, RD Station, RHiD ([[contexto/integracoes/_sobre|_sobre]])
+- **`cotacoes/`** — pipeline comercial ([[cotacoes/MAPA|MAPA]])
+- **`drive-index/`** — resumos destilados de arquivos do Drive, por pasta (COMERCIAL, COMPRAS, GERAL, LOGISTICA, PCP, PRODUCAO, QUALIDADE, SGK, etc.)
+- **`equipe/`** — [[equipe/g5|g5]] (Comitê Estratégico)
+- **`indicadores/`** — KPIs operacionais não-sensíveis (OTD, Refugo, IQF, Satisfação Cliente, Gastos/Faturamento) — [[indicadores/MAPA|MAPA]] · [[indicadores/_MOC-Indicadores|MOC]]
+- **`projetos/`** — [[projetos/projetos|projetos]] · [[projetos/pendencias|pendências]] (painel) · projetos institucionais (BCP, BI RD Station, Daily Roadmap, 1Password) · `projetos/ai-first/` (KAB AI First) — [[projetos/MAPA|MAPA]]
+- **`reunioes/`** — atas por tipo: `cliente/`, `comerciais/`, `fornecedor/` (atas G5 em `_g5/reunioes/`) — [[reunioes/MAPA|MAPA]]
+- **`sgk/`** — Sistema de Gestão Koide destilado (Política, 7 mapas de processo, 10 PRs) — [[sgk/MAPA|MAPA]] · [[sgk/_MOC-SGK|MOC]]
+- **`skills/`** — skills compartilháveis (save-kab, team-sync, sync-team, consolidar-inbox)
+- Notas soltas: [[glossario]] · [[clientes-formais]] · [[automacoes-existentes]]
 
 ## Áreas
 
