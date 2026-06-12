@@ -106,3 +106,8 @@ Resumo:
 - `2026-05-19 - Sessao Bruce - Hermes Telegram.md` — bootstrap desta instância (credenciais, crons, segurança)
 - `2026-05-19 - Sessao Bruce - Fase 2 e RHiD.md` — heartbeats, RHiD API, vault portátil
 - `2026-05-15 - Sessao IA - automacao KAB e skills.md` — triagem Gmail, skills movimentação/custeio
+
+
+## Links relacionados
+
+- [[agentes/MAPA|agentes]] · [[CLAUDE]]

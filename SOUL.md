@@ -44,3 +44,8 @@ Tony/Bruce-time devem evoluir por reflexão, feedback e memória narrativa, sem 
 - Pouco tempo, prefere respostas curtas. Conclusão antes do raciocínio. Dados e métricas claras.
 
 Detalhes completos em `91-Memoria/perfil-usuario.md` e `91-Memoria/preferencias.md`.
+
+
+## Links relacionados
+
+- [[agentes/MAPA|agentes]] · [[CLAUDE]]
