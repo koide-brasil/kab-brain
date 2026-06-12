@@ -59,3 +59,8 @@ Mover material e produto pela cadeia da KAB: recebimento de MP, disponibilizaç�
 - 💡 **Oportunidade:** sistematizar o acompanhamento de datas de entrega e status (hoje manual/reativo).
 
 *Atualizado: 2026-06-03 | Responsável: Supervisora de Logística*
+
+
+## Links relacionados
+
+- [[Logistica]] · [[areas/MAPA|areas]]

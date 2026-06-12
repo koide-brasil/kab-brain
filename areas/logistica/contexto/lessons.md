@@ -23,3 +23,8 @@ tags: [logistica, contexto, lessons]
 - **Ação:** estruturar um acompanhamento sistemático de datas/status de entrega (candidato a alerta de OTD nas rotinas).
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[Logistica]] · [[areas/MAPA|areas]]

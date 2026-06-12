@@ -31,3 +31,8 @@ tags: [drive-index, academia-agentes, ai-first, rfq]
 
 Script local: `/opt/data/scripts/kab_drive_academia_ingest.py`.
 Estado SQLite: `/opt/data/.state/kab-drive-academia/index.db`.
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

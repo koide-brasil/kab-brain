@@ -65,3 +65,8 @@ Bancadas, esmeril, morsa, torno, ferramentas manuais e instrumentos de medição
 - 💡 **Oportunidade:** sistematizar o controle de sobressalentes de ferramental (estoque mínimo).
 
 *Atualizado: 2026-06-03 | Responsável: Gestor de Apoio à Produção*
+
+
+## Links relacionados
+
+- [[areas/MAPA|areas]]

@@ -33,3 +33,8 @@ tags: [producao, contexto, lessons]
 - **Ação:** revisar o Plano de Ações dentro do ciclo de Análise Crítica, não só na auditoria.
 
 *Atualizado: 2026-06-04*
+
+
+## Links relacionados
+
+- [[Producao]] · [[areas/MAPA|areas]]

@@ -43,3 +43,8 @@ tags: [rh, contexto, people]
 > Negociações salariais, enquadramento e avaliação de desempenho individuais **não são tratados aqui** — cofre pessoal.
 
 *Atualizado: 2026-06-03 | Responsável: Gerente de RH (Mayra Santos)*
+
+
+## Links relacionados
+
+- [[RH]] · [[areas/MAPA|areas]]

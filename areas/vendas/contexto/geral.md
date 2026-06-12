@@ -69,3 +69,8 @@ YAB · Indab · SumiRiko (SRK) · Polistampo · DN Automotivos · Tuopu · **Ges
 7. Componentes com solução completa (serviço além da peça).
 
 *Atualizado: 2026-06-03 | Responsável: Gerência Comercial*
+
+
+## Links relacionados
+
+- [[Vendas]] · [[areas/MAPA|areas]]

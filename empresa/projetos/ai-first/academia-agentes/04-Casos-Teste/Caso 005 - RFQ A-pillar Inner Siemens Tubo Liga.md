@@ -70,3 +70,8 @@ equipamento"**; ferramental de produção (castanha/PNP/levantador). Volume 138.
 - Minhas ressalvas (aço-liga + ângulo de chanfro 22,5° atípico) bateram com o ponto aberto real
   ("ângulo e chanfro definidos na amostra"). Fui levemente cauteloso sobre TT (KAB: N/A) — aceitável,
   pois enquadrei como "a esclarecer".
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

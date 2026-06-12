@@ -64,3 +64,8 @@ Cuidar de todo o ciclo do colaborador na KAB — **recrutamento e seleção, con
 - 💡 **Oportunidade — critério de avaliação individual:** estruturar um critério de avaliação pode elevar engajamento, comprometimento, trabalho em equipe e reduzir absenteísmo. _(Ações ainda não definidas no mapa; tratativa nominal de desempenho vive no cofre pessoal, não aqui.)_
 
 *Atualizado: 2026-06-03 | Responsável: Gerente de RH (Mayra Santos)*
+
+
+## Links relacionados
+
+- [[RH]] · [[areas/MAPA|areas]]

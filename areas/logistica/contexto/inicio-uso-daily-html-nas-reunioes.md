@@ -22,3 +22,8 @@ Ontem (21/05/2026) começamos a usar o novo daily HTML nas reuniões matinais. E
 Primeiro bug reportado: a Suellen apontou que os percentuais de custo de frete vs vendas estão sendo calculados sobre o valor LÍQUIDO de venda no daily, quando o correto é cálculo sobre o valor BRUTO. Ajuste pendente no script daily-meeting.
 
 Marco importante: é a primeira vez que dados consolidados de 6 departamentos via DBCorp + RD Station + RHiD + Drive vão direto pra reunião gerencial, em vez de planilhas separadas por área.
+
+
+## Links relacionados
+
+- [[Logistica]] · [[areas/MAPA|areas]]

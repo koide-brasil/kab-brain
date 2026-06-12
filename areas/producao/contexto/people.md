@@ -38,3 +38,8 @@ tags: [producao, contexto, people]
 | Aprovação de pedido de compra indireta | Alta direção (orçamentos via Comercial) |
 
 *Atualizado: 2026-06-03 | Responsável: Coordenador de Produção*
+
+
+## Links relacionados
+
+- [[Producao]] · [[areas/MAPA|areas]]

@@ -38,3 +38,8 @@ tags: [logistica, contexto, people]
 | Aprovação de pedido de compra indireta | Alta direção (orçamentos via Comercial) |
 
 *Atualizado: 2026-06-03 | Responsável: Supervisora de Logística*
+
+
+## Links relacionados
+
+- [[Logistica]] · [[areas/MAPA|areas]]

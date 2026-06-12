@@ -36,3 +36,8 @@ tags: [producao, contexto, decisions]
 - **Status:** Em análise.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[Producao]] · [[areas/MAPA|areas]]

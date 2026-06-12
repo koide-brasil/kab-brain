@@ -51,3 +51,8 @@ tags: [kab, rfq, template, caso-teste]
 - Acerto/erro:
 - Tipo de erro:
 - Correção necessária no playbook/catálogo:
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

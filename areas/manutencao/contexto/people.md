@@ -39,3 +39,8 @@ tags: [manutencao, ferramentaria, contexto, people]
 | Aprovação de compra de sobressalente crítico | Alta direção (orçamentos via Compras) |
 
 *Atualizado: 2026-06-03 | Responsável: Gestor de Apoio à Produção*
+
+
+## Links relacionados
+
+- [[areas/MAPA|areas]]

@@ -58,3 +58,8 @@ O **Érico** é o único admin. Ele autoriza alterações de regra/permissão/es
 ## Dúvida? Fala com o Érico ou com o próprio Tony
 
 Pode mandar "Tony, o que você consegue me ajudar hoje?" no DM — ele te dá um resumo no seu escopo.
+
+
+## Links relacionados
+
+- [[MAPA]]

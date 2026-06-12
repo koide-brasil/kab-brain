@@ -32,3 +32,8 @@ tags: [manutencao, ferramentaria, contexto, decisions]
 - **Status:** Em análise — ver `lessons.md`.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[areas/MAPA|areas]]

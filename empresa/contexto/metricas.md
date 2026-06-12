@@ -30,3 +30,8 @@ tags: [empresa, contexto, metricas, kpi, scorecard]
 > Cada meta detalhada vive no `contexto/geral.md` da área correspondente. Acompanhamento diário operacional sai do daily-meeting (roda no cofre, consome dados sensíveis).
 
 *Atualizado: 2026-06-04 | Responsável: SGK / G5*
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

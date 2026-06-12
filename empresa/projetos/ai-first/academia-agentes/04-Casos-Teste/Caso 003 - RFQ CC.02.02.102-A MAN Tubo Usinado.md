@@ -66,3 +66,8 @@ Volume 30.000/ano.
 - **Agente: Atende com base documentada · KAB: Atende.** ✅ Match.
 - Pequeno ajuste: eu não destaquei o set de ferramental de produção (castanha/cabeçote/PNP) que toda
   peça nova exige — incluir como item padrão de "ressalva de ferramental" no parecer.
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

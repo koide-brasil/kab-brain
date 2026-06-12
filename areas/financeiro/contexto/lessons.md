@@ -23,3 +23,8 @@ tags: [financeiro, contexto, lessons]
 - **Ação:** usar a reunião diária de "bom dia" para expor os gastos dos setores e barrar compras não planejadas antes de virarem fato.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[Financeiro]] · [[areas/MAPA|areas]]

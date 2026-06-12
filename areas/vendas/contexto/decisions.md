@@ -27,3 +27,8 @@ tags: [vendas, comercial, contexto, decisions]
 - **Status:** Em análise.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[Vendas]] · [[areas/MAPA|areas]]

@@ -215,3 +215,8 @@ _(Append-only.)_
 - Comercial — departamento dono do dado
 - _MOC-KAB
 - Email RD Station (Gmail): threadId `19e36eed44db87f5`, assunto "✅ Integração BI habilitada"
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

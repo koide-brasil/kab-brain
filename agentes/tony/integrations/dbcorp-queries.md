@@ -70,3 +70,8 @@ Colunas: `RecNFDataEntrada`, `RecNFValorTotal`, `RecNFNum`, `FornecId`. Filtrar 
 5. Realizado sem serviços subestima; comparação com MP não faz sentido
 6. Sufixo de item indica estágio, não item novo
 7. `TbTitulo`: sempre `MotCancId IS NULL` + `TitDataPagamento IS NULL` pra aberto real
+
+
+## Links relacionados
+
+- [[agentes/MAPA|agentes]]

@@ -136,3 +136,8 @@ A regra "ausência no DBCorp = não atende" é **pessimista demais** quando há 
 "Não atende".
 
 **Correções aplicadas:** ver Log de Correções (caso 002).
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

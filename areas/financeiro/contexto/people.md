@@ -37,3 +37,8 @@ tags: [financeiro, contexto, people]
 | Decisões de natureza estratégica/financeira | Alta direção — _vive no cofre pessoal, fora deste repo_ |
 
 *Atualizado: 2026-06-03 | Responsável: Coordenadora Financeiro*
+
+
+## Links relacionados
+
+- [[Financeiro]] · [[areas/MAPA|areas]]

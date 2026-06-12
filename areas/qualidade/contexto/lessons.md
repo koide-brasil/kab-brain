@@ -33,3 +33,8 @@ tags: [qualidade, contexto, lessons]
 - **Ação:** garantir inspeção de retorno do beneficiamento externo e usar IQF para cobrar o fornecedor.
 
 *Atualizado: 2026-06-04*
+
+
+## Links relacionados
+
+- [[Qualidade]] · [[areas/MAPA|areas]]

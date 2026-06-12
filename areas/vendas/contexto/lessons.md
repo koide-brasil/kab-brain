@@ -23,3 +23,8 @@ tags: [vendas, comercial, contexto, lessons]
 - **Ação:** instrumentar o funil no RD Station CRM (entrada de RFQ → viabilidade → proposta → fechamento) para acompanhar conversão por etapa.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[Vendas]] · [[areas/MAPA|areas]]

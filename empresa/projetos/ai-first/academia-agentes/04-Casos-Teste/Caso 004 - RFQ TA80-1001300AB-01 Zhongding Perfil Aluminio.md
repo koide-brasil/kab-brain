@@ -98,3 +98,8 @@ reasoning incompleto por **desconhecer o path LW**.
 
 **Correção real (vale p/ 002 e 004):** ensinar o agente o **path LW Usinagem** — ver
 LW Usinagem e a regra nova no playbook. Isso conserta os dois erros de uma vez.
+
+
+## Links relacionados
+
+- [[empresa/MAPA|empresa]]

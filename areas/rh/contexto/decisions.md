@@ -38,3 +38,8 @@ tags: [rh, contexto, decisions]
 - **Status:** Em análise.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[RH]] · [[areas/MAPA|areas]]

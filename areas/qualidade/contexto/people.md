@@ -39,3 +39,8 @@ tags: [qualidade, contexto, people]
 | Embarque controlado / escalonamento de NC | Qualidade (com Direção quando há impacto ao cliente) |
 
 *Atualizado: 2026-06-03 | Responsável: Supervisor de Qualidade*
+
+
+## Links relacionados
+
+- [[Qualidade]] · [[areas/MAPA|areas]]

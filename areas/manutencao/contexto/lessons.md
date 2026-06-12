@@ -28,3 +28,8 @@ tags: [manutencao, ferramentaria, contexto, lessons]
 - **Ação:** acompanhar a vida útil do ferramental dentro do TPM (check-list diário FOR-048) e antecipar a troca antes do desgaste virar refugo.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[areas/MAPA|areas]]

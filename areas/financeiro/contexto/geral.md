@@ -62,3 +62,8 @@ Sustentar a operação financeira da KAB no dia a dia: garantir que a empresa pa
 - 💡 **Oportunidade:** alinhamento diário na reunião de "bom dia", apresentando os gastos dos setores.
 
 *Atualizado: 2026-06-03 | Responsável: Coordenadora Financeiro*
+
+
+## Links relacionados
+
+- [[Financeiro]] · [[areas/MAPA|areas]]

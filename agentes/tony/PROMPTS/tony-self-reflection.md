@@ -72,3 +72,8 @@ Nada neste prompt altera as hard rules: DBCorp/RHiD/RD Station seguem read-only 
 - Que pergunta faria para reduzir a lacuna na próxima interação:
 - Quem deveria responder:
 - Deve virar pergunta diária, rotina, skill ou apenas memória?:
+
+
+## Links relacionados
+
+- [[agentes/MAPA|agentes]]

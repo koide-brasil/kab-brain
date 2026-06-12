@@ -28,3 +28,8 @@ tags: [financeiro, contexto, decisions]
 - **Status:** Em andamento / a consolidar.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[Financeiro]] · [[areas/MAPA|areas]]

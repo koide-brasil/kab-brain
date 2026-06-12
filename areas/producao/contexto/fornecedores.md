@@ -30,3 +30,8 @@ tags: [producao, contexto, fornecedores, mp]
 - Fornecedores de MP por tipo e variação de preço (LME) são tratados no cofre.
 
 *Atualizado: 2026-06-03 | Consolidado do staging*
+
+
+## Links relacionados
+
+- [[Producao]] · [[areas/MAPA|areas]]

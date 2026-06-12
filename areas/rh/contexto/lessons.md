@@ -23,3 +23,8 @@ tags: [rh, contexto, lessons]
 - **Ação:** executar os treinamentos de médio prazo previstos no plano de ações (comunicação, gestão de tempo, estrutura de feedback) e registrar a evidência no SGK.
 
 *Atualizado: 2026-06-03*
+
+
+## Links relacionados
+
+- [[RH]] · [[areas/MAPA|areas]]

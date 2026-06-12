@@ -49,3 +49,8 @@ Checklist (~2 min por pessoa, executado pelo Bruce/Erico — Tony não se auto-c
 7. `docker restart` do container (rule 17 — só via Bruce/Erico)
 
 Usuário fora do G5: NÃO entra no grupo Telegram; todo contato é DM. Cobrança de ações já é individual por padrão.
+
+
+## Links relacionados
+
+- [[agentes/MAPA|agentes]]

@@ -88,3 +88,8 @@ Procedimento-mãe de Produto Não Conforme + Ação Corretiva. Prazos do fluxo:
 - 💡 Embarque controlado em caso de problema persistente.
 
 *Atualizado: 2026-06-03 | Responsável: Supervisor de Qualidade*
+
+
+## Links relacionados
+
+- [[Qualidade]] · [[areas/MAPA|areas]]

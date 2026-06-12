@@ -38,3 +38,8 @@ tags: [vendas, comercial, contexto, people]
 | Posicionamento estratégico / novos mercados | Alta direção |
 
 *Atualizado: 2026-06-03 | Responsável: Gerência Comercial*
+
+
+## Links relacionados
+
+- [[Vendas]] · [[areas/MAPA|areas]]

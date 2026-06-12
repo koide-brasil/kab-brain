@@ -41,3 +41,8 @@ tags: [qualidade, compliance, ambiental, licencas, avcb, emergencia, sgk]
 - **SGK / RH** (Mayra) — treinamentos e auditoria.
 
 *Atualizado: 2026-06-03 | Consolidado do staging*
+
+
+## Links relacionados
+
+- [[Qualidade]] · [[areas/MAPA|areas]]

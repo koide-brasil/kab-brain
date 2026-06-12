@@ -38,3 +38,8 @@ Resposta de Gabriel à pergunta diária de Vendas: Prospecção de clientes em p
 ## Próxima ação sugerida
 
 Usar para orientar próximas perguntas e futuras respostas do Tony para este usuário.
+
+
+## Links relacionados
+
+- [[MAPA]]

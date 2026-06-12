@@ -31,3 +31,8 @@ Por cliente-âncora: KAYABA, YOROZU (históricos), PROLIND (beneficiamento), DTR
 - Carteira oficial e detalhe operacional vivem no cofre pessoal e no RD Station.
 
 *Atualizado: 2026-06-03 | Consolidado do staging*
+
+
+## Links relacionados
+
+- [[Vendas]] · [[areas/MAPA|areas]]
