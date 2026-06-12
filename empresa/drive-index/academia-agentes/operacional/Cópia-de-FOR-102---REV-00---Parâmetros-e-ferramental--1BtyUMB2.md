@@ -72,3 +72,8 @@ Peça: |  |  | * Especificar o que foi utilizado e observação (se necessário)
 DATA | HORA | REALIZADO SETUP POR | LINHA | TURNO | ALTURA MARTELO PARA PRESET DO  MOLDE | OBSERVAÇÃO
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

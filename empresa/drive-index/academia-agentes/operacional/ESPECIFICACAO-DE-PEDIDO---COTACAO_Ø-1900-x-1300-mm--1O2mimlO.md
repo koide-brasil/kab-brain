@@ -147,3 +147,8 @@ Elaborado por: Flávio Sales Revisado por: Aprovado po r:
 Koide Autopeças do Brasil Ltda Koide Autopeças do Brasil L tda Koide Autopeças do Brasil Ltda
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

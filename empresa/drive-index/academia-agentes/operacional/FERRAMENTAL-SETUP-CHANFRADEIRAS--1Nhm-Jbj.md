@@ -257,3 +257,8 @@ Código | PN | JANEIRO | FEVEREIRO | MARÇO | ABRIL | MAIO | JUNHO | JULHO
 70500313 | BJ-112A-1 | 3780 | 25920 | 17280 | 8640 |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

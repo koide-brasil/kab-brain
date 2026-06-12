@@ -153,3 +153,8 @@ DATA DE CONTROLE |  |  |  |  |  |  |  |  |  | STATUS |  |  |  |  |
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -110,3 +110,8 @@ Zincado Trivalente conforme DBL 8451.12 |  |  |  |  | DBL 8451.12 |
  | N/A= | Não aplicado |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

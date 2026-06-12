@@ -200,3 +200,8 @@ Fornecedor: 350 - ALEBRA SKRIPTUM;;;;;;;;;;;;;;;;;;;;;
 [... conteúdo truncado: 584998 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

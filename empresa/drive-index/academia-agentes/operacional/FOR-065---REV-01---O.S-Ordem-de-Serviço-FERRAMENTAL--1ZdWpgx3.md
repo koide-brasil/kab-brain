@@ -82,3 +82,8 @@ Revisão | Data |  | Elaborado por |  | Aprovado por | Descrição |  |  |  |  |
 01 | 2020-03-18 00:00:00 |  | José Rogério |  | José Rogério | Acrescentado informações para compor as tratativas dos problemas. |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

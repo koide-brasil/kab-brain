@@ -131,3 +131,8 @@ N° CAIXA | PEÇA ITEM |  | ESPECIFICAÇÃO  |  |  |  | CHANFRADEIRA |  |  |  | 
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

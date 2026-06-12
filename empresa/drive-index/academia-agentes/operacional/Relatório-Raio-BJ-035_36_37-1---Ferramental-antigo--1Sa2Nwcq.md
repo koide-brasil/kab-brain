@@ -57,3 +57,8 @@ tags: ["kab", "drive-index", "academia-agentes", "ferramental"]
  | Raio 0,50 A 1,00  |  | Encontrado 0,92 |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

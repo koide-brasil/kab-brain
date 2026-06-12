@@ -128,3 +128,8 @@ Código | PN | JULHO | AGOSTO | SETEMBRO | OUTUBRO | NOVEMBRO | DEZEMBRO | JANEI
 07.050.0238 | BL-047-1 | 0 | 0 | 0 | 0 | 0 | 0 | 0
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

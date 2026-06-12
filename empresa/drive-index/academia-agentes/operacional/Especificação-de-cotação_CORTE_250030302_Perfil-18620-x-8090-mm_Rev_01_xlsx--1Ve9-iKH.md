@@ -137,3 +137,8 @@ Koide Autopeças do Brasil Ltda Koide Autopeças do Brasil Ltda Koide Autopeças
 Auditoria de Processo
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

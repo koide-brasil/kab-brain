@@ -75,3 +75,8 @@ export function setHttpClientAndAgentOptions(config) {
 //# sourceMappingURL=setup-http-agent-env.js.map
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

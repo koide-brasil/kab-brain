@@ -49,3 +49,8 @@ tags: ["kab", "drive-index", "academia-agentes", "processo"]
  | DATA | PEÇA | OP | COMPRESSÃO / EXPANSÃO | OK | NOK | DUREZA | OK | NOK | RESPONSÁVEL
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

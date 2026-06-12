@@ -191,3 +191,8 @@ DATA DE CONTROLE | DIMENSÕES VERIFICADAS |  |  |  |  |  |  |  |  |  |  |  |  | 
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

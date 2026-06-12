@@ -61,3 +61,8 @@ FALHA NO CHANFRO                                                                
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

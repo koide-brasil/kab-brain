@@ -262,3 +262,8 @@ MÊS | 2024-11-01 00:00:00 | 2024-12-01 00:00:00 | 2025-01-01 00:00:00 | 2025-02
 [... conteúdo truncado: 2257 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

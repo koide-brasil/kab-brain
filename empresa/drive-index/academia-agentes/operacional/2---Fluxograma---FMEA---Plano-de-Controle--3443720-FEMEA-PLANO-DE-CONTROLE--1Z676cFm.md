@@ -177,3 +177,8 @@ Rev. Nº: Data Revisado por:
 Histórico de Revisões
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

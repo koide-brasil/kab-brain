@@ -51,3 +51,8 @@ PEÇA 1 PEÇA 2 PEÇA 3 PEÇA 4 PEÇA 5
 Testes em 05 amostras do item 3436760/TR0432 - Extrudada em n ovo ferramental Prolind com correção da linha de caldeamento
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

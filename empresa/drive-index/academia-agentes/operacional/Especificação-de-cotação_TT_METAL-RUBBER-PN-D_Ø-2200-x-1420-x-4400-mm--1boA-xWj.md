@@ -110,3 +110,8 @@ A camada de zinco deve resistir no minimo 96h sem corrosão |  |  |  |  | - |
  | N/A= | Não aplicado |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

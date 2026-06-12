@@ -200,3 +200,8 @@ responsabilidade pela
 Logística
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

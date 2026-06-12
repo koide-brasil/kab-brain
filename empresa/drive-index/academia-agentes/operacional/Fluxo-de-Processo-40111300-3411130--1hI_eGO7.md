@@ -98,3 +98,8 @@ Revisão do fluxograma/ data: 00 de 15/05/2024 40304100 (3430410)
 Koide Autopeças do Brasil Ltda
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

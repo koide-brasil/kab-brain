@@ -141,3 +141,8 @@ Qualidade.
 Elaborado por: Flávio Sales Revisado por: Aprovado por:
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

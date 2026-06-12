@@ -151,3 +151,8 @@ AIAG= Automotive Industry Action Group
 N/A= Não aplicado
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

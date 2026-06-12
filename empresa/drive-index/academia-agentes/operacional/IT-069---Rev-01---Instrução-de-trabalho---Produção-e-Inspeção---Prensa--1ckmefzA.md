@@ -287,3 +287,8 @@ Revisado por: Aprovado por: Descrição:
 inspeção visual no item 4.3
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]] · [[Qualidade]]

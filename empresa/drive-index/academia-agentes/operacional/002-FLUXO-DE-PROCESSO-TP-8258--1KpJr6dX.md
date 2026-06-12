@@ -121,3 +121,8 @@ PPAP nº
 KOIDE AUTOPEÇAS DO BRASIL LTDA Perfil de Aluminio (601) 39,70 x 36,50 MM 001.25
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

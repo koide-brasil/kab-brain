@@ -152,3 +152,8 @@ Koide Autopeças do Brasil Ltda Koide Autopeças do Br asil Ltda Koide Autopeça
 Fornecedor: Fornecedor:
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

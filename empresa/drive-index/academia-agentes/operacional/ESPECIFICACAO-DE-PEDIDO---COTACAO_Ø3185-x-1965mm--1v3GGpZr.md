@@ -153,3 +153,8 @@ Elaborado por: Madora Ferreira Revisado por: Aprovad o por:
 Koide Autopeças do Brasil Ltda Koide Autopeças do Br asil Ltda Koide Autopeças do Brasil Ltda
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

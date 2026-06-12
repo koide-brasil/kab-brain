@@ -48,3 +48,8 @@ tags: ["kab", "drive-index", "academia-agentes", "maquina", "ferramental"]
 === Página 2 ===
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

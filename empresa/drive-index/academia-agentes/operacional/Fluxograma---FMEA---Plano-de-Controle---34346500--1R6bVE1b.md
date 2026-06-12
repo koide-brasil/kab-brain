@@ -243,3 +243,8 @@ Rev. Nº: | Data | Revisado por: | Histórico de Revisões |  |  |  |  |  |  |  
 === Aba: Desenho ===
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

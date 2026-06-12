@@ -46,3 +46,8 @@ tags: ["kab", "drive-index", "academia-agentes", "processo"]
 [tipo não suportado para extração: application/msword; 44544 bytes]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

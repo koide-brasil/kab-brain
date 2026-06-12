@@ -72,3 +72,8 @@ tags: ["kab", "drive-index", "academia-agentes", "qualidade"]
  | Fluxo: Fornecedor ==>  SRK-BI QA ==> SRK-BI E&D ==> SRK-BI QC  ==> Fornecedor |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]] · [[Qualidade]]

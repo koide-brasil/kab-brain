@@ -231,3 +231,8 @@ KOIDE
 126
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

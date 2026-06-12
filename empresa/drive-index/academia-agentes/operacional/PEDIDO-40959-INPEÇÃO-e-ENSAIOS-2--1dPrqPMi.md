@@ -52,3 +52,8 @@ tags: ["kab", "drive-index", "academia-agentes"]
 === Página 4 ===
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

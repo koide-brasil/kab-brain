@@ -115,3 +115,8 @@ OBS: Manter apenas uma única fonte de fornecimento (SC). |  |  |  |  | SAE |
  | N/A= | Não aplicado |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -395,3 +395,8 @@ processo
 100%
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -46,3 +46,8 @@ tags: ["kab", "drive-index", "academia-agentes", "qualidade"]
 [tipo não suportado para extração: application/vnd.ms-excel; 326656 bytes]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]] · [[Qualidade]]

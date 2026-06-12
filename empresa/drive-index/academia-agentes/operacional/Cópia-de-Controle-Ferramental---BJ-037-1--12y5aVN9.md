@@ -262,3 +262,8 @@ DATA DE CONTROLE | DIMENSÕES VERIFICADAS |  |  |  |  |  |  |  |  |  |  |  |  | 
 [... conteúdo truncado: 1305 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

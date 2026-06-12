@@ -169,3 +169,8 @@ declare const _default: {
 export default _default;
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

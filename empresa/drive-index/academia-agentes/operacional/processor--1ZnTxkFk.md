@@ -258,3 +258,8 @@ class Processor(object):
         return txt
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

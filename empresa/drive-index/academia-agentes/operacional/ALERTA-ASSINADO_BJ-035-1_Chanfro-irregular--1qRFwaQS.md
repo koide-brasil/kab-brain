@@ -102,3 +102,8 @@ Flavio Sales
 ASSINATURA:
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

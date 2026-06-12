@@ -95,3 +95,8 @@ export class Items extends APIResource {
 //# sourceMappingURL=items.mjs.map
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

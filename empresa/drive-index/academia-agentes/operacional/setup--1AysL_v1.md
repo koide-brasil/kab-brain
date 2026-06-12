@@ -50,3 +50,8 @@ doc_files = docs/
             tests/
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -63,3 +63,8 @@ Kg ou Pç | DATA DE
 (RETRABALHO, APROVADO COM DESVIO, SELEÇÃO OU REFUGO) |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

@@ -138,3 +138,8 @@ Fornecedor: Fornecedor:
 Auditoria de Processo
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -149,3 +149,8 @@ N° DO ITEM CLIENTE:
 N° DO ITEM FORNECEDOR:
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

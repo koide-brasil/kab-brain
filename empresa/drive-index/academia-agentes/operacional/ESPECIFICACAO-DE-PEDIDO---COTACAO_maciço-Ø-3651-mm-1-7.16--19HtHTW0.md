@@ -144,3 +144,8 @@ Auditoria de Lay-Out Conforme Manual de Fornecedores KAB
 Auditoria de Processo Conforme Manual de Fornecedores KAB
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

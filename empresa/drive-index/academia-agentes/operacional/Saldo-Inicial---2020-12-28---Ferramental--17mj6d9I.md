@@ -68,3 +68,8 @@ BK-015A-1-FMT | MOLDE PARA PRENSA MECÂNICA VERTICAL, PARA CONFORMAÇÃO DE TUBO
 Filtros: Tipo de Depósito: Armazenagem, Depósito: FERRAMENTAL, Posição de Estoque Físico: Positivo, Negativo. | DBCorp PCR v3 r1.15.7 - (11) 4355-1000 | 1/1 |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

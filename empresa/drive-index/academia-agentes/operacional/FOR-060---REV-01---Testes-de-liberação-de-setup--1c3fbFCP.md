@@ -134,3 +134,8 @@ tags: ["kab", "drive-index", "academia-agentes", "processo"]
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

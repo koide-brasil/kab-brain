@@ -56,3 +56,8 @@ PF2(DN9B) FR LWR ARM RFQ仕様詳細(追加検討)
 機密性2・社外秘
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

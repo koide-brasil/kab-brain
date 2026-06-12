@@ -55,3 +55,8 @@ QStE550TM-GWT A G31-05:2024-12 | 2 |
 OSTE380TM-GWT A G31-05:2024-12 | 2 |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

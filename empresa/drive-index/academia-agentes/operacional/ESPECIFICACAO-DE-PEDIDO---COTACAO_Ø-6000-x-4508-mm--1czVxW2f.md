@@ -151,3 +151,8 @@ N° DE REVISÃO: 00 09/04/2026
 DENOMINAÇÃO DO ITEM:
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

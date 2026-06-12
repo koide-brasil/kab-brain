@@ -149,3 +149,8 @@ VISTA GERAL PARTE SUPERIOR
 CALIBRADOR EXTRATOR
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

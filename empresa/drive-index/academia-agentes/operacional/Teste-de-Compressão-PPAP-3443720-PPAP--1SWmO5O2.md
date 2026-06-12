@@ -153,3 +153,8 @@ Técnico
 Página 1 de 1
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -69,3 +69,8 @@ EMITENTE |  |  | COORDENADOR PRODUÇÃO |  |  | SUPERVISOR QUALIDADE  |
 Rosenilda Santos |  |  | Fernando Macedo |  |  | Flavio Sales |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

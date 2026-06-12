@@ -118,3 +118,8 @@ OBS: Manter apenas uma única fonte de fornecimento (SC). |  |  |  |  | Norma DI
  | SC= | Característica significativa |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

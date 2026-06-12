@@ -46,3 +46,8 @@ tags: ["kab", "drive-index", "academia-agentes", "tolerancia"]
 
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

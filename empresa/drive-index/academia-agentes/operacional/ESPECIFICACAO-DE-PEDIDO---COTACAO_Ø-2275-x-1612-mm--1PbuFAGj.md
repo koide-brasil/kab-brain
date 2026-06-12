@@ -151,3 +151,8 @@ Koide Autopeças do Brasil Ltda Koide Autopeças do Br asil Ltda Koide Autopeça
 RQK-106  28/09/2016 Rev. 00
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -120,3 +120,8 @@ Revisão: Data da revisão: Revisado por: Aprovado po r: Descrição:
 00 23/04/2026 Madora Santos Flavio Sales Emissão inicial
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

@@ -46,3 +46,8 @@ tags: ["kab", "drive-index", "academia-agentes", "ferramental"]
 [tipo não suportado para extração: application/vnd.ms-excel; 32768 bytes]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

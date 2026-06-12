@@ -46,3 +46,8 @@ tags: ["kab", "drive-index", "academia-agentes", "processo"]
 
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

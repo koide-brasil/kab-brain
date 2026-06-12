@@ -163,3 +163,8 @@ Nº DE CAV.
 QTDECOMODATO DESCRIÇÃO DA FERR. / DISP. OPERAÇÃO
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

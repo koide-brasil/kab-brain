@@ -131,3 +131,8 @@ indicador faturamento | Vender | Josielen | 2020-08-31 00:00:00 | 2020-09-07 00:
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]] · [[Qualidade]]

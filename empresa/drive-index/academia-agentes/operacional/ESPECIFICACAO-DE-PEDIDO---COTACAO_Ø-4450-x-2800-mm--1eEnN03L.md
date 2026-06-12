@@ -149,3 +149,8 @@ propriedades mecânicas
 OBS: Manter apenas uma única fonte de fornecimento (SC).
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

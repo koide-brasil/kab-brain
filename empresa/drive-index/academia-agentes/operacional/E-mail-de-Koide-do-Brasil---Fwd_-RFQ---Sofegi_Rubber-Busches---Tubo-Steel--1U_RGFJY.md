@@ -156,3 +156,8 @@ tags: ["kab", "drive-index", "academia-agentes", "rfq"]
 [... conteúdo truncado: 6389 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

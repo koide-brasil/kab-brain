@@ -114,3 +114,8 @@ Visual isento de rebarbas, cantos vivos, batidas,  trincas, oxidações, excesso
  | N/A= | Não aplicado |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

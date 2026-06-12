@@ -70,3 +70,8 @@ Aline Marchiori  |  |  | Fernando Macedo  |  |  | Flávio Sales |
 ASSINATURA:  |  |  | ASSINATURA:  |  |  | ASSINATURA:  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

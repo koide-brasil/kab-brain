@@ -86,3 +86,8 @@ C | Mola |  |  |  |  |  |  |  |  |
 Letra | Item |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

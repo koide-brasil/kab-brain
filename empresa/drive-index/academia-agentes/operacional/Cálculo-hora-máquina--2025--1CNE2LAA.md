@@ -173,3 +173,8 @@ tags: ["kab", "drive-index", "academia-agentes", "maquina"]
  |  |  |  |  | 1.11694777592972 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

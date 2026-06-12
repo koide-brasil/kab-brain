@@ -251,3 +251,8 @@ ICMS ST";Valor Cont�bil;Centro Custo;;;
 [... conteúdo truncado: 21561 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -74,3 +74,8 @@ Comercial |  |  | Data inicio | Previsão de termino | Status | Data de envio de
  | BJ-051 |  | Encaminhado | 01 dia  | 2020-01-10 00:00:00 | 2020-01-10 00:00:00 | 2020-01-10 00:00:00 | 2020-02-22 00:00:00 |  | Aprovado | 2020-01-10 00:00:00 |  | Aprovado | 2020-01-10 00:00:00 |  | Aprovado | 2020-01-10 00:00:00 | 2020-01-10 00:00:00 | Corte e Chanfro | 2020-01-10 00:00:00 | 2020-01-15 00:00:00 | Concluído | 2020-01-15 00:00:00 |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

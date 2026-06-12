@@ -67,3 +67,8 @@ DN                                            4038310- Ø24 x Ø12,50 x 53,7    
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

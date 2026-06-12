@@ -278,3 +278,8 @@ QUAT |  | NOME |  |  |  |  |  |  |  |  |  |  | ESPECIFICAÇÃO |  |  |  |  |  | 
 [... conteúdo truncado: 5651 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

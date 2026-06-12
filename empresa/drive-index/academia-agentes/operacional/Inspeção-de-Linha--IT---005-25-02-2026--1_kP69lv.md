@@ -46,3 +46,8 @@ tags: ["kab", "drive-index", "academia-agentes"]
 === Página 1 ===
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

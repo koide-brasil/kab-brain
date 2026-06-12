@@ -82,3 +82,8 @@ FOR-094 - REV-00 - Noções e Aplicabilidade de Chanfro em Peças Automotivas
 FOR-094 - REV-00 - Noções e Aplicabilidade de Chanfro em Peças Automotivas
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

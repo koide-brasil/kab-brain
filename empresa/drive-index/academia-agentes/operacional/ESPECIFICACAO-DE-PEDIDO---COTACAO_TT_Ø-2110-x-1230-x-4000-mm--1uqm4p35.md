@@ -132,3 +132,8 @@ N/A= Não aplicado
 FOR-071-REV.00-Especificação de Pedido
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

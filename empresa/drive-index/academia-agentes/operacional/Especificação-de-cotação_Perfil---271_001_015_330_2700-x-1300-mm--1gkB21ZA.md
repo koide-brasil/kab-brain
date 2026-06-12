@@ -161,3 +161,8 @@ Comprovação de capabilidade do processo Cp/ Cpk/ Cmk ≥ 1,67
 15
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

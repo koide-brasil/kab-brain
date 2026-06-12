@@ -76,3 +76,8 @@ export declare function verifyAndRunTypeScript({ dir, distDir, cacheDir, strictR
 }>;
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -72,3 +72,8 @@ SC = Característica Especial
 FLUXOGRAMA DE PROCESSO
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

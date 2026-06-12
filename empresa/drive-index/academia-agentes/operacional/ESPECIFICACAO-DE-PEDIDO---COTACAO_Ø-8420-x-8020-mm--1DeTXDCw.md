@@ -155,3 +155,8 @@ mecânicas. Base do aço SAE 1010 ou mais.
 OBS: Manter apenas uma única fonte de fornecimento (SC).
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

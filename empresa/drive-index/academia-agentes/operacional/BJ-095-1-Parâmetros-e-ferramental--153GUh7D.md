@@ -100,3 +100,8 @@ REGRAS |  | * Especificar o que foi utilizado e observação (se necessário).
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

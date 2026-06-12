@@ -55,3 +55,8 @@ CLIENTE
 CLIENTE
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

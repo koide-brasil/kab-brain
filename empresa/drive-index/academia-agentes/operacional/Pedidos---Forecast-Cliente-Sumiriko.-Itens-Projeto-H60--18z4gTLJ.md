@@ -147,3 +147,8 @@ Após as datas mencionadas anteriormente, não há pre visão de demanda para os
 referentes ao projeto H60.
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

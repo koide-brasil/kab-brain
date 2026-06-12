@@ -153,3 +153,8 @@ N°  DO ITEM KOIDE BRASIL:
 N°  DO ITEM CLIENTE:
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

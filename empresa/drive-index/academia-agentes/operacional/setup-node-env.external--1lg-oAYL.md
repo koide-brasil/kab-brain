@@ -69,3 +69,8 @@ if (process.env.NEXT_RUNTIME !== 'edge') {
 //# sourceMappingURL=setup-node-env.external.js.map
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

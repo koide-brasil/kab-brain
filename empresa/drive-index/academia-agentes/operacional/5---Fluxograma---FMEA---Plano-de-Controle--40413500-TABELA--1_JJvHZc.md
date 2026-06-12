@@ -271,3 +271,8 @@ Severidade do Efeito no Produto
 (Efeito no Cliente)
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

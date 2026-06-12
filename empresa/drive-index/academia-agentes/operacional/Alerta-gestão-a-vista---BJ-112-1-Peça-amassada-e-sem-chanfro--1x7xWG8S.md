@@ -61,3 +61,8 @@ Peça amassada e sem chafro                                                     
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

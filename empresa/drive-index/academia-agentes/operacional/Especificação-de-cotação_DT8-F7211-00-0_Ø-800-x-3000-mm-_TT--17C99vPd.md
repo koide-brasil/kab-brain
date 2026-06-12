@@ -109,3 +109,8 @@ Revestimento externo preto por eletrodeposição |  |  |  |  | YGK 8501-F3 |  |
  | N/A= | Não aplicado |  |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

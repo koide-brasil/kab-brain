@@ -117,3 +117,8 @@ Visual isento de rebarbas, cantos vivos, batidas, trincas, oxidações, excesso 
  | SC= | CaracterÍstica Significativa |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

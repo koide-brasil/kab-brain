@@ -53,3 +53,8 @@ tags: ["kab", "drive-index", "academia-agentes", "maquina"]
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

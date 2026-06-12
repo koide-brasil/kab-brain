@@ -115,3 +115,8 @@ Equipe:
 FOR-016 - REV-01 - Mapa de Processo
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

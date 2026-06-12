@@ -133,3 +133,8 @@ Consulta de requisitos de clientes
 Julho
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

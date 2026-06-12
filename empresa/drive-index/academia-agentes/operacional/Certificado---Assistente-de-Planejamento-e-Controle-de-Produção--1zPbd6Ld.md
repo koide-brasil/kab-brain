@@ -48,3 +48,8 @@ tags: ["kab", "drive-index", "academia-agentes"]
 === Página 2 ===
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

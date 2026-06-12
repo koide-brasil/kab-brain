@@ -148,3 +148,8 @@ responsabilidades sobre produtos e comunicar a Koide Brasil sobre isso.
 N° DO ITEM FORNECEDOR:
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

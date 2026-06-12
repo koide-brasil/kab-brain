@@ -134,3 +134,8 @@ Numero do documento | Descrição/Identificação | Processo | Revisão | Proces
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

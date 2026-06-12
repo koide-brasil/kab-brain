@@ -49,3 +49,8 @@ PLANEJAMENTO DE COMPRAS |  |  |  |  |  |  |
 ITEM | MÁQUINA | descrição | FORNECEDOR | QTD | R$ UNITÁRIO | R$ TOTAL | ORÇAMENTO
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

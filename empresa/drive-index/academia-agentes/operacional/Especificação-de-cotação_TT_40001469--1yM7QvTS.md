@@ -110,3 +110,8 @@ criterio_promocao: "RFQ/especificação técnica com apenas risk_commercial; e-m
  | N/A= | Não aplicado |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

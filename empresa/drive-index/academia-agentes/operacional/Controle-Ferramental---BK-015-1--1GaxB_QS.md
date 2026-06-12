@@ -132,3 +132,8 @@ DATA DE CONTROLE | OBS  |  | DIMENSÕES VERIFICADAS |  |  |  |  |  |  | STATUS |
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

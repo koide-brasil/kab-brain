@@ -63,3 +63,8 @@ MARCA DE FACEAMENTO GERANDO CHANFRO IRREGULAR |  |  |  |  |  |  |  |  |  |  |  |
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

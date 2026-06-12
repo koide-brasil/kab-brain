@@ -89,3 +89,8 @@ chave de boca 10 |  |  |  | chave de boca 10 |  | chave de boca 10 |  | chave de
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

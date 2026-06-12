@@ -109,3 +109,8 @@ revisão:  Revisado por: Aprovado por: Descrição:
 00 17/06/2025 Flávio Sales Fernando Macedo Emissão inicial
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

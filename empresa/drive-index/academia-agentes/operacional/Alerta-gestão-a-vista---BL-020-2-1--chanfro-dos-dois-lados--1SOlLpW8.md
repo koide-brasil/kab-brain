@@ -65,3 +65,8 @@ Orientação aos operadores para ter atenção quando encotrar peças no chão p
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

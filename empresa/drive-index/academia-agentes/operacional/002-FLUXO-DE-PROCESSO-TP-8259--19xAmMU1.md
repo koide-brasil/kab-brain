@@ -123,3 +123,8 @@ Aprovado por: Data: Número / Revisão peça (Fornecedor)
 César Augusto Alves da Paz 01/09/2025
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -81,3 +81,8 @@ Revisão | Data |  | Elaborado por |  | Aprovado por | Descrição |  |  |  |  |
 00 | 2019-09-30 00:00:00 |  | Madora Santos |  | José Rogério | Elaboração do documento |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

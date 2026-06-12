@@ -141,3 +141,8 @@ N° DE REVISÃO: 00 13/01/2026
 DENOMINAÇÃO DO ITEM: TUBO EXTERNO
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

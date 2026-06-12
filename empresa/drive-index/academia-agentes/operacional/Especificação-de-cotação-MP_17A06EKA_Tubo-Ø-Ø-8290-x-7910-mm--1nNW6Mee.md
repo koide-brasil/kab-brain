@@ -120,3 +120,8 @@ OBS: Manter apenas uma única fonte de fornecimento (SC). |  |  |  |  | JIS |
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

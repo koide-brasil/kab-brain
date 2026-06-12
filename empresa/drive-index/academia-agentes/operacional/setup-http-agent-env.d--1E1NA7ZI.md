@@ -52,3 +52,8 @@ export declare function setHttpClientAndAgentOptions(config: {
 }): void;
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

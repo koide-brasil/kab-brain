@@ -111,3 +111,8 @@ Sem ferrugem vermelha após 1000 horas de salt spray conforme ISSO 9227 |  |  | 
  | N/A= | Não aplicado |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

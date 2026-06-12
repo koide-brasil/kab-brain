@@ -170,3 +170,8 @@ Dureza 45±5 HRC |  |  |  |  | GB/T 3639 |
  | SC= | Característica significativa |  |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

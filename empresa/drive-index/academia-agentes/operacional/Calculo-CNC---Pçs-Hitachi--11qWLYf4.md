@@ -66,3 +66,8 @@ tags: ["kab", "drive-index", "academia-agentes", "maquina"]
  |  |  |  |  |  |  | Total | 290528.75 |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

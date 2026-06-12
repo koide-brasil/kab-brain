@@ -84,3 +84,8 @@ out's.
 3. Os dados de corte referentes às ferramentas de terceiros, é de responsabilidade do próprio fabricante
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

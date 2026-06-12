@@ -185,3 +185,8 @@ Mínimo 5
 peças
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

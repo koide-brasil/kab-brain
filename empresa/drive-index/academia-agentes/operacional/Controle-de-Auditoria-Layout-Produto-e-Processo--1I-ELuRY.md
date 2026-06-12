@@ -129,3 +129,8 @@ BK-017-1 | A | 2021-02-16 00:00:00 | Sumiriko | 2023-10-31 00:00:00 | 2024-10-30
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

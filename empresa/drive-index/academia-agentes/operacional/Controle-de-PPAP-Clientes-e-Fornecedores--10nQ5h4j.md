@@ -138,3 +138,8 @@ BJ-041-2 | 00 | 2015-08-25 00:00:00 | Sumiriko | Yulchon | 28,00 X 14,40 |  | RE
 === Aba: Planilha1 ===
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

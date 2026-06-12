@@ -335,3 +335,8 @@ DATA |  | Quantidade Kg |  | Produção estimada |  | Preço Kg | Lucro | % | Ob
 [... conteúdo truncado: 11355 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

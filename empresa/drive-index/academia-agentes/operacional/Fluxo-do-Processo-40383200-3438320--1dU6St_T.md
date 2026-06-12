@@ -102,3 +102,8 @@ Flávio Sales (Qualidade) Aprovação do cliente (se necessário):
 Koide Autopeças do Brasil Ltda
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

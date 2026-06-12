@@ -61,3 +61,8 @@ Compra deverá ser planejada para atender a Produção e Qualidade. |  |  |  |  
 PRAZO: | Imediato |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -132,3 +132,8 @@ DENOMINAÇÃO DO ITEM:
 FOR-071-REV.00-Especificação de Pedido
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

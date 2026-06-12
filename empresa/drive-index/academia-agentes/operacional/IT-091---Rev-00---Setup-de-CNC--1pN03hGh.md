@@ -247,3 +247,8 @@ Revisão: Data da revisão: Revisado por: Aprovado po r: Descrição:
 00 22/04/2026 Luiz Henrique Fernando Macedo  Emissão inicial
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

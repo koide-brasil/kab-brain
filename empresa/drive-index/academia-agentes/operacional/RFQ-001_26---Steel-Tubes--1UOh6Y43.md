@@ -87,3 +87,8 @@ BR36001101166
 Thanks
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

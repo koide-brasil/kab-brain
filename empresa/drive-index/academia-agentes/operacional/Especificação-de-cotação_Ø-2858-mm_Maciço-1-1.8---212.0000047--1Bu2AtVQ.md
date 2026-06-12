@@ -115,3 +115,8 @@ OBS: Manter apenas uma única fonte de fornecimento (SC). |  |  |  |  | SAE |
  | SC= | CaracterÍstica Significativa |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

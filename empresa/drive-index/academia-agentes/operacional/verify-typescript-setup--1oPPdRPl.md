@@ -226,3 +226,8 @@ export async function verifyAndRunTypeScript({ dir, distDir, cacheDir, strictRou
 //# sourceMappingURL=verify-typescript-setup.js.map
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -316,3 +316,8 @@ BK-15-1 | BK-015A-1 |  | 39.2 | 36 | 45.3 | (1) C 1,0 x 20° | - | FLANGEADO | 6
 [... conteúdo truncado: 2103 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

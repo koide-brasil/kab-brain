@@ -59,3 +59,8 @@ tags: ["kab", "drive-index", "academia-agentes"]
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

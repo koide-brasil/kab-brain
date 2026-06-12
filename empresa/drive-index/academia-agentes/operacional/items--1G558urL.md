@@ -99,3 +99,8 @@ exports.Items = Items;
 //# sourceMappingURL=items.js.map
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

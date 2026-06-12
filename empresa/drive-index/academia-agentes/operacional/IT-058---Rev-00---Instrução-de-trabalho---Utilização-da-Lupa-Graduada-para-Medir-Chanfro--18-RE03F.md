@@ -131,3 +131,8 @@ IT-058 revisão 00 de 16/05/2022                                                
 Anexo 2 - Dois tipos de lupa que temos disponíveis e o método de leitura para cada lupa utilizada
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

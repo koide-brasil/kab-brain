@@ -59,3 +59,8 @@ AÇÃO QUE SERÁ TOMADA PARA EVITAR A REINCIDÊNCIA: |  |  |  |  |  |
 LIBERAÇÃO REALIZADA POR:  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

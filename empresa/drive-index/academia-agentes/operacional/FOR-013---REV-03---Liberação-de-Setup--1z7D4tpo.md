@@ -150,3 +150,8 @@ Histórico da modificação do formulário |  |  |  |  |  |  |  |  |  |  |  |  |
  |  |  |  | Vide aba Estampagem |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

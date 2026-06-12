@@ -153,3 +153,8 @@ PR-05 | Controle de Meios de Medição | 01 | 2020-12-17 00:00:00 | Back up / Se
 [... conteúdo truncado: 26540 caracteres omitidos]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

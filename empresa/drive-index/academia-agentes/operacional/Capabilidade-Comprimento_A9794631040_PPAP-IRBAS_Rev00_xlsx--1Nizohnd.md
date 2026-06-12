@@ -137,3 +137,8 @@ PPL PPU
 /g1844/g3364/g1850/g3367
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -112,3 +112,8 @@ Comercial |  |  | Data inicio | Previsão de termino | Status | Data de envio de
  | XF-40216-300-V14 |  |  |  |  |  |  |  |  | Reprovado | 2020-02-18 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[_MOC-SGK]]

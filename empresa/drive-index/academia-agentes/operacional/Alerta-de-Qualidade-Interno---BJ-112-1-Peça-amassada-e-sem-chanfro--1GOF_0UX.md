@@ -70,3 +70,8 @@ ASSINATURA:  |  |  | ASSINATURA:  |  |  | ASSINATURA:  |  |  |  |  |  |  |  |  |
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]] · [[Qualidade]]

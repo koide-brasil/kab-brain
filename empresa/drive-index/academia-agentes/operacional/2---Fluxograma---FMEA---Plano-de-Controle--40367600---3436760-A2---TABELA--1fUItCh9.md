@@ -272,3 +272,8 @@ Detecção (D)
 Ocorrência (O)
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

@@ -74,3 +74,8 @@ Nas imagens abaixo, o chanfro do inner serve apenas para eliminar a rebarba, já
 === Slide 8 ===
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]

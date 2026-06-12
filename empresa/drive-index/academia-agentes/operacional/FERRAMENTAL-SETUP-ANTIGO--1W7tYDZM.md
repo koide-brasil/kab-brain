@@ -128,3 +128,8 @@ tags: ["kab", "drive-index", "academia-agentes", "ferramental", "processo"]
 [... linhas omitidas]
 
 </details>
+
+
+## Links relacionados
+
+- [[_MOC-Academia-Agentes-KAB]]
