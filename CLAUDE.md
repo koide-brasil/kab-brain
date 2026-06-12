@@ -77,6 +77,11 @@ Cada `areas/{x}/` tem 3 subpastas:
 
 **Painel de status (ler no início):** `empresa/projetos/projetos.md` (projetos) + `empresa/projetos/pendencias.md` (pendências).
 
+**Manutenção de MAPAs (regra de 2026-06-12):** ao criar, mover ou renomear notas/subpastas,
+atualize o `MAPA.md`/`_MOC-*`/`_index.md` da pasta afetada **na mesma sessão** (incluindo o
+campo `atualizado:`). MAPA é GPS: padrões e estrutura, não lista de arquivo datado. Rede de
+segurança: cron semanal no HERMES audita o frescor nos 2 cérebros.
+
 ---
 
 ## 4. Frontmatter padrão
