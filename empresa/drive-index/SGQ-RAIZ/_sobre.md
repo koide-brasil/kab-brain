@@ -3,7 +3,7 @@ tipo: indice
 area: kab
 status: ativo
 criado: 2026-05-20
-atualizado: 2026-05-20
+atualizado: 2026-06-12
 tags: [drive-index, sgq, normas, iso-9001, abnt, din, jis, sae, astm]
 ---
 
@@ -18,6 +18,11 @@ ID raiz: `10how4_t6iz7RocIhF-632GBuaTUISgpn`
 | Nota | Cobertura |
 |---|---|
 | **[[Normas-Tecnicas-Ativas-KAB]]** ⭐⭐ | 15 normas técnicas (ISO 9001, ABNT, DIN, JIS, SAE, ASTM) |
+| **[[Guia-Operacional-Normas-KAB]]** ⭐ | Hub operacional: qual norma consultar e quais cuidados tomar |
+| **[[ISO-9001-Guia-Operacional-KAB]]** | SGQ, auditoria, riscos, documentos, ação corretiva e emenda climática |
+| **[[Tolerancias-Dureza-KAB]]** | ISO 2768-1 e ASTM E140 para tolerância geral e conversão de dureza |
+| **[[Normas-Aco-Tubos-KAB]]** | DIN EN 10305-2, JIS G3445, SAE J403 e ABNTs de aço/tubos |
+| **[[Normas-Aluminio-KAB]]** | EN 573-3, EN 755-2, ABNT ISO 209 e Teal Sheet |
 
 ## ⚠️ Cuidado: 3 pastas com nome "SGQ-relacionado"
 
@@ -32,6 +37,11 @@ O Drive da KAB tem **3 pastas SGQ/SGK-relacionadas** na hierarquia compartilhada
 ## Relacionado
 
 - [[Normas-Tecnicas-Ativas-KAB]]
+- [[Guia-Operacional-Normas-KAB]]
+- [[ISO-9001-Guia-Operacional-KAB]]
+- [[Tolerancias-Dureza-KAB]]
+- [[Normas-Aco-Tubos-KAB]]
+- [[Normas-Aluminio-KAB]]
 - [[../SGK/_sobre]] — SGK absorvido completo
 - [[../DOCUMENTOS-SGK-RAIZ/_sobre]] — duplicata
 - [[Normas-Obsoletas-JIS-TSH]] (SGK) — versões OBSOLETAS das normas

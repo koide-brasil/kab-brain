@@ -6,6 +6,8 @@ fonte: drive
 drive_path: SGQ/Normas utilizadas - Koide Autopeças/
 modificado: 2025-07-14
 indexado: 2026-05-20
+atualizado: 2026-06-12
+status: ativo
 total_normas: 15
 tags: [sgq, normas, iso-9001, abnt, din, jis, sae, astm, certificacao]
 ---
@@ -99,6 +101,14 @@ As 15 normas cobrem:
 - **Mais antiga**: ABNT NBR ISO 2768-1-2001 (2001!) — mas norma técnica de tolerância raramente atualiza
 - **Adquiridas em lote**: 6 normas em 07/04/2022 (data implantação SGK)
 
+## Notas operacionais geradas
+
+- [[Guia-Operacional-Normas-KAB]] — hub para orientar o time sobre qual norma consultar.
+- [[ISO-9001-Guia-Operacional-KAB]] — SGQ, auditoria, riscos, documentos, ação corretiva e emenda climática.
+- [[Tolerancias-Dureza-KAB]] — tolerâncias gerais e conversão de dureza.
+- [[Normas-Aco-Tubos-KAB]] — aço/tubos, DIN/JIS/SAE/ABNT.
+- [[Normas-Aluminio-KAB]] — alumínio, ligas, extrudados e têmperas.
+
 ## ⚠️ Confidencialidade
 
 A pasta-mãe [[Normas-Obsoletas-JIS-TSH]] (em SGK/13-Normas) tinha aviso "**NÃO DIVULGAR, COPIAR OU ENVIAR A TERCEIROS**" — normas são docs com direitos autorais. Mesma regra aplica aqui.
@@ -114,6 +124,11 @@ A pasta-mãe [[Normas-Obsoletas-JIS-TSH]] (em SGK/13-Normas) tinha aviso "**NÃO
 ## Relacionado
 
 - [[Normas-Obsoletas-JIS-TSH]] (SGK) — versões antigas
+- [[Guia-Operacional-Normas-KAB]] — hub operacional das normas
+- [[ISO-9001-Guia-Operacional-KAB]] — ISO 9001 e emenda climática
+- [[Tolerancias-Dureza-KAB]] — ISO 2768-1 e ASTM E140
+- [[Normas-Aco-Tubos-KAB]] — normas de aço/tubos
+- [[Normas-Aluminio-KAB]] — normas de alumínio
 - [[Certificado-ISO-9001-2015-TUV-NORD]]
 - [[Contexto-Partes-Interessadas]] — Emenda 1 ISO 9001 = mudanças climáticas
 - [[Pipeline-Cotacoes-BYD-VW-Truck]] — gap inox
