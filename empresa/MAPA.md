@@ -3,7 +3,7 @@ tipo: mapa
 area:
 status: ativo
 criado: 2026-06-04
-atualizado: 2026-06-04
+atualizado: 2026-06-12
 autor: bruce
 tags: [mapa, empresa]
 ---
