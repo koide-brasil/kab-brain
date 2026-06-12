@@ -88,8 +88,8 @@ Este é o **catálogo-mestre de todos os formulários do SGK Koide**. Lista cada
 ## Relacionado
 
 - [[MAPA-QUALIDADE-2026]] — gestão documental é parte do PR-01
-- [[kab-procedimentos-pr]] — PR-01 é o controle de informação documentada
-- [[skill-daily-meeting]] — consome FOR-027 (RNC) e FOR-030 (treinamentos)
+- kab-procedimentos-pr — PR-01 é o controle de informação documentada
+- skill-daily-meeting — consome FOR-027 (RNC) e FOR-030 (treinamentos)
 - [[FOR-027 — Matriz RNC]] — quando criado
 - [[FOR-030 — Treinamentos]] — quando criado
 

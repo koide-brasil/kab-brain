@@ -15,7 +15,7 @@ tags: [drive-index, ferramentaria, jonatas, arquivo-morto]
 2. **DBCorp** — OSs e movimentação de ferramentas/cilindros
 3. **PRODUCAO/REGISTRO DE CORTE ATUALIZADO/** — 91 arquivos com vida útil ferramenta de corte (1 por PN — [[Registros-de-Corte-por-PN]])
 4. **PCP/PCP/** (legado) — 1 arquivo "FERRAMENTAL SETUP CHANFRADEIRAS" e "FERRAMENTAL SETUP 28-04-21"
-5. **[[skill-daily-meeting]]** — aba Manutenção/Apoio
+5. **skill-daily-meeting** — aba Manutenção/Apoio
 6. **[[MAPA-APOIO-PRODUCAO-2026]]** — Jônatas Moura gestor
 
 Gestor: **Jônatas Campos Moura** (Supervisor de Ferramentaria II, mat 077)
@@ -64,5 +64,5 @@ Apenas se buscar Desenho específico antigo. A pasta **DESENHOS (21 subpastas)**
 - [[MAPA-APOIO-PRODUCAO-2026]] — Jônatas
 - [[MAPA-PRODUCAO-2026]] — Fernando
 - [[../MANUTENCAO/_sobre]] — pasta-irmã também legada
-- [[kab-processo-apoio-producao]]
-- [[skill-daily-meeting]]
+- kab-processo-apoio-producao
+- skill-daily-meeting

@@ -137,7 +137,7 @@ A KAB trabalha duas famílias de peça: **Inner** e **Outer**. Regra prática de
 - **Usinagem (células Ergomat):** 2 máquina(s)
 - **Ø externo máximo da fábrica: Ø92** (corte SA-90 + chanfro NPK-250). Peça com tubo acima de Ø92 → fora do envelope atual.
 
-> ⚠️ Usar em pitch comercial só como capacidade **nominal expansível** (turnos), nunca como dado auditável (Run@Rate/PPAP exigem medição real). Ver [[kab-pitch-capacidade-comercial]].
+> ⚠️ Usar em pitch comercial só como capacidade **nominal expansível** (turnos), nunca como dado auditável (Run@Rate/PPAP exigem medição real). Ver kab-pitch-capacidade-comercial.
 
 ## Coleta humana (validar com Jônatas/Fernando)
 

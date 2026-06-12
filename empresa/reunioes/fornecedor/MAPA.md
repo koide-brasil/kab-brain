@@ -18,4 +18,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (Reunioes) · [[_MOC-Fornecedores]]
+[[MAPA]] (Reunioes) · _MOC-Fornecedores

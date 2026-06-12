@@ -39,4 +39,4 @@ Sistemática da KAB pra homologação de novos fornecedores e realização de co
 
 ## Links
 
-- [[_MOC-SGK]] · [[Larissa (compras)]] · [[Gabriel (gerente comercial)]] · [[_MOC-Fornecedores]] · [[IQF Fornecedores]]
+- [[_MOC-SGK]] · Larissa (compras) · Gabriel (gerente comercial) · _MOC-Fornecedores · [[IQF Fornecedores]]

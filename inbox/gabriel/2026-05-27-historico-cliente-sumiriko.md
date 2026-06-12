@@ -45,9 +45,9 @@ Segundo Gabriel, a proposta atingiu os targets solicitados em 3 itens. Em 1 item
 
 ## Links
 
-- [[sumiriko]] — cliente
+- sumiriko — cliente
 - [[gabriel-pedon]] — autor da nota
 - [[vendas]] — área principal
-- [[kab]] — empresa
+- kab — empresa
 - [[honda-next-pf2]] — projeto em negociação
 - [[rd-station]] — sistema onde o projeto está registrado

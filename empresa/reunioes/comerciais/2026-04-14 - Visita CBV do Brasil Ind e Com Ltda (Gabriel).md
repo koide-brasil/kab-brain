@@ -55,6 +55,6 @@ Oficializado 02 propostas de redução na data de hoje via e-mail. Previsão de 
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69c680acbf36b500139bb757)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

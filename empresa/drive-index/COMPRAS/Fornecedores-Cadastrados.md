@@ -92,7 +92,7 @@ A KAB tem **25 fornecedores com pasta dedicada no Drive**, cobrindo desde fornec
 
 🆕 **3 fornecedores em homologação recente** (Tecnoperfil jan/2025, Tubonal abr/2025, TUM mai/2025, Reobote jun/2025) — sinal de **expansão da base de fornecedores** em 2025.
 
-🤝 **LW Usinagem (17 itens)** é o **parceiro estratégico de beneficiamento** (TbCliente #38 — também aparece em [[dbcorp-cadastros]]).
+🤝 **LW Usinagem (17 itens)** é o **parceiro estratégico de beneficiamento** (TbCliente #38 — também aparece em dbcorp-cadastros).
 
 📦 **CASTEL USI = 0 itens** — provavelmente desligado.
 
@@ -121,7 +121,7 @@ A KAB tem **25 fornecedores com pasta dedicada no Drive**, cobrindo desde fornec
 - [[FOR-027-Matriz-RNC-2025-2024-Historico]]
 - [[Especificacoes-de-Pedido-Fornecedor]] (SGK) — 44 specs enviadas
 - [[Plano-Programa-Auditoria-Interna-2024-2025]] — auditorias homologação
-- [[dbcorp-cadastros]] (memória)
+- dbcorp-cadastros (memória)
 
 ## Conteúdo bruto
 

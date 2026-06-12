@@ -65,7 +65,7 @@ tags: [sgk, formulario, for-013, for-041, for-060, setup, liberacao, qualidade, 
 - [[MAPA-PRODUCAO-2026]] — Fernando, fluxo setup
 - [[MAPA-QUALIDADE-2026]] — Flávio, calibração PR-05
 - [[FOR-042-Controle-Informacao-Documentada]]
-- [[skill-daily-meeting]] — aba Manutenção mostra setup médio
+- skill-daily-meeting — aba Manutenção mostra setup médio
 
 ## Conteúdo bruto consolidado
 

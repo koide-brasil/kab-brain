@@ -18,7 +18,7 @@ tags: [mapa]
 
 ## Os 8 departamentos
 
-- [[Comercial]] · [[Fiscal e Financeiro]] · [[Logistica]] · [[Manutencao]] · [[Producao]] · [[Qualidade]] · [[RH]] · [[SGK]]
+- Comercial · Fiscal e Financeiro · [[Logistica]] · Manutencao · [[Producao]] · [[Qualidade]] · [[RH]] · SGK
 
 ## Cruzando com SGK
 
@@ -31,4 +31,4 @@ Cada departamento tem mapa de processo formal em `SGK/Mapas-Processo/` + ficha p
 
 ## Links
 
-[[MAPA]] (KAB) · [[_MOC-KAB]] · [[_MOC-SGK]]
+[[MAPA]] (KAB) · _MOC-KAB · [[_MOC-SGK]]

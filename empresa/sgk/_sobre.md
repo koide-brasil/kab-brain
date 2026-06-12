@@ -49,16 +49,16 @@ Catálogo completo (atualizado 2026-05-19): ver memória `kab-sgk-estrutura` no 
 
 ## Donos do SGK na KAB
 
-- **Madora** ([[Madora (supervisora SGK)]]) — gestora SGQ; elabora e mantém Manual, PRs, FORs, Mapas
-- **Mayra** ([[Mayra (gerente RH e SGK)]]) — gerente RH com responsabilidade sobre SGK (no G5)
-- **Flávio** ([[Flavio (supervisor qualidade)]]) — gestor Qualidade operacional, aprova PRs de Qualidade
-- **Gabriel** ([[Gabriel (gerente comercial)]]) — aprova PR-04, 05, 06, 09, 10 (industrial)
-- **Érico** ([[Erico (presidente)]]) — aprova MQ-01 e PR-02 (institucional/RH)
+- **Madora** (Madora (supervisora SGK)) — gestora SGQ; elabora e mantém Manual, PRs, FORs, Mapas
+- **Mayra** (Mayra (gerente RH e SGK)) — gerente RH com responsabilidade sobre SGK (no G5)
+- **Flávio** (Flavio (supervisor qualidade)) — gestor Qualidade operacional, aprova PRs de Qualidade
+- **Gabriel** (Gabriel (gerente comercial)) — aprova PR-04, 05, 06, 09, 10 (industrial)
+- **Érico** (Erico (presidente)) — aprova MQ-01 e PR-02 (institucional/RH)
 
 ## Auditor líder externo
 
-[[Rodrigo Wilder (consultor Pro Lider)]] — também consultor Pro Líder. Última auditoria interna: jun/2025.
+Rodrigo Wilder (consultor Pro Lider) — também consultor Pro Líder. Última auditoria interna: jun/2025.
 
 ## Links
 
-- [[CLAUDE]] · [[_MOC-SGK]] · [[_MOC-KAB]]
+- [[CLAUDE]] · [[_MOC-SGK]] · _MOC-KAB

@@ -131,7 +131,7 @@ Por **segmento**:
 - [[MAPA-VENDAS-2026]] — Gabriel Pedon
 - [[ATA-Analise-Critica-2025-1S]] — usa este dado
 - [[Especificacoes-de-Pedido-Fornecedor]] — Stellantis MP1 (DN)
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 
 ## Conteúdo bruto
 

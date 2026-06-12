@@ -55,6 +55,6 @@ Nos solicitou que enviássemos a documentação para cadastro, apresentação fi
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/6a02059366e1fc00122b5930)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

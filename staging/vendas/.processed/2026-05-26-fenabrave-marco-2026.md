@@ -16,7 +16,7 @@ tags: [fenabrave, mercado, automotivo, panorama]
 
 - KAB fornece peças usinadas pra cadeia automotiva (clientes: YAB/Yamaha, GESTAMP, SRK/SumiRiko, INDAB, Polistampo, DN Automotivos, Tuopu, CIE, etc)
 - Movimento de mercado da Fenabrave (carros leves + comerciais + motos) é **leading indicator** de demanda das nossas peças
-- Útil pro **houkokusho mensal pra Matriz** (panorama 主な差異要因 em japonês) — ver memória [[skill-relatorio-mensal-matriz]]
+- Útil pro **houkokusho mensal pra Matriz** (panorama 主な差異要因 em japonês) — ver memória skill-relatorio-mensal-matriz
 
 ## Como usar
 

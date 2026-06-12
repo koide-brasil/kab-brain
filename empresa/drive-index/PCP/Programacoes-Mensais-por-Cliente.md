@@ -94,15 +94,15 @@ Se precisar de uma programação específica, abrir direto no Drive.
 - Verificar programação específica de cliente/mês
 - Auditoria interna (Rodrigo Wilder)
 - Investigação de NC de PCP (auditoria 2025 identificou "PCP: última programação com prazos jan/25" → RNC S002)
-- Cruzar com [[skill-daily-meeting]] aba Produção (carteira viva)
+- Cruzar com skill-daily-meeting aba Produção (carteira viva)
 - Renegociação de prazos com cliente
 
 ## Relacionado
 
 - [[ITs-PCP-Sistemas-Atualizacao]] — IT-041, 071, 072, 073, 090
 - [[MAPA-PRODUCAO-2026]] — Fernando Macedo (Coord)
-- [[skill-daily-meeting]] — aba Produção
-- [[dbcorp-mapeamento]] — fonte viva
+- skill-daily-meeting — aba Produção
+- dbcorp-mapeamento — fonte viva
 - [[RNCs-2025-Internas-e-Sistema]] — S002 mencionou PCP
 - [[Plano-Programa-Auditoria-Interna-2024-2025]]
 - [[Especificacoes-de-Pedido-Fornecedor]] — pro fornecedor

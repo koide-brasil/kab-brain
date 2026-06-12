@@ -81,10 +81,10 @@ Mesmo gabinete da ata 1S25 (9 gestores). Erico coordenando, Madora Ferreira no S
 ## Relacionado
 
 - [[ATA-Analise-Critica-2025-1S]] — semestre seguinte (mostra o efeito das ações)
-- [[kab-analise-critica-2025]] — síntese (cobre principalmente 1S25)
+- kab-analise-critica-2025 — síntese (cobre principalmente 1S25)
 - [[Objetivos-Koide-2024]] — objetivos do ano (quando criado)
 - [[MATRIZ-Correlacao-Objetivos-1S24-2S24]] — matriz do período (quando criado)
-- [[kab-clientes-formais]] — Sumiriko/SRK como cliente formal #1
+- kab-clientes-formais — Sumiriko/SRK como cliente formal #1
 
 ## Conteúdo bruto extraído
 

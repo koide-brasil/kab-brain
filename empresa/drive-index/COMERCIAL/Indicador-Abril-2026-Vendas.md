@@ -110,7 +110,7 @@ A **carta480_ANFAVEA_Abril_2026.pdf** (6.5 MB) está na mesma pasta — boletim 
 
 - Tracking mensal de pipeline
 - Pra ata da próxima Análise Crítica (cita estes dados)
-- Cruzar com [[skill-daily-meeting]] aba Vendas
+- Cruzar com skill-daily-meeting aba Vendas
 - Acompanhar status Stellantis KP1
 
 ## Relacionado
@@ -119,7 +119,7 @@ A **carta480_ANFAVEA_Abril_2026.pdf** (6.5 MB) está na mesma pasta — boletim 
 - [[Ranking-Vendas-por-Cliente-2024-2025]]
 - [[Plano-Estrategico-Vendas-2024-2025-2026]]
 - [[MAPA-VENDAS-2026]] — Gabriel Pedon
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 
 ## Conteúdo bruto
 

@@ -55,7 +55,7 @@ Trio de formulários novos pra estruturar o processo de Compras (foi quando o Ga
 
 - [[FOR-042-Controle-Informacao-Documentada]] — catálogo onde estes 3 aparecem
 - [[MAPA-PRODUCAO-2026]] — IT-059 + IT-063 referem-se a este fluxo
-- [[skill-daily-meeting]] — aba Financeiro mostra orçamento × pedidos por CC
+- skill-daily-meeting — aba Financeiro mostra orçamento × pedidos por CC
 
 ## Conteúdo bruto
 

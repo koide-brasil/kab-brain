@@ -51,6 +51,6 @@ Em contato com o Sr. Teixeira o mesmo informou que estará pessoalmente em 28/04
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69c443b6e4831e002685aa4a)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

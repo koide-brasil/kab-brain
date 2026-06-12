@@ -14,7 +14,7 @@ tags: [mapa]
 ## Reuniões recorrentes
 
 - **G5 — Comitê Estratégico** (sextas) — Erico + Gabriel + Mayra + Fernando + Carla
-- **Pro Líder** (quintas alternadas) — desenvolvimento de gestores com [[Rodrigo Wilder (consultor Pro Lider)|Wilder]]
+- **Pro Líder** (quintas alternadas) — desenvolvimento de gestores com Wilder
 - **Reunião do Bom Dia** (diária) — gestão visual; daily HTML alimenta
 
 ## Convenções
@@ -24,4 +24,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (Reunioes) · [[G5 - Comite Estrategico]]
+[[MAPA]] (Reunioes) · G5 - Comite Estrategico

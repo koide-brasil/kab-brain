@@ -16,7 +16,7 @@ tags: [vendas, cadastro, clientes, portais, gabriel-pedon]
 
 ## Resumo executivo
 
-Pasta **02- CADASTRO/** organizada em **1 subpasta por cliente** (17 ao total) + 1 subpasta especial "DOCUMENTAÇÃO DE AUDITORIA". Cada cliente tem entre 1-14 arquivos (formulários de cadastro do cliente, dados solicitados, documentos exigidos). Cobre **todos os clientes ativos formais** (memória [[kab-clientes-formais]]) + **clientes históricos** (Sampel, Showa, Truck Bus) + **portais de cotação** (DRIV Ivalua).
+Pasta **02- CADASTRO/** organizada em **1 subpasta por cliente** (17 ao total) + 1 subpasta especial "DOCUMENTAÇÃO DE AUDITORIA". Cada cliente tem entre 1-14 arquivos (formulários de cadastro do cliente, dados solicitados, documentos exigidos). Cobre **todos os clientes ativos formais** (memória kab-clientes-formais) + **clientes históricos** (Sampel, Showa, Truck Bus) + **portais de cotação** (DRIV Ivalua).
 
 ## 17 Clientes catalogados
 
@@ -61,7 +61,7 @@ Pasta **02- CADASTRO/** organizada em **1 subpasta por cliente** (17 ao total) +
 
 ## Relacionado
 
-- [[kab-clientes-formais]] — memória
+- kab-clientes-formais — memória
 - [[Ranking-Vendas-por-Cliente-2024-2025]] — quem fatura quanto
 - [[Requisitos-DN-Automotivos]]
 - [[Requisitos-SRK-SumiRiko]]

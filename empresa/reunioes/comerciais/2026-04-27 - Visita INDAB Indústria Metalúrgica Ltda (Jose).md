@@ -53,6 +53,6 @@ Tambem falamos em after marketing onde o mesmo ficou de passar um bom contato da
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69e0d0c9791e300015fb4ad2)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

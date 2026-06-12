@@ -66,7 +66,7 @@ Complementa o [[FOR-042-Controle-Informacao-Documentada]] mas focado especificam
 - [[FOR-042-Controle-Informacao-Documentada]] — índice mestre FORs
 - [[Planos-de-Controle-Facilites-por-PN]] — 37 Planos de Controle individuais
 - [[Requisitos-SRK-SumiRiko]] · [[Requisitos-DN-Automotivos]]
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 - [[ITs-Comercial-APQP]]
 
 ## Conteúdo bruto

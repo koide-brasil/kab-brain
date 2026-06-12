@@ -52,6 +52,6 @@ Próximo passo receber o NDA para entrarmos na base do cliente.
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69de511801010d0020d5ad32)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

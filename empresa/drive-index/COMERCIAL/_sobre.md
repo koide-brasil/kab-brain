@@ -52,7 +52,7 @@ Falta: pasta 00-OBSOLETO (legado de 2020-2023, baixa relevância).
 
 - [[MAPA-VENDAS-2026]] — Gabriel Pedon (gestor) — rev 20 (11/03/2026)
 - [[ATA-Analise-Critica-2025-1S]] — usa estes relatórios como insumo
-- [[skill-captura-atas-mes]] — extrai visitas/reuniões do RD CRM
-- [[kab-clientes-formais]] — síntese (memória)
-- [[kab-processo-vendas]] — síntese (memória)
+- skill-captura-atas-mes — extrai visitas/reuniões do RD CRM
+- kab-clientes-formais — síntese (memória)
+- kab-processo-vendas — síntese (memória)
 - [[../SGK/_sobre]]

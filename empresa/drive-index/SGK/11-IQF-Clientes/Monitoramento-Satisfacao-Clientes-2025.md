@@ -78,8 +78,8 @@ Planilha-mestre que **consolida o IQF mensal dos 5 clientes** que avaliam a KAB 
 - [[ATA-Analise-Critica-2024-2S]]
 - [[FOR-027-Matriz-RNC-2026]] · [[FOR-027-Matriz-RNC-2025-2024-Historico]]
 - [[Requisitos-DN-Automotivos]] · [[Requisitos-SRK-SumiRiko]] · [[Requisitos-Tuopu]] · [[Requisitos-Polistampo-YAB]]
-- [[MATRIZ-Correlacao-Objetivos-1S25-2S25]]
-- [[kab-clientes-formais]]
+- MATRIZ-Correlacao-Objetivos-1S25-2S25
+- kab-clientes-formais
 
 ## Conteúdo bruto
 

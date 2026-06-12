@@ -60,4 +60,4 @@ Todo o conteúdo operacional está em [[../SGK/_sobre]] com 55 notas estruturada
 - [[MAPA-QUALIDADE-2026]] — mapa de processo (Flávio Sales)
 - [[Certificado-ISO-9001-2015-TUV-NORD]] — certificação oficial
 - [[FOR-042-Controle-Informacao-Documentada]] — índice mestre dos FORs
-- [[kab-processo-qualidade]]
+- kab-processo-qualidade

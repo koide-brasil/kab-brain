@@ -105,7 +105,7 @@ A grande maioria das contenções foi **"Inspeção 100%"** (PNP, visual ou dime
 - [[RNCs-2025-Internas-e-Sistema]]
 - [[FOR-111-043-Indicadores-Diarios]] — FOR-043 Book Defeitos (template em branco)
 - [[MAPA-QUALIDADE-2026]] — Flávio Sales
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 
 ## Conteúdo bruto
 

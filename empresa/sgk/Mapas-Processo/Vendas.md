@@ -24,8 +24,8 @@ drive_id: 1BNmrlHrEYk3Z-P_4JzUXN6Ep2GyAhTn7
 
 | Papel | Quem |
 |---|---|
-| Gestor | [[Gabriel (gerente comercial)]] |
-| Vendedores ativos (CRM) | [[Josielen (supervisora vendas)]] (farming) · [[Martins (representante vendas)]] (hunting) · Gabriel |
+| Gestor | Gabriel (gerente comercial) |
+| Vendedores ativos (CRM) | Josielen (supervisora vendas) (farming) · Martins (representante vendas) (hunting) · Gabriel |
 
 ## Indicadores formais
 
@@ -58,4 +58,4 @@ drive_id: 1BNmrlHrEYk3Z-P_4JzUXN6Ep2GyAhTn7
 
 ## Links
 
-- [[_MOC-SGK]] · [[Comercial]] · [[kab-processo-vendas]] · [[Faturamento Bruto]] · [[skill-captura-atas-mes]] · [[project-kab-estagnacao-2026]]
+- [[_MOC-SGK]] · Comercial · kab-processo-vendas · Faturamento Bruto · skill-captura-atas-mes · project-kab-estagnacao-2026

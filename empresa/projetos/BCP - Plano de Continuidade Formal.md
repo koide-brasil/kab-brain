@@ -61,11 +61,11 @@ Saída: documento único `FOR-XXX - REV-00 - Business Continuity Plan KAB` conso
 
 ## Insumos do vault
 
-- [[kab-processo-apoio-producao]] — PR-10 Manutenção
-- [[kab-sgk-estrutura]] — formulários SGK
-- [[kab-rnc-fluxo]] — PR-07 fluxo de não-conformidade
-- [[kab-analise-critica-2025]] — análise crítica semestral
-- [[kab-drive-servidor]] — TI single point of failure
+- kab-processo-apoio-producao — PR-10 Manutenção
+- kab-sgk-estrutura — formulários SGK
+- kab-rnc-fluxo — PR-07 fluxo de não-conformidade
+- kab-analise-critica-2025 — análise crítica semestral
+- kab-drive-servidor — TI single point of failure
 - [[Migracao para 1Password]] — pré-requisito de Fase 2 (credenciais seguras)
 
 ## Risco se não fizermos

@@ -36,8 +36,8 @@ Mapa mais novo da KAB (rev 1), gestora **Suelen Silvestrini**. Formaliza o proce
 ## Quando consultar
 
 - Discussões sobre OTD, expedição, frete, beneficiamento externo
-- Cruzar com [[skill-daily-meeting]] (aba Logística — OTD + Top clientes com entrega atrasada + transportadoras)
-- Cruzar com [[kab-processo-logistica]] (memória sintética)
+- Cruzar com skill-daily-meeting (aba Logística — OTD + Top clientes com entrega atrasada + transportadoras)
+- Cruzar com kab-processo-logistica (memória sintética)
 - Validar fluxo de envio pra beneficiamento (LW Usinagem, Hydro, etc)
 
 ## Indicadores formais
@@ -75,12 +75,12 @@ Mapa mais novo da KAB (rev 1), gestora **Suelen Silvestrini**. Formaliza o proce
 
 ## Relacionado
 
-- [[kab-processo-logistica]] — síntese anterior (memória do Bruce)
-- [[skill-daily-meeting]] — aba Logística mostra OTD diário + transportadoras
+- kab-processo-logistica — síntese anterior (memória do Bruce)
+- skill-daily-meeting — aba Logística mostra OTD diário + transportadoras
 - [[MAPA-PRODUCAO-2026]] — interdependência (Logística recebe produto acabado da Produção)
 - [[MAPA-VENDAS-2026]] — interdependência (lançamento de pedido de venda)
-- [[dbcorp-cadastros]] — fornecedores de transporte e beneficiamento
-- [[contexto-kab]]
+- dbcorp-cadastros — fornecedores de transporte e beneficiamento
+- contexto-kab
 
 ## Conteúdo bruto extraído
 

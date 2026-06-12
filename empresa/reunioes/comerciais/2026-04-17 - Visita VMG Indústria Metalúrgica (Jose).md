@@ -51,6 +51,6 @@ Em reunião com Sr. Juliano 17/04, responsalvel pelo comercial e desenvolvimento
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69cd75a0a893a100174842f0)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

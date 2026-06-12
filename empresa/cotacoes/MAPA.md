@@ -19,4 +19,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (KAB) · [[Comercial]] · [[Gabriel (gerente comercial)]]
+[[MAPA]] (KAB) · Comercial · Gabriel (gerente comercial)

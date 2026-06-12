@@ -20,7 +20,7 @@ tags: [sgk, formulario, for-027, rnc, qualidade, daily-meeting, matriz-viva]
 
 ## Resumo executivo
 
-Matriz mestra de RNCs do ano corrente. **É a fonte que o [[skill-daily-meeting]] já consome** (na aba Qualidade — cards de RNC Cliente/Fornecedor/Sistema/Interno). Tem 5 abas: 1 painel de Gestão NC + 4 controles separados (Cliente · Fornecedor · Sistema/SGQ · Interna). 2026 vem **muito mais limpo** que 2024/2025 — só 2 RNCs Cliente nos primeiros 4 meses (1 já encerrada, 1 em andamento). Reflexo direto das ações implementadas em 2025 (auditoria de produto/processo + acompanhamento top 10 refugos).
+Matriz mestra de RNCs do ano corrente. **É a fonte que o skill-daily-meeting já consome** (na aba Qualidade — cards de RNC Cliente/Fornecedor/Sistema/Interno). Tem 5 abas: 1 painel de Gestão NC + 4 controles separados (Cliente · Fornecedor · Sistema/SGQ · Interna). 2026 vem **muito mais limpo** que 2024/2025 — só 2 RNCs Cliente nos primeiros 4 meses (1 já encerrada, 1 em andamento). Reflexo direto das ações implementadas em 2025 (auditoria de produto/processo + acompanhamento top 10 refugos).
 
 ## Pontos-chave
 
@@ -44,16 +44,16 @@ Matriz mestra de RNCs do ano corrente. **É a fonte que o [[skill-daily-meeting]
 
 - Estado atual de RNCs em curso (validar com daily-meeting)
 - Análise comparativa com [[FOR-027-Matriz-RNC-2025-2024-Historico]] (evolução)
-- Investigar causa raiz de RNC nova (cruzar com [[Lições-Aprendidas-Book-Defeitos]])
+- Investigar causa raiz de RNC nova (cruzar com [[Licoes-Aprendidas-Book-Defeitos]])
 
 ## Relacionado
 
-- [[skill-daily-meeting]] — consome esta matriz na aba Qualidade
+- skill-daily-meeting — consome esta matriz na aba Qualidade
 - [[FOR-027-Matriz-RNC-2025-2024-Historico]] — histórico
 - [[RNCs-2025-Internas-e-Sistema]] — RNCs específicas (PPTX)
-- [[Lições-Aprendidas-Book-Defeitos]]
+- [[Licoes-Aprendidas-Book-Defeitos]]
 - [[MAPA-QUALIDADE-2026]] — Flávio Sales (responsável)
-- [[kab-rnc-fluxo]] — fluxo PR-07 (1d → 7d → 15d → 20d → 60d/3 lotes)
+- kab-rnc-fluxo — fluxo PR-07 (1d → 7d → 15d → 20d → 60d/3 lotes)
 - [[ATA-Analise-Critica-2025-1S]] — ações que geraram melhoria
 
 ## Conteúdo bruto

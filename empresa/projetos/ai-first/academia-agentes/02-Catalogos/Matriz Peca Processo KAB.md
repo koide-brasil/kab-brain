@@ -282,4 +282,4 @@ Como usar num RFQ: ache a peça mais parecida (material + geometria + rota) e ve
 - Confirmar quais peças estão **fora de linha** (não produzir mais) vs. ativas.
 - Mapear cada peça ao **cliente** e ao **projeto** (alguns descritivos já trazem VW/MAN/Toyota).
 
-Links: [[Catálogo de Máquinas KAB]] · [[Biblioteca de Tolerancias KAB]] · [[Historico Defeitos por Maquina KAB]]
+Links: [[Catalogo de Maquinas KAB]] · [[Biblioteca de Tolerancias KAB]] · [[Historico Defeitos por Maquina KAB]]

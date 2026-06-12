@@ -27,11 +27,11 @@ drive_path: QUALIDADE/SGQ-KOIDE/DOCUMENTOS/05 - Mapas de Processo/Cópia de Mapa
 
 | Papel | Quem |
 |---|---|
-| Gestor | [[Fernando (coordenador producao)]] |
+| Gestor | Fernando (coordenador producao) |
 | Líder PCP | Marcelo (programação) |
-| Compras / fornecedores / IQF | [[Gabriel (gerente comercial)]] |
-| Vendas (lançamento pedido) | [[Josielen (supervisora vendas)]] |
-| 5S | [[Madora (supervisora SGK)]] |
+| Compras / fornecedores / IQF | Gabriel (gerente comercial) |
+| Vendas (lançamento pedido) | Josielen (supervisora vendas) |
+| 5S | Madora (supervisora SGK) |
 
 ## Indicadores formais (com metas)
 
@@ -63,4 +63,4 @@ drive_path: QUALIDADE/SGQ-KOIDE/DOCUMENTOS/05 - Mapas de Processo/Cópia de Mapa
 
 ## Links
 
-- [[_MOC-SGK]] · [[Producao]] · [[kab-processo-producao]] · [[Refugo Producao]] · [[OTD]] · [[skill-daily-meeting]] · [[skill-custeio-mensal]]
+- [[_MOC-SGK]] · [[Producao]] · kab-processo-producao · [[Refugo Producao]] · [[OTD]] · skill-daily-meeting · skill-custeio-mensal

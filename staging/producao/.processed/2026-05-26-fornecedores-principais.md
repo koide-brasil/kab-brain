@@ -46,7 +46,7 @@ tags: [fornecedores, lista, mp]
 
 ## Convenção
 
-- **MP**: ver memória [[kab-custo-medio-confiavel]] (cofre privado) pra entender confiabilidade do custo médio
+- **MP**: ver memória kab-custo-medio-confiavel (cofre privado) pra entender confiabilidade do custo médio
 - **Cotações** com valores específicos vão pro cofre privado, não aqui
 
 ## Path local

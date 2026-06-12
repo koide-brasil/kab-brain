@@ -51,6 +51,6 @@ Fui atendido pela compradora de estampados, Marina  e estava marcado para o Mar
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69de5056185466001cc6b6cb)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

@@ -39,4 +39,4 @@ Sistemática de levantamento de necessidades de RH + treinamentos internos/exter
 
 ## Links
 
-- [[_MOC-SGK]] · [[Mayra (gerente RH e SGK)]] · [[kab-procedimentos-pr]]
+- [[_MOC-SGK]] · Mayra (gerente RH e SGK) · kab-procedimentos-pr

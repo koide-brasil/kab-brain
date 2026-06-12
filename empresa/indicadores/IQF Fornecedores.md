@@ -49,4 +49,4 @@ Sem skill que automatize. Gabriel opera manual. Candidato a agente futuro.
 
 ## Links
 
-- [[../indicadores/MAPA]] · [[../../areas/vendas/contexto/sobre-o-departamento]] · Gabriel (comercial) · [[_MOC-Fornecedores]] · [[kab-analise-critica-2025]]
+- [[../indicadores/MAPA]] · [[../../areas/vendas/contexto/sobre-o-departamento]] · Gabriel (comercial) · _MOC-Fornecedores · kab-analise-critica-2025

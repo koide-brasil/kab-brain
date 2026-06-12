@@ -18,7 +18,7 @@ tags: [producao, daily-meeting, for-111, meta, solucao, fernando-macedo]
 
 ## Resumo executivo
 
-Pasta com **5 arquivos** (FOR-111 REV-01) que materializam o **daily meeting de produção MENSAL** (1 arquivo agregado por mês, não 1 por dia). Cobre **Mar a Jun/2025**. Cada arquivo cresceu de tamanho ao longo dos meses (Março: 237 KB → Junho: 2,5 MB) — provavelmente atas mensais agregando o que foi discutido + ações tomadas. **NÃO confundir com o daily-meeting HTML do Bruce** ([[skill-daily-meeting]]) — este FOR-111 é o **processo físico/papel da Mayra/Fernando** anterior à digitalização.
+Pasta com **5 arquivos** (FOR-111 REV-01) que materializam o **daily meeting de produção MENSAL** (1 arquivo agregado por mês, não 1 por dia). Cobre **Mar a Jun/2025**. Cada arquivo cresceu de tamanho ao longo dos meses (Março: 237 KB → Junho: 2,5 MB) — provavelmente atas mensais agregando o que foi discutido + ações tomadas. **NÃO confundir com o daily-meeting HTML do Bruce** (skill-daily-meeting) — este FOR-111 é o **processo físico/papel da Mayra/Fernando** anterior à digitalização.
 
 ## Arquivos catalogados
 
@@ -44,7 +44,7 @@ Extrapolando pelo nome:
 
 ## Conexão com Daily Meeting do Bruce
 
-A skill **[[skill-daily-meeting]]** v2 gerou HTML com 7 abas + Chart.js que **provavelmente substitui parte desse FOR-111 manual**. Vale conversar com Fernando/Mayra:
+A skill **skill-daily-meeting** v2 gerou HTML com 7 abas + Chart.js que **provavelmente substitui parte desse FOR-111 manual**. Vale conversar com Fernando/Mayra:
 - O FOR-111 ainda é mantido?
 - O daily-meeting do Bruce cobre os mesmos KPIs?
 - Pode descontinuar o FOR-111?
@@ -70,7 +70,7 @@ Pode ter ligação com a descontinuação.
 
 ## Relacionado
 
-- [[skill-daily-meeting]] — substituto digital provável
+- skill-daily-meeting — substituto digital provável
 - [[MAPA-PRODUCAO-2026]] — Fernando Macedo
 - [[Plano-Programa-Auditoria-Interna-2024-2025]] — NCs auditadas
 - [[FOR-027-Matriz-RNC-2026]] — RNCs do período

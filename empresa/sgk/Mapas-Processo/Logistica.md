@@ -25,7 +25,7 @@ drive_id: 1wA6zn83-Gr3tcy-s4jDMuZxdAkPBdxB1
 
 | Papel | Quem |
 |---|---|
-| Gestora | [[Suelen (supervisora logistica)]] (Suellen Silvestrini) |
+| Gestora | Suelen (supervisora logistica) (Suellen Silvestrini) |
 | Operação física | Célio (carregamento, transferências, separação) |
 
 ## Indicador formal
@@ -62,4 +62,4 @@ drive_id: 1wA6zn83-Gr3tcy-s4jDMuZxdAkPBdxB1
 
 ## Links
 
-- [[_MOC-SGK]] · [[Logistica]] · [[kab-processo-logistica]] · [[OTD]]
+- [[_MOC-SGK]] · [[Logistica]] · kab-processo-logistica · [[OTD]]

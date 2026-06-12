@@ -44,7 +44,7 @@ Não documentada formalmente — agregação dos resultados da pesquisa SURVIO. 
 
 - Tratativa rápida de RNCs cliente (PR-07 prazos)
 - IQF fornecedor → menos NC interna → menos NC cliente
-- Auditoria de produto e processo ([[2025-07 - Auditoria de produto e processo]])
+- Auditoria de produto e processo (2025-07 - Auditoria de produto e processo)
 
 ## Atenção
 
@@ -52,4 +52,4 @@ Pesquisa rodada via **SURVIO**. Sem skill atual que automatize coleta/relatório
 
 ## Links
 
-- [[../indicadores/MAPA]] · [[../../areas/qualidade/contexto/sobre-o-departamento]] · [[Madora (supervisora SGK)]] · [[Flavio (supervisor qualidade)]] · [[kab-analise-critica-2025]]
+- [[../indicadores/MAPA]] · [[../../areas/qualidade/contexto/sobre-o-departamento]] · Madora (supervisora SGK) · Flavio (supervisor qualidade) · kab-analise-critica-2025

@@ -71,7 +71,7 @@ Dois ITs recentes que estruturam **a rastreabilidade física** das peças (lote,
 - [[FOR-027-Matriz-RNC-2026]]
 - [[FOR-061-Auditoria-Layout-Produto-Processo]]
 - [[FOR-115-026-113-Treinamento-Cultura]]
-- [[kab-rnc-fluxo]]
+- kab-rnc-fluxo
 
 ## Conteúdo bruto
 

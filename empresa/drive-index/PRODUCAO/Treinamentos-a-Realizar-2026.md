@@ -16,7 +16,7 @@ tags: [producao, treinamentos, pendentes, colaboradores, mayra]
 
 ## Resumo executivo
 
-Lista oficial de **treinamentos que cada operador precisa fazer** segundo a Matriz de Versatilidade ([[Matriz-Versatilidade-Operadores]]). Data-corte: **28/04/2026** (modificada em 18/05). Estruturada em **2 abas**: Produção (operação de máquina) e Qualidade (inspeção/conferência). **40+ treinamentos pendentes na Produção** + **11+ na Qualidade**. Foco principal: **Marcelo W., Ricardo, Kledson, Heder, Tharley** (admissões recentes) e o **bloco CNC Ergomat** (entrou em 2026).
+Lista oficial de **treinamentos que cada operador precisa fazer** segundo a Matriz de Versatilidade (Matriz-Versatilidade-Operadores). Data-corte: **28/04/2026** (modificada em 18/05). Estruturada em **2 abas**: Produção (operação de máquina) e Qualidade (inspeção/conferência). **40+ treinamentos pendentes na Produção** + **11+ na Qualidade**. Foco principal: **Marcelo W., Ricardo, Kledson, Heder, Tharley** (admissões recentes) e o **bloco CNC Ergomat** (entrou em 2026).
 
 ## Aba: Produção (40+ treinamentos pendentes)
 
@@ -108,15 +108,15 @@ Lista oficial de **treinamentos que cada operador precisa fazer** segundo a Matr
 - Próxima programação mensal de treinamentos
 - Avaliação de carga de trabalho de quem treina (Mayra, Flávio, Fernando)
 - Planejamento de quem alocar pra operação nova (ex: rodar CNC Ergomat)
-- Cruzar com [[Matriz-Versatilidade-Operadores]] (matriz mãe)
+- Cruzar com Matriz-Versatilidade-Operadores (matriz mãe)
 - Cruzar com [[FOR-030-Planejamento-Treinamentos-2026]] (cronograma)
 
 ## Relacionado
 
 - [[FOR-030-Planejamento-Treinamentos-2026]] — cronograma
-- [[Matriz-Versatilidade-Operadores]] — mãe deste TODO
+- Matriz-Versatilidade-Operadores — mãe deste TODO
 - [[ITs-Operacao-Maquinas]] — IT-089/091 CNC Ergomat
-- [[Indicadores-RH]] — taxa de execução mensal
+- Indicadores-RH — taxa de execução mensal
 - [[MAPA-RH-2026]] — Mayra
 - [[MAPA-PRODUCAO-2026]] — Fernando
 

@@ -68,4 +68,4 @@ COMPRAS/
 - [[ITs-PCP-Sistemas-Atualizacao]] (SGK) — IT-090 Planejamento Cotação Compras
 - [[MAPA-VENDAS-2026]] — Gabriel
 - [[Plano-Estrategico-Vendas-2024-2025-2026]] (COMERCIAL)
-- [[kab-processo-vendas]]
+- kab-processo-vendas

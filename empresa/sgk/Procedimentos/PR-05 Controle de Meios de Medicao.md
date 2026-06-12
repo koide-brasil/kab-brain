@@ -44,4 +44,4 @@ Qualidade — em todos os processos que usam instrumentos calibráveis.
 
 ## Links
 
-- [[_MOC-SGK]] · [[Flavio (supervisor qualidade)]] · [[kab-procedimentos-pr]]
+- [[_MOC-SGK]] · Flavio (supervisor qualidade) · kab-procedimentos-pr

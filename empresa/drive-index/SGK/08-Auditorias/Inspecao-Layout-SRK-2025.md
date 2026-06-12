@@ -59,7 +59,7 @@ Padrão de nome: `Inspeção de Layout - <PN> - <cód_SRK>.xlsx` (e versão PDF)
 - [[Controle-Auditoria-Layout-Produto-Processo]] — controle de validade
 - [[FOR-061-Auditoria-Layout-Produto-Processo]] — formulário-modelo
 - [[FOR-027-Matriz-RNC-2025-2024-Historico]] — SRK como cliente reclamador #1
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 
 ## Conteúdo bruto
 

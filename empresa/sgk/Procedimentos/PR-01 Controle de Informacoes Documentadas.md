@@ -26,7 +26,7 @@ Elaboração, revisão e controle de informação do SGQ — **todos os processo
 
 ## Pontos-chave
 
-- **SGQ é gestor central** da informação documentada → na prática, **[[Madora (supervisora SGK)]]**.
+- **SGQ é gestor central** da informação documentada → na prática, **Madora (supervisora SGK)**.
 - Cada gestor de processo controla **conteúdo** dos formulários; SGQ controla **forma**.
 - **FOR-042** Controle de Informações Documentadas (mestre — define distribuição, acesso, recuperação, armazenamento, retenção, disposição).
 - **FOR-058** Controle de Inf Documentadas - Processos (revisão de conteúdo).
@@ -39,4 +39,4 @@ Elaboração, revisão e controle de informação do SGQ — **todos os processo
 
 ## Links
 
-- [[_MOC-SGK]] · [[kab-procedimentos-pr]] · [[Madora (supervisora SGK)]]
+- [[_MOC-SGK]] · kab-procedimentos-pr · Madora (supervisora SGK)

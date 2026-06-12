@@ -26,7 +26,7 @@ Pasta **01- VENDAS/** com 14 subpastas operacionais cobrindo o ciclo completo de
 | **01-Cotações** | 2 | Cotações específicas (provavelmente templates) |
 | 03-Desenhos | 4 | Desenhos técnicos enviados (CAD/PDF) |
 | **04-Forecast** | 6 | Previsão de demanda |
-| **05-Atas de Visita** | 5 | Atas oficiais (cruza com [[skill-captura-atas-mes]]) |
+| **05-Atas de Visita** | 5 | Atas oficiais (cruza com skill-captura-atas-mes) |
 | **06-Controle de Ordens** | **61** | 🔥 Ordens emitidas / em processo |
 | 07-Apresentações | 3 | Slides comerciais |
 | **08-Diversos** | 26 | Materiais diversos |
@@ -49,7 +49,7 @@ Pasta **01- VENDAS/** com 14 subpastas operacionais cobrindo o ciclo completo de
 ### 🤝 Atas de Visita
 
 A pasta **05-Atas de Visita** tem 5 itens. Cruza com:
-- **[[skill-captura-atas-mes]]** — extrai visitas do RD CRM e cria notas em [[01-KAB/Reunioes/]]
+- **skill-captura-atas-mes** — extrai visitas do RD CRM e cria notas em [[01-KAB/Reunioes/]]
 - **[[Analises-Semestrais-Vendas-2025]]** — 50 visitas em 2025 (+72% vs 2024)
 
 Possível **gap**: as atas físicas (esta pasta) vs as do CRM (RD Station) podem não bater. Avaliar consolidação.
@@ -80,7 +80,7 @@ Pipeline de novos negócios — provavelmente inclui:
 ## Quando consultar
 
 - Pra dado de cotação específica → abrir Drive
-- Pra ata de visita histórica → abrir Drive (mais novo via [[skill-captura-atas-mes]])
+- Pra ata de visita histórica → abrir Drive (mais novo via skill-captura-atas-mes)
 - Pra rastrear pipeline → cruzar com RD Station
 
 ## Relacionado
@@ -88,8 +88,8 @@ Pipeline de novos negócios — provavelmente inclui:
 - [[Plano-Estrategico-Vendas-2024-2025-2026]]
 - [[Analises-Semestrais-Vendas-2025]]
 - [[Indicador-Abril-2026-Vendas]]
-- [[skill-captura-atas-mes]] — captura ATAs do CRM
-- [[project-rdstation-bi-bigquery]] — sistema de pipeline ativo
+- skill-captura-atas-mes — captura ATAs do CRM
+- project-rdstation-bi-bigquery — sistema de pipeline ativo
 - [[Cadastro-Clientes-Comercial]]
 - [[MAPA-VENDAS-2026]]
 - [[Especificacoes-de-Pedido-Fornecedor]] — DN MP1

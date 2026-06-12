@@ -17,7 +17,7 @@ tags: [sgk, matriz, correlacao, objetivos, semestral, 2024, 2025]
 
 ## Resumo executivo
 
-Matriz da virada de semestre — fecha 2S24 e abre 1S25. Estrutura idêntica à [[MATRIZ-Correlacao-Objetivos-1S25-2S25]]: aba Plan1 com histórico 2018-2019 + aba "1ºS-24 e 2ºS-24" com dados do período avaliado. Modificada em jul/2025 (alimentação dos dados do 2S24 fechado). Mostra o gap entre meta e realizado por processo no semestre crítico de 2024 (quando EBITDA ficou 0,01%).
+Matriz da virada de semestre — fecha 2S24 e abre 1S25. Estrutura idêntica à MATRIZ-Correlacao-Objetivos-1S25-2S25: aba Plan1 com histórico 2018-2019 + aba "1ºS-24 e 2ºS-24" com dados do período avaliado. Modificada em jul/2025 (alimentação dos dados do 2S24 fechado). Mostra o gap entre meta e realizado por processo no semestre crítico de 2024 (quando EBITDA ficou 0,01%).
 
 ## Pontos-chave
 
@@ -35,7 +35,7 @@ Matriz da virada de semestre — fecha 2S24 e abre 1S25. Estrutura idêntica à 
 ## Relacionado
 
 - [[ATA-Analise-Critica-2024-2S]]
-- [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] — semestre seguinte
+- MATRIZ-Correlacao-Objetivos-1S25-2S25 — semestre seguinte
 - [[MATRIZ-Correlacao-Objetivos-1S24-2S24]] — semestre anterior
 - [[Objetivos-Koide-2024]] · [[Objetivos-Koide-2025]]
 

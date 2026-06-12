@@ -102,17 +102,17 @@ Documento-mãe da análise estratégica do SGK, exigido pela ISO 9001:2015 cláu
 - Discussões sobre estratégia/contexto da KAB (cláusulas 4.1/4.2 ISO 9001)
 - Análise de risco e oportunidade (este é o doc-mãe)
 - Antes de propor mudança que impacte uma parte interessada
-- Cruzar com [[kab-empresa-identidade]] (memória) e [[kab-analise-critica-2025]]
+- Cruzar com kab-empresa-identidade (memória) e kab-analise-critica-2025
 - Pra entender o "Welber legacy" — vários riscos têm ele como responsável histórico
 
 ## Relacionado
 
-- [[kab-empresa-identidade]] — síntese (cita 6 partes interessadas)
+- kab-empresa-identidade — síntese (cita 6 partes interessadas)
 - [[ATA-Analise-Critica-2025-1S]] — referencia este documento
 - [[ATA-Analise-Critica-2024-2S]]
 - [[MAPA-RH-2026]] (FOR-053 Pesquisa de Clima)
 - [[MAPA-QUALIDADE-2026]] (FOR-022 Análise de Dados)
-- [[contexto-kab]] — síntese geral
+- contexto-kab — síntese geral
 
 ## Conteúdo bruto extraído
 

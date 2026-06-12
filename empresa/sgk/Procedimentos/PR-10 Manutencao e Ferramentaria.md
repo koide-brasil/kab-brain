@@ -37,4 +37,4 @@ Padronizar atividades de Apoio à Produção (manutenção e ferramentaria) — 
 
 ## Links
 
-- [[_MOC-SGK]] · [[Jonatas (supervisor manutencao)]] · [[Manutencao]] · [[Manutencoes corretivas]] · [[Setup medio]]
+- [[_MOC-SGK]] · Jonatas (supervisor manutencao) · Manutencao · [[Manutencoes corretivas]] · [[Setup medio]]

@@ -27,7 +27,7 @@ Gestores: **Fernando Wellington de Macedo** (Coordenador Produção) + **Marcelo
 | Nota | Cobertura |
 |---|---|
 | **[[FOR-030-Planejamento-Treinamentos-2026]]** | Planejamento anual de treinamentos operadores (P/O/R/X) |
-| **[[Matriz-Versatilidade-Operadores]]** ⭐ | 28 operadores × 20+ treinamentos com nível 0-100 |
+| **Matriz-Versatilidade-Operadores** ⭐ | 28 operadores × 20+ treinamentos com nível 0-100 |
 | **[[Treinamentos-a-Realizar-2026]]** | Pendências por colaborador (Produção + Qualidade) |
 | **[[Registros-de-Corte-por-PN]]** | 91 arquivos · 1 por PN com parâmetros corte |
 | **[[Acompanhamento-Meta-Solucao-Diario]]** | FOR-111 mensal — daily físico produção (mar-jun/2025) |
@@ -56,9 +56,9 @@ PRODUÇÃO/
 
 ## Conexão com sistemas vivos
 
-- **DBCorp** ([[dbcorp-mapeamento]]) — fonte viva de OP, refugo, apontamento
-- **[[skill-daily-meeting]]** — aba Produção consome DBCorp
-- **[[skill-custeio-mensal]]** + **[[skill-custeio-anual]]** — custeio por OP/máquina/peça
+- **DBCorp** (dbcorp-mapeamento) — fonte viva de OP, refugo, apontamento
+- **skill-daily-meeting** — aba Produção consome DBCorp
+- **skill-custeio-mensal** + **skill-custeio-anual** — custeio por OP/máquina/peça
 - **[[MAPA-PRODUCAO-2026]]** — gestor Fernando Macedo (rev 15)
 
 ## Status
@@ -71,9 +71,9 @@ Não absorvido individualmente: PARÂMETROS E FERRAMENTAL (legado 2022), Etiquet
 
 - [[MAPA-PRODUCAO-2026]] · [[MAPA-APOIO-PRODUCAO-2026]]
 - [[FOR-058-Controle-Informacao-Documentada-Processos]] (SGK)
-- [[Treinamentos-RH]] (RH) — execução
+- Treinamentos-RH (RH) — execução
 - [[ITs-Operacao-Maquinas]] · [[ITs-Qualidade-Inspecao]] · [[ITs-PCP-Sistemas-Atualizacao]] (SGK)
-- [[Indicadores-RH]] (RH)
-- [[kab-processo-producao]]
+- Indicadores-RH (RH)
+- kab-processo-producao
 - [[../COMERCIAL/_sobre]]
 - [[../FINANCEIRO/_sobre]]

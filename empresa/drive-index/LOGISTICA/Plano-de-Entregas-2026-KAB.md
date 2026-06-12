@@ -104,7 +104,7 @@ Provavelmente: 1 mestre + 2 cópias (backup ou colaborador diferente). **Risco d
 | Fonte | Conexão |
 |---|---|
 | **DBCorp** | `TbItemPedidoVendaEntrega` é a fonte ORIGINAL dos pedidos (Suelen alimenta a planilha a partir do DBCorp) |
-| **[[skill-daily-meeting]]** | aba Produção/Logística usa **mesma fonte DBCorp** — provavelmente mostra coisas similares (atrasos por cliente) |
+| **skill-daily-meeting** | aba Produção/Logística usa **mesma fonte DBCorp** — provavelmente mostra coisas similares (atrasos por cliente) |
 | **[[Ranking-Vendas-por-Cliente-2024-2025]]** | Cruzar: SRK 55% do faturamento × saldo negativo em jan/2025 ⇒ explica queda Q1 |
 | **[[Indicador-Abril-2026-Vendas]]** | Estratégia "vender estoque DN/YAB/SRK" = atender saldos negativos pendentes |
 | **[[Monitoramento-Satisfacao-Clientes-2025]]** | IQF SRK caiu 98→92% em out-nov/2025 — cruzar com saldo |
@@ -125,10 +125,10 @@ Provavelmente: 1 mestre + 2 cópias (backup ou colaborador diferente). **Risco d
 - [[MAPA-LOGISTICA-2026]] — Suelen Silvestrini gestora
 - [[Programacoes-Mensais-por-Cliente]] (PCP) — fonte das programações
 - [[Ranking-Vendas-por-Cliente-2024-2025]] (COMERCIAL)
-- [[skill-daily-meeting]] — aba Logística
+- skill-daily-meeting — aba Logística
 - [[Controle-Auditoria-Layout-Produto-Processo]] (SGK) — quais PNs ativos
-- [[dbcorp-mapeamento]]
-- [[kab-processo-logistica]]
+- dbcorp-mapeamento
+- kab-processo-logistica
 
 ## Conteúdo bruto
 

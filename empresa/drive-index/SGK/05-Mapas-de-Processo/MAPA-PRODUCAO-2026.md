@@ -40,8 +40,8 @@ Mapa do processo central da KAB — produção de tubos/perfis de aço e alumín
 
 - Discussões sobre OPs, programação de produção, setup, apontamentos DBCorp
 - Análise do fluxo desenvolvimento → kick-off → FMEA → MP → produção
-- Cruzar com [[skill-daily-meeting]] (consome dados de OPs em execução e refugo)
-- Cruzar com [[kab-processo-producao]] (memória sintética anterior)
+- Cruzar com skill-daily-meeting (consome dados de OPs em execução e refugo)
+- Cruzar com kab-processo-producao (memória sintética anterior)
 - Quando avaliar capacidade produtiva pra propostas comerciais (Análise de Viabilidade FOR-018)
 
 ## Indicadores formais
@@ -85,11 +85,11 @@ Mapa do processo central da KAB — produção de tubos/perfis de aço e alumín
 
 ## Relacionado
 
-- [[kab-processo-producao]] — síntese anterior (memória do Bruce)
+- kab-processo-producao — síntese anterior (memória do Bruce)
 - [[MAPA-QUALIDADE-2026]] — interdependência PR-07
 - [[MAPA-RH-2026]] — fornece treinamentos
 - [[MAPA-APOIO-PRODUCAO-2026]] — manutenção corretiva
-- [[contexto-kab]]
+- contexto-kab
 
 ## Conteúdo bruto extraído
 

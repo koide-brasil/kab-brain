@@ -17,6 +17,6 @@ Em pico, com 3º turno, a KAB bate 22 toneladas por mês.
 
 ## Links
 
-- [[kab]] — empresa
+- kab — empresa
 - [[producao]] — área principal
 - [[capacidade-fabril]] — indicador mencionado

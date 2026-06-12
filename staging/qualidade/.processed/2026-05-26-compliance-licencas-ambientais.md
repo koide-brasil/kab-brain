@@ -54,7 +54,7 @@ Documentos do Corpo de Bombeiros de SP.
 ## Atenção
 
 - Detalhes do **contrato com Ares Ambiental** (valor, prazo, cláusulas) **não estão aqui** — cofre privado.
-- Cruzamento útil: memória [[kab-processo-qualidade]] cobre o mapa de processo da Qualidade no SGK.
+- Cruzamento útil: memória kab-processo-qualidade cobre o mapa de processo da Qualidade no SGK.
 
 ## Path local
 

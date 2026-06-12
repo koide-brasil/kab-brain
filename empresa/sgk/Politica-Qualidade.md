@@ -50,4 +50,4 @@ Detalhe em **FOR-052 Matriz de Contexto e Partes Interessadas**.
 
 ## Links
 
-- [[_MOC-SGK]] · [[kab-empresa-identidade]] · [[Erico (presidente)]] · [[Madora (supervisora SGK)]]
+- [[_MOC-SGK]] · kab-empresa-identidade · Erico (presidente) · Madora (supervisora SGK)

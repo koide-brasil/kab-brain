@@ -65,13 +65,13 @@ Documento mais importante do **processo Compras+Qualidade de Fornecedores**. Man
 - Antes de homologar novo fornecedor
 - Quando IQF mensal estourar (entender qual fornecedor caiu e por quê)
 - Decisões sobre desenvolvimento de fornecedor alternativo (a oportunidade "Desenvolvimento de novos fornecedores" do [[Contexto-Partes-Interessadas]])
-- Cruzar com [[MAPA-VENDAS-2026]] (Gabriel gerencia compras hoje) e [[kab-procedimentos-pr]] (PR-06 Compras)
+- Cruzar com [[MAPA-VENDAS-2026]] (Gabriel gerencia compras hoje) e kab-procedimentos-pr (PR-06 Compras)
 - Histórico IQF nas Atas de Análise Crítica: 92% média (2024 e 2025)
 
 ## Relacionado
 
-- [[kab-clientes-formais]] — clientes formais
-- [[dbcorp-cadastros]] — fornecedores no DBCorp
+- kab-clientes-formais — clientes formais
+- dbcorp-cadastros — fornecedores no DBCorp
 - [[Contexto-Partes-Interessadas]] — Fornecedores como parte interessada (Sig 6)
 - [[ATA-Analise-Critica-2025-1S]] — IQF 92% mencionado
 - [[ATA-Analise-Critica-2024-2S]] — idem 92%

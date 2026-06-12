@@ -80,13 +80,13 @@ Padrão: **DN compartilha PN com versão MP1** (matéria-prima bruta) — sinali
 - **472.60535** — Tubo 19,50 × 16,40 × 60,00 mm (compartilhado com 472.6049)
 - **472.60419** — Tubo 10,40 × 14,00 × 36,00 mm
 
-Padrão CBV: **PNs novos do final de 2025** → entrou na carteira recentemente (compatível com [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] que cita "CBV do Brasil" no pipeline SOP 2026).
+Padrão CBV: **PNs novos do final de 2025** → entrou na carteira recentemente (compatível com MATRIZ-Correlacao-Objetivos-1S25-2S25 que cita "CBV do Brasil" no pipeline SOP 2026).
 
 ### 🟥 Gestamp (2 PNs)
 - **48717-0A070** — Ø 21,00 × 3,20 mm Rev 01
 - **48723-0A070** — Ø 56,85 × 43,95 mm Rev 01
 
-Padrão Gestamp: **Especificação de COTAÇÃO** (não pedido) — sinaliza que ainda está em fase de homologação. Bate com a memória [[kab-clientes-formais]] (Gestamp travada Ariba aprovado, GoSupply pendente).
+Padrão Gestamp: **Especificação de COTAÇÃO** (não pedido) — sinaliza que ainda está em fase de homologação. Bate com a memória kab-clientes-formais (Gestamp travada Ariba aprovado, GoSupply pendente).
 
 ### 🟪 Hitachi (1 PN)
 - **HGCC1-311-51-BR** — Maciço Ø 20,64 mm — SAE 12L 14 Rev 05

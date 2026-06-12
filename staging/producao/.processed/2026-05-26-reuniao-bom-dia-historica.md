@@ -10,7 +10,7 @@ tags: [daily, reuniao-bom-dia, historico]
 
 # REUNIÃO BOM DIA — versão histórica (2023)
 
-> Pasta `~/Área de trabalho/KAB/REUNIÃO BOM DIA/` é a **versão antiga da daily meeting**, de jul/2023. Hoje a daily é gerada pela skill [[skill-daily-meeting]] (HTML consolidado com dados DBCorp + RD Station + RHiD + Drive).
+> Pasta `~/Área de trabalho/KAB/REUNIÃO BOM DIA/` é a **versão antiga da daily meeting**, de jul/2023. Hoje a daily é gerada pela skill skill-daily-meeting (HTML consolidado com dados DBCorp + RD Station + RHiD + Drive).
 
 ## O que tem
 

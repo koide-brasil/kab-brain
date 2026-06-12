@@ -31,7 +31,7 @@ Diretoria · Qualidade · Produção · Manutenção · Logística (Recebimento/
 - **Auditoria de Produto** (via registros de inspeção diários).
 - Auditores: **ISO 19011 + ISO 9001**, validade 4 anos, reciclagem >2 anos sem auditar.
 - **8Ds** pra NCs durante auditoria.
-- **Auditor líder externo atual**: [[Rodrigo Wilder (consultor Pro Lider)]] — última auditoria interna: jun/2025 (3 NCs todas na Produção).
+- **Auditor líder externo atual**: Rodrigo Wilder (consultor Pro Lider) — última auditoria interna: jun/2025 (3 NCs todas na Produção).
 
 ## Status
 
@@ -39,4 +39,4 @@ Diretoria · Qualidade · Produção · Manutenção · Logística (Recebimento/
 
 ## Links
 
-- [[_MOC-SGK]] · [[Madora (supervisora SGK)]] · [[Rodrigo Wilder (consultor Pro Lider)]] · [[kab-analise-critica-2025]]
+- [[_MOC-SGK]] · Madora (supervisora SGK) · Rodrigo Wilder (consultor Pro Lider) · kab-analise-critica-2025

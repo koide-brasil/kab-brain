@@ -52,8 +52,8 @@ PLANEJAMENTO/
 
 ## Conexão com sistemas vivos
 
-- **DBCorp** ([[dbcorp-mapeamento]]) — fonte viva de OPs, programação, atraso
-- **[[skill-daily-meeting]]** — aba Produção/PCP consome DBCorp (carteira, atrasos)
+- **DBCorp** (dbcorp-mapeamento) — fonte viva de OPs, programação, atraso
+- **skill-daily-meeting** — aba Produção/PCP consome DBCorp (carteira, atrasos)
 - **[[ITs-PCP-Sistemas-Atualizacao]]** (SGK) — IT-041, IT-071, IT-072, IT-073, IT-090
 - **MAPA-PRODUCAO-2026** — Fernando Macedo gestor
 
@@ -68,7 +68,7 @@ Decisão: NÃO baixei programação mensal arquivo a arquivo (centenas de xlsx).
 - [[../COMERCIAL/Vendas-Operacionais-Pipeline]] — Forecast, Atas Visita
 - [[MAPA-PRODUCAO-2026]]
 - [[ITs-PCP-Sistemas-Atualizacao]]
-- [[dbcorp-mapeamento]]
-- [[skill-daily-meeting]]
-- [[skill-custeio-mensal]]
-- [[kab-processo-producao]]
+- dbcorp-mapeamento
+- skill-daily-meeting
+- skill-custeio-mensal
+- kab-processo-producao

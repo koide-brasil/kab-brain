@@ -54,14 +54,14 @@ São o mesmo documento — versão pra assinar + versão com assinatura digital.
 - Investigação de NC com Tuopu (estrutura de avaliação deles)
 - Implementação de IMDS pra peças deles
 - Cruzar com [[MAPA-VENDAS-2026]] (Tuopu na carteira)
-- Cruzar com [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] (Tuopu listado no pipeline SOP 2026)
+- Cruzar com MATRIZ-Correlacao-Objetivos-1S25-2S25 (Tuopu listado no pipeline SOP 2026)
 
 ## Relacionado
 
-- [[kab-clientes-formais]] — Tuopu como cliente
+- kab-clientes-formais — Tuopu como cliente
 - [[MAPA-VENDAS-2026]]
-- [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] — pipeline SOP 2026
-- [[contexto-kab]]
+- MATRIZ-Correlacao-Objetivos-1S25-2S25 — pipeline SOP 2026
+- contexto-kab
 
 ## Conteúdo bruto
 

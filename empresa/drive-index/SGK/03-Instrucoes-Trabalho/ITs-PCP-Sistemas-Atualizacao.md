@@ -59,8 +59,8 @@ IT novo — formaliza o processo de Compras (alinhado com os formulários novos 
 - [[FOR-042-Controle-Informacao-Documentada]]
 - [[MAPA-PRODUCAO-2026]] — Fernando Macedo
 - [[FOR-116-117-118-Compras]] — formulários novos de Compras
-- [[skill-daily-meeting]] — substitui parte do Power BI
-- [[dbcorp-mapeamento]]
+- skill-daily-meeting — substitui parte do Power BI
+- dbcorp-mapeamento
 
 ## Conteúdo bruto
 

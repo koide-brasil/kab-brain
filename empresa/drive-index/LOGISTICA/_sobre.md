@@ -48,7 +48,7 @@ LOGISTICA/
 | Carteira viva (PN × cliente) | DBCorp (TbItemPedidoVendaEntrega) |
 | Programação cliente-específica | [[Programacoes-Mensais-por-Cliente]] (PCP/COMERCIAL) |
 | KPI Frete ≤1,45% fat | [[MAPA-LOGISTICA-2026]] |
-| Top clientes atrasados | [[skill-daily-meeting]] aba Logística |
+| Top clientes atrasados | skill-daily-meeting aba Logística |
 | Procedimento formal | [[MAPA-LOGISTICA-2026]] (rev 1, fev/2025 — formalizado recente) |
 
 ## Achados
@@ -69,6 +69,6 @@ LOGISTICA/
 - [[Plano-de-Entregas-2026-KAB]]
 - [[MAPA-LOGISTICA-2026]] — Suelen Silvestrini
 - [[Programacoes-Mensais-por-Cliente]] — PCP
-- [[skill-daily-meeting]] — aba Logística
-- [[dbcorp-mapeamento]]
-- [[kab-processo-logistica]]
+- skill-daily-meeting — aba Logística
+- dbcorp-mapeamento
+- kab-processo-logistica

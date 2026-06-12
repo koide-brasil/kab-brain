@@ -55,6 +55,6 @@ Ele se compro metei a enviar os desenhos das buchas, itens de linha para cotaç�
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69d3b065860364002299be6b)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

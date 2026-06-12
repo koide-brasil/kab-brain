@@ -28,4 +28,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (KAB) · [[skill-captura-atas-mes]] · [[_sobre]]
+[[MAPA]] (KAB) · skill-captura-atas-mes · [[_sobre]]

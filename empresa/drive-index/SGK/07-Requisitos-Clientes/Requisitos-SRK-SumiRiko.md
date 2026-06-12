@@ -64,16 +64,16 @@ SRK (SumiRiko Brasil Indústria — SRK-BI) é o **maior cliente formal da KAB**
 - **Investigação de RNC SRK** — verificar se houve violação de requisito do manual
 - **Atualização SGK** — incorporar mudanças do MF-01 nos PRs/ITs internos
 - Cruzar com [[FOR-027-Matriz-RNC-2026]] · [[FOR-027-Matriz-RNC-2025-2024-Historico]] · [[Licoes-Aprendidas-Book-Defeitos]]
-- Cruzar com [[kab-rnc-fluxo]] (PR-07 KAB)
+- Cruzar com kab-rnc-fluxo (PR-07 KAB)
 
 ## Relacionado
 
-- [[kab-clientes-formais]] — SRK
+- kab-clientes-formais — SRK
 - [[FOR-027-Matriz-RNC-2026]] — NC 002/2026 SRK em andamento
 - [[FOR-027-Matriz-RNC-2025-2024-Historico]] — 6/6 NCs cliente 2024 + 2 em 2025
 - [[Licoes-Aprendidas-Book-Defeitos]] — 44 NCs históricas
 - [[MAPA-QUALIDADE-2026]]
-- [[contexto-kab]]
+- contexto-kab
 
 ## Conteúdo bruto
 

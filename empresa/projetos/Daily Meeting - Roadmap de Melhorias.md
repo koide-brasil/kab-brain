@@ -10,7 +10,7 @@ tags: [daily-meeting, skill, roadmap]
 # Daily Meeting — Roadmap de Melhorias
 
 Lista das melhorias mapeadas em 2026-05-20 (sessão Bruce) para implementar na
-[[skill-daily-meeting]] conforme prioridade do Erico.
+skill-daily-meeting conforme prioridade do Erico.
 
 > **Status 2026-05-20 (fim da tarde):** Top 5 + Treinamentos FOR-030 **TODOS ENTREGUES**
 > na mesma sessão. v3 da skill em produção.
@@ -103,7 +103,7 @@ Lista das melhorias mapeadas em 2026-05-20 (sessão Bruce) para implementar na
 4. (Opcional) **% conclusão YTD do plano anual** — barra de progresso por cargo/depto
 
 **Considerações técnicas:**
-- Mesmo padrão de leitura usado em [[skill-daily-meeting]] pra Matriz RNC (FOR-027): OAuth refresh_token + `_baixar_drive_xlsx` + openpyxl
+- Mesmo padrão de leitura usado em skill-daily-meeting pra Matriz RNC (FOR-027): OAuth refresh_token + `_baixar_drive_xlsx` + openpyxl
 - Como são vários arquivos (1 por cargo), criar função `_listar_treinamentos_drive()` que busca todos os `FOR-030.*2026.*` e consolida
 - Cuidado: arquivos antigos (2024, 2025) também aparecem na busca — filtrar por nome `'2026'`
 - Pasta-mãe da maioria: `1hwjQafbK_zYJ_6UWkJ5rsLsm-G1jDXEY`
@@ -118,8 +118,8 @@ Lista das melhorias mapeadas em 2026-05-20 (sessão Bruce) para implementar na
 
 ## Links
 
-- Skill: [[skill-daily-meeting]]
-- Memória do RHiD: [[rhid-api-mapeamento]]
-- Tabelas financeiras DBCorp: [[dbcorp-tabelas-financeiras]]
-- Estrutura SGK: [[kab-sgk-estrutura]]
-- Pessoas sem ponto (excluir de faltas/HE): [[kab-pessoas-sem-ponto]]
+- Skill: skill-daily-meeting
+- Memória do RHiD: rhid-api-mapeamento
+- Tabelas financeiras DBCorp: dbcorp-tabelas-financeiras
+- Estrutura SGK: kab-sgk-estrutura
+- Pessoas sem ponto (excluir de faltas/HE): kab-pessoas-sem-ponto

@@ -111,7 +111,7 @@ python3 92-Skills/kab/treinar-sgk/scripts/treinar_sgk.py extract <DRIVE_ID>
 - [[ATA-Analise-Critica-2025-1S]] — usa IQF como dado
 - [[FOR-027-Matriz-RNC-2026]] · [[FOR-027-Matriz-RNC-2025-2024-Historico]]
 - [[Requisitos-DN-Automotivos]] · [[Requisitos-SRK-SumiRiko]] · [[Requisitos-Tuopu]] · [[Requisitos-Polistampo-YAB]]
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 - [[Licoes-Aprendidas-Book-Defeitos]]
 
 ## Conteúdo bruto

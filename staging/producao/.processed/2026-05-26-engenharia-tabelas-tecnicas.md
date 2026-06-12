@@ -40,7 +40,7 @@ Estudo de viabilidade técnica do **projeto BJ-120A-1** — análise de capacida
 
 ## Cruzamento
 
-- Memória [[kab-processo-producao]] descreve o macro-processo de produção
+- Memória kab-processo-producao descreve o macro-processo de produção
 - Mapas de processo SGK têm IT específica de medição de dureza/dimensional — consultar SGK
 
 ## Path local

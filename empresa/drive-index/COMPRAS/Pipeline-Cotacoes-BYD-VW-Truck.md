@@ -146,7 +146,7 @@ Não detalhado nesta nota (ver Drive). Pode ser cliente novo ou existente.
 - [[Cronograma-Adesao-IATF-16949-ISO-14001]] — migração planejada
 - [[Fornecedores-Cadastrados]]
 - [[ITs-Comercial-APQP]] (SGK) — IT-082 análise viabilidade
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 - [[Cadastro-Clientes-Comercial]]
 
 ## Conteúdo bruto

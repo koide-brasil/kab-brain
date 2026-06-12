@@ -79,14 +79,14 @@ Análise crítica semestral da KAB exigida pela ISO 9001:2015, conduzida por Eri
 - Decisões estratégicas semestrais (espelho desta reunião)
 - Pra entender o "estado da empresa" no fim do 1S25
 - Validar status das ações pendentes (especialmente máquina de corte e aumento de faturamento)
-- Cruzar com [[kab-analise-critica-2025]] (memória sintética anterior)
+- Cruzar com kab-analise-critica-2025 (memória sintética anterior)
 - Cruzar com [[ATA-Analise-Critica-2024-2S]] (semestre anterior, pra ver evolução)
 - Cruzar com matriz de correlação de objetivos do mesmo período
 
 ## Relacionado
 
-- [[kab-analise-critica-2025]] — síntese anterior (memória do Bruce, criada antes deste documento ser absorvido)
-- [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] — matriz dos KPIs do semestre (quando criado)
+- kab-analise-critica-2025 — síntese anterior (memória do Bruce, criada antes deste documento ser absorvido)
+- MATRIZ-Correlacao-Objetivos-1S25-2S25 — matriz dos KPIs do semestre (quando criado)
 - [[Objetivos-Koide-2025]] — planejamento de objetivos do ano (quando criado)
 - [[MAPA-PRODUCAO-2026]] — onde estão as 3 NCs da auditoria
 - [[MAPA-FINANCEIRO-2025]] — meta de Gastos ≤2,5% liga com EBITDA 5%

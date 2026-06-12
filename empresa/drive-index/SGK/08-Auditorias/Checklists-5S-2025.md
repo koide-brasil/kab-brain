@@ -39,14 +39,14 @@ A KAB faz **auditoria de 5S quinzenal** (1º e 2º turnos) usando o formulário 
 ## Pontos-chave
 
 - **Cadência semanal/quinzenal** (média de 1 auditoria a cada 10-14 dias)
-- **3º turno auditado apenas em 20/03/2025** — alinha com memória [[kab-turnos-rhid]] (3º turno ativo só esporadicamente)
+- **3º turno auditado apenas em 20/03/2025** — alinha com memória kab-turnos-rhid (3º turno ativo só esporadicamente)
 - **FOR-089** = Checklist de Auditoria 5S (Rev 00) — provavelmente diferente do FOR-048 (Check List TPM diário)
 - **Lacuna**: não temos auditorias depois de mar/2025 nesta leva — provavelmente continuou ou parou (consultar Madora)
 - **Média 5S.xlsx** modificada em out/2025 — sugere que **as auditorias continuaram** (média agregada anual)
 
 ## ⚠️ Não conformidades históricas
 
-A memória do Bruce ([[kab-analise-critica-2025]]) e [[ATA-Analise-Critica-2025-1S]] não menciona 5S como problema — boa indicação de que a auditoria 5S **funciona** (sem NCs significativas geradas).
+A memória do Bruce (kab-analise-critica-2025) e [[ATA-Analise-Critica-2025-1S]] não menciona 5S como problema — boa indicação de que a auditoria 5S **funciona** (sem NCs significativas geradas).
 
 ## Quando consultar
 

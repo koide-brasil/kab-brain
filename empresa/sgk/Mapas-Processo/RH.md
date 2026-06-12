@@ -25,7 +25,7 @@ drive_id: 17FAVXzk6MLVT2bLm7o-wVUXIt9qJZT13
 
 | Papel | Quem |
 |---|---|
-| Gestora | [[Mayra (gerente RH e SGK)]] — sobrenome Santos |
+| Gestora | Mayra (gerente RH e SGK) — sobrenome Santos |
 | Escritório contabilidade externo | e-Social, rescisões, homologações |
 | Sindicato | Convenção, demandas coletivas |
 | Assistência jurídica externa | Leis trabalhistas |
@@ -63,8 +63,8 @@ drive_id: 17FAVXzk6MLVT2bLm7o-wVUXIt9qJZT13
 
 ## Família-na-empresa
 
-- [[Larissa (compras)]] = enteada do Erico (filha de Marcia). Vale verificar se isso afeta tratativas de RH/contratação.
+- Larissa (compras) = enteada do Erico (filha de Marcia). Vale verificar se isso afeta tratativas de RH/contratação.
 
 ## Links
 
-- [[_MOC-SGK]] · [[RH]] · [[kab-processo-rh]] · [[Mayra (gerente RH e SGK)]]
+- [[_MOC-SGK]] · [[RH]] · kab-processo-rh · Mayra (gerente RH e SGK)

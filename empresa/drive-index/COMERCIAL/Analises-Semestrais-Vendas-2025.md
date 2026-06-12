@@ -88,7 +88,7 @@ Top:
 | **Verificar CRM + plataforma ARIBA** (cotação) | 31/07/2025 |
 | Estudo tempo Ergomat TNG-32 (parceria Rogério) | 07/07/2025 |
 
-🎯 **A "verificação de CRM" virou implementação do RD Station** — confirmado pelo projeto [[project-rdstation-bi-bigquery]] na memória.
+🎯 **A "verificação de CRM" virou implementação do RD Station** — confirmado pelo projeto project-rdstation-bi-bigquery na memória.
 
 ## 2° Semestre 2025
 
@@ -187,10 +187,10 @@ Top:
 - [[Ranking-Vendas-por-Cliente-2024-2025]] — ranking
 - [[Indicador-Abril-2026-Vendas]] — mais recente
 - [[ATA-Analise-Critica-2025-1S]] — cita +39,78%
-- [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] — matriz oficial
-- [[project-rdstation-bi-bigquery]] — CRM RD Station nasceu deste plano
+- MATRIZ-Correlacao-Objetivos-1S25-2S25 — matriz oficial
+- project-rdstation-bi-bigquery — CRM RD Station nasceu deste plano
 - [[MAPA-VENDAS-2026]]
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 
 ## Conteúdo bruto
 

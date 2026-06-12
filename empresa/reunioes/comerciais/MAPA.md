@@ -13,9 +13,9 @@ tags: [mapa]
 
 ## Vendedores ativos
 
-- [[Martins (representante vendas)]] (hunting) — maioria das visitas
-- [[Josielen (supervisora vendas)]] (farming)
-- [[Gabriel (gerente comercial)]] (ATAs ricas)
+- Martins (representante vendas) (hunting) — maioria das visitas
+- Josielen (supervisora vendas) (farming)
+- Gabriel (gerente comercial) (ATAs ricas)
 
 ## Convenções
 
@@ -25,4 +25,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (Reunioes) · [[skill-captura-atas-mes]]
+[[MAPA]] (Reunioes) · skill-captura-atas-mes

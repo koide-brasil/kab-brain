@@ -9,7 +9,7 @@ tags: [drive-index, geral, file-server]
 
 # 01-KAB/Drive-Index/GERAL/
 
-Pasta-MÃE compartilhada do file server da KAB ([[kab-drive-servidor]]).
+Pasta-MÃE compartilhada do file server da KAB (kab-drive-servidor).
 
 ID raiz: `1Cdm3CirPow_mKZOJLyoXLBxflzrMQD0R`
 
@@ -93,8 +93,8 @@ Pastas históricas:
 ## Relacionado
 
 - [[Reuniao-Bom-Dia-Daily-Meeting]]
-- [[kab-drive-servidor]] — memória sobre file server
-- [[skill-daily-meeting]] — substituto digital provável
+- kab-drive-servidor — memória sobre file server
+- skill-daily-meeting — substituto digital provável
 - [[Acompanhamento-Meta-Solucao-Diario]] (PRODUCAO FOR-111) — outro daily físico
-- [[kab-empresa-identidade]]
+- kab-empresa-identidade
 - [[Contexto-Partes-Interessadas]] — Welber histórico

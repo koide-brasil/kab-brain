@@ -17,7 +17,7 @@ tags: [geral, daily-meeting, reuniao-bom-dia, power-bi, indicadores, fonte]
 
 ## Resumo executivo
 
-Esta é a pasta-MÃE do **"Bom dia" da KAB** — a reunião matinal de gestão. Concentra **18 arquivos atualizados HOJE** (20/05/2026) com indicadores, dashboards Power BI, relatórios de faturamento, refugo, produção, RH, financeiro. **Provavelmente é a fonte que o [[skill-daily-meeting]] (HTML do Bruce) está digitalizando/substituindo gradualmente**.
+Esta é a pasta-MÃE do **"Bom dia" da KAB** — a reunião matinal de gestão. Concentra **18 arquivos atualizados HOJE** (20/05/2026) com indicadores, dashboards Power BI, relatórios de faturamento, refugo, produção, RH, financeiro. **Provavelmente é a fonte que o skill-daily-meeting (HTML do Bruce) está digitalizando/substituindo gradualmente**.
 
 ## Inventário (modificados HOJE — top 11)
 
@@ -108,11 +108,11 @@ Atualmente:
 ## Relacionado
 
 - [[_sobre]] — pasta GERAL
-- [[skill-daily-meeting]] — substituto digital (Bruce)
+- skill-daily-meeting — substituto digital (Bruce)
 - [[Acompanhamento-Meta-Solucao-Diario]] (PRODUCAO FOR-111) — outro daily físico, parou jul/2025
 - [[ITs-PCP-Sistemas-Atualizacao]] — IT-073 Atualização Power BI
-- [[Indicadores-RH]] (RH) — fonte similar
-- [[Demonstracoes-Financeiras-KAB-2023-2025]] (FINANCEIRO) — fonte cruzada
+- Indicadores-RH (RH) — fonte similar
+- Demonstracoes-Financeiras-KAB-2023-2025 (FINANCEIRO) — fonte cruzada
 - [[Ranking-Vendas-por-Cliente-2024-2025]] (COMERCIAL)
 
 ## Conteúdo bruto

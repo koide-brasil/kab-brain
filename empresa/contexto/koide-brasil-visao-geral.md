@@ -11,7 +11,7 @@ extraido_em: 2026-05-14
 
 # Koide Brasil — Visão geral
 
-> Perfil público da empresa extraído do site institucional em 2026-05-14. Pode haver divergência entre o que o site diz e a realidade interna — esta nota carrega só o que o site comunica. Fatos internos vão para [[contexto-kab]] ou notas específicas.
+> Perfil público da empresa extraído do site institucional em 2026-05-14. Pode haver divergência entre o que o site diz e a realidade interna — esta nota carrega só o que o site comunica. Fatos internos vão para contexto-kab ou notas específicas.
 
 ## Resumo executivo
 
@@ -94,6 +94,6 @@ A KAB busca crescimento nos mercados interno e externo, atendendo expectativas e
 ## Links relacionados
 
 - [[CLAUDE]]
-- [[contexto-kab]]
+- contexto-kab
 - [[Producao]]
-- [[_MOC-KAB]]
+- _MOC-KAB

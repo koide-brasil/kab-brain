@@ -25,7 +25,7 @@ drive_id: 1rYlNCtwWiMmuSi21NyuPNdkt8EXDPlIK
 
 | Papel | Quem |
 |---|---|
-| Gestor | [[Jonatas (supervisor manutencao)]] (Jonatas Moura) |
+| Gestor | Jonatas (supervisor manutencao) (Jonatas Moura) |
 | Equipe Apoio | Try-out, corretiva, preventiva |
 
 ## Indicadores formais
@@ -57,4 +57,4 @@ drive_id: 1rYlNCtwWiMmuSi21NyuPNdkt8EXDPlIK
 
 ## Links
 
-- [[_MOC-SGK]] · [[Manutencao]] · [[kab-processo-apoio-producao]] · [[Jonatas (supervisor manutencao)]]
+- [[_MOC-SGK]] · Manutencao · kab-processo-apoio-producao · Jonatas (supervisor manutencao)

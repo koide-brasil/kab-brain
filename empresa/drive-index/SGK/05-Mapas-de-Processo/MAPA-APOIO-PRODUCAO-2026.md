@@ -41,9 +41,9 @@ Mapa cobre **Ferramentaria + Manutenção** consolidados, gestor **Jônatas**. F
 
 - Decisões sobre ferramental (desenvolvimento, vida útil, ajustes)
 - Análise de manutenção corretiva vs preventiva
-- Cálculos de OS abertas/encerradas (cruzar com [[skill-daily-meeting]])
+- Cálculos de OS abertas/encerradas (cruzar com skill-daily-meeting)
 - Investimento em sobressalentes
-- Cruzar com [[kab-processo-apoio-producao]] (síntese anterior)
+- Cruzar com kab-processo-apoio-producao (síntese anterior)
 - Quando avaliar TPM da fábrica
 
 ## Indicadores formais
@@ -83,10 +83,10 @@ Mapa cobre **Ferramentaria + Manutenção** consolidados, gestor **Jônatas**. F
 
 ## Relacionado
 
-- [[kab-processo-apoio-producao]] — síntese anterior (memória)
-- [[skill-daily-meeting]] — aba Manutenção mostra OS criadas/encerradas, pausas, setup
+- kab-processo-apoio-producao — síntese anterior (memória)
+- skill-daily-meeting — aba Manutenção mostra OS criadas/encerradas, pausas, setup
 - [[MAPA-PRODUCAO-2026]] — manutenção atende a produção
-- [[contexto-kab]]
+- contexto-kab
 
 ## Conteúdo bruto extraído
 

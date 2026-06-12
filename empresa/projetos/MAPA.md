@@ -27,4 +27,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (KAB) · [[_MOC-KAB]]
+[[MAPA]] (KAB) · _MOC-KAB

@@ -41,7 +41,7 @@ tags: [clientes, lista, carteira]
 
 ## Cruzamento com fontes oficiais
 
-- **YAB (Yamada Brasil)** · **INDAB** · **DN Automotivos** · **Tuopu** · **Polistampo** · **Gestamp** · **SRK** estão no mapa de processo de Vendas (PR-04) e na memória [[kab-clientes-formais|kab-clientes-formais]] (cofre pessoal — detalhes operacionais).
+- **YAB (Yamada Brasil)** · **INDAB** · **DN Automotivos** · **Tuopu** · **Polistampo** · **Gestamp** · **SRK** estão no mapa de processo de Vendas (PR-04) e na memória kab-clientes-formais (cofre pessoal — detalhes operacionais).
 
 ## Convenção
 

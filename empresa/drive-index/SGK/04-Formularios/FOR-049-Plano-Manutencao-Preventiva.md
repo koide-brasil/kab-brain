@@ -77,15 +77,15 @@ Padrão observado (LAV.SUBRA mas comum às outras):
 - Antes de planejar manutenção em qualquer das 16 máquinas listadas
 - Quando KPI "Manutenção corretiva ≤ 5/mês" estourar (entender qual máquina falhou na preventiva)
 - Pra entender o que cada máquina precisa de cuidado
-- Cruzar com [[MAPA-APOIO-PRODUCAO-2026]] (Jônatas) e [[skill-daily-meeting]] (aba Manutenção)
+- Cruzar com [[MAPA-APOIO-PRODUCAO-2026]] (Jônatas) e skill-daily-meeting (aba Manutenção)
 - Investigação de causa raiz de paradas
 
 ## Relacionado
 
 - [[MAPA-APOIO-PRODUCAO-2026]] — Jônatas, metas Ajuste ≤30h e Corretiva ≤5/mês
-- [[skill-daily-meeting]] — aba Manutenção mostra OS criadas/encerradas e pausas
+- skill-daily-meeting — aba Manutenção mostra OS criadas/encerradas e pausas
 - [[FOR-042-Controle-Informacao-Documentada]] — índice mestre dos FORs
-- [[kab-processo-apoio-producao]]
+- kab-processo-apoio-producao
 
 ## Conteúdo bruto extraído
 

@@ -21,7 +21,7 @@ Disponibilizar os dados do CRM (RD Station) num data warehouse (BigQuery) e cons
 - O CRM concentra dados de pipeline, contatos, atividades e funil que hoje não saem da interface da RD.
 - O plano da RD Station inclui o add-on **Integração BI** (libera dataset BigQuery), já habilitado em **2026-05-17** para `e.shiroiwa@koidebrasil.com`.
 - Caso de uso de momento: **analítico/dashboard** (não operacional/integração). Decisão de descartar API REST e Kondado/Albato por enquanto.
-- Médio prazo: cruzar deals do CRM com faturamento DBCorp (ver [[project-erp-agentes-kab]] no MEMORY).
+- Médio prazo: cruzar deals do CRM com faturamento DBCorp (ver project-erp-agentes-kab no MEMORY).
 
 ## Escopo
 
@@ -47,7 +47,7 @@ Disponibilizar os dados do CRM (RD Station) num data warehouse (BigQuery) e cons
 
 Caso de uso atual (visitas + cotações enviadas) tem **270 itens totais** entre deals/tasks/activities. Volume muito baixo pra justificar a complexidade do BigQuery — `curl` + script Python resolve. BigQuery fica pra quando:
 - Volume crescer pra >1k deals.
-- Precisar cruzar deals com faturamento real do [[dbcorp-mapeamento|DBCorp]].
+- Precisar cruzar deals com faturamento real do DBCorp.
 - Equipe quiser dashboards self-service no Looker Studio.
 
 ## Marcos
@@ -212,6 +212,6 @@ _(Append-only.)_
 
 ## Links relacionados
 
-- [[Comercial]] — departamento dono do dado
-- [[_MOC-KAB]]
+- Comercial — departamento dono do dado
+- _MOC-KAB
 - Email RD Station (Gmail): threadId `19e36eed44db87f5`, assunto "✅ Integração BI habilitada"

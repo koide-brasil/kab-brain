@@ -23,4 +23,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (SGK) · [[_MOC-SGK]] · [[kab-mapas-processo-indice]]
+[[MAPA]] (SGK) · [[_MOC-SGK]] · kab-mapas-processo-indice

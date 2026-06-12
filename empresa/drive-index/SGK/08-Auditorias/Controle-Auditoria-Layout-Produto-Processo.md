@@ -98,7 +98,7 @@ Planilha-mestre que **rastreia a validade das inspeções de layout** de cada PN
 - [[Inspecao-Layout-SRK-2025]] — 34 PDFs de Sumiriko enviados em 11/2025
 - [[FOR-058-Controle-Informacao-Documentada-Processos]]
 - [[FOR-061-Auditoria-Layout-Produto-Processo]] — formulário de auditoria
-- [[kab-clientes-formais]]
+- kab-clientes-formais
 - [[Plano-Programa-Auditoria-Interna-2024-2025]]
 
 ## Conteúdo bruto

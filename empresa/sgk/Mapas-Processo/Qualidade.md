@@ -23,8 +23,8 @@ drive_id: 1zPxGM91-PbS2uVoVrgt5VVBMMECMd2Nz
 
 | Papel | Quem |
 |---|---|
-| Gestor Qualidade (operacional) | [[Flavio (supervisor qualidade)]] |
-| **SGQ** (sistema) — papel SEPARADO | [[Madora (supervisora SGK)]] |
+| Gestor Qualidade (operacional) | Flavio (supervisor qualidade) |
+| **SGQ** (sistema) — papel SEPARADO | Madora (supervisora SGK) |
 | Equipe multifuncional | FMEA, planos de ação |
 | Operadores Qualidade | Inspeções, calibração, ensaios |
 
@@ -59,4 +59,4 @@ Novo produto (APQP/PPAP) → Controle de processo (CEP, MSA) → Recebimento MP 
 
 ## Links
 
-- [[_MOC-SGK]] · [[Qualidade]] · [[kab-processo-qualidade]] · [[kab-rnc-fluxo]] · [[Refugo Producao]]
+- [[_MOC-SGK]] · [[Qualidade]] · kab-processo-qualidade · kab-rnc-fluxo · [[Refugo Producao]]

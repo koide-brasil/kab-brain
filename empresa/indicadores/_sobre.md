@@ -38,8 +38,8 @@ Quando há divergência entre as origens, **Análise Crítica ganha** (mais rece
 
 ## Vínculo com skills
 
-- [[skill-daily-meeting]] já monitora vários no daily.
-- [[skill-custeio-mensal]] e [[skill-custeio-anual]] cobrem custos por máquina/peça.
+- skill-daily-meeting já monitora vários no daily.
+- skill-custeio-mensal e skill-custeio-anual cobrem custos por máquina/peça.
 - KPIs **sem skill ainda**: EBITDA (gap!), Satisfação Cliente, IQF Fornecedor.
 
 ## MOC
@@ -48,4 +48,4 @@ Quando há divergência entre as origens, **Análise Crítica ganha** (mais rece
 
 ## Links
 
-- [[CLAUDE]] · [[_MOC-KAB]] · [[contexto-kab]]
+- [[CLAUDE]] · _MOC-KAB · contexto-kab

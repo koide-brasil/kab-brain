@@ -58,4 +58,4 @@ O **refugo em R$** ([[Refugo R$]]) é monitorado separadamente pelo Flávio (Qua
 
 ## Links
 
-- [[../indicadores/MAPA]] · [[../../areas/producao/contexto/sobre-o-departamento]] · [[Fernando (coordenador producao)]] · [[Flavio (supervisor qualidade)]] · [[kab-objetivos-correlacao]]
+- [[../indicadores/MAPA]] · [[../../areas/producao/contexto/sobre-o-departamento]] · Fernando (coordenador producao) · Flavio (supervisor qualidade) · kab-objetivos-correlacao

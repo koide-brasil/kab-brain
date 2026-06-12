@@ -53,4 +53,4 @@ OTD aparece monitorada na skill `daily-meeting` mas **sem meta formal vigente**.
 
 ## Links
 
-- [[../indicadores/MAPA]] · [[../../areas/logistica/contexto/sobre-o-departamento]] · [[../../areas/producao/contexto/sobre-o-departamento]] · [[Suelen (supervisora logistica)]] · [[Fernando (coordenador producao)]]
+- [[../indicadores/MAPA]] · [[../../areas/logistica/contexto/sobre-o-departamento]] · [[../../areas/producao/contexto/sobre-o-departamento]] · Suelen (supervisora logistica) · Fernando (coordenador producao)

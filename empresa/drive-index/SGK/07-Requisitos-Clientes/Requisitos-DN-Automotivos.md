@@ -72,15 +72,15 @@ DN Automotivos é o **cliente salva-pátria** da KAB em 2025-2026 (memória: 22 
 - Investigação de NC com DN (cruzar com [[FOR-027-Matriz-RNC-2026]])
 - Auditoria de processo DN (CRE 00-03 lista requisitos)
 - Cálculo de SLA logístico (PLF 00-05)
-- Cruzar com [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] (DN é o motor de crescimento 2025)
+- Cruzar com MATRIZ-Correlacao-Objetivos-1S25-2S25 (DN é o motor de crescimento 2025)
 
 ## Relacionado
 
-- [[kab-clientes-formais]] — DN como cliente formal
+- kab-clientes-formais — DN como cliente formal
 - [[FOR-027-Matriz-RNC-2026]] — RNC 001/2026 foi DN (Cannotto)
 - [[MAPA-VENDAS-2026]] — gestão comercial DN (Josielen + Gabriel)
 - [[ATA-Analise-Critica-2025-1S]] — DN como salvação do EBITDA
-- [[contexto-kab]]
+- contexto-kab
 
 ## Conteúdo bruto
 

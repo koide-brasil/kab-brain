@@ -23,7 +23,7 @@ Path: `~/Área de trabalho/KAB/`
 
 ## Relação com SGK
 
-- Provável vinculação com **PR/IT da Qualidade ou SGQ** (ver mapa de processos SGK pela memória [[kab-processo-qualidade]]).
+- Provável vinculação com **PR/IT da Qualidade ou SGQ** (ver mapa de processos SGK pela memória kab-processo-qualidade).
 - Brigada de incêndio é treinada como parte do plano de treinamentos FOR-030 — confirmar com Mayra.
 
 ## Cruzamento

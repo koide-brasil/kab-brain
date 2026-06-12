@@ -23,7 +23,7 @@ tags: [sgk, formulario, for-115, for-026, for-113, treinamento, cultura, rastrea
 - **Drive ID**: 1E9JbTPWVu-eL85He2dJwKyO_pKsKI__f
 - **Estrutura**: Treinamento Padronizado do Operador em **5 etapas**, matriz Lista de Treinamentos × Nomes (até 20 colaboradores), com pontuação 0/25/75/100 (provavelmente % de domínio do conteúdo)
 - **Função**: matriz simplificada de competências por treinamento (template — colunas IT-XXX a serem preenchidas com IT reais)
-- **Relação com [[skill-daily-meeting]]**: complementar aos FOR-030 (planejamento) e FOR-039 (lista presença) — pode evoluir pra ser fonte de "% conclusão YTD" mais granular
+- **Relação com skill-daily-meeting**: complementar aos FOR-030 (planejamento) e FOR-039 (lista presença) — pode evoluir pra ser fonte de "% conclusão YTD" mais granular
 
 ## FOR-026 — Questionário de Conscientização (Rev 00, abr/2025)
 
@@ -51,7 +51,7 @@ tags: [sgk, formulario, for-115, for-026, for-113, treinamento, cultura, rastrea
 
 ## Quando consultar
 
-- Treinamento: cruzar com [[skill-daily-meeting]] aba RH (FOR-030)
+- Treinamento: cruzar com skill-daily-meeting aba RH (FOR-030)
 - Conscientização: durante onboarding ou após melhoria significativa
 - Etiquetas: rastreabilidade física quando investigar NC ou retrabalho
 
@@ -59,7 +59,7 @@ tags: [sgk, formulario, for-115, for-026, for-113, treinamento, cultura, rastrea
 
 - [[MAPA-RH-2026]] — Mayra Santos (treinamentos)
 - [[MAPA-QUALIDADE-2026]] — Flávio Sales (rastreabilidade)
-- [[skill-daily-meeting]] — aba RH consome FOR-030
+- skill-daily-meeting — aba RH consome FOR-030
 - [[Contexto-Partes-Interessadas]] — FOR-026 referenciado
 - [[FOR-042-Controle-Informacao-Documentada]]
 

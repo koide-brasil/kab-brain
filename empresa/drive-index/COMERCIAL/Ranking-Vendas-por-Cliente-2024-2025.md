@@ -93,7 +93,7 @@ Ranking oficial de faturamento líquido por cliente. **2024**: SRK domina absolu
 - Antes de decisões sobre clientes em queda (Yorozu, Indab, Polistampo)
 - Pra fechar ATA Análise Crítica
 - Cruzar com [[Monitoramento-Satisfacao-Clientes-2025]] e [[IQF-Recebido-Clientes-2024-2026]]
-- Cruzar com [[skill-daily-meeting]] (Top 10 clientes MTD)
+- Cruzar com skill-daily-meeting (Top 10 clientes MTD)
 
 ## Relacionado
 
@@ -102,8 +102,8 @@ Ranking oficial de faturamento líquido por cliente. **2024**: SRK domina absolu
 - [[Monitoramento-Satisfacao-Clientes-2025]] — IQF mostra a queda Indab
 - [[ATA-Analise-Critica-2025-1S]] — usa este dado
 - [[MAPA-VENDAS-2026]] — Gabriel Pedon
-- [[kab-clientes-formais]]
-- [[kab-processo-vendas]]
+- kab-clientes-formais
+- kab-processo-vendas
 
 ## Conteúdo bruto
 

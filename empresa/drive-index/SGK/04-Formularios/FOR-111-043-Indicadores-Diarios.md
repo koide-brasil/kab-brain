@@ -23,7 +23,7 @@ tags: [sgk, formulario, for-111, for-043, indicadores, daily, refugo, book-defei
   - Linhas por família: **Corte · Chanfro · Prensa · Ergomat** (provável padrão das 4 famílias)
   - Colunas: Operador · Data · Linhas · Meta diária · Realizada · % atingido · Qtd Refugo · Meta refugo 0,65% · Comentários · Causa raiz · Solução
 - **Meta de refugo formal**: **0,65%** (menos restritiva que a meta do MAPA-PRODUÇÃO 0,5% — provavelmente meta operacional de tolerância)
-- **Vínculo com [[skill-daily-meeting]]**: fonte de DADOS reais (porque o skill puxa do DBCorp, mas este FOR é onde os operadores comentam **causa raiz** — dado qualitativo que falta no daily)
+- **Vínculo com skill-daily-meeting**: fonte de DADOS reais (porque o skill puxa do DBCorp, mas este FOR é onde os operadores comentam **causa raiz** — dado qualitativo que falta no daily)
 - **Sugestão**: integrar leitura desse FOR no daily-meeting pra trazer comentários qualitativos
 
 ## FOR-043 — Book Defeitos (Rev 01, abr/2025)
@@ -44,7 +44,7 @@ tags: [sgk, formulario, for-111, for-043, indicadores, daily, refugo, book-defei
 
 - [[MAPA-PRODUCAO-2026]] — meta produção e refugo
 - [[MAPA-QUALIDADE-2026]] — Flávio Sales
-- [[skill-daily-meeting]] — aba Qualidade (refugo diário)
+- skill-daily-meeting — aba Qualidade (refugo diário)
 - [[FOR-027 — Matriz RNC]] — quando absorvido (do daily-meeting hoje)
 - [[FOR-042-Controle-Informacao-Documentada]]
 

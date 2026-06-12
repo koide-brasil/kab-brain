@@ -19,7 +19,7 @@ tags: [mapa]
 ## KPIs catalogados (7)
 
 - EBITDA (KPI estratégico — vive no cofre pessoal por sensibilidade) (5% meta, 4,12% real 1ºS25) 🔴
-- [[Faturamento Bruto]] (+15% YoY meta)
+- Faturamento Bruto (+15% YoY meta)
 - [[OTD]] (95,6% atual)
 - [[Refugo Producao]] (0,17% atual ✅)
 - [[Gastos sobre Faturamento]] (2,62% real, meta 2,5% 🔴)
@@ -34,4 +34,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (KAB) · [[../indicadores/MAPA]] · [[kab-objetivos-correlacao]]
+[[MAPA]] (KAB) · [[../indicadores/MAPA]] · kab-objetivos-correlacao

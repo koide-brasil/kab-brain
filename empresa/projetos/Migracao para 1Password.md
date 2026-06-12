@@ -75,6 +75,6 @@ Decidir se vai de "fix curto + migrar pra 1P depois" OU "esperar 1P e fazer só 
 
 ## Links relacionados
 
-- [[setup-google-mcps]] — credenciais Google atuais no laptop
+- setup-google-mcps — credenciais Google atuais no laptop
 - [[Bruce remoto na VPS Hostinger]] — contexto multi-instância
 - [[CLAUDE]] — regras do vault

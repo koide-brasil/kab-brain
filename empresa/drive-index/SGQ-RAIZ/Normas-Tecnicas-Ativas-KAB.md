@@ -119,7 +119,7 @@ A pasta-mãe [[Normas-Obsoletas-JIS-TSH]] (em SGK/13-Normas) tinha aviso "**NÃO
 - [[Pipeline-Cotacoes-BYD-VW-Truck]] — gap inox
 - [[Especificacoes-de-Pedido-Fornecedor]] — usa STKM13C/E235+N
 - [[ITs-Qualidade-Inspecao]] — IT-052 cita 7 entidades normalizadoras (todas presentes aqui)
-- [[MAPA-QUALIDADE-2026]] · [[kab-empresa-identidade]]
+- [[MAPA-QUALIDADE-2026]] · kab-empresa-identidade
 
 ## Conteúdo bruto
 

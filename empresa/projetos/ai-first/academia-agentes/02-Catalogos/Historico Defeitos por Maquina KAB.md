@@ -164,4 +164,4 @@ O DBCorp dá o **quanto** (refugo por máquina/motivo, acima). O **porquê** est
 
 Pendência humana (Flávio/Madora): confirmar causa-raiz dos outliers (NPK-250, usinagem) — máquina, ferramenta ou peça? E se já foi tratada ou segue aberta.
 
-Links: [[Catálogo de Máquinas KAB]] · [[Matriz Peca Processo KAB]] · [[Roteiro Entrevista - Flavio e Madora - Qualidade e Requisitos]] · [[kab-rnc-fluxo]]
+Links: [[Catalogo de Maquinas KAB]] · [[Matriz Peca Processo KAB]] · [[Roteiro Entrevista - Flavio e Madora - Qualidade e Requisitos]] · kab-rnc-fluxo

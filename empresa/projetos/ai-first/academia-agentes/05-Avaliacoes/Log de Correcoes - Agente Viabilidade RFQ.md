@@ -57,7 +57,7 @@ terceirização (LW/CASTEL/WINOA/ECOPLATING/ITARAÌ/LIMMAR). A KAB cotou → pe�
 **Correção 3-REV (substitui a Correção 3):** operação fora do core **não** é "Não atende" — checar
 **path de parceiro** primeiro. Perfil AL não-tubular / usinagem complexa → **"Atende via LW
 Usinagem"**. "Não atende" só pra processo que **nem KAB nem a rede de parceiros faz** (fundição,
-forjaria, embutimento profundo, extrusão). Regra detalhada no playbook + ficha [[LW Usinagem]] +
+forjaria, embutimento profundo, extrusão). Regra detalhada no playbook + ficha LW Usinagem +
 bloco no Catálogo de Máquinas.
 
 ### Placar REVISADO (5 casos)

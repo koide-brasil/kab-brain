@@ -89,15 +89,15 @@ Procedimento-mãe do processo Comercial da KAB. Padroniza atividades de relacion
 - Análise de cotação (fluxo de aprovação, papéis)
 - Validar quem aprova o quê em propostas
 - Cruzar com [[MAPA-VENDAS-2026]]
-- Cruzar com [[kab-procedimentos-pr]]
+- Cruzar com kab-procedimentos-pr
 
 ## Relacionado
 
 - [[MAPA-VENDAS-2026]] — mapa do processo que usa este PR
-- [[kab-procedimentos-pr]] — síntese dos 10 PRs (memória)
-- [[skill-captura-atas-mes]] — captura ATAs comerciais do RD Station
-- [[skill-daily-meeting]] — alimenta dados do funil comercial
-- [[kab-clientes-formais]]
+- kab-procedimentos-pr — síntese dos 10 PRs (memória)
+- skill-captura-atas-mes — captura ATAs comerciais do RD Station
+- skill-daily-meeting — alimenta dados do funil comercial
+- kab-clientes-formais
 
 ## Conteúdo bruto extraído
 

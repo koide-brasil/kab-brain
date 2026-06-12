@@ -25,7 +25,7 @@ tags: [atas, comercial, visitas, clientes]
 
 ## Cruzamento
 
-- **Skill `captura-atas-mes`** ([[skill-captura-atas-mes]] na memória) puxa ATAs do **RD Station CRM**. As ATAs daqui da pasta local são versões físicas antigas ou paralelas — verificar se ainda fazem sentido.
+- **Skill `captura-atas-mes`** (skill-captura-atas-mes na memória) puxa ATAs do **RD Station CRM**. As ATAs daqui da pasta local são versões físicas antigas ou paralelas — verificar se ainda fazem sentido.
 - Procedimento PR-04 (Vendas) deve referenciar ATAs como evidência
 
 ## Estrutura típica de cada pasta

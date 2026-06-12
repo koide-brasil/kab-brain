@@ -20,8 +20,8 @@ _(A preencher: escopo exato — qualidade, ambiental, segurança, integrado? Nor
 
 ## Gestor e time
 
-- **Gerente**: [[Mayra (gerente RH e SGK)]] — membro do [[G5 - Comite Estrategico]]. Compartilha gestão com o [[RH]].
-- **Supervisora**: [[Madora (supervisora SGK)]] — supervisão dedicada ao SGK.
+- **Gerente**: Mayra (gerente RH e SGK) — membro do G5 - Comite Estrategico. Compartilha gestão com o [[RH]].
+- **Supervisora**: Madora (supervisora SGK) — supervisão dedicada ao SGK.
 - **Time**: _(a preencher.)_
 
 ## Indicadores que importam (KPIs)
@@ -54,10 +54,10 @@ _(Append-only.)_
 
 ## Links relacionados
 
-- [[_MOC-KAB]]
-- [[contexto-kab]]
-- [[Mayra (gerente RH e SGK)]]
-- [[Madora (supervisora SGK)]]
+- _MOC-KAB
+- contexto-kab
+- Mayra (gerente RH e SGK)
+- Madora (supervisora SGK)
 - [[RH]]
 - [[Qualidade]]
-- [[G5 - Comite Estrategico]]
+- G5 - Comite Estrategico

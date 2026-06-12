@@ -57,6 +57,6 @@ Alinhado com o Caio visita comercial nas instalações da SCHADEK para o dia 19/
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69e137412db7fa0020890fad)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

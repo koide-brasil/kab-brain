@@ -112,7 +112,7 @@ ECOPLATING, ITARAÌ, LIMMAR — cada uma com frete + custo adm.). Logo:
   torneamento de maciço, usinagem de perfil não-tubular, tratamento térmico, plating → quase sempre
   há **path via parceiro**. O custo entra na linha do parceiro na cotação.
 - **Regra do path LW:** **perfil de alumínio NÃO-tubular** ou peça que exige **usinagem mais
-  complexa** → vai para a **LW Usinagem** (parceiro de usinagem; FornecId 38). Veja [[LW Usinagem]].
+  complexa** → vai para a **LW Usinagem** (parceiro de usinagem; FornecId 38). Veja LW Usinagem.
   Classe correta = **"Atende via LW Usinagem (parceiro)"**, não "Não atende". (Confirmado: cotações
   Zhongding TA60-1001300AC e TA60-1001400BC têm a linha LW preenchida — R$ 1,35 e R$ 3,70/pç — a KAB
   cotou e essas peças são viáveis via LW.)

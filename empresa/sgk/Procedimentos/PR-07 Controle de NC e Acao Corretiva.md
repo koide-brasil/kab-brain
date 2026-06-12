@@ -23,7 +23,7 @@ Procedimentos pra controle do produto NC + ação corretiva + ação preventiva.
 
 **Todos os processos**: Gerência · Qualidade · Comercial · Produção.
 
-## Pontos-chave (resumo — fluxo completo em [[kab-rnc-fluxo]])
+## Pontos-chave (resumo — fluxo completo em kab-rnc-fluxo)
 
 - **Caixa vermelha**: NC vai pra caixa vermelha; Qualidade tem **15 dias** pra dispor.
 - **Concessão do Cliente**: via **FOR-045 Desvio_Derroga**.
@@ -43,4 +43,4 @@ Procedimentos pra controle do produto NC + ação corretiva + ação preventiva.
 
 ## Links
 
-- [[_MOC-SGK]] · [[kab-rnc-fluxo]] · [[Flavio (supervisor qualidade)]] · [[Madora (supervisora SGK)]] · [[NC Cliente]]
+- [[_MOC-SGK]] · kab-rnc-fluxo · Flavio (supervisor qualidade) · Madora (supervisora SGK) · [[NC Cliente]]

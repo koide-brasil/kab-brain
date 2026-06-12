@@ -40,4 +40,4 @@ Logística + Qualidade (cooperação).
 
 ## Links
 
-- [[_MOC-SGK]] · [[Fernando (coordenador producao)]] · [[Flavio (supervisor qualidade)]] · [[Suelen (supervisora logistica)]] · [[Logistica]]
+- [[_MOC-SGK]] · Fernando (coordenador producao) · Flavio (supervisor qualidade) · Suelen (supervisora logistica) · [[Logistica]]

@@ -350,14 +350,14 @@ Contratos operacionais (hosting, gateway pagamento, material de escritório) NÃ
    ## Links
 
    - [[gabriel-pedon]] — vendedor mencionado
-   - [[yab]] — cliente
+   - yab — cliente
    - [[vendas]] — área principal
    ```
 
 6. **Wikilinks (SEMPRE)**: na seção `## Links` do final, listar **toda entidade mencionada** como `[[nome-kebab-case]]`:
    - Pessoas: `[[gabriel-pedon]]`, `[[mayra-santos]]`, `[[carla-oliveira]]`, `[[fernando-macedo]]`, `[[flavio-sales]]`, `[[suellen-silvestrini]]`, `[[jonatas-moura]]`
-   - Áreas: `[[vendas]]`, `[[producao]]`, `[[qualidade]]`, `[[logistica]]`, `[[manutencao]]`, `[[rh]]`, `[[financeiro]]`
-   - Clientes formais: `[[yab]]`, `[[indab]]`, `[[sumiriko]]`, `[[dn-automotivos]]`, `[[polistampo]]`, `[[tuopu]]`, `[[gestamp]]`
+   - Áreas: `[[vendas]]`, `[[producao]]`, `[[qualidade]]`, `[[logistica]]`, `manutencao`, `[[rh]]`, `[[financeiro]]`
+   - Clientes formais: `yab`, `indab`, `sumiriko`, `dn-automotivos`, `polistampo`, `tuopu`, `[[gestamp]]`
    - Processos SGK quando citados: `[[pr-04]]`, `[[it-029]]`, `[[for-114]]`, `[[mq-01]]`
    - Projetos: `[[bcp]]`, `[[daily-meeting]]`, etc.
    

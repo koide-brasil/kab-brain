@@ -40,9 +40,9 @@ Mapa do processo Financeiro, gestora **Carla Oliveira** (coordenadora). Cobre ca
 ## Quando consultar
 
 - Discussões sobre fluxo de caixa, contas a receber, gastos/faturamento
-- Análise de movimentação contábil (cruzar com [[skill-movimentacao-contas]])
+- Análise de movimentação contábil (cruzar com skill-movimentacao-contas)
 - Decisões sobre aprovação de pedido de compra (Carla aprova com base em fluxo)
-- Cruzar com [[kab-processo-financeiro]] (síntese anterior)
+- Cruzar com kab-processo-financeiro (síntese anterior)
 - Cruzar com [[skill-heartbeat-rentabilidade]] (vigia o KPI 2,5%)
 
 ## Indicadores formais
@@ -79,12 +79,12 @@ Mapa do processo Financeiro, gestora **Carla Oliveira** (coordenadora). Cobre ca
 
 ## Relacionado
 
-- [[kab-processo-financeiro]] — síntese anterior (memória do Bruce — também aponta a defasagem do mapa)
+- kab-processo-financeiro — síntese anterior (memória do Bruce — também aponta a defasagem do mapa)
 - [[skill-heartbeat-rentabilidade]] — vigia o KPI 2,5% e cria alertas
-- [[skill-daily-meeting]] — aba Financeiro com orçamento × pedidos por CC
-- [[skill-movimentacao-contas]] — relatório mensal pra Dorna
-- [[dbcorp-tabelas-financeiras]]
-- [[contexto-kab]]
+- skill-daily-meeting — aba Financeiro com orçamento × pedidos por CC
+- skill-movimentacao-contas — relatório mensal pra Dorna
+- dbcorp-tabelas-financeiras
+- contexto-kab
 
 ## Conteúdo bruto extraído
 

@@ -25,8 +25,8 @@ tags: [japones, idioma, treinamento, cultura, matriz]
 
 ## Cruzamento
 
-- **Houkokusho mensal**: skill [[skill-relatorio-mensal-matriz]] gera o report em JP — quem domina o idioma ganha autonomia.
-- **Conselheiro mensal**: depois do houkokusho, o conselheiro responde com observações sobre KTI/KMEX/KAB — em japonês formal (memória [[processo-resposta-conselheiro]]).
+- **Houkokusho mensal**: skill skill-relatorio-mensal-matriz gera o report em JP — quem domina o idioma ganha autonomia.
+- **Conselheiro mensal**: depois do houkokusho, o conselheiro responde com observações sobre KTI/KMEX/KAB — em japonês formal (memória processo-resposta-conselheiro).
 
 ## Path local
 

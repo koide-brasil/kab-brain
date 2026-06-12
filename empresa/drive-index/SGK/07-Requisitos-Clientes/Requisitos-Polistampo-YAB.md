@@ -46,11 +46,11 @@ tags: [sgk, requisitos-cliente, polistampo, yab, yorozu, pdf-imagem]
 
 - Antes de entrega pra YAB — abrir Protocolo no Drive pra ver janela de recebimento
 - Mudanças formais com Polistampo — abrir arquivo pra ver o que mudou
-- Cruzar com [[kab-clientes-formais]]
+- Cruzar com kab-clientes-formais
 
 ## Relacionado
 
-- [[kab-clientes-formais]] — Polistampo (#19/47) e YAB (#2) como clientes formais
+- kab-clientes-formais — Polistampo (#19/47) e YAB (#2) como clientes formais
 - [[MAPA-VENDAS-2026]]
 - [[FOR-027-Matriz-RNC-2026]]
 - [[FOR-042-Controle-Informacao-Documentada]]

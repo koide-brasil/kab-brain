@@ -30,4 +30,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (KAB) · [[_MOC-SGK]] · [[kab-sgk-estrutura]]
+[[MAPA]] (KAB) · [[_MOC-SGK]] · kab-sgk-estrutura

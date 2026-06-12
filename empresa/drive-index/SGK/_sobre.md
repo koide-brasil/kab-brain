@@ -35,6 +35,6 @@ prioridade e cria notas aqui. Cada arquivo do Drive vira no máximo 1 arquivo .m
 ## Links
 
 - [[_sobre]] (pasta-mãe)
-- [[skill-daily-meeting]] — fonte da infra de auth Drive
-- [[kab-sgk-estrutura]] — overview SGK
-- [[kab-mapas-processo-indice]] — mapas já parcialmente mapeados antes
+- skill-daily-meeting — fonte da infra de auth Drive
+- kab-sgk-estrutura — overview SGK
+- kab-mapas-processo-indice — mapas já parcialmente mapeados antes

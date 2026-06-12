@@ -25,7 +25,7 @@ drive_id: 1QlQ9mDnBpaH8eBRiS13fdaz_Oy6bUfj1
 
 | Papel | Quem |
 |---|---|
-| Gestora | [[Carla (coordenadora fiscal e financeiro)]] (Carla Oliveira) |
+| Gestora | Carla (coordenadora fiscal e financeiro) (Carla Oliveira) |
 | Fiscal | CFOP, classificação fiscal, natureza operação |
 | Faturamento | Emissão de Danfes |
 | Alta Direção | Aprovação PCs, recebe relatórios |
@@ -56,9 +56,9 @@ Cadastro item DBCorp → análise custos/caixa → acompanhamento budget → apr
 ## Gaps notados
 
 - **Mapa desatualizado ~10 meses** — Madora atualizou 6/7 em 2026 e esqueceu Financeiro.
-- **EBITDA não aparece como KPI** no mapa (vive na Análise Crítica). Ver [[EBITDA]] (KPI estratégico vermelho).
+- **EBITDA não aparece como KPI** no mapa (vive na Análise Crítica). Ver EBITDA (KPI estratégico vermelho).
 - Carla **não elabora nenhum PR** formal — Financeiro tem mapa de processo mas sem procedimento detalhado.
 
 ## Links
 
-- [[_MOC-SGK]] · [[Fiscal e Financeiro]] · [[kab-processo-financeiro]] · [[EBITDA]] · [[Gastos sobre Faturamento]]
+- [[_MOC-SGK]] · Fiscal e Financeiro · kab-processo-financeiro · EBITDA · [[Gastos sobre Faturamento]]

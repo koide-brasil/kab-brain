@@ -59,7 +59,7 @@ A pasta-mãe `13 - Normas NÃO DIVULGAR` tem **versões mais novas** dessas norm
 - [[ITs-Qualidade-Inspecao]] — IT-052 cita JIS como uma das 7 entidades normalizadoras
 - [[MAPA-QUALIDADE-2026]] — Flávio Sales gestiona aplicação de normas
 - [[FOR-042-Controle-Informacao-Documentada]]
-- [[kab-empresa-identidade]]
+- kab-empresa-identidade
 
 ## Conteúdo bruto
 

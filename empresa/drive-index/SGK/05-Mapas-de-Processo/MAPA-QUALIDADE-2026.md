@@ -42,7 +42,7 @@ Mapa do processo de Qualidade da KAB, gestor **Flávio Sales**. Cobre todo o cic
 - Planejamento de PPAP/FMEA pra novos itens
 - Gestão de calibração e MSA dos instrumentos
 - Qualquer dúvida sobre o fluxo formal SGK
-- Cruzar com [[kab-processo-qualidade]] (memória sintética) e [[kab-rnc-fluxo]]
+- Cruzar com kab-processo-qualidade (memória sintética) e kab-rnc-fluxo
 - Quando avaliar carga horária / completude do RNC FOR-027
 
 ## Indicadores formais
@@ -102,11 +102,11 @@ Mapa do processo de Qualidade da KAB, gestor **Flávio Sales**. Cobre todo o cic
 
 ## Relacionado
 
-- [[kab-processo-qualidade]] — síntese anterior (memória do Bruce)
-- [[kab-rnc-fluxo]] — prazos do PR-07 (1d → 7d → 15d → 20d → 60d/3 lotes)
+- kab-processo-qualidade — síntese anterior (memória do Bruce)
+- kab-rnc-fluxo — prazos do PR-07 (1d → 7d → 15d → 20d → 60d/3 lotes)
 - [[MAPA-PRODUCAO-2026]] — interdependência via inspeção e RNC
 - [[FOR-027 — Matriz RNC]] — quando criado
-- [[contexto-kab]]
+- contexto-kab
 
 ## Conteúdo bruto extraído
 

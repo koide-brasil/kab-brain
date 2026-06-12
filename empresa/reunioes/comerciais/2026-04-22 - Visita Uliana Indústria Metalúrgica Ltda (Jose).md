@@ -57,6 +57,6 @@ Ficou acordado a intensão de iniciarmos a participação de cotaçoes para prod
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69c43df508ea7400267a5a3b)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

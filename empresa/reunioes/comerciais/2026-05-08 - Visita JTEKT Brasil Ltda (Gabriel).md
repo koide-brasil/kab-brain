@@ -96,6 +96,6 @@ Considerações finais: Cliente com grande potêncial de compra, que teremos abe
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69f1084a58195300138a0a2a)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

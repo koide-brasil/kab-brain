@@ -99,7 +99,7 @@ Pela amostra extraída:
 - **ABR/2026**: vazio (no que vi)
 - **MAI/2026**: 1 treinamento (IT-062)
 
-🚨 **Gap forte ABR-MAI/2026** — pode explicar a queda de treinamentos vista em [[Indicadores-RH]].
+🚨 **Gap forte ABR-MAI/2026** — pode explicar a queda de treinamentos vista em Indicadores-RH.
 
 ## Status legenda
 
@@ -110,7 +110,7 @@ Pela amostra extraída:
 
 ## Conexão com daily-meeting
 
-A skill **[[skill-daily-meeting]]** aba RH lê esta planilha pra calcular:
+A skill **skill-daily-meeting** aba RH lê esta planilha pra calcular:
 - Treinamentos planejados no mês
 - Treinamentos realizados no mês
 - Colaboradores com treinamento pendente (refatoração 2 cards)
@@ -120,16 +120,16 @@ A skill **[[skill-daily-meeting]]** aba RH lê esta planilha pra calcular:
 - Antes da daily reunião pra ver status mensal
 - Auditoria interna SGK (verifica plano vs execução)
 - Decisão sobre adesão / atrasos
-- Cruzar com [[Matriz-Versatilidade-Operadores]] (gap atual de competência)
+- Cruzar com Matriz-Versatilidade-Operadores (gap atual de competência)
 - Cruzar com [[Treinamentos-a-Realizar-2026]] (lista de pendências)
 
 ## Relacionado
 
-- [[Matriz-Versatilidade-Operadores]] — competência atual
+- Matriz-Versatilidade-Operadores — competência atual
 - [[Treinamentos-a-Realizar-2026]] — pendências
-- [[Treinamentos-RH]] (RH) — execução real dos treinamentos
-- [[Indicadores-RH]] — qtd treinamentos/mês
-- [[skill-daily-meeting]] — consome este arquivo
+- Treinamentos-RH (RH) — execução real dos treinamentos
+- Indicadores-RH — qtd treinamentos/mês
+- skill-daily-meeting — consome este arquivo
 - [[FOR-115-026-113-Treinamento-Cultura]] (SGK)
 - [[MAPA-RH-2026]] · [[MAPA-PRODUCAO-2026]]
 

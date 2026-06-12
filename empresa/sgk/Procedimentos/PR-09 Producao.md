@@ -41,4 +41,4 @@ Processo de Produção + interação com demais processos da KAB.
 
 ## Links
 
-- [[_MOC-SGK]] · [[Fernando (coordenador producao)]] · [[Producao]] · [[skill-custeio-mensal]] · [[skill-daily-meeting]]
+- [[_MOC-SGK]] · Fernando (coordenador producao) · [[Producao]] · skill-custeio-mensal · skill-daily-meeting

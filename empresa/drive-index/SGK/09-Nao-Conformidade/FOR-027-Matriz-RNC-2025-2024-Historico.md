@@ -90,17 +90,17 @@ Não detalhadas individualmente (alta dispersão de causas). Conforme [[ATA-Anal
 - Análise comparativa ano a ano de NCs
 - Avaliar continuidade do fornecedor GOLIN
 - Cruzar com [[ATA-Analise-Critica-2024-2S]] (mostra o contexto estratégico das NCs)
-- Pra investigação de NC recorrente cruzar com [[Lições-Aprendidas-Book-Defeitos]]
+- Pra investigação de NC recorrente cruzar com [[Licoes-Aprendidas-Book-Defeitos]]
 
 ## Relacionado
 
 - [[FOR-027-Matriz-RNC-2026]] — ano atual
 - [[ATA-Analise-Critica-2024-2S]] · [[ATA-Analise-Critica-2025-1S]]
 - [[RNCs-2025-Internas-e-Sistema]] — 3 RNCs detalhadas (I001 + S001 + S002)
-- [[Lições-Aprendidas-Book-Defeitos]] — banco histórico desde 2016
-- [[kab-rnc-fluxo]] — fluxo PR-07
+- [[Licoes-Aprendidas-Book-Defeitos]] — banco histórico desde 2016
+- kab-rnc-fluxo — fluxo PR-07
 - [[FOR-015-IQF-Indice-Qualidade-Fornecedores]] — IQF que avalia GOLIN
-- [[kab-clientes-formais]] — SRK como cliente formal #1
+- kab-clientes-formais — SRK como cliente formal #1
 
 ## Conteúdo bruto
 

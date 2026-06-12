@@ -62,6 +62,6 @@ FIcha cadastral, cronograma de implementação do IATF e  apresentação Koide 
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69f0fab7f98ebb0013f4099c)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

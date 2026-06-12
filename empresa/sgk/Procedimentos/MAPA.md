@@ -31,4 +31,4 @@ tags: [mapa]
 
 ## Links
 
-[[MAPA]] (SGK) · [[_MOC-SGK]] · [[kab-procedimentos-pr]]
+[[MAPA]] (SGK) · [[_MOC-SGK]] · kab-procedimentos-pr

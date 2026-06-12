@@ -70,11 +70,11 @@ Certificado oficial **ISO 9001:2015** da KAB emitido pelo **TÜV NORD Brasil** (
 - Cruzar com [[ATA-Analise-Critica-2025-1S]] (auditoria interna jun/2025)
 - Cruzar com [[ATA-Analise-Critica-2024-2S]] (auditoria externa jul/2024 — esta gerou o certificado)
 - Cruzar com [[Contexto-Partes-Interessadas]] (migração IATF 16949 pendente)
-- Cruzar com [[kab-empresa-identidade]] (escopo formal)
+- Cruzar com kab-empresa-identidade (escopo formal)
 
 ## Relacionado
 
-- [[kab-empresa-identidade]] — memória do escopo formal
+- kab-empresa-identidade — memória do escopo formal
 - [[ATA-Analise-Critica-2024-2S]] — auditoria externa BRTÜV jul/2024 = certificação
 - [[ATA-Analise-Critica-2025-1S]] — auditoria manutenção 2025
 - [[Contexto-Partes-Interessadas]] — migração IATF 16949 em andamento desde 2019

@@ -42,7 +42,7 @@ Mapa do processo Comercial da KAB, gestor **Gabriel Pedon**. Cobre prospecção,
 - Negociações comerciais e elaboração de propostas
 - Discussões sobre carteira de clientes ou expansão
 - Análise de viabilidade de RFQs (FOR-018)
-- Cruzar com [[kab-processo-vendas]] (memória sintética anterior)
+- Cruzar com kab-processo-vendas (memória sintética anterior)
 - Quando avaliar gap entre KPIs formais (faturamento + 3 clientes) vs operação real (margem, pipeline, win rate)
 
 ## Indicadores formais
@@ -81,12 +81,12 @@ Mapa do processo Comercial da KAB, gestor **Gabriel Pedon**. Cobre prospecção,
 
 ## Relacionado
 
-- [[kab-processo-vendas]] — síntese anterior (memória do Bruce)
-- [[kab-clientes-formais]] — YAB/INDAB/SRK/Polistampo/DN/Tuopu + Gestamp em homologação
-- [[skill-captura-atas-mes]] — captura ATAs comerciais do CRM
-- [[skill-daily-meeting]] — alimenta funil CRM e top clientes
+- kab-processo-vendas — síntese anterior (memória do Bruce)
+- kab-clientes-formais — YAB/INDAB/SRK/Polistampo/DN/Tuopu + Gestamp em homologação
+- skill-captura-atas-mes — captura ATAs comerciais do CRM
+- skill-daily-meeting — alimenta funil CRM e top clientes
 - [[MAPA-LOGISTICA-2026]] — interdependência (entrega ao cliente)
-- [[contexto-kab]]
+- contexto-kab
 
 ## Conteúdo bruto extraído
 

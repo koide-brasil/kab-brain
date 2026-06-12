@@ -42,4 +42,4 @@ Departamento Vendas em vinculação com clientes e demais áreas.
 
 ## Links
 
-- [[_MOC-SGK]] · [[Josielen (supervisora vendas)]] · [[Gabriel (gerente comercial)]] · [[kab-processo-vendas]] · [[skill-captura-atas-mes]]
+- [[_MOC-SGK]] · Josielen (supervisora vendas) · Gabriel (gerente comercial) · kab-processo-vendas · skill-captura-atas-mes

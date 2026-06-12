@@ -65,6 +65,6 @@ Contato feito com Cláudio na data de hoje, disse que está pré agendada visita
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69c6b8b3edfbfd0013172d00)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

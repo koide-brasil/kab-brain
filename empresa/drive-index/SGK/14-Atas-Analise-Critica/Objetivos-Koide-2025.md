@@ -62,14 +62,14 @@ Documento-base do desdobramento da política da qualidade em objetivos por proce
 - Pra entender estrutura histórica de planejamento de objetivos da KAB
 - Comparar evolução de metas (2018 → 2019 → 2025 implicada)
 - Cruzar com [[ATA-Analise-Critica-2025-1S]] (onde tendências ficaram não-atendidas)
-- Cruzar com [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] (matriz dinâmica de meta × realizado)
+- Cruzar com MATRIZ-Correlacao-Objetivos-1S25-2S25 (matriz dinâmica de meta × realizado)
 
 ## Relacionado
 
 - [[ATA-Analise-Critica-2025-1S]] — usa estes objetivos como base
-- [[MATRIZ-Correlacao-Objetivos-1S25-2S25]] — operacional dos objetivos
+- MATRIZ-Correlacao-Objetivos-1S25-2S25 — operacional dos objetivos
 - [[Objetivos-Koide-2024]] — versão do ano anterior (quando criado)
-- [[kab-objetivos-correlacao]] — síntese das memórias
+- kab-objetivos-correlacao — síntese das memórias
 
 ## Conteúdo bruto extraído
 

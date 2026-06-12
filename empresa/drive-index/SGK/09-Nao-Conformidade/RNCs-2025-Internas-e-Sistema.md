@@ -88,8 +88,8 @@ tags: [sgk, rnc, i001, s001, s002, for-028, relatorio-rnc, 8d, ishikawa, 5porque
 - [[FOR-027-Matriz-RNC-2026]] · [[FOR-027-Matriz-RNC-2025-2024-Historico]]
 - [[FOR-048-Check-List-Diario-TPM]] — falhou no S001
 - [[MAPA-PRODUCAO-2026]] · [[MAPA-APOIO-PRODUCAO-2026]] · [[MAPA-QUALIDADE-2026]]
-- [[Lições-Aprendidas-Book-Defeitos]]
-- [[kab-rnc-fluxo]]
+- [[Licoes-Aprendidas-Book-Defeitos]]
+- kab-rnc-fluxo
 
 ## Conteúdo bruto
 

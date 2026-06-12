@@ -11,7 +11,7 @@ Bruce/KAB Python: pip ausente de /opt/hermes/.venv — bootstrap via get-pip.py.
 **Vault Obsidian — Regras wikilink/estrutura (briefing 2026-05-20):**
 |- Validar [[X]] antes de escrever: `git ls-files | grep -i "nome"` — nunca inventar link futuro
 |- SKILL.md: path completo + alias: [[92-Skills/vault/<nome>/SKILL|skill <nome>]]
-|- 91-Memoria/: nomes únicos, dispensam path — [[preferencias]] não [[91-Memoria/preferencias]]
+|- 91-Memoria/: nomes únicos, dispensam path — preferencias não preferencias
 |- Pasta nova: criar _sobre.md + MAPA.md ANTES da 1ª nota; adicionar no MAPA do pai
 |- Skill nova: adicionar linha em 92-Skills/vault/MAPA.md
 |- Frontmatter: tipo|area|status|criado|atualizado|tags (SKILL.md usa frontmatter Claude, não vault)

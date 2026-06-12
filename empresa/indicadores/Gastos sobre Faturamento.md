@@ -45,7 +45,7 @@ Decisão Erico 18/05/2026: **usa receita bruta no denominador** (não líquida) 
 
 ## Alavancas
 
-- Conter aberturas extras no orçamento por setor (ação [[2025-07 - Reducao de gastos (EBITDA)]])
+- Conter aberturas extras no orçamento por setor (ação 2025-07 - Reducao de gastos (EBITDA))
 - Reunião do Bom Dia apresenta gastos individuais por setor
 - IT-063 Solicitação de Valor Extra é o controle formal
 
@@ -55,4 +55,4 @@ Esse é o KPI tático de **redução de gastos** — uma das 2 alavancas da meta
 
 ## Links
 
-- [[../indicadores/MAPA]] · [[../../areas/financeiro/contexto/sobre-o-departamento]] · Carla (financeiro) · EBITDA (KPI estratégico — vive no cofre pessoal por sensibilidade) · [[2025-07 - Reducao de gastos (EBITDA)]]
+- [[../indicadores/MAPA]] · [[../../areas/financeiro/contexto/sobre-o-departamento]] · Carla (financeiro) · EBITDA (KPI estratégico — vive no cofre pessoal por sensibilidade) · 2025-07 - Reducao de gastos (EBITDA)

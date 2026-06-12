@@ -38,7 +38,7 @@ Mapa de Processo do RH na revisão mais atual (rev 14, abr/2026), gestora **Mayr
 - Discussões sobre RH operacional, processo de admissão/demissão, benefícios da KAB
 - Pra entender o fluxo de treinamentos (alimenta o FOR-030 que o daily-meeting consome)
 - Análise de continuidade do RH (Mayra é único ponto)
-- Cruzar com [[kab-processo-rh]] (memória sintética) e [[FOR-030 — Treinamentos por cargo]]
+- Cruzar com kab-processo-rh (memória sintética) e [[FOR-030 — Treinamentos por cargo]]
 
 ## Indicadores formais
 
@@ -92,10 +92,10 @@ Mapa de Processo do RH na revisão mais atual (rev 14, abr/2026), gestora **Mayr
 
 ## Relacionado
 
-- [[kab-processo-rh]] — síntese mais antiga (memória do Bruce, pode estar desatualizada)
+- kab-processo-rh — síntese mais antiga (memória do Bruce, pode estar desatualizada)
 - [[FOR-030 — Treinamentos]] — quando criado
-- [[kab-pessoas-sem-ponto]] — Mayra não bate ponto
-- [[contexto-kab]]
+- kab-pessoas-sem-ponto — Mayra não bate ponto
+- contexto-kab
 
 ## Conteúdo bruto extraído
 

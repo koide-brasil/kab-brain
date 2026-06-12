@@ -53,6 +53,6 @@ Ficou de formalizar essas solicitações bem como enviar foto de uma amostra de 
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69ca7a3fda0f830016f67341)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]

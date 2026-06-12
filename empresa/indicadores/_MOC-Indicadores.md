@@ -15,8 +15,8 @@ tags: [moc, kab, indicadores]
 
 | KPI | Meta | Último | Status | Resp | Skill |
 |---|---|---|---|---|---|
-| [[EBITDA]] | 5% | 4,12% (1ºS25) | 🔴 abaixo | Érico/Gabriel | — (gap!) |
-| [[Faturamento Bruto]] | +15% YoY (R$ 42 MM/2026) | R$ 14,27 MM (2ºS25, +44,8% YoY) | 🟡 monitorar | Gabriel | daily-meeting |
+| EBITDA | 5% | 4,12% (1ºS25) | 🔴 abaixo | Érico/Gabriel | — (gap!) |
+| Faturamento Bruto | +15% YoY (R$ 42 MM/2026) | R$ 14,27 MM (2ºS25, +44,8% YoY) | 🟡 monitorar | Gabriel | daily-meeting |
 | [[Novos clientes ano]] | ≥ 2 | 0 (2ºS25) | 🔴 não atingiu (Gestamp travada) | Gabriel | — |
 
 ## KPIs operacionais por departamento
@@ -29,7 +29,7 @@ tags: [moc, kab, indicadores]
 | [[Manutencoes corretivas]] | ≤ 5/mês (mapa) / ≤ 6 (AC) | 17 MTD (mai/26) | 🔴 estouro 3× | Jônatas | daily |
 | [[Frete sobre Faturamento]] | ≤ 1,46% | 1,46% (2ºS25) | ✅ | Suellen | (gap no daily) |
 | [[Gastos sobre Faturamento]] | ≤ 2,5% | 2,62% (mai/26 MTD) | 🔴 estouro leve | Carla | daily |
-| [[Satisfacao Funcionarios]] | ≥ 90% | 98% (2ºS25) | ✅ | Mayra | — |
+| Satisfacao Funcionarios | ≥ 90% | 98% (2ºS25) | ✅ | Mayra | — |
 | [[NC Cliente]] | 0 | 1 (2ºS25) | 🔴 | Flávio | — |
 | [[IQF Fornecedores]] | (sem meta dura) | 92% (6m 2025) | 🟡 | Gabriel | — |
 | [[Satisfacao Cliente]] | _meta a definir_ | 97,99% (1ºS25) | ✅ | Madora | — (SURVIO) |
@@ -50,4 +50,4 @@ tags: [moc, kab, indicadores]
 
 ## Links
 
-- [[CLAUDE]] · [[_MOC-KAB]] · [[contexto-kab]] · [[kab-objetivos-correlacao]]
+- [[CLAUDE]] · _MOC-KAB · contexto-kab · kab-objetivos-correlacao

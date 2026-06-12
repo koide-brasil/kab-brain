@@ -53,6 +53,6 @@ Também tem produtos próprios, escovas de aço onde identificamos potencias pe�
 ## Links
 
 - 🔗 [Abrir deal no CRM](https://crm.rdstation.com/deals/69efa7c238337600139f8e6e)
-- [[Comercial]]
-- [[_MOC-KAB]]
+- Comercial
+- _MOC-KAB
 - [[Integracao BI RD Station CRM - BigQuery]]
