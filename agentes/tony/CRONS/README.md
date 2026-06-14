@@ -13,3 +13,12 @@ Tony propõe mudanças de processo, ferramenta, doutrina ou organização soment
 ## Alertas
 
 Alertas materiais sobem primeiro para Bruce.
+
+## Jobs Hermes ativos — atualizado em 2026-06-14
+
+- `745be09a9bdc` — **Tony — saúde cognitiva + radar externo diário** — `30 20 * * 1-5` UTC — fim do expediente KAB; aprendizado, riscos cognitivos e radar externo.
+- `f7e916c8706b` — **SAS — saúde técnica diária dos agentes** — `0 4 * * *` UTC — verifica estrutura mínima do agente.
+
+## Política
+
+Tony propõe mudanças somente para Bruce. Bruce decide se escala ao Erico/G5. Respeitar jornada e escopo KAB compartilhável.

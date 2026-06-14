@@ -12,3 +12,12 @@ Mudanças fiscais/material/câmbio/ferramentas sobem somente para Bruce/Tony. Se
 ## Regra crítica
 
 Radar externo gera sinal e proposta. Não altera motor de custo, alíquota, margem, NCM ou alçada automaticamente.
+
+## Jobs Hermes ativos — atualizado em 2026-06-14
+
+- `4f96e7a268d9` — **Selina — RFQ health + radar fiscal/material** — `30 10 * * 1-5` UTC — antes do expediente comercial; RFQ health + radar fiscal/material/ferramentas.
+- `f7e916c8706b` — **SAS — saúde técnica diária dos agentes** — `0 4 * * *` UTC — verifica estrutura mínima do agente.
+
+## Política
+
+Selina alerta Bruce/Tony, não o time comercial. Radar externo não altera motor, alíquota, NCM, margem ou alçada.
