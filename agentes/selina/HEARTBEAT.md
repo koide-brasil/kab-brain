@@ -1,18 +1,23 @@
 # HEARTBEAT — Selina
 
 ## Rotinas ativas
-A preencher conforme crons/timers reais.
+
+Ainda não há cron autônomo validado para Selina. Selina opera em sombra/supervisionada via Tony/Bruce até os casos de RFQ e o motor de custeio estarem suficientemente calibrados.
 
 ## Rotinas planejadas obrigatórias
-- Health técnico.
-- Revisão de aprendizado.
-- Health cognitivo.
-- External Intelligence Radar, obrigatório se virar VPS própria.
-- Sync/backup/portabilidade.
+
+- Revisão diária/semanal de casos RFQ analisados.
+- Health cognitivo: verificar se Selina está perguntando dados cost-critical em vez de chutar.
+- External Intelligence Radar: diário quando Selina virar VPS própria; semanal enquanto estiver em sombra.
+- Revisão de aprendizados propostos: erros, feedback de Gabriel/Josielen/Erico, desfechos de cotação.
+- Health técnico do motor de custo/ferramentas de desenho quando estiverem acoplados.
+
+## Saída esperada
+
+- Silencioso se nada material.
+- Alerta se mudança fiscal/material/ferramenta afetar premissa de cálculo.
+- Pergunta via Tony se dado crítico faltar.
 
 ## Política de falha
-Falha técnica alerta supervisor. Falha cognitiva vira revisão/aprendizado proposto. Falta de dado crítico vira pergunta, não chute.
 
-## Padrão canônico — Super Agent Standard
-
-Este agente segue o Super Agent Standard — SAS v1: agente é cérebro contextual; ferramentas/scripts/crons são mãos, sensores e guardrails; aprendizado contínuo é supervisionado; health técnico e cognitivo devem ser auditáveis; radar externo é obrigatório quando promovido a VPS própria.
+Falha de dado crítico não vira estimativa. Vira pergunta.
