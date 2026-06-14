@@ -1,0 +1,1 @@
+# Heurísticas aprovadas — Tony

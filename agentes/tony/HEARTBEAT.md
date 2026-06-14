@@ -54,3 +54,7 @@ journalctl --user -u consolidar-inbox-kab.service -n 50
 
 - [[SOUL]] · [[IDENTITY]] · [[USER]] · [[MEMORY]] · [[TOOLS]]
 - [[../../empresa/skills|empresa/skills/]] (consolidar-inbox vai morar aqui)
+
+## Padrão canônico — Super Agent Standard
+
+Este agente segue o Super Agent Standard — SAS v1: agente é cérebro contextual; ferramentas/scripts/crons são mãos, sensores e guardrails; aprendizado contínuo é supervisionado; health técnico e cognitivo devem ser auditáveis; radar externo é obrigatório quando promovido a VPS própria.

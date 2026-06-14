@@ -112,3 +112,7 @@ Exemplos:
 
 - [[SOUL]] · [[IDENTITY]] · [[USER]] · [[HEARTBEAT]] · [[TOOLS]]
 - [[../../empresa/contexto/PRINCIPIOS]]
+
+## Padrão canônico — Super Agent Standard
+
+Este agente segue o Super Agent Standard — SAS v1: agente é cérebro contextual; ferramentas/scripts/crons são mãos, sensores e guardrails; aprendizado contínuo é supervisionado; health técnico e cognitivo devem ser auditáveis; radar externo é obrigatório quando promovido a VPS própria.

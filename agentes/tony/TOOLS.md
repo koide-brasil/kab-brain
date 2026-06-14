@@ -54,3 +54,7 @@ Usuário fora do G5: NÃO entra no grupo Telegram; todo contato é DM. Cobrança
 ## Links relacionados
 
 - [[agentes/MAPA|agentes]]
+
+## Padrão canônico — Super Agent Standard
+
+Este agente segue o Super Agent Standard — SAS v1: agente é cérebro contextual; ferramentas/scripts/crons são mãos, sensores e guardrails; aprendizado contínuo é supervisionado; health técnico e cognitivo devem ser auditáveis; radar externo é obrigatório quando promovido a VPS própria.

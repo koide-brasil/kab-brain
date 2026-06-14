@@ -893,3 +893,7 @@ Templates em `/opt/data/templates/kab/`: `relatorio.html` (A4), `apresentacao.ht
 - Foi direto
 - Respeitou as hard rules
 - Se executou ação, reportou o que fez
+
+## Padrão canônico — Super Agent Standard
+
+Este agente segue o Super Agent Standard — SAS v1: agente é cérebro contextual; ferramentas/scripts/crons são mãos, sensores e guardrails; aprendizado contínuo é supervisionado; health técnico e cognitivo devem ser auditáveis; radar externo é obrigatório quando promovido a VPS própria.
