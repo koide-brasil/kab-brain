@@ -2,7 +2,7 @@
 tipo: nota
 status: ativo
 criado: 2026-06-12
-atualizado: 2026-06-12
+atualizado: 2026-06-14
 tags: [mapa, raiz]
 ---
 
@@ -26,7 +26,7 @@ tags: [mapa, raiz]
 | `empresa/` | Nível global: contexto, cotacoes, drive-index, equipe, indicadores, projetos, reunioes, sgk, skills | [[empresa/MAPA]] |
 | `inbox/` | 1º estágio de captura — uma pasta por autor (carla, erico, fernando, flavio, gabriel, jonatas, josielen, madora, suellen) + `_TEMPLATE/` | `inbox/_TEMPLATE/COMO-USAR.md` |
 | `staging/` | 2º estágio — captura compartilhada provisória, espelha as 7 áreas | [[staging/MAPA]] |
-| `agentes/` | Agentes IA do ecossistema (Tony) + arquitetura 3 camadas | [[agentes/MAPA]] |
+| `agentes/` | Agentes IA do ecossistema (Tony e Selina) + arquitetura 3 camadas + padrões SAS | [[agentes/MAPA]] |
 | `91-Memoria/` | Memória cross-sessão dos agentes (`_bruce-hermes-cross-sessao/`) | — |
 | `_g5/` | 🔒 Zona G5-only — atas, decisões e projetos estratégicos | [[_g5/_PRINCIPIOS]] |
 | `onboarding/` | Passo-a-passo pra novos membros (tony.md/html) | — |

@@ -31,3 +31,5 @@ Selina escolhe contexto, perguntas e premissas; motores/ferramentas calculam nú
 - `CRONS/` — definição das rotinas planejadas.
 - `OUTPUTS/` — runs, relatórios, health, reviews e radar.
 - `CONFIG/` — permissões, ambiente e prontidão VPS.
+- `TEMPLATES/` — modelos de sinal externo e aprendizado proposto.
+- `TESTS/` — prompts de teste/regressão do agente.

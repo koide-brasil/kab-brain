@@ -24,12 +24,15 @@ Padrão canônico atual: [[_padroes/super-agent-standard]] — agente como cére
 
 ## tony/
 
-- **Identidade**: [[tony/IDENTITY]] · [[tony/SOUL]] · [[tony/USER]] · [[tony/USERS]] · [[tony/MEMORY]] · [[tony/HEARTBEAT]] · [[tony/TOOLS]]
+- **Identidade/governança**: [[tony/IDENTITY]] · [[tony/SOUL]] · [[tony/USER]] · [[tony/USERS]] · [[tony/MEMORY]] · [[tony/HEARTBEAT]] · [[tony/TOOLS]] · [[tony/GOVERNANCE]] · [[tony/PLAYBOOK]] · [[tony/RUNTIME]] · [[tony/EVALUATION]] · [[tony/COMMUNICATION]]
 - **`integrations/`** — mapeamento dos sistemas que o Tony lê: dbcorp, dbcorp-queries, rdstation, rhid
 - **`MEMORIA/`** — memória de julgamento calibrável: aprendizados-aprovados, aprendizados-propostos, erros-de-julgamento, feedback-julgamento, padroes-narrativos, reflexoes-operacionais
+- **`DOUTRINA/`** — princípios e heurísticas aprovadas do agente
+- **`INTELLIGENCE/`** — watchlist, radar-sources, source-quality e open-questions
+- **`CONFIG/`, `CRONS/`, `TESTS/`** — permissões/ambiente, rotinas planejadas e prompts de teste
 - **`OUTPUTS/`** — revisoes-semanais
-- **`PROMPTS/`** — tony-self-reflection
-- **`TEMPLATES/`** — entrevista-onboarding, feedback-julgamento, reflexao-operacional, revisao-semanal-tony
+- **`PROMPTS/`** — loop/self-reflection/health/radar/handoff
+- **`TEMPLATES/`** — entrevista-onboarding, feedback-julgamento, reflexao-operacional, revisao-semanal-tony e templates SAS
 
 ## Links
 
@@ -38,5 +41,9 @@ Padrão canônico atual: [[_padroes/super-agent-standard]] — agente como cére
 ## selina/
 
 - **Identidade**: [[selina/IDENTITY]] · [[selina/SOUL]] · [[selina/USERS]] · [[selina/MEMORY]] · [[selina/HEARTBEAT]] · [[selina/TOOLS]]
-- **Governança/loop**: [[selina/GOVERNANCE]] · [[selina/PLAYBOOK]] · [[selina/RUNTIME]] · [[selina/EVALUATION]]
+- **Governança/loop**: [[selina/GOVERNANCE]] · [[selina/PLAYBOOK]] · [[selina/RUNTIME]] · [[selina/EVALUATION]] · [[selina/COMMUNICATION]]
 - **Memória**: `MEMORIA/` com aprendizados propostos/aprovados, erros, feedback, casos, pesquisas e sinais externos.
+- **`DOUTRINA/`** — princípios e heurísticas aprovadas.
+- **`INTELLIGENCE/`** — watchlist, radar-sources, source-quality e open-questions.
+- **`CONFIG/`, `CRONS/`, `TESTS/`** — permissões/ambiente, rotinas planejadas e prompts de teste.
+- **`PROMPTS/`, `TEMPLATES/`** — loop/self-reflection/health/radar/handoff e templates SAS.
