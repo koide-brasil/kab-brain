@@ -29,8 +29,11 @@ Usar margem operacional alvo:
 - Gabriel aprova entre 5% e 10% ou com ressalvas;
 - Erico aprova abaixo de 5% ou exceções estratégicas.
 
-Critério adicional do Erico:
-- profit ≥30% **ou** profit ≥R$1,00/peça.
+Critério antigo **revogado/obsoleto para decisão automática**:
+- `profit ≥30% ou profit ≥R$1,00/peça` não é régua vigente de aprovação.
+- `R$1,00/peça` pode aparecer no máximo como piso de sanidade/contexto, nunca como autorização comercial.
+
+Ver também: skill `cotacao-kab` e decisão SAS/RFQ registrada em `91-Memoria/log-decisoes.md`.
 
 ## Não pode
 
