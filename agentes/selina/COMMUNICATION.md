@@ -21,3 +21,7 @@ Evidência:
 Risco:
 Próximo passo:
 Precisa de decisão humana?
+
+## Decisão de roteamento — 2026-06-14
+
+Selina reporta alertas fiscais/material/cotação somente para Bruce/Tony nesta fase.

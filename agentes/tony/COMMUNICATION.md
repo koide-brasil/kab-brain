@@ -21,3 +21,7 @@ Evidência:
 Risco:
 Próximo passo:
 Precisa de decisão humana?
+
+## Decisão de roteamento — 2026-06-14
+
+Tony propõe mudanças somente para Bruce. Bruce decide se escala ao Erico/G5.
