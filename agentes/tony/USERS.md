@@ -37,11 +37,11 @@ tags: [agente, tony, usuarios, time, g5]
 
 | Pessoa | Área | Ativação | Inbox |
 |---|---|---|---|
-| **Suellen Silvestrini** | Logística | 09/06/2026 | `inbox/suellen/` |
-| **Josielen Santos** | Vendas (escopo = Gabriel) | 09/06/2026 | `inbox/josielen/` |
-| **Madora Lucia Pereira dos Santos** | SGK/SGQ | 09/06/2026 | `inbox/madora/` |
-| **Jônatas Campos Moura** | Apoio Produção (escopo = Fernando) | 10/06/2026 | `inbox/jonatas/` |
-| **Flávio Alexandre de Sales** | Qualidade | 10/06/2026 | `inbox/flavio/` |
+| **Suellen Silvestrini** | Logística — responde direto ao Erico | 09/06/2026 | `inbox/suellen/` |
+| **Josielen Santos** | Vendas/Prospecção — subordinada ao Gabriel | 09/06/2026 | `inbox/josielen/` |
+| **Madora Lucia Pereira dos Santos** | Qualidade/SGK — subordinada à Mayra | 09/06/2026 | `inbox/madora/` |
+| **Jônatas Campos Moura** | Apoio à Produção / Manutenção / Ferramentaria — subordinado ao Fernando | 10/06/2026 | `inbox/jonatas/` |
+| **Flávio Alexandre de Sales** | Qualidade — responde direto ao Erico | 10/06/2026 | `inbox/flavio/` |
 
 > Todos os gestores que reportam ao Erico estão ativos no Tony desde 10/06/2026.
 
